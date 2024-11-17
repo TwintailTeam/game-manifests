@@ -252,10 +252,15 @@ async function generateGIManifest() {
         diff: da
     }
 
-    let versioninfo = {
-        display_name: `GenshinImpact ${pkgs.game_version} (Global)`,
+    let metadatainfo = {
+        display_name: "GenshinImpact (Global)",
+        versioned_name: `GenshinImpact ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
+    }
+
+    let versioninfo = {
+        metadata: metadatainfo,
         assets: assetcfg,
         game: gamepkginfo,
         audio: audiopkginfo
@@ -266,7 +271,13 @@ async function generateGIManifest() {
         game_versions: [
             versioninfo
         ],
-        telemetry_hosts: gihosts
+        telemetry_hosts: gihosts,
+        paths: {
+            exe_filename: "",
+            installation_dir: "",
+            screenshot_dir: "",
+            screenshot_dir_relative_to: ""
+        }
     }
 
    writeFileSync(gipath, JSON.stringify(final, null, 2));
@@ -348,10 +359,15 @@ async function generateHSRManifest() {
         diff: da
     }
 
-    let versioninfo = {
-        display_name: `Honkai: StarRail ${pkgs.game_version} (Global)`,
+    let metadatainfo = {
+        display_name: "Honkai: StarRail (Global)",
+        versioned_name: `Honkai: StarRail ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
+    }
+
+    let versioninfo = {
+        metadata: metadatainfo,
         assets: assetcfg,
         game: gamepkginfo,
         audio: audiopkginfo
@@ -362,7 +378,13 @@ async function generateHSRManifest() {
         game_versions: [
             versioninfo
         ],
-        telemetry_hosts: hsrhosts
+        telemetry_hosts: hsrhosts,
+        paths: {
+            exe_filename: "",
+            installation_dir: "",
+            screenshot_dir: "",
+            screenshot_dir_relative_to: ""
+        }
     }
 
     writeFileSync(hsrpath, JSON.stringify(final, null, 2));
@@ -444,10 +466,15 @@ async function generateZZZManifest() {
         diff: da
     }
 
-    let versioninfo = {
-        display_name: `ZenlessZoneZero ${pkgs.game_version} (Global)`,
+    let metadatainfo = {
+        display_name: "ZenlessZoneZero (Global)",
+        versioned_name: `ZenlessZoneZero ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
+    }
+
+    let versioninfo = {
+        metadata: metadatainfo,
         assets: assetcfg,
         game: gamepkginfo,
         audio: audiopkginfo
@@ -458,7 +485,13 @@ async function generateZZZManifest() {
         game_versions: [
             versioninfo
         ],
-        telemetry_hosts: zzzhosts
+        telemetry_hosts: zzzhosts,
+        paths: {
+            exe_filename: "",
+            installation_dir: "",
+            screenshot_dir: "",
+            screenshot_dir_relative_to: ""
+        }
     }
 
     writeFileSync(zzzpath, JSON.stringify(final, null, 2));
@@ -540,10 +573,15 @@ async function generateBHManifest() {
         diff: da
     }
 
-    let versioninfo = {
-        display_name: `HonkaiImpact 3rd ${pkgs.game_version} (Global)`,
+    let metadatainfo = {
+        display_name: "HonkaiImpact 3rd (Global)",
+        versioned_name: `HonkaiImpact 3rd ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
+    }
+
+    let versioninfo = {
+        metadata: metadatainfo,
         assets: assetcfg,
         game: gamepkginfo,
         audio: audiopkginfo
@@ -554,7 +592,13 @@ async function generateBHManifest() {
         game_versions: [
             versioninfo
         ],
-        telemetry_hosts: bhhosts
+        telemetry_hosts: bhhosts,
+        paths: {
+            exe_filename: "",
+            installation_dir: "",
+            screenshot_dir: "",
+            screenshot_dir_relative_to: ""
+        }
     }
 
     writeFileSync(bhpath, JSON.stringify(final, null, 2));

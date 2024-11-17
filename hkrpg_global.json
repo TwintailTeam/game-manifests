@@ -2,9 +2,12 @@
   "version": 1,
   "game_versions": [
     {
-      "display_name": "Honkai: StarRail 2.6.0 (Global)",
-      "version": "2.6.0",
-      "game_hash": "",
+      "metadata": {
+        "display_name": "Honkai: StarRail (Global)",
+        "versioned_name": "Honkai: StarRail 2.6.0 (Global)",
+        "version": "2.6.0",
+        "game_hash": ""
+      },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/15/39992ccaeef09cedf09009d8901a81d2_7633332456941254056.png",
         "game_logo": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/7d03590f49a14d80da4ae256bf34c5f8_5507399597629772203.png",
@@ -160,5 +163,11 @@
       }
     }
   ],
-  "telemetry_hosts": []
+  "telemetry_hosts": [],
+  "paths": {
+    "exe_filename": "",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": ""
+  }
 }

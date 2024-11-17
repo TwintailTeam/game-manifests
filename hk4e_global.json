@@ -2,9 +2,12 @@
   "version": 1,
   "game_versions": [
     {
-      "display_name": "GenshinImpact 5.1.0 (Global)",
-      "version": "5.1.0",
-      "game_hash": "",
+      "metadata": {
+        "display_name": "GenshinImpact (Global)",
+        "versioned_name": "GenshinImpact 5.1.0 (Global)",
+        "version": "5.1.0",
+        "game_hash": ""
+      },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
         "game_logo": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/7f777384d29cac1ea0d34b4e16d4487b_2092553358310716519.png",
@@ -192,5 +195,11 @@
       }
     }
   ],
-  "telemetry_hosts": []
+  "telemetry_hosts": [],
+  "paths": {
+    "exe_filename": "",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": ""
+  }
 }

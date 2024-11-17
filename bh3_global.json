@@ -2,9 +2,12 @@
   "version": 1,
   "game_versions": [
     {
-      "display_name": "HonkaiImpact 3rd 7.8.0 (Global)",
-      "version": "7.8.0",
-      "game_hash": "",
+      "metadata": {
+        "display_name": "HonkaiImpact 3rd (Global)",
+        "versioned_name": "HonkaiImpact 3rd 7.8.0 (Global)",
+        "version": "7.8.0",
+        "game_hash": ""
+      },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
         "game_logo": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/24/746d0f9bdea8bec75dcba30363ee4869_3926270346992269590.png",
@@ -27,5 +30,11 @@
       }
     }
   ],
-  "telemetry_hosts": []
+  "telemetry_hosts": [],
+  "paths": {
+    "exe_filename": "",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": ""
+  }
 }

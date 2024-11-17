@@ -2,9 +2,12 @@
   "version": 1,
   "game_versions": [
     {
-      "display_name": "ZenlessZoneZero 1.3.0 (Global)",
-      "version": "1.3.0",
-      "game_hash": "",
+      "metadata": {
+        "display_name": "ZenlessZoneZero (Global)",
+        "versioned_name": "ZenlessZoneZero 1.3.0 (Global)",
+        "version": "1.3.0",
+        "game_hash": ""
+      },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/db01dfe29c36a283b774d295b2322b54_44421242156638826.png",
         "game_logo": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/07/03/beab753b7e3d2a50b372697647fa2e72_8064756669861889000.png",
@@ -210,5 +213,11 @@
       }
     }
   ],
-  "telemetry_hosts": []
+  "telemetry_hosts": [],
+  "paths": {
+    "exe_filename": "",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": ""
+  }
 }
