@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "game_versions": [
+    {
+      "display_name": "HonkaiImpact 3rd 7.8.0 (Global)",
+      "version": "7.8.0",
+      "game_hash": "",
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
+        "game_logo": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/24/746d0f9bdea8bec75dcba30363ee4869_3926270346992269590.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/13/1aa568b2f1d93bf5e9ed30fefb4b7de7_2138801250860115276.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20241009182513_BZHfnylEXeAq2hDU/BH3_v7.8.0_59f13f76488e.7z",
+            "compressed_size": "20376878031",
+            "decompressed_size": "40764241822",
+            "file_hash": "51ec434da195be462e9c66f0c4b4645e"
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
+  ],
+  "telemetry_hosts": []
+}
