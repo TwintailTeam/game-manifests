@@ -1,9 +1,9 @@
 {
   "version": 1,
+  "display_name": "GenshinImpact (Global)",
   "game_versions": [
     {
       "metadata": {
-        "display_name": "GenshinImpact (Global)",
         "versioned_name": "GenshinImpact 5.1.0 (Global)",
         "version": "5.1.0",
         "game_hash": ""

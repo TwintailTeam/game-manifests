@@ -1,9 +1,9 @@
 {
   "version": 1,
+  "display_name": "Honkai: StarRail (Global)",
   "game_versions": [
     {
       "metadata": {
-        "display_name": "Honkai: StarRail (Global)",
         "versioned_name": "Honkai: StarRail 2.6.0 (Global)",
         "version": "2.6.0",
         "game_hash": ""

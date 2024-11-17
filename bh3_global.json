@@ -1,9 +1,9 @@
 {
   "version": 1,
+  "display_name": "HonkaiImpact 3rd (Global)",
   "game_versions": [
     {
       "metadata": {
-        "display_name": "HonkaiImpact 3rd (Global)",
         "versioned_name": "HonkaiImpact 3rd 7.8.0 (Global)",
         "version": "7.8.0",
         "game_hash": ""

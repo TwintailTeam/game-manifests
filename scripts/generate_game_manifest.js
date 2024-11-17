@@ -253,7 +253,6 @@ async function generateGIManifest() {
     }
 
     let metadatainfo = {
-        display_name: "GenshinImpact (Global)",
         versioned_name: `GenshinImpact ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
@@ -268,6 +267,7 @@ async function generateGIManifest() {
 
     let final = {
         version: 1,
+        display_name: "GenshinImpact (Global)",
         game_versions: [
             versioninfo
         ],
@@ -360,7 +360,6 @@ async function generateHSRManifest() {
     }
 
     let metadatainfo = {
-        display_name: "Honkai: StarRail (Global)",
         versioned_name: `Honkai: StarRail ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
@@ -375,6 +374,7 @@ async function generateHSRManifest() {
 
     let final = {
         version: 1,
+        display_name: "Honkai: StarRail (Global)",
         game_versions: [
             versioninfo
         ],
@@ -467,7 +467,6 @@ async function generateZZZManifest() {
     }
 
     let metadatainfo = {
-        display_name: "ZenlessZoneZero (Global)",
         versioned_name: `ZenlessZoneZero ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
@@ -482,6 +481,7 @@ async function generateZZZManifest() {
 
     let final = {
         version: 1,
+        display_name: "ZenlessZoneZero (Global)",
         game_versions: [
             versioninfo
         ],
@@ -574,7 +574,6 @@ async function generateBHManifest() {
     }
 
     let metadatainfo = {
-        display_name: "HonkaiImpact 3rd (Global)",
         versioned_name: `HonkaiImpact 3rd ${pkgs.game_version} (Global)`,
         version: pkgs.game_version,
         game_hash: "",
@@ -589,6 +588,7 @@ async function generateBHManifest() {
 
     let final = {
         version: 1,
+        display_name: "HonkaiImpact 3rd (Global)",
         game_versions: [
             versioninfo
         ],

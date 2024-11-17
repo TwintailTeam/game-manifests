@@ -1,9 +1,9 @@
 {
   "version": 1,
+  "display_name": "ZenlessZoneZero (Global)",
   "game_versions": [
     {
       "metadata": {
-        "display_name": "ZenlessZoneZero (Global)",
         "versioned_name": "ZenlessZoneZero 1.3.0 (Global)",
         "version": "1.3.0",
         "game_hash": ""
