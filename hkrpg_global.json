@@ -161,6 +161,7 @@
   "paths": {
     "exe_filename": "StarRail.exe",
     "installation_dir": "Star Rail Games",
+    "screenshot_dir": "StarRail_Data/ScreenShots",
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {

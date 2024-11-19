@@ -207,6 +207,7 @@
   "paths": {
     "exe_filename": "ZenlessZoneZero.exe",
     "installation_dir": "ZenlessZoneZero Game",
+    "screenshot_dir": "ScreenShot",
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {

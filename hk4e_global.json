@@ -371,6 +371,7 @@
   "paths": {
     "exe_filename": "GenshinImpact.exe",
     "installation_dir": "Genshin Impact game",
+    "screenshot_dir": "ScreenShot",
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {

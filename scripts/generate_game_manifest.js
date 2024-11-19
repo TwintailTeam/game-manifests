@@ -74,28 +74,28 @@ async function parseGameConfigs() {
             biz: gi.game.biz,
             exe_filename: gi.exe_file_name,
             installation_dir: gi.installation_dir,
-            game_screenshot_dir: gi.game_screenshot_dir
+            screenshot_dir: gi.game_screenshot_dir
         };
 
         let hsrobj = {
             biz: hsr.game.biz,
             exe_filename: hsr.exe_file_name,
             installation_dir: hsr.installation_dir,
-            game_screenshot_dir: hsr.game_screenshot_dir
+            screenshot_dir: hsr.game_screenshot_dir
         };
 
         let zzzobj = {
             biz: zzz.game.biz,
             exe_filename: zzz.exe_file_name,
             installation_dir: zzz.installation_dir,
-            game_screenshot_dir: zzz.game_screenshot_dir
+            screenshot_dir: zzz.game_screenshot_dir
         };
 
         let hiobj = {
             biz: hi.game.biz,
             exe_filename: hi.exe_file_name,
             installation_dir: hi.installation_dir,
-            game_screenshot_dir: hi.game_screenshot_dir
+            screenshot_dir: hi.game_screenshot_dir
         };
 
         let gistr = JSON.stringify(giobj);

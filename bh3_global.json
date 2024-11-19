@@ -34,6 +34,7 @@
   "paths": {
     "exe_filename": "BH3.exe",
     "installation_dir": "Honkai Impact 3rd game",
+    "screenshot_dir": "ScreenShot",
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {
