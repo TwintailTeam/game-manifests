@@ -65,8 +65,7 @@
             "decompressed_size": "36478431104",
             "file_hash": "7b9f436ae0851311536384179fd7de03",
             "diff_type": "hdiff",
-            "original_version": "2.5.0",
-            "is_preload": false
+            "original_version": "2.5.0"
           }
         ]
       },
@@ -116,8 +115,7 @@
             "file_hash": "1f98e7fa141e221cb2ffa9c067b4c8d3",
             "diff_type": "hdiff",
             "original_version": "2.5.0",
-            "language": "zh-tw",
-            "is_preload": false
+            "language": "zh-tw"
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_zh-cn_2.5.0_2.6.0_hdiff_FUPqkFTpgEdmwRbg.7z",
@@ -126,8 +124,7 @@
             "file_hash": "a5ac586c52a9f8462957dae39e47e2ab",
             "diff_type": "hdiff",
             "original_version": "2.5.0",
-            "language": "zh-cn",
-            "is_preload": false
+            "language": "zh-cn"
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_en-us_2.5.0_2.6.0_hdiff_hnDoBPHwpNOzmOyn.7z",
@@ -136,8 +133,7 @@
             "file_hash": "4466236024a6f7f4faff6a4027739ef8",
             "diff_type": "hdiff",
             "original_version": "2.5.0",
-            "language": "en-us",
-            "is_preload": false
+            "language": "en-us"
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ja-jp_2.5.0_2.6.0_hdiff_etHwbxJLeKQtXxBH.7z",
@@ -146,8 +142,7 @@
             "file_hash": "00e607309a865bc5e751a22dc8885886",
             "diff_type": "hdiff",
             "original_version": "2.5.0",
-            "language": "ja-jp",
-            "is_preload": false
+            "language": "ja-jp"
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ko-kr_2.5.0_2.6.0_hdiff_ForQmvgEETlWdyxc.7z",
@@ -156,8 +151,7 @@
             "file_hash": "5d232486cff5ef6d42b0dfef4dad4fde",
             "diff_type": "hdiff",
             "original_version": "2.5.0",
-            "language": "ko-kr",
-            "is_preload": false
+            "language": "ko-kr"
           }
         ]
       }
@@ -165,9 +159,16 @@
   ],
   "telemetry_hosts": [],
   "paths": {
-    "exe_filename": "",
-    "installation_dir": "",
-    "screenshot_dir": "",
-    "screenshot_dir_relative_to": ""
+    "exe_filename": "StarRail.exe",
+    "installation_dir": "Star Rail Games",
+    "screenshot_dir_relative_to": "game_dir"
+  },
+  "assets": {
+    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/15/39992ccaeef09cedf09009d8901a81d2_7633332456941254056.png",
+    "game_logo": "",
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/11/11/7a7ea35fcf0f63ade2b6a43830969593_681812983506581650.webp"
+  },
+  "extra": {
+    "preload": {}
   }
 }

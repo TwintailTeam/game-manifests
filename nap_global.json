@@ -83,8 +83,7 @@
             "decompressed_size": "14291162510",
             "file_hash": "a9cbb19eb0dd6e70e62dba0fce73fb90",
             "diff_type": "hdiff",
-            "original_version": "1.2.0",
-            "is_preload": false
+            "original_version": "1.2.0"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_1.1.0_1.3.0_hdiff_knsFtMoQFNTTETbt.zip",
@@ -92,8 +91,7 @@
             "decompressed_size": "38636603880",
             "file_hash": "fa9231b6731d54e14c88095af346c23c",
             "diff_type": "hdiff",
-            "original_version": "1.1.0",
-            "is_preload": false
+            "original_version": "1.1.0"
           }
         ]
       },
@@ -136,8 +134,7 @@
             "file_hash": "bffc0c094e5942c5e8d510d0f3858e82",
             "diff_type": "hdiff",
             "original_version": "1.2.0",
-            "language": "ko-kr",
-            "is_preload": false
+            "language": "ko-kr"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ja-jp_1.2.0_1.3.0_hdiff_iRbpGqLcthbrhWaC.zip",
@@ -146,8 +143,7 @@
             "file_hash": "1a431e79e07412355965b6e293e0ef44",
             "diff_type": "hdiff",
             "original_version": "1.2.0",
-            "language": "ja-jp",
-            "is_preload": false
+            "language": "ja-jp"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_en-us_1.2.0_1.3.0_hdiff_JLzKnbsYhOsjTXnZ.zip",
@@ -156,8 +152,7 @@
             "file_hash": "e98847e49ad93d365e9c7991b7e9e633",
             "diff_type": "hdiff",
             "original_version": "1.2.0",
-            "language": "en-us",
-            "is_preload": false
+            "language": "en-us"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_zh-cn_1.2.0_1.3.0_hdiff_uHQHkgdmANpulHCV.zip",
@@ -166,8 +161,7 @@
             "file_hash": "90472b6d26d1fc7bb9e8bbd08f055cce",
             "diff_type": "hdiff",
             "original_version": "1.2.0",
-            "language": "zh-cn",
-            "is_preload": false
+            "language": "zh-cn"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_en-us_1.1.0_1.3.0_hdiff_irsFllHRDbltgUdi.zip",
@@ -176,8 +170,7 @@
             "file_hash": "f4f03fc7f49ac7e5f229260dc3fce593",
             "diff_type": "hdiff",
             "original_version": "1.1.0",
-            "language": "en-us",
-            "is_preload": false
+            "language": "en-us"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ja-jp_1.1.0_1.3.0_hdiff_HwkUeeXIyizWTTcN.zip",
@@ -186,8 +179,7 @@
             "file_hash": "ac48a42e7efaa970ac042b6c0d8af219",
             "diff_type": "hdiff",
             "original_version": "1.1.0",
-            "language": "ja-jp",
-            "is_preload": false
+            "language": "ja-jp"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ko-kr_1.1.0_1.3.0_hdiff_mNPeKBiCXgicRbVk.zip",
@@ -196,8 +188,7 @@
             "file_hash": "0527d54a964bd278351656c25311e354",
             "diff_type": "hdiff",
             "original_version": "1.1.0",
-            "language": "ko-kr",
-            "is_preload": false
+            "language": "ko-kr"
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_zh-cn_1.1.0_1.3.0_hdiff_TMDALhbVflQzzRgY.zip",
@@ -206,8 +197,7 @@
             "file_hash": "768f60f6be74574b7cc6ffac889b21e5",
             "diff_type": "hdiff",
             "original_version": "1.1.0",
-            "language": "zh-cn",
-            "is_preload": false
+            "language": "zh-cn"
           }
         ]
       }
@@ -215,9 +205,16 @@
   ],
   "telemetry_hosts": [],
   "paths": {
-    "exe_filename": "",
-    "installation_dir": "",
-    "screenshot_dir": "",
-    "screenshot_dir_relative_to": ""
+    "exe_filename": "ZenlessZoneZero.exe",
+    "installation_dir": "ZenlessZoneZero Game",
+    "screenshot_dir_relative_to": "game_dir"
+  },
+  "assets": {
+    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/db01dfe29c36a283b774d295b2322b54_44421242156638826.png",
+    "game_logo": "",
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/11/04/9339c79f87f2bcb7857c94e2119ca783_5810670824856588817.webp"
+  },
+  "extra": {
+    "preload": {}
   }
 }

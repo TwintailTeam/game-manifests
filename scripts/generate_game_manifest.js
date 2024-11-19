@@ -1,8 +1,9 @@
-const {writeFileSync} = require('fs');
+const {writeFileSync, readFileSync, existsSync} = require('fs');
 
 let basicinfo = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=VYTpXlbWo8&language=en-us&game_id=";
 let gamesinfo = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=VYTpXlbWo8&language=en-us";
 let gamepackages = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePackages?game_ids[]=4ziysqXOQ8&game_ids[]=U5hbdsT9W7&game_ids[]=gopR6Cufr3&game_ids[]=5TIVvvcwtM&launcher_id=VYTpXlbWo8";
+let gameconfigs = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameConfigs?launcher_id=VYTpXlbWo8&game_ids%5B%5D=U5hbdsT9W7&game_ids%5B%5D=4ziysqXOQ8&game_ids%5B%5D=gopR6Cufr3&game_ids%5B%5D=5TIVvvcwtM";
 
 let gihosts = [];
 let hsrhosts = [];
@@ -44,6 +45,57 @@ async function parseBasicInfo() {
         let hiobj = {
             biz: hi.game.biz,
             background: hi.backgrounds[0].background.url
+        };
+
+        let gistr = JSON.stringify(giobj);
+        let hsrstr = JSON.stringify(hsrobj);
+        let zzzstr = JSON.stringify(zzzobj);
+        let histr = JSON.stringify(hiobj);
+
+        return JSON.parse(`{"games": [${gistr}, ${hsrstr}, ${zzzstr}, ${histr}]}`);
+    } else {
+        console.error("Got wrong retcode:" + r.retcode);
+    }
+}
+
+async function parseGameConfigs() {
+    let rsp = await fetch(`${gameconfigs}`);
+    let r = await rsp.json();
+
+    if (r.retcode === 0) {
+        let binfo = r.data.launch_configs;
+
+        let gi = binfo.find(i => i.game.biz === "hk4e_global");
+        let hsr = binfo.find(i => i.game.biz === "hkrpg_global");
+        let zzz = binfo.find(i => i.game.biz === "nap_global");
+        let hi = binfo.find(i => i.game.biz === "bh3_global");
+
+        let giobj = {
+            biz: gi.game.biz,
+            exe_filename: gi.exe_file_name,
+            installation_dir: gi.installation_dir,
+            game_screenshot_dir: gi.game_screenshot_dir
+        };
+
+        let hsrobj = {
+            biz: hsr.game.biz,
+            exe_filename: hsr.exe_file_name,
+            installation_dir: hsr.installation_dir,
+            game_screenshot_dir: hsr.game_screenshot_dir
+        };
+
+        let zzzobj = {
+            biz: zzz.game.biz,
+            exe_filename: zzz.exe_file_name,
+            installation_dir: zzz.installation_dir,
+            game_screenshot_dir: zzz.game_screenshot_dir
+        };
+
+        let hiobj = {
+            biz: hi.game.biz,
+            exe_filename: hi.exe_file_name,
+            installation_dir: hi.installation_dir,
+            game_screenshot_dir: hi.game_screenshot_dir
         };
 
         let gistr = JSON.stringify(giobj);
@@ -177,17 +229,15 @@ async function parseGamePackages() {
 }
 
 async function generateGIManifest() {
+    let basicinfo = await parseBasicInfo();
     let gamepackages = await parseGamePackages();
     let gamesinfo = await parseGamesInfo();
+    let gameconfigs = await parseGameConfigs();
 
+    let binfo = basicinfo.games.find(i => i.biz === "hk4e_global");
     let asst = gamesinfo.games.find(i => i.biz === "hk4e_global");
     let pkgs = gamepackages.games.find(i => i.biz === "hk4e_global");
-
-    let assetcfg = {
-        game_icon: asst.icon,
-        game_logo: asst.logo,
-        game_background: asst.background
-    };
+    let gcfg = gameconfigs.games.find(i => i.biz === "hk4e_global");
 
     var fg = [];
     pkgs.full_game.forEach(e => {
@@ -219,8 +269,7 @@ async function generateGIManifest() {
                 decompressed_size: e2.decompressed_size,
                 file_hash: e2.md5,
                 diff_type: "hdiff",
-                original_version: e.version,
-                is_preload: false
+                original_version: e.version
             });
         })
     });
@@ -233,10 +282,9 @@ async function generateGIManifest() {
                 compressed_size: e2.size,
                 decompressed_size: e2.decompressed_size,
                 file_hash: e2.md5,
-                diff_type: "hdiff",
+                diff_type: "ldiff",
                 original_version: e.version,
-                language: e2.language,
-                is_preload: false
+                language: e2.language
             });
         })
     });
@@ -258,6 +306,12 @@ async function generateGIManifest() {
         game_hash: "",
     }
 
+    let assetcfg = {
+        game_icon: asst.icon,
+        game_logo: asst.logo,
+        game_background: asst.background
+    }
+
     let versioninfo = {
         metadata: metadatainfo,
         assets: assetcfg,
@@ -265,18 +319,123 @@ async function generateGIManifest() {
         audio: audiopkginfo
     }
 
+    var preloaddata = {};
+
+    // preload handling... ugly hack...
+    if (pkgs.preload.major !== null) {
+        var pfg = [];
+        pkgs.preload.major.game_pkgs.forEach(e => {
+            return pfg.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5
+            });
+        });
+
+        var pfa = [];
+        pkgs.preload.major.audio_pkgs.forEach(e => {
+            return pfa.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5,
+                language: e.language
+            });
+        });
+
+        var pdg = [];
+        pkgs.preload.patches.forEach(e => {
+            e.game_pkgs.forEach(e2 => {
+                return pdg.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "hdiff",
+                    original_version: e.version
+                });
+            })
+        });
+
+        var pda = [];
+        pkgs.preload.patches.forEach(e => {
+            e.audio_pkgs.forEach(e2 => {
+                return pda.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "ldiff",
+                    original_version: e.version,
+                    language: e2.language
+                });
+            })
+        });
+
+        let pgsmepkginfo = {
+            full: pfg,
+            diff: pdg
+        }
+
+        let paudiopkginfo = {
+            full: pfa,
+            diff: pda
+        }
+
+        let pmetadatainfo = {
+            versioned_name: `GenshinImpact ${pkgs.preload.major.version} Preload (Global)`,
+            version: pkgs.preload.major.version,
+            game_hash: "",
+        }
+
+        preloaddata = {
+            metadata: pmetadatainfo,
+            game: pgsmepkginfo,
+            audio: paudiopkginfo
+        }
+    }
+    // preload handling end
+
+    let gameversions = [];
+
+    // append version
+    if (process.argv[2] === "append") {
+        if (existsSync(gipath)) {
+            let currentf = readFileSync(gipath);
+            let data = JSON.parse(currentf);
+            gameversions.push(versioninfo);
+
+            data.game_versions.forEach(v => {
+                if (v.metadata.version !== pkgs.game_version) {
+                    gameversions.push(v);
+                }
+            })
+        } else {
+            gameversions.push(versioninfo);
+        }
+    } else {
+        gameversions.push(versioninfo);
+    }
+
     let final = {
         version: 1,
         display_name: "GenshinImpact (Global)",
-        game_versions: [
-            versioninfo
-        ],
+        game_versions: gameversions,
         telemetry_hosts: gihosts,
         paths: {
-            exe_filename: "",
-            installation_dir: "",
-            screenshot_dir: "",
-            screenshot_dir_relative_to: ""
+            exe_filename: gcfg.exe_filename,
+            installation_dir: gcfg.installation_dir,
+            screenshot_dir: gcfg.screenshot_dir,
+            screenshot_dir_relative_to: "game_dir"
+        },
+        assets: {
+            game_icon: asst.icon,
+            game_logo: "",
+            game_background: binfo.background,
+        },
+        extra: {
+            preload: preloaddata
         }
     }
 
@@ -284,17 +443,15 @@ async function generateGIManifest() {
 }
 
 async function generateHSRManifest() {
+    let basicinfo = await parseBasicInfo();
     let gamepackages = await parseGamePackages();
     let gamesinfo = await parseGamesInfo();
+    let gameconfigs = await parseGameConfigs();
 
+    let binfo = basicinfo.games.find(i => i.biz === "hkrpg_global");
     let asst = gamesinfo.games.find(i => i.biz === "hkrpg_global");
     let pkgs = gamepackages.games.find(i => i.biz === "hkrpg_global");
-
-    let assetcfg = {
-        game_icon: asst.icon,
-        game_logo: asst.logo,
-        game_background: asst.background
-    };
+    let gcfg = gameconfigs.games.find(i => i.biz === "hkrpg_global");
 
     var fg = [];
     pkgs.full_game.forEach(e => {
@@ -326,8 +483,7 @@ async function generateHSRManifest() {
                 decompressed_size: e2.decompressed_size,
                 file_hash: e2.md5,
                 diff_type: "hdiff",
-                original_version: e.version,
-                is_preload: false
+                original_version: e.version
             });
         })
     });
@@ -342,8 +498,7 @@ async function generateHSRManifest() {
                 file_hash: e2.md5,
                 diff_type: "hdiff",
                 original_version: e.version,
-                language: e2.language,
-                is_preload: false
+                language: e2.language
             });
         })
     });
@@ -365,6 +520,12 @@ async function generateHSRManifest() {
         game_hash: "",
     }
 
+    let assetcfg = {
+        game_icon: asst.icon,
+        game_logo: asst.logo,
+        game_background: asst.background
+    }
+
     let versioninfo = {
         metadata: metadatainfo,
         assets: assetcfg,
@@ -372,18 +533,123 @@ async function generateHSRManifest() {
         audio: audiopkginfo
     }
 
+    var preloaddata = {};
+
+    // preload handling... ugly hack...
+    if (pkgs.preload.major !== null) {
+        var pfg = [];
+        pkgs.preload.major.game_pkgs.forEach(e => {
+            return pfg.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5
+            });
+        });
+
+        var pfa = [];
+        pkgs.preload.major.audio_pkgs.forEach(e => {
+            return pfa.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5,
+                language: e.language
+            });
+        });
+
+        var pdg = [];
+        pkgs.preload.patches.forEach(e => {
+            e.game_pkgs.forEach(e2 => {
+                return pdg.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "hdiff",
+                    original_version: e.version
+                });
+            })
+        });
+
+        var pda = [];
+        pkgs.preload.patches.forEach(e => {
+            e.audio_pkgs.forEach(e2 => {
+                return pda.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "hdiff",
+                    original_version: e.version,
+                    language: e2.language
+                });
+            })
+        });
+
+        let pgsmepkginfo = {
+            full: pfg,
+            diff: pdg
+        }
+
+        let paudiopkginfo = {
+            full: pfa,
+            diff: pda
+        }
+
+        let pmetadatainfo = {
+            versioned_name: `Honkai: StarRail ${pkgs.preload.major.version} Preload (Global)`,
+            version: pkgs.preload.major.version,
+            game_hash: "",
+        }
+
+        preloaddata = {
+            metadata: pmetadatainfo,
+            game: pgsmepkginfo,
+            audio: paudiopkginfo
+        }
+    }
+    // preload handling end
+
+    let gameversions = [];
+
+    // append version
+    if (process.argv[2] === "append") {
+        if (existsSync(hsrpath)) {
+            let currentf = readFileSync(hsrpath);
+            let data = JSON.parse(currentf);
+            gameversions.push(versioninfo);
+
+            data.game_versions.forEach(v => {
+                if (v.metadata.version !== pkgs.game_version) {
+                    gameversions.push(v);
+                }
+            })
+        } else {
+            gameversions.push(versioninfo);
+        }
+    } else {
+        gameversions.push(versioninfo);
+    }
+
     let final = {
         version: 1,
         display_name: "Honkai: StarRail (Global)",
-        game_versions: [
-            versioninfo
-        ],
+        game_versions: gameversions,
         telemetry_hosts: hsrhosts,
         paths: {
-            exe_filename: "",
-            installation_dir: "",
-            screenshot_dir: "",
-            screenshot_dir_relative_to: ""
+            exe_filename: gcfg.exe_filename,
+            installation_dir: gcfg.installation_dir,
+            screenshot_dir: gcfg.screenshot_dir,
+            screenshot_dir_relative_to: "game_dir"
+        },
+        assets: {
+            game_icon: asst.icon,
+            game_logo: "",
+            game_background: binfo.background,
+        },
+        extra: {
+            preload: preloaddata
         }
     }
 
@@ -391,17 +657,15 @@ async function generateHSRManifest() {
 }
 
 async function generateZZZManifest() {
+    let basicinfo = await parseBasicInfo();
     let gamepackages = await parseGamePackages();
     let gamesinfo = await parseGamesInfo();
+    let gameconfigs = await parseGameConfigs();
 
+    let binfo = basicinfo.games.find(i => i.biz === "nap_global");
     let asst = gamesinfo.games.find(i => i.biz === "nap_global");
     let pkgs = gamepackages.games.find(i => i.biz === "nap_global");
-
-    let assetcfg = {
-        game_icon: asst.icon,
-        game_logo: asst.logo,
-        game_background: asst.background
-    };
+    let gcfg = gameconfigs.games.find(i => i.biz === "nap_global");
 
     var fg = [];
     pkgs.full_game.forEach(e => {
@@ -433,8 +697,7 @@ async function generateZZZManifest() {
                 decompressed_size: e2.decompressed_size,
                 file_hash: e2.md5,
                 diff_type: "hdiff",
-                original_version: e.version,
-                is_preload: false
+                original_version: e.version
             });
         })
     });
@@ -449,8 +712,7 @@ async function generateZZZManifest() {
                 file_hash: e2.md5,
                 diff_type: "hdiff",
                 original_version: e.version,
-                language: e2.language,
-                is_preload: false
+                language: e2.language
             });
         })
     });
@@ -472,6 +734,12 @@ async function generateZZZManifest() {
         game_hash: "",
     }
 
+    let assetcfg = {
+        game_icon: asst.icon,
+        game_logo: asst.logo,
+        game_background: asst.background
+    }
+
     let versioninfo = {
         metadata: metadatainfo,
         assets: assetcfg,
@@ -479,18 +747,123 @@ async function generateZZZManifest() {
         audio: audiopkginfo
     }
 
+    var preloaddata = {};
+
+    // preload handling... ugly hack...
+    if (pkgs.preload.major !== null) {
+        var pfg = [];
+        pkgs.preload.major.game_pkgs.forEach(e => {
+            return pfg.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5
+            });
+        });
+
+        var pfa = [];
+        pkgs.preload.major.audio_pkgs.forEach(e => {
+            return pfa.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5,
+                language: e.language
+            });
+        });
+
+        var pdg = [];
+        pkgs.preload.patches.forEach(e => {
+            e.game_pkgs.forEach(e2 => {
+                return pdg.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "hdiff",
+                    original_version: e.version
+                });
+            })
+        });
+
+        var pda = [];
+        pkgs.preload.patches.forEach(e => {
+            e.audio_pkgs.forEach(e2 => {
+                return pda.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "hdiff",
+                    original_version: e.version,
+                    language: e2.language
+                });
+            })
+        });
+
+        let pgsmepkginfo = {
+            full: pfg,
+            diff: pdg
+        }
+
+        let paudiopkginfo = {
+            full: pfa,
+            diff: pda
+        }
+
+        let pmetadatainfo = {
+            versioned_name: `ZenlessZoneZero ${pkgs.preload.major.version} Preload (Global)`,
+            version: pkgs.preload.major.version,
+            game_hash: "",
+        }
+
+        preloaddata = {
+            metadata: pmetadatainfo,
+            game: pgsmepkginfo,
+            audio: paudiopkginfo
+        }
+    }
+    // preload handling end
+
+    let gameversions = [];
+
+    // append version
+    if (process.argv[2] === "append") {
+        if (existsSync(zzzpath)) {
+            let currentf = readFileSync(zzzpath);
+            let data = JSON.parse(currentf);
+            gameversions.push(versioninfo);
+
+            data.game_versions.forEach(v => {
+                if (v.metadata.version !== pkgs.game_version) {
+                    gameversions.push(v);
+                }
+            })
+        } else {
+            gameversions.push(versioninfo);
+        }
+    } else {
+        gameversions.push(versioninfo);
+    }
+
     let final = {
         version: 1,
         display_name: "ZenlessZoneZero (Global)",
-        game_versions: [
-            versioninfo
-        ],
+        game_versions: gameversions,
         telemetry_hosts: zzzhosts,
         paths: {
-            exe_filename: "",
-            installation_dir: "",
-            screenshot_dir: "",
-            screenshot_dir_relative_to: ""
+            exe_filename: gcfg.exe_filename,
+            installation_dir: gcfg.installation_dir,
+            screenshot_dir: gcfg.screenshot_dir,
+            screenshot_dir_relative_to: "game_dir"
+        },
+        assets: {
+            game_icon: asst.icon,
+            game_logo: "",
+            game_background: binfo.background,
+        },
+        extra: {
+            preload: preloaddata
         }
     }
 
@@ -498,17 +871,15 @@ async function generateZZZManifest() {
 }
 
 async function generateBHManifest() {
+    let basicinfo = await parseBasicInfo();
     let gamepackages = await parseGamePackages();
     let gamesinfo = await parseGamesInfo();
+    let gameconfigs = await parseGameConfigs();
 
+    let binfo = basicinfo.games.find(i => i.biz === "bh3_global");
     let asst = gamesinfo.games.find(i => i.biz === "bh3_global");
     let pkgs = gamepackages.games.find(i => i.biz === "bh3_global");
-
-    let assetcfg = {
-        game_icon: asst.icon,
-        game_logo: asst.logo,
-        game_background: asst.background
-    };
+    let gcfg = gameconfigs.games.find(i => i.biz === "bh3_global");
 
     var fg = [];
     pkgs.full_game.forEach(e => {
@@ -540,8 +911,7 @@ async function generateBHManifest() {
                 decompressed_size: e2.decompressed_size,
                 file_hash: e2.md5,
                 diff_type: "hdiff",
-                original_version: e.version,
-                is_preload: false
+                original_version: e.version
             });
         })
     });
@@ -556,8 +926,7 @@ async function generateBHManifest() {
                 file_hash: e2.md5,
                 diff_type: "hdiff",
                 original_version: e.version,
-                language: e2.language,
-                is_preload: false
+                language: e2.language
             });
         })
     });
@@ -579,6 +948,12 @@ async function generateBHManifest() {
         game_hash: "",
     }
 
+    let assetcfg = {
+        game_icon: asst.icon,
+        game_logo: asst.logo,
+        game_background: asst.background
+    }
+
     let versioninfo = {
         metadata: metadatainfo,
         assets: assetcfg,
@@ -586,18 +961,44 @@ async function generateBHManifest() {
         audio: audiopkginfo
     }
 
+    // preload here... TODO: monitor how bh3 does preloads...
+
+    let gameversions = [];
+
+    // append version
+    if (process.argv[2] === "append") {
+        if (existsSync(bhpath)) {
+            let currentf = readFileSync(bhpath);
+            let data = JSON.parse(currentf);
+            gameversions.push(versioninfo);
+
+            data.game_versions.forEach(v => {
+                if (v.metadata.version !== pkgs.game_version) {
+                    gameversions.push(v);
+                }
+            })
+        } else {
+            gameversions.push(versioninfo);
+        }
+    } else {
+        gameversions.push(versioninfo);
+    }
+
     let final = {
         version: 1,
         display_name: "HonkaiImpact 3rd (Global)",
-        game_versions: [
-            versioninfo
-        ],
+        game_versions: gameversions,
         telemetry_hosts: bhhosts,
         paths: {
-            exe_filename: "",
-            installation_dir: "",
-            screenshot_dir: "",
-            screenshot_dir_relative_to: ""
+            exe_filename: gcfg.exe_filename,
+            installation_dir: gcfg.installation_dir,
+            screenshot_dir: gcfg.screenshot_dir,
+            screenshot_dir_relative_to: "game_dir"
+        },
+        assets: {
+            game_icon: asst.icon,
+            game_logo: "",
+            game_background: binfo.background,
         }
     }
 
