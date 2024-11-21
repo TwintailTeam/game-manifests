@@ -961,7 +961,83 @@ async function generateBHManifest() {
         audio: audiopkginfo
     }
 
-    // preload here... TODO: monitor how bh3 does preloads...
+    var preloaddata = {};
+
+    // preload handling... ugly hack... TODO: check for .major once they deploy atleast one preload
+    if (pkgs.preload !== null) {
+        var pfg = [];
+        pkgs.preload.major.game_pkgs.forEach(e => {
+            return pfg.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5
+            });
+        });
+
+        var pfa = [];
+        pkgs.preload.major.audio_pkgs.forEach(e => {
+            return pfa.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5,
+                language: e.language
+            });
+        });
+
+        var pdg = [];
+        pkgs.preload.patches.forEach(e => {
+            e.game_pkgs.forEach(e2 => {
+                return pdg.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "hdiff",
+                    original_version: e.version
+                });
+            })
+        });
+
+        var pda = [];
+        pkgs.preload.patches.forEach(e => {
+            e.audio_pkgs.forEach(e2 => {
+                return pda.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "hdiff",
+                    original_version: e.version,
+                    language: e2.language
+                });
+            })
+        });
+
+        let pgsmepkginfo = {
+            full: pfg,
+            diff: pdg
+        }
+
+        let paudiopkginfo = {
+            full: pfa,
+            diff: pda
+        }
+
+        let pmetadatainfo = {
+            versioned_name: `HonkaiImpact 3rd ${pkgs.preload.major.version} Preload (Global)`,
+            version: pkgs.preload.major.version,
+            game_hash: "",
+        }
+
+        preloaddata = {
+            metadata: pmetadatainfo,
+            game: pgsmepkginfo,
+            audio: paudiopkginfo
+        }
+    }
+    // preload handling end
 
     let gameversions = [];
 
@@ -999,6 +1075,9 @@ async function generateBHManifest() {
             game_icon: asst.icon,
             game_logo: "",
             game_background: binfo.background,
+        },
+        extra: {
+            preload: preloaddata
         }
     }
 

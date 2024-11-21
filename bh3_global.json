@@ -41,5 +41,8 @@
     "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
     "game_logo": "",
     "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/3f517b9bf9db652be27bafb6a619f7b7_9128779498281746062.webp"
+  },
+  "extra": {
+    "preload": {}
   }
 }
