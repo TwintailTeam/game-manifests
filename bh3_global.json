@@ -4,13 +4,38 @@
   "game_versions": [
     {
       "metadata": {
+        "versioned_name": "HonkaiImpact 3rd 8.1.0 (Global)",
+        "version": "8.1.0",
+        "game_hash": ""
+      },
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/11/a3ac1c18b27db7b6089e5402afff0823_83729248864785767.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/19/ad8e46ed2c6460e7904c9c850ecda82b_6843605318534850239.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250212161705_FIhPvnuTkcsYmrkg/BH3_v8.1.0_d950a68ed449.7z",
+            "compressed_size": "22491169979",
+            "decompressed_size": "44992825718",
+            "file_hash": "68f1d623282d04e9e6c7fded8f1e36de"
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
+    {
+      "metadata": {
         "versioned_name": "HonkaiImpact 3rd 7.8.0 (Global)",
         "version": "7.8.0",
         "game_hash": ""
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
-        "game_logo": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/24/746d0f9bdea8bec75dcba30363ee4869_3926270346992269590.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/13/1aa568b2f1d93bf5e9ed30fefb4b7de7_2138801250860115276.webp"
       },
       "game": {
@@ -30,7 +55,6 @@
       }
     }
   ],
-  "telemetry_hosts": [],
   "paths": {
     "exe_filename": "BH3.exe",
     "installation_dir": "Honkai Impact 3rd game",
@@ -38,10 +62,10 @@
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {
-    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
-    "game_logo": "",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/14/3f517b9bf9db652be27bafb6a619f7b7_9128779498281746062.webp"
+    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/11/a3ac1c18b27db7b6089e5402afff0823_83729248864785767.png",
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/19/ad8e46ed2c6460e7904c9c850ecda82b_6843605318534850239.webp"
   },
+  "telemetry_hosts": [],
   "extra": {
     "preload": {}
   }

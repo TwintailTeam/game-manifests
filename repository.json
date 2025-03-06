@@ -1,6 +1,11 @@
 {
-  "name": "KeqingLauncher official manifests",
+  "name": "Official game manifests",
   "description": "Set of manifests for officially supported games on KeqingLauncher.",
-  "maintainers": ["TukanDev", "ForeverRealize"],
-  "manifests": ["hk4e_global.json", "hkrpg_global.json", "nap_global.json", "bh3_global.json"]
+  "maintainers": ["TukanDev"],
+  "manifests": [
+    "hk4e_global.json",
+    "hkrpg_global.json",
+    "nap_global.json",
+    "bh3_global.json"
+  ]
 }
