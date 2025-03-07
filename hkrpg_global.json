@@ -1,6 +1,7 @@
 {
   "version": 1,
   "display_name": "Honkai: StarRail (Global)",
+  "biz": "hkrpg_global",
   "game_versions": [
     {
       "metadata": {

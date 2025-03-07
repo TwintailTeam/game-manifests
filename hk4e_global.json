@@ -1,6 +1,7 @@
 {
   "version": 1,
   "display_name": "GenshinImpact (Global)",
+  "biz": "hk4e_global",
   "game_versions": [
     {
       "metadata": {

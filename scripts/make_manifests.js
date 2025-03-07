@@ -112,6 +112,7 @@ async function generateManifest(gameBiz) {
             final = {
                 version: 1,
                 display_name: "GenshinImpact (Global)",
+                biz: "hk4e_global",
                 game_versions: gameversions,
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
@@ -146,6 +147,7 @@ async function generateManifest(gameBiz) {
             final = {
                 version: 1,
                 display_name: "Honkai: StarRail (Global)",
+                biz: "hkrpg_global",
                 game_versions: gameversions,
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "data_dir"},
                 assets: assetcfg,
@@ -180,6 +182,7 @@ async function generateManifest(gameBiz) {
             final = {
                 version: 1,
                 display_name: "ZenlessZoneZero (Global)",
+                biz: "nap_global",
                 game_versions: gameversions,
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
@@ -214,6 +217,7 @@ async function generateManifest(gameBiz) {
             final = {
                 version: 1,
                 display_name: "HonkaiImpact 3rd (Global)",
+                biz: "bh3_global",
                 game_versions: gameversions,
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
