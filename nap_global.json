@@ -204,25 +204,6 @@
     },
     {
       "metadata": {
-        "versioned_name": "ZenlessZoneZero 1.4.0 (Global)",
-        "version": "1.4.0",
-        "game_hash": ""
-      },
-      "assets": {
-        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/db01dfe29c36a283b774d295b2322b54_44421242156638826.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/10/9d10dd3972903852e1fd12f349974fc7_6045393969604202348.webp"
-      },
-      "game": {
-        "full": [],
-        "diff": []
-      },
-      "audio": {
-        "full": [],
-        "diff": []
-      }
-    },
-    {
-      "metadata": {
         "versioned_name": "ZenlessZoneZero 1.3.0 (Global)",
         "version": "1.3.0",
         "game_hash": ""
