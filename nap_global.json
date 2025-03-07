@@ -2,6 +2,7 @@
   "version": 1,
   "display_name": "ZenlessZoneZero (Global)",
   "biz": "nap_global",
+  "latest_version": "1.5.0",
   "game_versions": [
     {
       "metadata": {

@@ -2,6 +2,7 @@
   "version": 1,
   "display_name": "HonkaiImpact 3rd (Global)",
   "biz": "bh3_global",
+  "latest_version": "8.1.0",
   "game_versions": [
     {
       "metadata": {

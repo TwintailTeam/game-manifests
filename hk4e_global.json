@@ -2,6 +2,7 @@
   "version": 1,
   "display_name": "GenshinImpact (Global)",
   "biz": "hk4e_global",
+  "latest_version": "5.4.0",
   "game_versions": [
     {
       "metadata": {
@@ -205,7 +206,7 @@
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.001",
             "compressed_size": "10737418240",
-            "decompressed_size": "",
+            "decompressed_size": "21474836480",
             "file_hash": "d7ea7d49334e03e590db3f047cd9ea88"
           },
           {
