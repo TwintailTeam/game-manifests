@@ -265,7 +265,8 @@ function formatPackages(packages) {
                 decompressed_size: e2.decompressed_size,
                 file_hash: e2.md5,
                 diff_type: "hdiff",
-                original_version: e.version
+                original_version: e.version,
+                delete_files: []
             });
         })
     });

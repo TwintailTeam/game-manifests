@@ -78,7 +78,8 @@
             "decompressed_size": "10373503092",
             "file_hash": "54373708219c819a7f15b259cea5c07b",
             "diff_type": "hdiff",
-            "original_version": "3.0.0"
+            "original_version": "3.0.0",
+            "delete_files": []
           }
         ]
       },
@@ -231,7 +232,8 @@
             "decompressed_size": "36478431104",
             "file_hash": "7b9f436ae0851311536384179fd7de03",
             "diff_type": "hdiff",
-            "original_version": "2.5.0"
+            "original_version": "2.5.0",
+            "delete_files": []
           }
         ]
       },

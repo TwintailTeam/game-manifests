@@ -72,7 +72,8 @@
             "decompressed_size": "36732148808",
             "file_hash": "87b6570843712191de2c1fd2d0226ea8",
             "diff_type": "hdiff",
-            "original_version": "5.3.0"
+            "original_version": "5.3.0",
+            "delete_files": []
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.2.0_5.4.0_hdiff_nhbCdqtBokgjnsTo.zip",
@@ -80,7 +81,8 @@
             "decompressed_size": "50465722949",
             "file_hash": "5212f460443e46bb679d7fa97286fc46",
             "diff_type": "hdiff",
-            "original_version": "5.2.0"
+            "original_version": "5.2.0",
+            "delete_files": []
           }
         ]
       },
@@ -259,7 +261,8 @@
             "decompressed_size": "35140000000",
             "file_hash": "46b32c38dbb348a172df8352074da5a1",
             "diff_type": "hdiff",
-            "original_version": "5.2.0"
+            "original_version": "5.2.0",
+            "delete_files": []
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.1.0_5.3.0_hdiff_EqAXgBXKuyfZhuCC.zip",
@@ -267,7 +270,8 @@
             "decompressed_size": "",
             "file_hash": "",
             "diff_type": "hdiff",
-            "original_version": "5.1.0"
+            "original_version": "5.1.0",
+            "delete_files": []
           }
         ]
       },
@@ -440,7 +444,8 @@
             "decompressed_size": "35671440888",
             "file_hash": "8fb18e51497e77d8f771cccb882a01e6",
             "diff_type": "hdiff",
-            "original_version": "5.1.0"
+            "original_version": "5.1.0",
+            "delete_files": []
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.0.0_5.2.0_hdiff_nsPbABFFJkqIWACo.zip",
@@ -448,7 +453,8 @@
             "decompressed_size": "51703909839",
             "file_hash": "f4ffe9970f71f6f3789c4d1d7fa01d8b",
             "diff_type": "hdiff",
-            "original_version": "5.0.0"
+            "original_version": "5.0.0",
+            "delete_files": []
           }
         ]
       },
@@ -621,7 +627,8 @@
             "decompressed_size": "39373632783",
             "file_hash": "3d628fcde7aaf5b242e253188885ef8d",
             "diff_type": "hdiff",
-            "original_version": "5.0.0"
+            "original_version": "5.0.0",
+            "delete_files": []
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_4.8.0_5.1.0_hdiff_GXYqlkIrnPhGxgBL.zip",
@@ -629,7 +636,8 @@
             "decompressed_size": "54502383897",
             "file_hash": "a69026b5c131b317850de7df162c1f0d",
             "diff_type": "hdiff",
-            "original_version": "4.8.0"
+            "original_version": "4.8.0",
+            "delete_files": []
           }
         ]
       },

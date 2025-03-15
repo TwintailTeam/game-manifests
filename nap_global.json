@@ -84,7 +84,8 @@
             "decompressed_size": "14355981771",
             "file_hash": "9cee083f3f4763be98bde9d5aec9ccd2",
             "diff_type": "hdiff",
-            "original_version": "1.5.0"
+            "original_version": "1.5.0",
+            "delete_files": []
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_1.4.0_1.6.0_hdiff_abQGGIosegcHEzzo.zip",
@@ -92,7 +93,8 @@
             "decompressed_size": "22740031475",
             "file_hash": "1fc3dced63ca55c86472677fd2e877d2",
             "diff_type": "hdiff",
-            "original_version": "1.4.0"
+            "original_version": "1.4.0",
+            "delete_files": []
           }
         ]
       },
@@ -283,7 +285,8 @@
             "decompressed_size": "15666453507",
             "file_hash": "b913eadabe44f0b88941c03d024cee57",
             "diff_type": "hdiff",
-            "original_version": "1.4.0"
+            "original_version": "1.4.0",
+            "delete_files": []
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_1.3.0_1.5.0_hdiff_SZRrTZQhfBVOJlhF.zip",
@@ -291,7 +294,8 @@
             "decompressed_size": "45872772500",
             "file_hash": "c87d119bfc3e8374ddcd629a32632363",
             "diff_type": "hdiff",
-            "original_version": "1.3.0"
+            "original_version": "1.3.0",
+            "delete_files": []
           }
         ]
       },
@@ -482,7 +486,8 @@
             "decompressed_size": "14291162510",
             "file_hash": "a9cbb19eb0dd6e70e62dba0fce73fb90",
             "diff_type": "hdiff",
-            "original_version": "1.2.0"
+            "original_version": "1.2.0",
+            "delete_files": []
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_1.1.0_1.3.0_hdiff_knsFtMoQFNTTETbt.zip",
@@ -490,7 +495,8 @@
             "decompressed_size": "38636603880",
             "file_hash": "fa9231b6731d54e14c88095af346c23c",
             "diff_type": "hdiff",
-            "original_version": "1.1.0"
+            "original_version": "1.1.0",
+            "delete_files": []
           }
         ]
       },
