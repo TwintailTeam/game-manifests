@@ -18,9 +18,18 @@
         "full": [],
         "diff": [
           {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.1.1/ooKBiAWCkNOYMZhWztyTOUqgzetlOgqj/resource/50004/2.1.1/2.1.0/resources/2.1.0_2.1.1_1741604182054.krdiff",
+            "compressed_size": "41312382",
+            "decompressed_size": "406744220",
+            "file_hash": "d461c864978e26464e2d4ad4a14cf614",
+            "diff_type": "krdiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
             "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.1.1/ooKBiAWCkNOYMZhWztyTOUqgzetlOgqj/resource/50004/2.1.1/2.0.2/resources/2.0.2_2.1.1_1741605055248.krdiff",
-            "compressed_size": 12237055814,
-            "decompressed_size": 47207313400,
+            "compressed_size": "12237055814",
+            "decompressed_size": "47207313400",
             "file_hash": "2af77b9e1c7fa632da4f158b36bf482e",
             "diff_type": "krdiff",
             "original_version": "2.0.2",
@@ -31,15 +40,6 @@
               "Engine/Plugins/Runtime/Nvidia/Streamline_Old/Binaries/ThirdParty/Win64/nvngx_dlssg.dll",
               "Engine/Plugins/Runtime/Nvidia/Streamline_Old/Binaries/ThirdParty/Win64/sl.interposer.dll"
             ]
-          },
-          {
-            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.1.1/ooKBiAWCkNOYMZhWztyTOUqgzetlOgqj/resource/50004/2.1.1/2.1.0/resources/2.1.0_2.1.1_1741604182054.krdiff",
-            "compressed_size": 41312382,
-            "decompressed_size": 406744220,
-            "file_hash": "d461c864978e26464e2d4ad4a14cf614",
-            "diff_type": "krdiff",
-            "original_version": "2.1.0",
-            "delete_files": []
           }
         ]
       },

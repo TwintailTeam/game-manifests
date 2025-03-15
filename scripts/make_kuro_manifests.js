@@ -129,8 +129,8 @@ async function formatPackages(packages) {
         data.resource.forEach(e2 => {
             return dg.push({
                 file_url: `${e.baseUrl}${e2.dest}`,
-                compressed_size: e.size,
-                decompressed_size: e.unCompressSize,
+                compressed_size: `${e.size}`,
+                decompressed_size: `${e.unCompressSize}`,
                 file_hash: e2.md5,
                 diff_type: "krdiff",
                 original_version: e.version,
