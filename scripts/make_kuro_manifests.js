@@ -113,7 +113,7 @@ async function formatPackages(packages) {
         return fg.push({
             file_url: e.url,
             compressed_size: "",
-            decompressed_size: e.size,
+            decompressed_size: `${e.size}`,
             file_hash: e.md5,
             file_path: e.dest
         });
