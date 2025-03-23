@@ -20,61 +20,71 @@
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.001",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "E9FC5E85AFD59C367D141AB894A78BD0"
+            "file_hash": "E9FC5E85AFD59C367D141AB894A78BD0",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.002",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "E3AF275D1CFC7368508D20BC13C62D58"
+            "file_hash": "E3AF275D1CFC7368508D20BC13C62D58",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.003",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "B71FC4102FF5B350AA0215BFF6F312C3"
+            "file_hash": "B71FC4102FF5B350AA0215BFF6F312C3",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.004",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "8FB0C103772EB22295FB41E0C6853A1F"
+            "file_hash": "8FB0C103772EB22295FB41E0C6853A1F",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.005",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "61E20AD7D6FCAA8CC84946B0082AED02"
+            "file_hash": "61E20AD7D6FCAA8CC84946B0082AED02",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.006",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "A0A37E69C27EC4660C96C0492CAB7519"
+            "file_hash": "A0A37E69C27EC4660C96C0492CAB7519",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.007",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "8B8FE8181CC687AC314115F02E814BDC"
+            "file_hash": "8B8FE8181CC687AC314115F02E814BDC",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.008",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "3EE86F68C4BABDAB77C39650AC3B0301"
+            "file_hash": "3EE86F68C4BABDAB77C39650AC3B0301",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.009",
             "compressed_size": "6621757440",
             "decompressed_size": "14567866369",
-            "file_hash": "9200369F9A4573A5DDF4E11CAC5BE1A5"
+            "file_hash": "9200369F9A4573A5DDF4E11CAC5BE1A5",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.010",
             "compressed_size": "6611485371",
             "decompressed_size": "14545267817",
-            "file_hash": "5A9AF6BC708949715C20DA3812A59508"
+            "file_hash": "5A9AF6BC708949715C20DA3812A59508",
+            "file_path": ""
           }
         ],
         "diff": [
@@ -221,61 +231,71 @@
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.001",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "2F5201E3DE1BECB9BD695EFE52F2A897"
+            "file_hash": "2F5201E3DE1BECB9BD695EFE52F2A897",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.002",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "D027449DADCA792B6F1FA84396008776"
+            "file_hash": "D027449DADCA792B6F1FA84396008776",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.003",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "DE3842578B7FA0D4E5D3BC65EC1B4C54"
+            "file_hash": "DE3842578B7FA0D4E5D3BC65EC1B4C54",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.004",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "7651AB8EE51F6ED1F192D2E8A733EC38"
+            "file_hash": "7651AB8EE51F6ED1F192D2E8A733EC38",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.005",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "DA336A5D969D4987B5FE5235A7B4D391"
+            "file_hash": "DA336A5D969D4987B5FE5235A7B4D391",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.006",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "16E3614F10FBD69AC4AC218B05A31936"
+            "file_hash": "16E3614F10FBD69AC4AC218B05A31936",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.007",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "6A009F3B172941FD3819F4978B87C633"
+            "file_hash": "6A009F3B172941FD3819F4978B87C633",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.008",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "E2C19F3939B0D931CA7AD5E6EDF0AA7A"
+            "file_hash": "E2C19F3939B0D931CA7AD5E6EDF0AA7A",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.009",
             "compressed_size": "6409945088",
             "decompressed_size": "14101879194",
-            "file_hash": "CE9B12C75C1DBAC021600A62A6C438E4"
+            "file_hash": "CE9B12C75C1DBAC021600A62A6C438E4",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250108124806_g97lIWR8kCKdhHRd/VolumeZip/ZenlessZoneZero_1.5.0_AS.zip.010",
             "compressed_size": "6408918265",
             "decompressed_size": "14099620184",
-            "file_hash": "BED68E1A05F2A236D22C1A15F1B99B3F"
+            "file_hash": "BED68E1A05F2A236D22C1A15F1B99B3F",
+            "file_path": ""
           }
         ],
         "diff": [
@@ -422,61 +442,71 @@
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.001",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "5D5B10197EA8BAD5EF39A62B9ED8C142"
+            "file_hash": "5D5B10197EA8BAD5EF39A62B9ED8C142",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.002",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "19929763143DCD1F5727917281249F40"
+            "file_hash": "19929763143DCD1F5727917281249F40",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.003",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "B1308034808D5725F5F577379E745C9D"
+            "file_hash": "B1308034808D5725F5F577379E745C9D",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.004",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "E44A50F666FD5063034E7E9A3B5BE2E0"
+            "file_hash": "E44A50F666FD5063034E7E9A3B5BE2E0",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.005",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "BB2DB87CF8735DB7664184EF364EE7E8"
+            "file_hash": "BB2DB87CF8735DB7664184EF364EE7E8",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.006",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "6E7DD0B4150803C9818B18EFCDCFFF3D"
+            "file_hash": "6E7DD0B4150803C9818B18EFCDCFFF3D",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.007",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "06C2CE9E980DB955284670FADC2EAFA6"
+            "file_hash": "06C2CE9E980DB955284670FADC2EAFA6",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.008",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "BE812201FBE0492B59F27D01ADB1AF5E"
+            "file_hash": "BE812201FBE0492B59F27D01ADB1AF5E",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.009",
             "compressed_size": "6355419136",
             "decompressed_size": "13981922100",
-            "file_hash": "E2374D37F3FD3A3A675B7228D6C95C55"
+            "file_hash": "E2374D37F3FD3A3A675B7228D6C95C55",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20241025143744_v9hu0vrVKxeg51NA/VolumeZip/ZenlessZoneZero_1.3.0_AS_DLL.zip.010",
             "compressed_size": "6345996461",
             "decompressed_size": "13961192215",
-            "file_hash": "95DA99265C641AF2E38CF4F00B6EC746"
+            "file_hash": "95DA99265C641AF2E38CF4F00B6EC746",
+            "file_path": ""
           }
         ],
         "diff": [

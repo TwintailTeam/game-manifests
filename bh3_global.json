@@ -20,7 +20,8 @@
             "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250212161705_FIhPvnuTkcsYmrkg/BH3_v8.1.0_d950a68ed449.7z",
             "compressed_size": "22491169979",
             "decompressed_size": "44992825718",
-            "file_hash": "68f1d623282d04e9e6c7fded8f1e36de"
+            "file_hash": "68f1d623282d04e9e6c7fded8f1e36de",
+            "file_path": ""
           }
         ],
         "diff": []
@@ -46,7 +47,8 @@
             "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20241009182513_BZHfnylEXeAq2hDU/BH3_v7.8.0_59f13f76488e.7z",
             "compressed_size": "20376878031",
             "decompressed_size": "40764241822",
-            "file_hash": "51ec434da195be462e9c66f0c4b4645e"
+            "file_hash": "51ec434da195be462e9c66f0c4b4645e",
+            "file_path": ""
           }
         ],
         "diff": []

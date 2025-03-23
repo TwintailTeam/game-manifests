@@ -20,55 +20,64 @@
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.001",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "964DCCE3A25A620FA8B1B49976208601"
+            "file_hash": "964DCCE3A25A620FA8B1B49976208601",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.002",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "5DF870ED0EE3B9872447919E6A9C3907"
+            "file_hash": "5DF870ED0EE3B9872447919E6A9C3907",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.003",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "F8C6C3A024FEC9A506ED03B18B080BF5"
+            "file_hash": "F8C6C3A024FEC9A506ED03B18B080BF5",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.004",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "1D3225CE0BFA891362171EC815862CA1"
+            "file_hash": "1D3225CE0BFA891362171EC815862CA1",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.005",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "7350B2C9D52D75E2D6EADF1B77E81DC0"
+            "file_hash": "7350B2C9D52D75E2D6EADF1B77E81DC0",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.006",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "B3F42F36B97947636A8C58DC18C17824"
+            "file_hash": "B3F42F36B97947636A8C58DC18C17824",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.007",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "8275A6341DFFE7FF3D99860BF17A6464"
+            "file_hash": "8275A6341DFFE7FF3D99860BF17A6464",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.008",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "72E9BADF771A29401F263F953B847887"
+            "file_hash": "72E9BADF771A29401F263F953B847887",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/download/StarRail_3.1.0.7z.009",
             "compressed_size": "2731962762",
             "decompressed_size": "5474411284",
-            "file_hash": "A2A1529EFA75085E51FEB9B0AF8E5267"
+            "file_hash": "A2A1529EFA75085E51FEB9B0AF8E5267",
+            "file_path": ""
           }
         ],
         "diff": [
@@ -186,43 +195,50 @@
             "file_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/download/StarRail_2.6.0.7z.001",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "7EF32AAB2FD9AA63B2FEECF0291376E5"
+            "file_hash": "7EF32AAB2FD9AA63B2FEECF0291376E5",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/download/StarRail_2.6.0.7z.002",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "6A4EB6EDB35120560F0DD4E793D9E5D5"
+            "file_hash": "6A4EB6EDB35120560F0DD4E793D9E5D5",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/download/StarRail_2.6.0.7z.003",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "88EA0883F2C9E49C6640B7503CB03104"
+            "file_hash": "88EA0883F2C9E49C6640B7503CB03104",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/download/StarRail_2.6.0.7z.004",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "8A7938B95725382143F91EDF1C5A64AE"
+            "file_hash": "8A7938B95725382143F91EDF1C5A64AE",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/download/StarRail_2.6.0.7z.005",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "B23EA2F86F8A9D9E82ECC6B75A8CB14E"
+            "file_hash": "B23EA2F86F8A9D9E82ECC6B75A8CB14E",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/download/StarRail_2.6.0.7z.006",
             "compressed_size": "5368709120",
             "decompressed_size": "10747904000",
-            "file_hash": "82A2FD07DD19E883492FA076D6E576F0"
+            "file_hash": "82A2FD07DD19E883492FA076D6E576F0",
+            "file_path": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/download/StarRail_2.6.0.7z.007",
             "compressed_size": "3243985413",
             "decompressed_size": "6498456586",
-            "file_hash": "B801AB7B26E76DF4F5A427F6B102697B"
+            "file_hash": "B801AB7B26E76DF4F5A427F6B102697B",
+            "file_path": ""
           }
         ],
         "diff": [

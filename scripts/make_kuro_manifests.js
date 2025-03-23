@@ -25,14 +25,23 @@ async function queryWuwaIndex() {
     if (rsp2.status !== 200) return null;
     let r2 = await rsp2.json();
 
+    let rsp3 = await fetch(`${CDN_BASE}/${r.default.resources}`);
+    if (rsp3.status !== 200) return null;
+    let r3 = await rsp3.json();
+
+    let fullgame = []
     let ptchs = []
+
+    r3.resource.forEach((resource) => {
+        fullgame.push({dest: `${resource.dest}`, url: `${CDN_BASE}/${r.default.resourcesBasePath}/${resource.dest}`, md5: resource.md5, sampleMd5: resource.sampleHash, size: resource.size});
+    });
 
     r.default.config.patchConfig.forEach((config) => {
         if (config.version < "2.0.2") return;
         config["indexFile"] = `${CDN_BASE}/${config.indexFile}`;
         config["baseUrl"] = `${CDN_BASE}/${config.baseUrl}`;
         ptchs.push(config);
-    })
+    });
 
     return {
         background_url: r2.firstFrameImage,
@@ -46,7 +55,8 @@ async function queryWuwaIndex() {
         latest_index_file: `${CDN_BASE}/${r.default.config.indexFile}`,
         latest_version_size: {compressed_size: r.default.config.size, decompressed_size: r.default.config.unCompressSize},
         patches: {
-            diffs: ptchs
+            diffs: ptchs,
+            full: fullgame,
         }
     }
 }
@@ -99,14 +109,15 @@ async function generateWuwaManifest() {
 
 async function formatPackages(packages) {
     let fg = [];
-    /*packages.full_game.forEach(e => {
+    packages.full.forEach(e => {
         return fg.push({
             file_url: e.url,
-            compressed_size: e.size,
-            decompressed_size: e.decompressed_size,
-            file_hash: e.md5
+            compressed_size: "",
+            decompressed_size: e.size,
+            file_hash: e.md5,
+            file_path: e.dest
         });
-    });*/
+    });
 
     let fa = [];
     /*packages.full_audio.forEach(e => {
@@ -123,9 +134,8 @@ async function formatPackages(packages) {
     await Promise.all(packages.diffs.map(async e => {
         const response = await fetch(`${e.indexFile}`);
         if (response.status !== 200) return;
-
-
         const data = await response.json();
+
         data.resource.forEach(e2 => {
             return dg.push({
                 file_url: `${e.baseUrl}${e2.dest}`,

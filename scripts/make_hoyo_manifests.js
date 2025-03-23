@@ -241,7 +241,8 @@ function formatPackages(packages) {
             file_url: e.url,
             compressed_size: e.size,
             decompressed_size: e.decompressed_size,
-            file_hash: e.md5
+            file_hash: e.md5,
+            file_path: ""
         });
     });
 
