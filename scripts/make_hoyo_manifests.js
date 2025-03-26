@@ -118,7 +118,14 @@ async function generateManifest(gameBiz) {
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
                 telemetry_hosts: gihosts,
-                extra: {preload: formatPreload(packages, "GenshinImpact")}
+                extra: {
+                    switches: {
+                        fps_unlocker: true,
+                        jadeite: false,
+                        xxmi: true
+                    },
+                    preload: formatPreload(packages, "GenshinImpact")
+                }
             };
         }
         break;
@@ -154,7 +161,14 @@ async function generateManifest(gameBiz) {
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "data_dir"},
                 assets: assetcfg,
                 telemetry_hosts: hsrhosts,
-                extra: {preload: formatPreload(packages, "Honkai: StarRail")}
+                extra: {
+                    switches: {
+                        fps_unlocker: false,
+                        jadeite: true,
+                        xxmi: true
+                    },
+                    preload: formatPreload(packages, "Honkai: StarRail")
+                }
             };
         }
         break;
@@ -190,7 +204,14 @@ async function generateManifest(gameBiz) {
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
                 telemetry_hosts: zzzhosts,
-                extra: {preload: formatPreload(packages, "ZenlessZoneZero")}
+                extra: {
+                    switches: {
+                        fps_unlocker: false,
+                        jadeite: false,
+                        xxmi: true
+                    },
+                    preload: formatPreload(packages, "ZenlessZoneZero")
+                }
             };
         }
         break;
@@ -226,7 +247,14 @@ async function generateManifest(gameBiz) {
                 paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
                 telemetry_hosts: bhhosts,
-                extra: {preload: formatPreload(packages, "HonkaiImpact 3rd")}
+                extra: {
+                    switches: {
+                        fps_unlocker: false,
+                        jadeite: true,
+                        xxmi: true
+                    },
+                    preload: formatPreload(packages, "HonkaiImpact 3rd")
+                }
             };
         }
         break;

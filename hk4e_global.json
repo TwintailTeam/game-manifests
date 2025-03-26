@@ -988,6 +988,11 @@
   },
   "telemetry_hosts": [],
   "extra": {
+    "switches": {
+      "fps_unlocker": true,
+      "jadeite": false,
+      "xxmi": true
+    },
     "preload": {}
   }
 }

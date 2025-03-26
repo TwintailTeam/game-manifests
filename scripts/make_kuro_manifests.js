@@ -139,7 +139,14 @@ async function generateWuwaManifest() {
         paths: {exe_filename: index.exe_file, installation_dir: "", screenshot_dir: "", screenshot_dir_relative_to: "game_dir"},
         assets: assetcfg,
         telemetry_hosts: wuwahosts,
-        extra: {preload: await formatPreload(index.preload, "WutheringWaves")}
+        extra: {
+            switches: {
+                fps_unlocker: false,
+                jadeite: true,
+                xxmi: true
+            },
+            preload: await formatPreload(index.preload, "WutheringWaves")
+        }
     };
 
     return final;
