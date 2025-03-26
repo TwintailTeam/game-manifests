@@ -37,11 +37,48 @@ async function queryWuwaIndex() {
     });
 
     r.default.config.patchConfig.forEach((config) => {
-        if (config.version < "2.0.2") return;
+        if (config.version < "2.1.0") return;
         config["indexFile"] = `${CDN_BASE}/${config.indexFile}`;
         config["baseUrl"] = `${CDN_BASE}/${config.baseUrl}`;
         ptchs.push(config);
     });
+
+    let preload = {};
+
+    let fullgamepreload = []
+    let ptchspreload = []
+
+    if (r.predownload) {
+        let rsp4 = await fetch(`${CDN_BASE}/${r.predownload.resources}`);
+        if (rsp4.status !== 200) return null;
+        let r4 = await rsp4.json();
+
+
+        r4.resource.forEach((resource) => {
+            fullgamepreload.push({dest: `${resource.dest}`, url: `${CDN_BASE}/${r.predownload.resourcesBasePath}/${resource.dest}`, md5: resource.md5, sampleMd5: resource.sampleHash, size: resource.size});
+        });
+
+        r.predownload.config.patchConfig.forEach((config) => {
+            if (config.version < "2.1.0") return;
+            config["indexFile"] = `${CDN_BASE}/${config.indexFile}`;
+            config["baseUrl"] = `${CDN_BASE}/${config.baseUrl}`;
+            ptchspreload.push(config);
+        });
+
+        preload = {
+            resource_base: `${CDN_BASE}/${r.predownload.resourcesBasePath}`,
+            resources_list: `${CDN_BASE}/${r.predownload.resources}`,
+            version: r.predownload.version,
+            previous_version: r.predownload.resourcesDiff.previousGameInfo.version,
+            current_version: r.predownload.resourcesDiff.currentGameInfo.version,
+            index_file: `${CDN_BASE}/${r.predownload.config.indexFile}`,
+            version_size: {compressed_size: r.predownload.config.size, decompressed_size: r.predownload.config.unCompressSize},
+            patches: {
+                diffs: ptchspreload,
+                full: fullgamepreload,
+            },
+        };
+    }
 
     return {
         background_url: r2.firstFrameImage,
@@ -57,7 +94,8 @@ async function queryWuwaIndex() {
         patches: {
             diffs: ptchs,
             full: fullgame,
-        }
+        },
+        preload: preload
     }
 }
 
@@ -101,7 +139,7 @@ async function generateWuwaManifest() {
         paths: {exe_filename: index.exe_file, installation_dir: "", screenshot_dir: "", screenshot_dir_relative_to: "game_dir"},
         assets: assetcfg,
         telemetry_hosts: wuwahosts,
-        extra: {preload: {}}
+        extra: {preload: await formatPreload(index.preload, "WutheringWaves")}
     };
 
     return final;
@@ -136,12 +174,12 @@ async function formatPackages(packages) {
         if (response.status !== 200) return;
         const data = await response.json();
 
-        data.resource.forEach(e2 => {
+        data.patchInfos.forEach(e2 => {
             return dg.push({
                 file_url: `${e.baseUrl}${e2.dest}`,
                 compressed_size: `${e.size}`,
                 decompressed_size: `${e.unCompressSize}`,
-                file_hash: e2.md5,
+                file_hash: "",
                 diff_type: "krdiff",
                 original_version: e.version,
                 delete_files: data.deleteFiles
@@ -165,6 +203,80 @@ async function formatPackages(packages) {
     });*/
 
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
+}
+
+async function formatPreload(pkgs, name) {
+    let preloaddata;
+
+    let pfg = [];
+    pkgs.patches.full.forEach(e => {
+        return pfg.push({
+            file_url: e.url,
+            compressed_size: "",
+            decompressed_size: `${e.size}`,
+            file_hash: e.md5,
+            file_path: e.dest
+        });
+    });
+
+    let pfa = [];
+    /*packages.full_audio.forEach(e => {
+        return fa.push({
+            file_url: e.url,
+            compressed_size: e.size,
+            decompressed_size: e.decompressed_size,
+            file_hash: e.md5,
+            language: e.language
+        });
+    });*/
+
+    let pdg = [];
+    await Promise.all(pkgs.patches.diffs.map(async e => {
+        const response = await fetch(`${e.indexFile}`);
+        if (response.status !== 200) return;
+        const data = await response.json();
+
+        data.patchInfos.forEach(e2 => {
+            return pdg.push({
+                file_url: `${e.baseUrl}${e2.dest}`,
+                compressed_size: `${e.size}`,
+                decompressed_size: `${e.unCompressSize}`,
+                file_hash: "",
+                diff_type: "krdiff",
+                original_version: e.version,
+                delete_files: data.deleteFiles
+            });
+        });
+    }));
+
+    let pda = [];
+    /*packages.diffs.forEach(e => {
+        e.audio_pkgs.forEach(e2 => {
+            return da.push({
+                file_url: e2.url,
+                compressed_size: e2.size,
+                decompressed_size: e2.decompressed_size,
+                file_hash: e2.md5,
+                diff_type: "ldiff",
+                original_version: e.version,
+                language: e2.language
+            });
+        })
+    });*/
+
+    let pmetadatainfo = {
+        versioned_name: `${name} ${pkgs.version} Preload (Global)`,
+        version: pkgs.version,
+        game_hash: "",
+    }
+
+    preloaddata = {
+        metadata: pmetadatainfo,
+        game: {full: pfg, diff: pdg},
+        audio: {full: pfa, diff: pda}
+    }
+
+    return preloaddata;
 }
 
 generateWuwaManifest().then(r => writeFileSync(wuwapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));

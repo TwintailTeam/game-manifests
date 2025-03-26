@@ -2,8 +2,205 @@
   "version": 1,
   "display_name": "GenshinImpact (Global)",
   "biz": "hk4e_global",
-  "latest_version": "5.4.0",
+  "latest_version": "5.5.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "GenshinImpact 5.5.0 (Global)",
+        "version": "5.5.0",
+        "game_hash": ""
+      },
+      "assets": {
+        "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/25/456c8ede6f630503c2ff46db05347260_2717353663926576261.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.001",
+            "compressed_size": "10737418240",
+            "decompressed_size": "21485322240",
+            "file_hash": "e65a66073f10325a384c4d8f01199e21",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.002",
+            "compressed_size": "10737418240",
+            "decompressed_size": "21485322240",
+            "file_hash": "e262578cc6791c927a77c2a784da84dd",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.003",
+            "compressed_size": "10737418240",
+            "decompressed_size": "21485322240",
+            "file_hash": "e9dd5ce69e4ee8025c3e3319da8fb95d",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.004",
+            "compressed_size": "10737418240",
+            "decompressed_size": "21485322240",
+            "file_hash": "c3431ba39643f99bab5af37f03c81139",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.005",
+            "compressed_size": "10737418240",
+            "decompressed_size": "21485322240",
+            "file_hash": "57e55567b5292f81e3da26636da3124f",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.006",
+            "compressed_size": "10737418240",
+            "decompressed_size": "21485322240",
+            "file_hash": "1cbc02e908b8a1ad7d421f23e9fe689a",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.007",
+            "compressed_size": "10737418240",
+            "decompressed_size": "21485322240",
+            "file_hash": "ba292fa02c2ce8887fbef86ae45f6100",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.008",
+            "compressed_size": "4954364916",
+            "decompressed_size": "9919215592",
+            "file_hash": "276e433ab28c35748c6deef72d28d3c2",
+            "file_path": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.4.0_5.5.0_hdiff_IlvHovyEdpXnwiCH.zip",
+            "compressed_size": "16321789202",
+            "decompressed_size": "33386487545",
+            "file_hash": "351503a9da9d8c657c7c33e544dd48d8",
+            "diff_type": "hdiff",
+            "original_version": "5.4.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.3.0_5.5.0_hdiff_hLjncNZamXTtcKKo.zip",
+            "compressed_size": "23636179615",
+            "decompressed_size": "48077829080",
+            "file_hash": "9b673560692022ba2147c9557d555e64",
+            "diff_type": "hdiff",
+            "original_version": "5.3.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/Audio_Chinese_5.5.0.zip",
+            "compressed_size": "16129028997",
+            "decompressed_size": "32268543754",
+            "file_hash": "724eb66fac6c39199faecf8117b036a5",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/Audio_English(US)_5.5.0.zip",
+            "compressed_size": "18412580831",
+            "decompressed_size": "36835647422",
+            "file_hash": "e14821e9236844f1fae27396f30f094a",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/Audio_Korean_5.5.0.zip",
+            "compressed_size": "15886147984",
+            "decompressed_size": "31782781728",
+            "file_hash": "c52cd0575dfe126a6604fe2b43650dae",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/Audio_Japanese_5.5.0.zip",
+            "compressed_size": "20934015385",
+            "decompressed_size": "41878516530",
+            "file_hash": "21117c63e8a55abe0f9a704528bcdb1c",
+            "language": "ja-jp"
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_zh-cn_5.4.0_5.5.0_hdiff_DuzyGAJXDnTEDcDG.zip",
+            "compressed_size": "295156738",
+            "decompressed_size": "645227270",
+            "file_hash": "20f67f06f746f96cd6176eff9ae2491d",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_en-us_5.4.0_5.5.0_hdiff_HveRbpmNrNejbGYL.zip",
+            "compressed_size": "348303784",
+            "decompressed_size": "757187361",
+            "file_hash": "9a922acc8f68bbcab55c06847dcbe37f",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ja-jp_5.4.0_5.5.0_hdiff_RCsszbNmxZciMvkK.zip",
+            "compressed_size": "342787612",
+            "decompressed_size": "751876449",
+            "file_hash": "471020c4184331a9159b29ed3107804d",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "ja-jp"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ko-kr_5.4.0_5.5.0_hdiff_gKGHXRscunFdPzdH.zip",
+            "compressed_size": "287944835",
+            "decompressed_size": "618822492",
+            "file_hash": "afca3b2d11fa6068b59821ec0dfa0948",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_zh-cn_5.3.0_5.5.0_hdiff_IjUYCPouJjYnAVzM.zip",
+            "compressed_size": "740186690",
+            "decompressed_size": "1604067391",
+            "file_hash": "af73c0e343da127b27afb7cee8d5f828",
+            "diff_type": "ldiff",
+            "original_version": "5.3.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_en-us_5.3.0_5.5.0_hdiff_hyPqxqduaCinaiJo.zip",
+            "compressed_size": "719589554",
+            "decompressed_size": "1573283104",
+            "file_hash": "c09ff2a7f45a6fdd58046ea7f16db4a3",
+            "diff_type": "ldiff",
+            "original_version": "5.3.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ja-jp_5.3.0_5.5.0_hdiff_beYoljTPLiGPgFOz.zip",
+            "compressed_size": "850125563",
+            "decompressed_size": "1838638428",
+            "file_hash": "28f2866151a4f333bfa27db6a415ca73",
+            "diff_type": "ldiff",
+            "original_version": "5.3.0",
+            "language": "ja-jp"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ko-kr_5.3.0_5.5.0_hdiff_IuoBNsASjDzeqgNY.zip",
+            "compressed_size": "715796662",
+            "decompressed_size": "1520239867",
+            "file_hash": "a62129453431421ddb4fd6d4ee3f9413",
+            "diff_type": "ldiff",
+            "original_version": "5.3.0",
+            "language": "ko-kr"
+          }
+        ]
+      }
+    },
     {
       "metadata": {
         "versioned_name": "GenshinImpact 5.4.0 (Global)",
@@ -787,7 +984,7 @@
   },
   "assets": {
     "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/03/2d12b4a8453dadbe4dd07dfb594729f3_3130860216371403026.webp"
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/25/456c8ede6f630503c2ff46db05347260_2717353663926576261.webp"
   },
   "telemetry_hosts": [],
   "extra": {
