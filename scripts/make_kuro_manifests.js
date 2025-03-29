@@ -48,7 +48,7 @@ async function queryWuwaIndex() {
     let fullgamepreload = []
     let ptchspreload = []
 
-    if (r.predownload) {
+    if (r.hasOwnProperty("predownload")) {
         let rsp4 = await fetch(`${CDN_BASE}/${r.predownload.resources}`);
         if (rsp4.status !== 200) return null;
         let r4 = await rsp4.json();
@@ -213,74 +213,76 @@ async function formatPackages(packages) {
 }
 
 async function formatPreload(pkgs, name) {
-    let preloaddata;
+    let preloaddata = {};
 
-    let pfg = [];
-    pkgs.patches.full.forEach(e => {
-        return pfg.push({
-            file_url: e.url,
-            compressed_size: "",
-            decompressed_size: `${e.size}`,
-            file_hash: e.md5,
-            file_path: e.dest
-        });
-    });
-
-    let pfa = [];
-    /*packages.full_audio.forEach(e => {
-        return fa.push({
-            file_url: e.url,
-            compressed_size: e.size,
-            decompressed_size: e.decompressed_size,
-            file_hash: e.md5,
-            language: e.language
-        });
-    });*/
-
-    let pdg = [];
-    await Promise.all(pkgs.patches.diffs.map(async e => {
-        const response = await fetch(`${e.indexFile}`);
-        if (response.status !== 200) return;
-        const data = await response.json();
-
-        data.patchInfos.forEach(e2 => {
-            return pdg.push({
-                file_url: `${e.baseUrl}${e2.dest}`,
-                compressed_size: `${e.size}`,
-                decompressed_size: `${e.unCompressSize}`,
-                file_hash: "",
-                diff_type: "krdiff",
-                original_version: e.version,
-                delete_files: data.deleteFiles
+    if (pkgs.hasOwnProperty("patches")) {
+        let pfg = [];
+        pkgs.patches.full.forEach(e => {
+            return pfg.push({
+                file_url: e.url,
+                compressed_size: "",
+                decompressed_size: `${e.size}`,
+                file_hash: e.md5,
+                file_path: e.dest
             });
         });
-    }));
 
-    let pda = [];
-    /*packages.diffs.forEach(e => {
-        e.audio_pkgs.forEach(e2 => {
-            return da.push({
-                file_url: e2.url,
-                compressed_size: e2.size,
-                decompressed_size: e2.decompressed_size,
-                file_hash: e2.md5,
-                diff_type: "ldiff",
-                original_version: e.version,
-                language: e2.language
+        let pfa = [];
+        /*packages.full_audio.forEach(e => {
+            return fa.push({
+                file_url: e.url,
+                compressed_size: e.size,
+                decompressed_size: e.decompressed_size,
+                file_hash: e.md5,
+                language: e.language
             });
-        })
-    });*/
+        });*/
 
-    let pmetadatainfo = {
-        versioned_name: `${name} ${pkgs.version} Preload (Global)`,
-        version: pkgs.version,
-        game_hash: "",
-    }
+        let pdg = [];
+        await Promise.all(pkgs.patches.diffs.map(async e => {
+            const response = await fetch(`${e.indexFile}`);
+            if (response.status !== 200) return;
+            const data = await response.json();
 
-    preloaddata = {
-        metadata: pmetadatainfo,
-        game: {full: pfg, diff: pdg},
-        audio: {full: pfa, diff: pda}
+            data.patchInfos.forEach(e2 => {
+                return pdg.push({
+                    file_url: `${e.baseUrl}${e2.dest}`,
+                    compressed_size: `${e.size}`,
+                    decompressed_size: `${e.unCompressSize}`,
+                    file_hash: "",
+                    diff_type: "krdiff",
+                    original_version: e.version,
+                    delete_files: data.deleteFiles
+                });
+            });
+        }));
+
+        let pda = [];
+        /*packages.diffs.forEach(e => {
+            e.audio_pkgs.forEach(e2 => {
+                return da.push({
+                    file_url: e2.url,
+                    compressed_size: e2.size,
+                    decompressed_size: e2.decompressed_size,
+                    file_hash: e2.md5,
+                    diff_type: "ldiff",
+                    original_version: e.version,
+                    language: e2.language
+                });
+            })
+        });*/
+
+        let pmetadatainfo = {
+            versioned_name: `${name} ${pkgs.version} Preload (Global)`,
+            version: pkgs.version,
+            game_hash: "",
+        }
+
+        preloaddata = {
+            metadata: pmetadatainfo,
+            game: {full: pfg, diff: pdg},
+            audio: {full: pfa, diff: pda}
+        }
     }
 
     return preloaddata;
