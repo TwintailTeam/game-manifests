@@ -72,7 +72,8 @@
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
     "dump.gamesafe.qq.com",
-    "log-upload-os.hoyoverse.com"
+    "log-upload-os.hoyoverse.com",
+    "sg-public-data-api.hoyoverse.com"
   ],
   "extra": {
     "fps_unlock_options": [

@@ -651,7 +651,8 @@
   "telemetry_hosts": [
     "apm-log-upload-os.hoyoverse.com",
     "zzz-log-upload-os.hoyoverse.com",
-    "log-upload-os.hoyoverse.com"
+    "log-upload-os.hoyoverse.com",
+    "sg-public-data-api.hoyoverse.com"
   ],
   "extra": {
     "fps_unlock_options": [

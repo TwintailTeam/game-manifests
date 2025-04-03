@@ -352,7 +352,8 @@
     "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/18/2c985553125dc7b59a7f3c01c7df728c_627594555194636352.webp"
   },
   "telemetry_hosts": [
-    "log-upload-os.hoyoverse.com"
+    "log-upload-os.hoyoverse.com",
+    "sg-public-data-api.hoyoverse.com"
   ],
   "extra": {
     "fps_unlock_options": [
