@@ -6646,8 +6646,16 @@
     "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
     "game_background": "https://prod-alicdn-gamestarter.kurogame.com/launcher/clientUpload/TBFWMB225ZRJ5FVC.webp"
   },
-  "telemetry_hosts": [],
+  "telemetry_hosts": [
+    "pc.crashsight.wetest.net"
+  ],
   "extra": {
+    "fps_unlock_options": [
+      "120",
+      "144",
+      "165",
+      "240"
+    ],
     "switches": {
       "fps_unlocker": false,
       "jadeite": true,

@@ -9,8 +9,9 @@ let INDEX = {
     }
 };
 
-let wuwahosts = [];
+let wuwahosts = ["pc.crashsight.wetest.net"];
 let wuwapath = `${__dirname}/generated/wuwa_global.json`;
+let wuwafps = ["120", "144", "165", "240"];
 
 async function queryWuwaIndex() {
     let rsp = await fetch(`${INDEX.wuwa.game}`);
@@ -140,6 +141,7 @@ async function generateWuwaManifest() {
         assets: assetcfg,
         telemetry_hosts: wuwahosts,
         extra: {
+            fps_unlock_options: wuwafps,
             switches: {
                 fps_unlocker: false,
                 jadeite: true,

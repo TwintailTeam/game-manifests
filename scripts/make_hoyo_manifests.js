@@ -4,10 +4,15 @@ let API = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameComboInfo
 let BASICINFO_API = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=VYTpXlbWo8&language=en-us&game_id=";
 let GAMESINFO_API = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGames?launcher_id=VYTpXlbWo8&language=en-us";
 
-let gihosts = [];
-let hsrhosts = [];
-let zzzhosts = [];
-let bhhosts = [];
+let gihosts = ["log-upload-os.hoyoverse.com", "overseauspider.yuanshen.com", "osuspider.yuanshen.com", "ys-log-upload-os.hoyoverse.com"];
+let hsrhosts = ["log-upload-os.hoyoverse.com"];
+let zzzhosts = ["apm-log-upload-os.hoyoverse.com", "zzz-log-upload-os.hoyoverse.com", "log-upload-os.hoyoverse.com"];
+let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-upload-os.hoyoverse.com"];
+
+let gifps = ["120", "144", "165", "240"];
+let hsrfps = ["120", "144", "165", "240"];
+let zzzfps = ["120", "144", "165", "240"];
+let bh3fps = ["120", "144", "165", "240"];
 
 let gipath = `${__dirname}/generated/hk4e_global.json`;
 let hsrpath = `${__dirname}/generated/hkrpg_global.json`;
@@ -119,6 +124,7 @@ async function generateManifest(gameBiz) {
                 assets: assetcfg,
                 telemetry_hosts: gihosts,
                 extra: {
+                    fps_unlock_options: gifps,
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
@@ -162,6 +168,7 @@ async function generateManifest(gameBiz) {
                 assets: assetcfg,
                 telemetry_hosts: hsrhosts,
                 extra: {
+                    fps_unlock_options: hsrfps,
                     switches: {
                         fps_unlocker: false,
                         jadeite: true,
@@ -205,6 +212,7 @@ async function generateManifest(gameBiz) {
                 assets: assetcfg,
                 telemetry_hosts: zzzhosts,
                 extra: {
+                    fps_unlock_options: zzzfps,
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
@@ -248,6 +256,7 @@ async function generateManifest(gameBiz) {
                 assets: assetcfg,
                 telemetry_hosts: bhhosts,
                 extra: {
+                    fps_unlock_options: bh3fps,
                     switches: {
                         fps_unlocker: false,
                         jadeite: true,

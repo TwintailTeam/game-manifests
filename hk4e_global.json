@@ -986,8 +986,19 @@
     "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
     "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/25/456c8ede6f630503c2ff46db05347260_2717353663926576261.webp"
   },
-  "telemetry_hosts": [],
+  "telemetry_hosts": [
+    "log-upload-os.hoyoverse.com",
+    "overseauspider.yuanshen.com",
+    "osuspider.yuanshen.com",
+    "ys-log-upload-os.hoyoverse.com"
+  ],
   "extra": {
+    "fps_unlock_options": [
+      "120",
+      "144",
+      "165",
+      "240"
+    ],
     "switches": {
       "fps_unlocker": true,
       "jadeite": false,
