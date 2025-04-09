@@ -2,8 +2,167 @@
   "version": 1,
   "display_name": "Honkai: StarRail (Global)",
   "biz": "hkrpg_global",
-  "latest_version": "3.1.0",
+  "latest_version": "3.2.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "Honkai: StarRail 3.2.0 (Global)",
+        "version": "3.2.0",
+        "game_hash": ""
+      },
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/10/aa6ab8b02d80b90b84a4f025401d69d1_77985062351911935.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/02/937d4fe21d3726b17c549bc0edc71c54_1201223918862821359.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.001",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "CF42461842E6652EB13B5198B6B0E7EA",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.002",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "E48F12B3EAA9610227B0CDDB09C9C280",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.003",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "373591506B318ED8FFF2DE1B0C352428",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.004",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "5E180FA80A42EBF3414AC3C0C6E402F0",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.005",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "4612B468BB3A7A6D9562FC678BFD89B5",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.006",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "1975A6987E7C6F4D368E3F576ED394BB",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.007",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "426FECEF41AFF0238D5F69CC2B65A876",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.008",
+            "compressed_size": "5368709120",
+            "decompressed_size": "10747904000",
+            "file_hash": "14BE28582C01235BCCD8805B7B1EE27D",
+            "file_path": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/download/StarRail_3.2.0.7z.009",
+            "compressed_size": "5281662457",
+            "decompressed_size": "10573810674",
+            "file_hash": "3096A3DDC8E48309F32B195279EAC196",
+            "file_path": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/game_3.1.0_3.2.0_hdiff_nwqBoBJTfiCBfuGe.7z",
+            "compressed_size": "4426631781",
+            "decompressed_size": "9613138653",
+            "file_hash": "f1c1ce4f485e5cb936ca0877dad0a959",
+            "diff_type": "hdiff",
+            "original_version": "3.1.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/Chinese.7z",
+            "compressed_size": "7617262382",
+            "decompressed_size": "15245010524",
+            "file_hash": "b366736761b91b0ae5d16f4296e21278",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/English.7z",
+            "compressed_size": "8747053629",
+            "decompressed_size": "17504593018",
+            "file_hash": "757b5ecb96b0275bde64e06f90308daf",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/Korean.7z",
+            "compressed_size": "7503660046",
+            "decompressed_size": "15017805852",
+            "file_hash": "39eea79ceb18f92c9756a9691c1bdf62",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/Japanese.7z",
+            "compressed_size": "9389082933",
+            "decompressed_size": "18788651626",
+            "file_hash": "7bfd349dd2e6225e05c6d6c949e6f313",
+            "language": "ja-jp"
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_zh-cn_3.1.0_3.2.0_hdiff_sjaSrlUVockkcNwu.7z",
+            "compressed_size": "499728739",
+            "decompressed_size": "1012522458",
+            "file_hash": "f8467e59ce4ee9d53ce2a660d16939c8",
+            "diff_type": "ldiff",
+            "original_version": "3.1.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_en-us_3.1.0_3.2.0_hdiff_NzaoRFRSDYXrjFhR.7z",
+            "compressed_size": "528705091",
+            "decompressed_size": "1073610258",
+            "file_hash": "4b7b330c1d025071b4feb747106d7d07",
+            "diff_type": "ldiff",
+            "original_version": "3.1.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ko-kr_3.1.0_3.2.0_hdiff_vKohowdSpbhZLFZp.7z",
+            "compressed_size": "476150984",
+            "decompressed_size": "974813876",
+            "file_hash": "710badce219cff87cc0515c353af7410",
+            "diff_type": "ldiff",
+            "original_version": "3.1.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ja-jp_3.1.0_3.2.0_hdiff_zECvovFzvhzVLQoy.7z",
+            "compressed_size": "584306711",
+            "decompressed_size": "1191369286",
+            "file_hash": "fdde142beceabaada04f084bee168427",
+            "diff_type": "ldiff",
+            "original_version": "3.1.0",
+            "language": "ja-jp"
+          }
+        ]
+      }
+    },
     {
       "metadata": {
         "versioned_name": "Honkai: StarRail 3.1.0 (Global)",
@@ -348,8 +507,8 @@
     "screenshot_dir_relative_to": "data_dir"
   },
   "assets": {
-    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/15/39992ccaeef09cedf09009d8901a81d2_7633332456941254056.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/18/2c985553125dc7b59a7f3c01c7df728c_627594555194636352.webp"
+    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/10/aa6ab8b02d80b90b84a4f025401d69d1_77985062351911935.png",
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/02/937d4fe21d3726b17c549bc0edc71c54_1201223918862821359.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
