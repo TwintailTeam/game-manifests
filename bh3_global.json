@@ -14,6 +14,8 @@
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/11/a3ac1c18b27db7b6089e5402afff0823_83729248864785767.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/19/ad8e46ed2c6460e7904c9c850ecda82b_6843605318534850239.webp"
       },
+      "index_file": "",
+      "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250212161705_FIhPvnuTkcsYmrkg/extract",
       "game": {
         "full": [
           {
@@ -41,6 +43,8 @@
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/13/1aa568b2f1d93bf5e9ed30fefb4b7de7_2138801250860115276.webp"
       },
+      "index_file": "",
+      "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20241009182513_BZHfnylEXeAq2hDU/extract",
       "game": {
         "full": [
           {
@@ -77,10 +81,7 @@
   ],
   "extra": {
     "fps_unlock_options": [
-      "120",
-      "144",
-      "165",
-      "240"
+      "120"
     ],
     "switches": {
       "fps_unlocker": false,

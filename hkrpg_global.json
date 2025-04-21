@@ -14,6 +14,8 @@
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/10/aa6ab8b02d80b90b84a4f025401d69d1_77985062351911935.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/02/937d4fe21d3726b17c549bc0edc71c54_1201223918862821359.webp"
       },
+      "index_file": "",
+      "res_list_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/unzip",
       "game": {
         "full": [
           {
@@ -173,6 +175,8 @@
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/15/39992ccaeef09cedf09009d8901a81d2_7633332456941254056.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/18/2c985553125dc7b59a7f3c01c7df728c_627594555194636352.webp"
       },
+      "index_file": "",
+      "res_list_url": "https://autopatchos.starrails.com/client/download/20250213222029_yggGSkDyveoATToc/PC/unzip",
       "game": {
         "full": [
           {
@@ -348,6 +352,8 @@
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/15/39992ccaeef09cedf09009d8901a81d2_7633332456941254056.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/10/15/687c88f0ab6bdae5d566134acbc2dbbd_1744689659015529003.webp"
       },
+      "index_file": "",
+      "res_list_url": "https://autopatchos.starrails.com/client/download/20241011184237_pwgabndGDG6wFvbM/PC/unzip",
       "game": {
         "full": [
           {
@@ -516,10 +522,7 @@
   ],
   "extra": {
     "fps_unlock_options": [
-      "120",
-      "144",
-      "165",
-      "240"
+      "120"
     ],
     "switches": {
       "fps_unlocker": false,

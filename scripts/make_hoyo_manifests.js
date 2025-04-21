@@ -9,10 +9,10 @@ let hsrhosts = ["log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com
 let zzzhosts = ["apm-log-upload-os.hoyoverse.com", "zzz-log-upload-os.hoyoverse.com", "log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com"];
 let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com"];
 
-let gifps = ["120", "144", "165", "240"];
-let hsrfps = ["120", "144", "165", "240"];
-let zzzfps = ["120", "144", "165", "240"];
-let bh3fps = ["120", "144", "165", "240"];
+let gifps = ["120", "144", "165", "180", "240"];
+let hsrfps = ["120"];
+let zzzfps = ["120", "144", "165", "180", "240"];
+let bh3fps = ["120"];
 
 let gipath = `${__dirname}/generated/hk4e_global.json`;
 let hsrpath = `${__dirname}/generated/hkrpg_global.json`;
@@ -96,6 +96,8 @@ async function generateManifest(gameBiz) {
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
+                index_file: "",
+                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -140,6 +142,8 @@ async function generateManifest(gameBiz) {
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
+                index_file: "",
+                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -184,6 +188,8 @@ async function generateManifest(gameBiz) {
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
+                index_file: "",
+                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -228,6 +234,8 @@ async function generateManifest(gameBiz) {
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
+                index_file: "",
+                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -389,6 +397,8 @@ function formatPreload(pkgs, name) {
 
         preloaddata = {
             metadata: pmetadatainfo,
+            index_file: "",
+            res_list_url: pkgs.preload.major.res_list_url,
             game: {full: pfg, diff: pdg},
             audio: {full: pfa, diff: pda}
         }

@@ -9,9 +9,9 @@ let INDEX = {
     }
 };
 
-let wuwahosts = ["pc.crashsight.wetest.net"];
+let wuwahosts = ["pc.crashsight.wetest.net", "sentry.aki.kuro.com"];
 let wuwapath = `${__dirname}/generated/wuwa_global.json`;
-let wuwafps = ["120", "144", "165", "240"];
+let wuwafps = ["120"];
 
 async function queryWuwaIndex() {
     let rsp = await fetch(`${INDEX.wuwa.game}`);
@@ -53,7 +53,6 @@ async function queryWuwaIndex() {
         let rsp4 = await fetch(`${CDN_BASE}/${r.predownload.resources}`);
         if (rsp4.status !== 200) return null;
         let r4 = await rsp4.json();
-
 
         r4.resource.forEach((resource) => {
             fullgamepreload.push({dest: `${resource.dest}`, url: `${CDN_BASE}/${r.predownload.resourcesBasePath}/${resource.dest}`, md5: resource.md5, sampleMd5: resource.sampleHash, size: resource.size});
@@ -113,6 +112,8 @@ async function generateWuwaManifest() {
     let versioninfo = {
         metadata: metadatainfo,
         assets: assetcfg,
+        index_file: index.latest_index_file,
+        res_list_url: index.latest_resource_base,
         game: {full: pkg.full_game, diff: pkg.diff_game},
         audio: {full: pkg.full_audio, diff: pkg.diff_audio}
     };
@@ -183,17 +184,21 @@ async function formatPackages(packages) {
         if (response.status !== 200) return;
         const data = await response.json();
 
-        data.patchInfos.forEach(e2 => {
-            return dg.push({
-                file_url: `${e.baseUrl}${e2.dest}`,
-                compressed_size: `${e.size}`,
-                decompressed_size: `${e.unCompressSize}`,
-                file_hash: "",
-                diff_type: "krdiff",
-                original_version: e.version,
-                delete_files: data.deleteFiles
+        if (data.hasOwnProperty("patchInfos")) {
+            data.patchInfos.forEach(e2 => {
+                return dg.push({
+                    file_url: `${e.baseUrl}${e2.dest}`,
+                    compressed_size: `${e.size}`,
+                    decompressed_size: `${e.unCompressSize}`,
+                    file_hash: "",
+                    diff_type: "krdiff",
+                    original_version: e.version,
+                    delete_files: data.deleteFiles
+                });
             });
-        });
+        } else {
+            dg = [];
+        }
     }));
 
     let da = [];
@@ -282,6 +287,8 @@ async function formatPreload(pkgs, name) {
 
         preloaddata = {
             metadata: pmetadatainfo,
+            index_file: pkgs.index_file,
+            res_list_url: pkgs.resource_base,
             game: {full: pfg, diff: pdg},
             audio: {full: pfa, diff: pda}
         }
