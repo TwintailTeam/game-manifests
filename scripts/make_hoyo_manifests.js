@@ -345,7 +345,8 @@ function formatPreload(pkgs, name) {
                 file_url: e.url,
                 compressed_size: e.size,
                 decompressed_size: e.decompressed_size,
-                file_hash: e.md5
+                file_hash: e.md5,
+                file_path: ""
             });
         });
 
@@ -369,7 +370,8 @@ function formatPreload(pkgs, name) {
                     decompressed_size: e2.decompressed_size,
                     file_hash: e2.md5,
                     diff_type: "hdiff",
-                    original_version: e.version
+                    original_version: e.version,
+                    delete_files: []
                 });
             })
         });
