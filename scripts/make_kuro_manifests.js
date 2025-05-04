@@ -138,7 +138,7 @@ async function generateWuwaManifest() {
         biz: "wuwa_global",
         latest_version: index.latest_version,
         game_versions: gameversions,
-        paths: {exe_filename: index.exe_file, installation_dir: "", screenshot_dir: "", screenshot_dir_relative_to: "game_dir"},
+        paths: {audio_pkg_res_dir: "", exe_filename: index.exe_file, installation_dir: "", screenshot_dir: "", screenshot_dir_relative_to: "game_dir"},
         assets: assetcfg,
         telemetry_hosts: wuwahosts,
         extra: {

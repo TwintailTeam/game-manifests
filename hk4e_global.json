@@ -987,6 +987,7 @@
     }
   ],
   "paths": {
+    "audio_pkg_res_dir": "GenshinImpact_Data/StreamingAssets/AudioAssets",
     "exe_filename": "GenshinImpact.exe",
     "installation_dir": "Genshin Impact game",
     "screenshot_dir": "ScreenShot",

@@ -3514,18 +3514,6 @@
         ],
         "diff": [
           {
-            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/resource/50004/2.3.0/2.2.0/resources/2.2.0_2.3.0_1744875059501.krdiff",
-            "compressed_size": "7364329597",
-            "decompressed_size": "46372824698",
-            "file_hash": "",
-            "diff_type": "krdiff",
-            "original_version": "2.2.0",
-            "delete_files": [
-              "Client/Content/Paks/pakchunk48-WindowsNoEditor.pak",
-              "Client/Content/Paks/pakchunk48-WindowsNoEditor.sig"
-            ]
-          },
-          {
             "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/resource/50004/2.3.0/2.2.1/resources/2.2.1_2.3.0_1744870666216.krdiff",
             "compressed_size": "7363396513",
             "decompressed_size": "46372706302",
@@ -13627,6 +13615,7 @@
     }
   ],
   "paths": {
+    "audio_pkg_res_dir": "",
     "exe_filename": "Client/Binaries/Win64/Client-Win64-Shipping.exe",
     "installation_dir": "",
     "screenshot_dir": "",

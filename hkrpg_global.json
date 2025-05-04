@@ -12,7 +12,7 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/10/aa6ab8b02d80b90b84a4f025401d69d1_77985062351911935.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/02/937d4fe21d3726b17c549bc0edc71c54_1201223918862821359.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/28/783a872a85d67afc5b410b6ca0170f62_8665500266561837871.webp"
       },
       "index_file": "",
       "res_list_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/unzip",
@@ -507,6 +507,7 @@
     }
   ],
   "paths": {
+    "audio_pkg_res_dir": "StarRail_Data/Persistent/Audio/AudioPackage/Windows",
     "exe_filename": "StarRail.exe",
     "installation_dir": "Star Rail Games",
     "screenshot_dir": "StarRail_Data/ScreenShots",
@@ -514,7 +515,7 @@
   },
   "assets": {
     "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/10/aa6ab8b02d80b90b84a4f025401d69d1_77985062351911935.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/02/937d4fe21d3726b17c549bc0edc71c54_1201223918862821359.webp"
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/28/783a872a85d67afc5b410b6ca0170f62_8665500266561837871.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",

@@ -858,6 +858,7 @@
     }
   ],
   "paths": {
+    "audio_pkg_res_dir": "ZenlessZoneZero_Data/StreamingAssets/Audio",
     "exe_filename": "ZenlessZoneZero.exe",
     "installation_dir": "ZenlessZoneZero Game",
     "screenshot_dir": "ScreenShot",

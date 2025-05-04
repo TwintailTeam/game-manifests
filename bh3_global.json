@@ -2,8 +2,37 @@
   "version": 1,
   "display_name": "HonkaiImpact 3rd (Global)",
   "biz": "bh3_global",
-  "latest_version": "8.1.0",
+  "latest_version": "8.2.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "HonkaiImpact 3rd 8.2.0 (Global)",
+        "version": "8.2.0",
+        "game_hash": ""
+      },
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/191e60ee3ac5a1a8f24f33e70d9f9d20_3792928173421347370.webp"
+      },
+      "index_file": "",
+      "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250414111845_SWQxoBUDzQRBU3ef/extract",
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250414111845_SWQxoBUDzQRBU3ef/BH3_v8.2.0_c3167dbbfc15.7z",
+            "compressed_size": "22533366981",
+            "decompressed_size": "45077219722",
+            "file_hash": "9550565080f1d173dca6bf77d403569d",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "HonkaiImpact 3rd 8.1.0 (Global)",
@@ -64,14 +93,15 @@
     }
   ],
   "paths": {
+    "audio_pkg_res_dir": "",
     "exe_filename": "BH3.exe",
     "installation_dir": "Honkai Impact 3rd game",
     "screenshot_dir": "ScreenShot",
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {
-    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/11/a3ac1c18b27db7b6089e5402afff0823_83729248864785767.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/19/ad8e46ed2c6460e7904c9c850ecda82b_6843605318534850239.webp"
+    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/191e60ee3ac5a1a8f24f33e70d9f9d20_3792928173421347370.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",

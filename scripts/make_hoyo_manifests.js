@@ -39,7 +39,8 @@ async function queryHoyoPlayApis() {
             exe_filename: i.exe_file_name,
             installation_dir: i.installation_dir,
             screenshot_dir: i.game_screenshot_dir,
-            download_mode: i.default_download_mode
+            download_mode: i.default_download_mode,
+            audio_pkg_res_dir: i.audio_pkg_res_dir
         });
     });
 
@@ -122,7 +123,7 @@ async function generateManifest(gameBiz) {
                 biz: "hk4e_global",
                 latest_version: packages.game_version,
                 game_versions: gameversions,
-                paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
+                paths: {audio_pkg_res_dir: config.audio_pkg_res_dir, exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
                 telemetry_hosts: gihosts,
                 extra: {
@@ -168,7 +169,7 @@ async function generateManifest(gameBiz) {
                 biz: "hkrpg_global",
                 latest_version: packages.game_version,
                 game_versions: gameversions,
-                paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "data_dir"},
+                paths: {audio_pkg_res_dir: config.audio_pkg_res_dir, exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "data_dir"},
                 assets: assetcfg,
                 telemetry_hosts: hsrhosts,
                 extra: {
@@ -214,7 +215,7 @@ async function generateManifest(gameBiz) {
                 biz: "nap_global",
                 latest_version: packages.game_version,
                 game_versions: gameversions,
-                paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
+                paths: {audio_pkg_res_dir: config.audio_pkg_res_dir, exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
                 telemetry_hosts: zzzhosts,
                 extra: {
@@ -260,7 +261,7 @@ async function generateManifest(gameBiz) {
                 biz: "bh3_global",
                 latest_version: packages.game_version,
                 game_versions: gameversions,
-                paths: {exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
+                paths: {audio_pkg_res_dir: config.audio_pkg_res_dir, exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
                 assets: assetcfg,
                 telemetry_hosts: bhhosts,
                 extra: {
