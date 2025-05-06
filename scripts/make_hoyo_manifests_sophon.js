@@ -57,21 +57,6 @@ async function queryHoyoPlayApis() {
         });
     });
 
-    let gp = r.data.game_packages;
-    let pkgs = [];
-
-    gp.forEach((i) => {
-       pkgs.push({
-           game_biz: i.game.biz,
-           game_version: i.main.major.version,
-           full_game: i.main.major.game_pkgs,
-           full_audio: i.main.major.audio_pkgs,
-           res_list: i.main.major.res_list_url,
-           diffs: i.main.patches,
-           preload: i.pre_download
-       })
-    });
-
     let gb = r.data.game_branches;
     let br = [];
     gb.forEach((i) => {
@@ -84,7 +69,6 @@ async function queryHoyoPlayApis() {
     })
 
     return {
-        game_packages: pkgs,
         launch_configs: lce,
         branches: br,
         assets: bgs
