@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+message LDiffManifest {
+  repeated ManifestFile files = 1;
+}
+
+message ManifestFile {
+  string name = 1;
+  repeated FileChunk chunks = 2;
+  int32 type = 3;
+  int64 size = 4;
+  string md5 = 5;
+}
+
+message FileChunk {
+  string chunk_name = 1;
+  string chunk_decompressed_md5 = 2;
+  int64 chunk_on_file_offset = 3;
+  int64 chunk_size = 4;
+  int64 chunk_decompressed_size = 5;
+  int64 something = 6;
+  string chunk_md5 = 7;
+}
