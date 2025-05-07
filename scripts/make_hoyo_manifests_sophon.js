@@ -14,9 +14,9 @@ let hsrfps = ["120"];
 let zzzfps = ["120", "144", "165", "180", "240"];
 let bh3fps = ["120"];
 
-let gipath = `${__dirname}/generated_tests/hk4e_global.json`;
+let gipath = `${__dirname}/generated/hk4e_global.json`;
 let hsrpath = `${__dirname}/generated_tests/hkrpg_global.json`;
-let zzzpath = `${__dirname}/generated_tests/nap_global.json`;
+let zzzpath = `${__dirname}/generated/nap_global.json`;
 let bhpath = `${__dirname}/generated_tests/bh3_global.json`;
 
 async function queryHoyoPlayApis() {

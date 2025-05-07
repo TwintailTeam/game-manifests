@@ -2,8 +2,66 @@
   "version": 1,
   "display_name": "GenshinImpact (Global)",
   "biz": "hk4e_global",
-  "latest_version": "5.5.0",
+  "latest_version": "5.6.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "GenshinImpact 5.6.0 (Global)",
+        "version": "5.6.0",
+        "game_hash": ""
+      },
+      "assets": {
+        "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/06/3055cb93c584ec462569ad77e743c90c_8086066498259994361.webp"
+      },
+      "index_file": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0",
+      "res_list_url": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/q3h361jUEuu0",
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_6194a90dbfdae455_f2f91f7cf5f869009f4816d8489f66ca",
+            "compressed_size": "79976872197",
+            "decompressed_size": "82043878758",
+            "file_hash": "f2f91f7cf5f869009f4816d8489f66ca",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_fa8dc928000f7107_7637d81dc91dcbef3ee7673d38a2366c",
+            "compressed_size": "17031218133",
+            "decompressed_size": "18981328917",
+            "file_hash": "7637d81dc91dcbef3ee7673d38a2366c",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_a051fcb00ffd2801_28580ffe5eec0403ece42760eedf7845",
+            "compressed_size": "14427416944",
+            "decompressed_size": "16665577875",
+            "file_hash": "28580ffe5eec0403ece42760eedf7845",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_ca6057d20a260850_fce8310076eff284b2c3f8701e497f45",
+            "compressed_size": "14032845944",
+            "decompressed_size": "16446002370",
+            "file_hash": "fce8310076eff284b2c3f8701e497f45",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_c534564a3ba8c422_cdaf588e766eaef62b37270fb40dee96",
+            "compressed_size": "16773080444",
+            "decompressed_size": "21627518083",
+            "file_hash": "cdaf588e766eaef62b37270fb40dee96",
+            "language": "ja-jp"
+          }
+        ],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "GenshinImpact 5.5.0 (Global)",
@@ -995,7 +1053,7 @@
   },
   "assets": {
     "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/14/6cf23b7016c2c3ca0ce1e9aa94b5e1df_1077334777081981476.webp"
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/06/3055cb93c584ec462569ad77e743c90c_8086066498259994361.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
