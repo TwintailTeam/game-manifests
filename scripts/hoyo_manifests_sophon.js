@@ -311,6 +311,58 @@ async function formatPackages(packages) {
             language: en.matching_field
         });
 
+        packages.main.diff_tags.forEach(v => {
+            dg.push({
+                file_url: "",
+                compressed_size: "",
+                decompressed_size: "",
+                file_hash: "",
+                diff_type: "ldiff",
+                original_version: v,
+                delete_files: []
+            });
+
+            da.push({
+                file_url: "",
+                compressed_size: "",
+                decompressed_size: "",
+                file_hash: "",
+                diff_type: "ldiff",
+                original_version: v,
+                language: en.matching_field
+            });
+
+            da.push({
+                file_url: "",
+                compressed_size: "",
+                decompressed_size: "",
+                file_hash: "",
+                diff_type: "ldiff",
+                original_version: v,
+                language: cn.matching_field
+            });
+
+            da.push({
+                file_url: "",
+                compressed_size: "",
+                decompressed_size: "",
+                file_hash: "",
+                diff_type: "ldiff",
+                original_version: v,
+                language: kr.matching_field
+            });
+
+            da.push({
+                file_url: "",
+                compressed_size: "",
+                decompressed_size: "",
+                file_hash: "",
+                diff_type: "ldiff",
+                original_version: v,
+                language: jp.matching_field
+            });
+        });
+
         fa.push({
             file_url: `${cn.manifest_download.url_prefix}/${cn.manifest.id}`,
             compressed_size: `${cn.stats.compressed_size}`,
@@ -368,6 +420,58 @@ async function formatPreload(pkgs, name) {
                 file_hash: game.manifest.checksum,
                 file_path: ""
             });
+
+            pkgs.preload.diff_tags.forEach(v => {
+                pdg.push({
+                    file_url: "",
+                    compressed_size: "",
+                    decompressed_size: "",
+                    file_hash: "",
+                    diff_type: "ldiff",
+                    original_version: v,
+                    delete_files: []
+                });
+
+                pda.push({
+                    file_url: "",
+                    compressed_size: "",
+                    decompressed_size: "",
+                    file_hash: "",
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: en.matching_field
+                });
+
+                pda.push({
+                    file_url: "",
+                    compressed_size: "",
+                    decompressed_size: "",
+                    file_hash: "",
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: cn.matching_field
+                });
+
+                pda.push({
+                    file_url: "",
+                    compressed_size: "",
+                    decompressed_size: "",
+                    file_hash: "",
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: kr.matching_field
+                });
+
+                pda.push({
+                    file_url: "",
+                    compressed_size: "",
+                    decompressed_size: "",
+                    file_hash: "",
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: jp.matching_field
+                });
+            })
 
             pfa.push({
                 file_url: `${en.manifest_download.url_prefix}/${en.manifest.id}`,

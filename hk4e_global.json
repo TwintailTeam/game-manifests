@@ -13,7 +13,7 @@
       },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/06/3055cb93c584ec462569ad77e743c90c_8086066498259994361.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/06/c80e4476440f4aeba25c67675248218b_5191044370502067697.webp"
       },
       "index_file": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0",
       "res_list_url": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/q3h361jUEuu0",
@@ -27,7 +27,26 @@
             "file_path": ""
           }
         ],
-        "diff": []
+        "diff": [
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.5.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "delete_files": []
+          }
+        ]
       },
       "audio": {
         "full": [
@@ -60,7 +79,80 @@
             "language": "ja-jp"
           }
         ],
-        "diff": []
+        "diff": [
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.5.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.5.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.5.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.5.0",
+            "language": "ja-jp"
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "",
+            "compressed_size": "",
+            "decompressed_size": "",
+            "file_hash": "",
+            "diff_type": "ldiff",
+            "original_version": "5.4.0",
+            "language": "ja-jp"
+          }
+        ]
       }
     },
     {
@@ -1059,7 +1151,7 @@
   },
   "assets": {
     "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/06/3055cb93c584ec462569ad77e743c90c_8086066498259994361.webp"
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/06/c80e4476440f4aeba25c67675248218b_5191044370502067697.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
