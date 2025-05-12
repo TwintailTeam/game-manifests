@@ -108,7 +108,7 @@ async function generateWuwaManifest() {
 
     let final;
 
-    let metadatainfo = {versioned_name: `WutheringWaves ${index.current_version} (Global)`, version: index.current_version, game_hash: ""};
+    let metadatainfo = {versioned_name: `WutheringWaves ${index.current_version} (Global)`, version: index.current_version, download_mode: "DOWNLOAD_MODE_RAW", game_hash: ""};
     let versioninfo = {
         metadata: metadatainfo,
         assets: assetcfg,

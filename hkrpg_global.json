@@ -8,6 +8,7 @@
       "metadata": {
         "versioned_name": "Honkai: StarRail 3.2.0 (Global)",
         "version": "3.2.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": ""
       },
       "assets": {
@@ -169,6 +170,7 @@
       "metadata": {
         "versioned_name": "Honkai: StarRail 3.1.0 (Global)",
         "version": "3.1.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": ""
       },
       "assets": {
@@ -346,6 +348,7 @@
       "metadata": {
         "versioned_name": "Honkai: StarRail 2.6.0 (Global)",
         "version": "2.6.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": ""
       },
       "assets": {

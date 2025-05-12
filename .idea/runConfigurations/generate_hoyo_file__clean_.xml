@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="generate hoyo file [clean]" type="NodeJSConfigurationType" path-to-js-file="scripts/hoyo_manifests_file.js" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>

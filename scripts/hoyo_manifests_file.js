@@ -11,7 +11,7 @@ let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-uploa
 
 let gifps = ["120", "144", "165", "180", "240"];
 let hsrfps = ["120"];
-let zzzfps = ["120", "144", "165", "180", "240"];
+let zzzfps = ["120", "144"];
 let bh3fps = ["120"];
 
 let gipath = `${__dirname}/generated/hk4e_global.json`;
@@ -93,7 +93,7 @@ async function generateManifest(gameBiz) {
     let final = {};
     switch (gameBiz) {
         case "hk4e_global": {
-            let metadatainfo = {versioned_name: `GenshinImpact ${packages.game_version} (Global)`, version: packages.game_version, game_hash: ""};
+            let metadatainfo = {versioned_name: `GenshinImpact ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""};
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
@@ -139,7 +139,7 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "hkrpg_global": {
-            let metadatainfo = {versioned_name: `Honkai: StarRail ${packages.game_version} (Global)`, version: packages.game_version, game_hash: ""}
+            let metadatainfo = {versioned_name: `Honkai: StarRail ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""}
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
@@ -185,7 +185,7 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "nap_global": {
-            let metadatainfo = {versioned_name: `ZenlessZoneZero ${packages.game_version} (Global)`, version: packages.game_version, game_hash: ""}
+            let metadatainfo = {versioned_name: `ZenlessZoneZero ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""}
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
@@ -231,7 +231,7 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "bh3_global": {
-            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${packages.game_version} (Global)`, version: packages.game_version, game_hash: ""}
+            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""}
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,

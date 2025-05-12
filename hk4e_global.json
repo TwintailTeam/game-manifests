@@ -8,6 +8,7 @@
       "metadata": {
         "versioned_name": "GenshinImpact 5.6.0 (Global)",
         "version": "5.6.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
         "game_hash": ""
       },
       "assets": {
@@ -66,6 +67,7 @@
       "metadata": {
         "versioned_name": "GenshinImpact 5.5.0 (Global)",
         "version": "5.5.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": ""
       },
       "assets": {
@@ -265,6 +267,7 @@
       "metadata": {
         "versioned_name": "GenshinImpact 5.4.0 (Global)",
         "version": "5.4.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": ""
       },
       "assets": {
@@ -464,6 +467,7 @@
       "metadata": {
         "versioned_name": "GenshinImpact 5.3.0 (Global)",
         "version": "5.3.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": ""
       },
       "assets": {
@@ -663,6 +667,7 @@
       "metadata": {
         "versioned_name": "GenshinImpact 5.2.0 (Global)",
         "version": "5.2.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": ""
       },
       "assets": {
@@ -855,6 +860,7 @@
       "metadata": {
         "versioned_name": "GenshinImpact 5.1.0 (Global)",
         "version": "5.1.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": "786E0D41E13A517761FDD9299BF91E3B"
       },
       "assets": {

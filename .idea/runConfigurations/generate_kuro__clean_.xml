@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="generate kuro [clean]" type="NodeJSConfigurationType" path-to-js-file="scripts/make_kuro_manifests.js" working-dir="$PROJECT_DIR$">
+  <configuration default="false" name="generate kuro [clean]" type="NodeJSConfigurationType" path-to-js-file="scripts/kuro_manifests.js" working-dir="$PROJECT_DIR$">
     <method v="2" />
   </configuration>
 </component>
