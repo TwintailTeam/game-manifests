@@ -93,7 +93,7 @@ async function generateManifest(gameBiz) {
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: `${pkg.manifest_base}`,
+                index_file: `${pkg.chunk_base_diff}`,
                 res_list_url: `${pkg.chunk_base}`,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
@@ -185,7 +185,7 @@ async function generateManifest(gameBiz) {
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: `${pkg.manifest_base}`,
+                index_file: `${pkg.chunk_base_diff}`,
                 res_list_url: `${pkg.chunk_base}`,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
@@ -281,19 +281,30 @@ async function formatPackages(packages) {
     let rsp = await fetch(`${manifest}`);
     let r = await rsp.json();
 
+    let diff = `https://sg-public-api.hoyoverse.com/downloader/sophon_chunk/api/getPatchBuild?branch=${packages.main.branch}&package_id=${packages.main.package_id}&password=${packages.main.password}&plat_app=${packages.game_id}&tag=${packages.main.tag}`;
+    let rsp1 = await fetch(`${diff}`, {'method': 'POST'});
+    let r1 = await rsp1.json();
+
     let fg = [];
     let fa = [];
     let dg = [];
     let da = [];
 
-    if (r.retcode === 0) {
+    if (r.retcode === 0 && r1.retcode === 0) {
         let d = r.data;
+        let d1 = r1.data;
 
         let game = d.manifests.filter(e => e.matching_field === "game")[0];
         let en = d.manifests.filter(e => e.matching_field === "en-us")[0];
         let cn = d.manifests.filter(e => e.matching_field === "zh-cn")[0];
         let kr = d.manifests.filter(e => e.matching_field === "ko-kr")[0];
         let jp = d.manifests.filter(e => e.matching_field === "ja-jp")[0];
+
+        let gameDiff = d1.manifests.filter(e => e.matching_field === "game")[0];
+        let enDiff = d1.manifests.filter(e => e.matching_field === "en-us")[0];
+        let cnDiff = d1.manifests.filter(e => e.matching_field === "zh-cn")[0];
+        let krDiff = d1.manifests.filter(e => e.matching_field === "ko-kr")[0];
+        let jpDiff = d1.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
         fg.push({
             file_url: `${game.manifest_download.url_prefix}/${game.manifest.id}`,
@@ -313,53 +324,53 @@ async function formatPackages(packages) {
 
         packages.main.diff_tags.forEach(v => {
             dg.push({
-                file_url: "",
-                compressed_size: "",
-                decompressed_size: "",
-                file_hash: "",
+                file_url: `${gameDiff.manifest_download.url_prefix}/${gameDiff.manifest.id}`,
+                compressed_size: `${gameDiff.stats[v].compressed_size}`,
+                decompressed_size: `${gameDiff.stats[v].uncompressed_size}`,
+                file_hash: `${gameDiff.manifest.checksum}`,
                 diff_type: "ldiff",
                 original_version: v,
                 delete_files: []
             });
 
             da.push({
-                file_url: "",
-                compressed_size: "",
-                decompressed_size: "",
-                file_hash: "",
+                file_url: `${enDiff.manifest_download.url_prefix}/${enDiff.manifest.id}`,
+                compressed_size: `${enDiff.stats[v].compressed_size}`,
+                decompressed_size: `${enDiff.stats[v].uncompressed_size}`,
+                file_hash: `${enDiff.manifest.checksum}`,
                 diff_type: "ldiff",
                 original_version: v,
-                language: en.matching_field
+                language: enDiff.matching_field
             });
 
             da.push({
-                file_url: "",
-                compressed_size: "",
-                decompressed_size: "",
-                file_hash: "",
+                file_url: `${cnDiff.manifest_download.url_prefix}/${cnDiff.manifest.id}`,
+                compressed_size: `${cnDiff.stats[v].compressed_size}`,
+                decompressed_size: `${cnDiff.stats[v].uncompressed_size}`,
+                file_hash: `${cnDiff.manifest.checksum}`,
                 diff_type: "ldiff",
                 original_version: v,
-                language: cn.matching_field
+                language: cnDiff.matching_field
             });
 
             da.push({
-                file_url: "",
-                compressed_size: "",
-                decompressed_size: "",
-                file_hash: "",
+                file_url: `${krDiff.manifest_download.url_prefix}/${krDiff.manifest.id}`,
+                compressed_size: `${krDiff.stats[v].compressed_size}`,
+                decompressed_size: `${krDiff.stats[v].uncompressed_size}`,
+                file_hash: `${krDiff.manifest.checksum}`,
                 diff_type: "ldiff",
                 original_version: v,
-                language: kr.matching_field
+                language: krDiff.matching_field
             });
 
             da.push({
-                file_url: "",
-                compressed_size: "",
-                decompressed_size: "",
-                file_hash: "",
+                file_url: `${jpDiff.manifest_download.url_prefix}/${jpDiff.manifest.id}`,
+                compressed_size: `${jpDiff.stats[v].compressed_size}`,
+                decompressed_size: `${jpDiff.stats[v].uncompressed_size}`,
+                file_hash: `${jpDiff.manifest.checksum}`,
                 diff_type: "ldiff",
                 original_version: v,
-                language: jp.matching_field
+                language: jpDiff.matching_field
             });
         });
 
@@ -387,7 +398,7 @@ async function formatPackages(packages) {
             language: jp.matching_field
         });
 
-        return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da, manifest_base: game.manifest_download.url_prefix, chunk_base: game.chunk_download.url_prefix};
+        return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da, chunk_base_diff: gameDiff.diff_download.url_prefix, chunk_base: game.chunk_download.url_prefix};
     }
 }
 
