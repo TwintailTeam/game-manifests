@@ -108,12 +108,20 @@ async function generateWuwaManifest() {
 
     let final;
 
-    let metadatainfo = {versioned_name: `WutheringWaves ${index.current_version} (Global)`, version: index.current_version, download_mode: "DOWNLOAD_MODE_RAW", game_hash: ""};
+    let metadatainfo = {versioned_name: `WutheringWaves ${index.current_version} (Global)`, version: index.current_version, download_mode: "DOWNLOAD_MODE_RAW", game_hash: "",
+        index_file: `${index.latest_index_file}`,
+        res_list_url: `${index.latest_resource_base}`,
+        diff_list_url: {
+            game: "",
+            en_us: "",
+            zh_cn: "",
+            ja_jp: "",
+            ko_kr: "",
+        }
+    };
     let versioninfo = {
         metadata: metadatainfo,
         assets: assetcfg,
-        index_file: index.latest_index_file,
-        res_list_url: index.latest_resource_base,
         game: {full: pkg.full_game, diff: pkg.diff_game},
         audio: {full: pkg.full_audio, diff: pkg.diff_audio}
     };
@@ -282,13 +290,21 @@ async function formatPreload(pkgs, name) {
         let pmetadatainfo = {
             versioned_name: `${name} ${pkgs.version} Preload (Global)`,
             version: pkgs.version,
+            download_mode: "DOWNLOAD_MODE_RAW",
             game_hash: "",
+            index_file: `${pkgs.index_file}`,
+            res_list_url: `${pkgs.resource_base}`,
+            diff_list_url: {
+                game: "",
+                en_us: "",
+                zh_cn: "",
+                ja_jp: "",
+                ko_kr: "",
+            }
         }
 
         preloaddata = {
             metadata: pmetadatainfo,
-            index_file: pkgs.index_file,
-            res_list_url: pkgs.resource_base,
             game: {full: pfg, diff: pdg},
             audio: {full: pfa, diff: pda}
         }

@@ -9,14 +9,21 @@
         "versioned_name": "HonkaiImpact 3rd 8.2.0 (Global)",
         "version": "8.2.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250414111845_SWQxoBUDzQRBU3ef/extract",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/191e60ee3ac5a1a8f24f33e70d9f9d20_3792928173421347370.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250414111845_SWQxoBUDzQRBU3ef/extract",
       "game": {
         "full": [
           {
@@ -39,14 +46,21 @@
         "versioned_name": "HonkaiImpact 3rd 8.1.0 (Global)",
         "version": "8.1.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250212161705_FIhPvnuTkcsYmrkg/extract",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/11/a3ac1c18b27db7b6089e5402afff0823_83729248864785767.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/19/ad8e46ed2c6460e7904c9c850ecda82b_6843605318534850239.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250212161705_FIhPvnuTkcsYmrkg/extract",
       "game": {
         "full": [
           {
@@ -69,14 +83,21 @@
         "versioned_name": "HonkaiImpact 3rd 7.8.0 (Global)",
         "version": "7.8.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20241009182513_BZHfnylEXeAq2hDU/extract",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/13/1aa568b2f1d93bf5e9ed30fefb4b7de7_2138801250860115276.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20241009182513_BZHfnylEXeAq2hDU/extract",
       "game": {
         "full": [
           {

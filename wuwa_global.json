@@ -9,14 +9,21 @@
         "versioned_name": "WutheringWaves 2.3.0 (Global)",
         "version": "2.3.0",
         "download_mode": "DOWNLOAD_MODE_RAW",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/resource/50004/2.3.0/indexFile.json",
+        "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
         "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/PKA11G5EU7MP3PCE.webp"
       },
-      "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/resource/50004/2.3.0/indexFile.json",
-      "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/zip",
       "game": {
         "full": [
           {
@@ -3550,14 +3557,21 @@
         "versioned_name": "WutheringWaves 2.2.1 (Global)",
         "version": "2.2.1",
         "download_mode": "DOWNLOAD_MODE_RAW",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.1/jtXpViyIFgkkhKwyeqWwjoZhEBuXONiu/resource/50004/2.2.1/indexFile.json",
+        "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.1/jtXpViyIFgkkhKwyeqWwjoZhEBuXONiu/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
         "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/DIZ76GM4JZMFDPZC.webp"
       },
-      "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.1/jtXpViyIFgkkhKwyeqWwjoZhEBuXONiu/resource/50004/2.2.1/indexFile.json",
-      "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.1/jtXpViyIFgkkhKwyeqWwjoZhEBuXONiu/zip",
       "game": {
         "full": [
           {
@@ -6997,14 +7011,21 @@
         "versioned_name": "WutheringWaves 2.2.0 (Global)",
         "version": "2.2.0",
         "download_mode": "DOWNLOAD_MODE_RAW",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.0/onnOqcAkPIKgfEoFdwJcgRzLRNLohWAm/resource/50004/2.2.0/indexFile.json",
+        "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.0/onnOqcAkPIKgfEoFdwJcgRzLRNLohWAm/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
         "game_background": "https://prod-alicdn-gamestarter.kurogame.com/launcher/clientUpload/TBFWMB225ZRJ5FVC.webp"
       },
-      "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.0/onnOqcAkPIKgfEoFdwJcgRzLRNLohWAm/resource/50004/2.2.0/indexFile.json",
-      "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.2.0/onnOqcAkPIKgfEoFdwJcgRzLRNLohWAm/zip",
       "game": {
         "full": [
           {
@@ -10346,14 +10367,21 @@
         "versioned_name": "WutheringWaves 2.1.1 (Global)",
         "version": "2.1.1",
         "download_mode": "DOWNLOAD_MODE_RAW",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.1.1/ooKBiAWCkNOYMZhWztyTOUqgzetlOgqj/resource/50004/2.1.1/indexFile.json",
+        "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.1.1/ooKBiAWCkNOYMZhWztyTOUqgzetlOgqj/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
         "game_background": "https://prod-alicdn-gamestarter.kurogame.com/launcher/clientUpload/TQINLTNU7BCH3HE9.webp"
       },
-      "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.1.1/ooKBiAWCkNOYMZhWztyTOUqgzetlOgqj/resource/50004/2.1.1/indexFile.json",
-      "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/2.1.1/ooKBiAWCkNOYMZhWztyTOUqgzetlOgqj/zip",
       "game": {
         "full": [
           {

@@ -93,12 +93,20 @@ async function generateManifest(gameBiz) {
     let final = {};
     switch (gameBiz) {
         case "hk4e_global": {
-            let metadatainfo = {versioned_name: `GenshinImpact ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""};
+            let metadatainfo = {versioned_name: `GenshinImpact ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${packages.res_list}`,
+                diff_list_url: {
+                    game: "",
+                    en_us: "",
+                    zh_cn: "",
+                    ja_jp: "",
+                    ko_kr: "",
+                }
+            };
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: "",
-                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -139,12 +147,20 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "hkrpg_global": {
-            let metadatainfo = {versioned_name: `Honkai: StarRail ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""}
+            let metadatainfo = {versioned_name: `Honkai: StarRail ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${packages.res_list}`,
+                diff_list_url: {
+                    game: "",
+                    en_us: "",
+                    zh_cn: "",
+                    ja_jp: "",
+                    ko_kr: "",
+                }
+            }
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: "",
-                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -185,12 +201,20 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "nap_global": {
-            let metadatainfo = {versioned_name: `ZenlessZoneZero ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""}
+            let metadatainfo = {versioned_name: `ZenlessZoneZero ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${packages.res_list}`,
+                diff_list_url: {
+                    game: "",
+                    en_us: "",
+                    zh_cn: "",
+                    ja_jp: "",
+                    ko_kr: "",
+                }
+            }
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: "",
-                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -231,12 +255,20 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "bh3_global": {
-            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: ""}
+            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${packages.game_version} (Global)`, version: packages.game_version, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${packages.res_list}`,
+                diff_list_url: {
+                    game: "",
+                    en_us: "",
+                    zh_cn: "",
+                    ja_jp: "",
+                    ko_kr: "",
+                }
+            }
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: "",
-                res_list_url: packages.res_list,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -396,12 +428,19 @@ function formatPreload(pkgs, name) {
             versioned_name: `${name} ${pkgs.preload.major.version} Preload (Global)`,
             version: pkgs.preload.major.version,
             game_hash: "",
+            index_file: "",
+            res_list_url: `${pkgs.preload.major.res_list_url}`,
+            diff_list_url: {
+                game: "",
+                en_us: "",
+                zh_cn: "",
+                ja_jp: "",
+                ko_kr: "",
+            }
         }
 
         preloaddata = {
             metadata: pmetadatainfo,
-            index_file: "",
-            res_list_url: pkgs.preload.major.res_list_url,
             game: {full: pfg, diff: pdg},
             audio: {full: pfa, diff: pda}
         }

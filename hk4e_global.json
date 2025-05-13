@@ -9,14 +9,21 @@
         "versioned_name": "GenshinImpact 5.6.0 (Global)",
         "version": "5.6.0",
         "download_mode": "DOWNLOAD_MODE_CHUNK",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/q3h361jUEuu0",
+        "diff_list_url": {
+          "game": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/SHvGg74waz43/10016",
+          "en_us": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/SHvGg74waz43/10018",
+          "zh_cn": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/SHvGg74waz43/10017",
+          "ja_jp": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/SHvGg74waz43/10020",
+          "ko_kr": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/SHvGg74waz43/10019"
+        }
       },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/06/c80e4476440f4aeba25c67675248218b_5191044370502067697.webp"
       },
-      "index_file": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/SHvGg74waz43/10016",
-      "res_list_url": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/q3h361jUEuu0",
       "game": {
         "full": [
           {
@@ -160,14 +167,21 @@
         "versioned_name": "GenshinImpact 5.5.0 (Global)",
         "version": "5.5.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/ScatteredFiles",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/14/6cf23b7016c2c3ca0ce1e9aa94b5e1df_1077334777081981476.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/ScatteredFiles",
       "game": {
         "full": [
           {
@@ -360,14 +374,21 @@
         "versioned_name": "GenshinImpact 5.4.0 (Global)",
         "version": "5.4.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/ScatteredFiles",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/03/2d12b4a8453dadbe4dd07dfb594729f3_3130860216371403026.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/ScatteredFiles",
       "game": {
         "full": [
           {
@@ -560,14 +581,21 @@
         "versioned_name": "GenshinImpact 5.3.0 (Global)",
         "version": "5.3.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/ScatteredFiles",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
         "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/03/2d12b4a8453dadbe4dd07dfb594729f3_3130860216371403026.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/ScatteredFiles",
       "game": {
         "full": [
           {
@@ -760,14 +788,21 @@
         "versioned_name": "GenshinImpact 5.2.0 (Global)",
         "version": "5.2.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": ""
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/ScatteredFiles",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
         "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/11/11/9db92a5dba5e455caa5ed0699fc92168_4296077305930344420.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/ScatteredFiles",
       "game": {
         "full": [
           {
@@ -953,14 +988,21 @@
         "versioned_name": "GenshinImpact 5.1.0 (Global)",
         "version": "5.1.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": "786E0D41E13A517761FDD9299BF91E3B"
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/ScatteredFiles",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
       },
       "assets": {
         "game_icon": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/30/2e81b12276a2260c10133124e6ead00e_127960437642481968.png",
         "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2024/09/27/1791451c6bd8d9e8d42baca4464ccbb2_189747566222151851.webp"
       },
-      "index_file": "",
-      "res_list_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/ScatteredFiles",
       "game": {
         "full": [
           {

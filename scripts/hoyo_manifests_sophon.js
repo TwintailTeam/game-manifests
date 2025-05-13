@@ -89,12 +89,20 @@ async function generateManifest(gameBiz) {
     let final = {};
     switch (gameBiz) {
         case "hk4e_global": {
-            let metadatainfo = {versioned_name: `GenshinImpact ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: ""};
+            let metadatainfo = {versioned_name: `GenshinImpact ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${pkg.chunk_base}`,
+                diff_list_url: {
+                    game: `${pkg.game_diff}`,
+                    en_us: `${pkg.en_diff}`,
+                    zh_cn: `${pkg.cn_diff}`,
+                    ja_jp: `${pkg.jp_diff}`,
+                    ko_kr: `${pkg.kr_diff}`,
+                }
+            };
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: `${pkg.chunk_base_diff}`,
-                res_list_url: `${pkg.chunk_base}`,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -135,12 +143,20 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "hkrpg_global": {
-            let metadatainfo = {versioned_name: `Honkai: StarRail ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: ""}
+            let metadatainfo = {versioned_name: `Honkai: StarRail ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: "",
+                diff_list_url: {
+                    game: "",
+                    en_us: "",
+                    zh_cn: "",
+                    ja_jp: "",
+                    ko_kr: "",
+                }
+            }
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: "",
-                res_list_url: "",
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -181,12 +197,20 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "nap_global": {
-            let metadatainfo = {versioned_name: `ZenlessZoneZero ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: ""}
+            let metadatainfo = {versioned_name: `ZenlessZoneZero ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${pkg.chunk_base}`,
+                diff_list_url: {
+                    game: `${pkg.game_diff}`,
+                    en_us: `${pkg.en_diff}`,
+                    zh_cn: `${pkg.cn_diff}`,
+                    ja_jp: `${pkg.jp_diff}`,
+                    ko_kr: `${pkg.kr_diff}`,
+                }
+            }
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: `${pkg.chunk_base_diff}`,
-                res_list_url: `${pkg.chunk_base}`,
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -227,12 +251,20 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "bh3_global": {
-            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: ""}
+            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: "",
+                diff_list_url: {
+                    game: "",
+                    en_us: "",
+                    zh_cn: "",
+                    ja_jp: "",
+                    ko_kr: ""
+                }
+            }
             let versioninfo = {
                 metadata: metadatainfo,
                 assets: assetcfg,
-                index_file: "",
-                res_list_url: "",
                 game: {full: pkg.full_game, diff: pkg.diff_game},
                 audio: {full: pkg.full_audio, diff: pkg.diff_audio}
             };
@@ -399,7 +431,14 @@ async function formatPackages(packages) {
             language: jp.matching_field
         });
 
-        return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da, chunk_base_diff: gameDiff.diff_download.url_prefix, chunk_base: game.chunk_download.url_prefix};
+        return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da,
+            game_diff: gameDiff.diff_download.url_prefix,
+            en_diff: enDiff.diff_download.url_prefix,
+            cn_diff: cnDiff.diff_download.url_prefix,
+            jp_diff: jpDiff.diff_download.url_prefix,
+            kr_diff: krDiff.diff_download.url_prefix,
+            chunk_base: game.chunk_download.url_prefix
+        };
     }
 }
 
@@ -532,13 +571,21 @@ async function formatPreload(pkgs, name) {
             let pmetadatainfo = {
                 versioned_name: `${name} ${pkgs.preload.tag} Preload (Global)`,
                 version: pkgs.preload.tag,
+                download_mode: "DOWNLOAD_MODE_CHUNK",
                 game_hash: "",
+                index_file: "",
+                res_list_url: `${game.chunk_download.url_prefix}`,
+                diff_list_url: {
+                    game: `${gameDiff.diff_download.url_prefix}`,
+                    en_us: `${enDiff.diff_download.url_prefix}`,
+                    zh_cn: `${cnDiff.diff_download.url_prefix}`,
+                    ja_jp: `${jpDiff.diff_download.url_prefix}`,
+                    ko_kr: `${krDiff.diff_download.url_prefix}`
+                }
             }
 
             preloaddata = {
                 metadata: pmetadatainfo,
-                index_file: `${gameDiff.diff_download.url_prefix}`,
-                res_list_url: `${game.chunk_download.url_prefix}`,
                 game: {full: pfg, diff: pdg},
                 audio: {full: pfa, diff: pda}
             }
