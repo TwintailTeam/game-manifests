@@ -1,6 +1,6 @@
 {
   "name": "Official game manifests",
-  "description": "Set of manifests for officially supported games on KeqingLauncher.",
+  "description": "Set of manifests for officially supported games on TwintailLauncher.",
   "maintainers": ["TukanDev"],
   "manifests": [
     "hk4e_global.json",

@@ -1,5 +1,5 @@
 # game-manifests
-Official game manifests for KeqingLauncher.
+Official game manifests for TwintailLauncher.
 
 > [!WARNING]  
 > Honkai: StarRail is missing versions between 3.1.0 and 2.6.0, including any older versions before 2.6.0.<br>
