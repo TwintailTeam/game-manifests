@@ -145,13 +145,13 @@ async function generateManifest(gameBiz) {
         case "hkrpg_global": {
             let metadatainfo = {versioned_name: `Honkai: StarRail ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
                 index_file: "",
-                res_list_url: "",
+                res_list_url: `${pkg.chunk_base}`,
                 diff_list_url: {
-                    game: "",
-                    en_us: "",
-                    zh_cn: "",
-                    ja_jp: "",
-                    ko_kr: "",
+                    game: `${pkg.game_diff}`,
+                    en_us: `${pkg.en_diff}`,
+                    zh_cn: `${pkg.cn_diff}`,
+                    ja_jp: `${pkg.jp_diff}`,
+                    ko_kr: `${pkg.kr_diff}`,
                 }
             }
             let versioninfo = {
@@ -596,6 +596,6 @@ async function formatPreload(pkgs, name) {
 }
 
 generateManifest("hk4e_global").then(r => writeFileSync(gipath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-//generateManifest("hkrpg_global").then(r => writeFileSync(hsrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("hkrpg_global").then(r => writeFileSync(hsrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
 generateManifest("nap_global").then(r => writeFileSync(zzzpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
 //generateManifest("bh3_global").then(r => writeFileSync(bhpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
