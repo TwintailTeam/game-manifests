@@ -15,7 +15,7 @@ let zzzfps = ["120", "144"];
 let bh3fps = ["120"];
 
 let gipath = `${__dirname}/generated/hk4e_global.json`;
-let hsrpath = `${__dirname}/generated_tests/hkrpg_global.json`;
+let hsrpath = `${__dirname}/generated/hkrpg_global.json`;
 let zzzpath = `${__dirname}/generated/nap_global.json`;
 let bhpath = `${__dirname}/generated_tests/bh3_global.json`;
 

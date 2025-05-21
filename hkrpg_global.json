@@ -2,8 +2,121 @@
   "version": 1,
   "display_name": "Honkai: StarRail (Global)",
   "biz": "hkrpg_global",
-  "latest_version": "3.2.0",
+  "latest_version": "3.3.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "Honkai: StarRail 3.3.0 (Global)",
+        "version": "3.3.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/25ga9gZK5bwT",
+        "diff_list_url": {
+          "game": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/33VzGKhkZ5ME/10049",
+          "en_us": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/33VzGKhkZ5ME/10051",
+          "zh_cn": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/33VzGKhkZ5ME/10050",
+          "ja_jp": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/33VzGKhkZ5ME/10052",
+          "ko_kr": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/33VzGKhkZ5ME/10053"
+        }
+      },
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/39992ccaeef09cedf09009d8901a81d2_8434970837720070439.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/19/fff62011ae9ecdd4a393f24e996c6236_3562986745192074965.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/25ga9gZK5bwT/manifest_0f703fcc8d4d71bc_0eac2afd0d70c91f33f69a8a30fd8059",
+            "compressed_size": "53438823935",
+            "decompressed_size": "54641768481",
+            "file_hash": "0eac2afd0d70c91f33f69a8a30fd8059",
+            "file_path": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/33VzGKhkZ5ME/manifest_43492fb6cdccf6b9_9d4e6258ad95b8e22966363d14d41a26",
+            "compressed_size": "10474255748",
+            "decompressed_size": "10474255748",
+            "file_hash": "9d4e6258ad95b8e22966363d14d41a26",
+            "diff_type": "ldiff",
+            "original_version": "3.2.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/25ga9gZK5bwT/manifest_4c618ec070f61db6_e3f22523d1db5c5829a730c06cd61557",
+            "compressed_size": "9366350179",
+            "decompressed_size": "9434126680",
+            "file_hash": "e3f22523d1db5c5829a730c06cd61557",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/25ga9gZK5bwT/manifest_50703db4f7324234_3014638f35c86353823a0de0f0b3a457",
+            "compressed_size": "8129103759",
+            "decompressed_size": "8139719050",
+            "file_hash": "3014638f35c86353823a0de0f0b3a457",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/25ga9gZK5bwT/manifest_e44593e129c62590_c08d3bbcd7c627176600441b223e21f9",
+            "compressed_size": "8050555128",
+            "decompressed_size": "8196414110",
+            "file_hash": "c08d3bbcd7c627176600441b223e21f9",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/25ga9gZK5bwT/manifest_9fe4b7b3c19e8597_c48f6b3f169e69a3ead0b125c73cdc57",
+            "compressed_size": "10045486525",
+            "decompressed_size": "10156683192",
+            "file_hash": "c48f6b3f169e69a3ead0b125c73cdc57",
+            "language": "ja-jp"
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/33VzGKhkZ5ME/manifest_afa4b6ab36ba193f_d81f9ef2cc6331b9c30506207d5e2023",
+            "compressed_size": "608477619",
+            "decompressed_size": "608477619",
+            "file_hash": "d81f9ef2cc6331b9c30506207d5e2023",
+            "diff_type": "ldiff",
+            "original_version": "3.2.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/33VzGKhkZ5ME/manifest_4e37840afbfe0ef0_4d5100520339ee7ed6c9881e120c848f",
+            "compressed_size": "521942283",
+            "decompressed_size": "521942283",
+            "file_hash": "4d5100520339ee7ed6c9881e120c848f",
+            "diff_type": "ldiff",
+            "original_version": "3.2.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/33VzGKhkZ5ME/manifest_126864c5de3f2fb3_9a4452340f84bb9faff86da039d14d13",
+            "compressed_size": "531440247",
+            "decompressed_size": "531440247",
+            "file_hash": "9a4452340f84bb9faff86da039d14d13",
+            "diff_type": "ldiff",
+            "original_version": "3.2.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/33VzGKhkZ5ME/manifest_96ff8bc56da50b9c_c961712169c605c4932f9b3e054254c0",
+            "compressed_size": "632211366",
+            "decompressed_size": "632211366",
+            "file_hash": "c961712169c605c4932f9b3e054254c0",
+            "diff_type": "ldiff",
+            "original_version": "3.2.0",
+            "language": "ja-jp"
+          }
+        ]
+      }
+    },
     {
       "metadata": {
         "versioned_name": "Honkai: StarRail 3.2.0 (Global)",
@@ -538,8 +651,8 @@
     "screenshot_dir_relative_to": "data_dir"
   },
   "assets": {
-    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/03/10/aa6ab8b02d80b90b84a4f025401d69d1_77985062351911935.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/28/783a872a85d67afc5b410b6ca0170f62_8665500266561837871.webp"
+    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/39992ccaeef09cedf09009d8901a81d2_8434970837720070439.png",
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/05/19/fff62011ae9ecdd4a393f24e996c6236_3562986745192074965.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
