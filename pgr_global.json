@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "display_name": "PunishingGrayRaven (Global)",
+  "biz": "pgr_global",
+  "latest_version": "3.1.0.0",
+  "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "PunishingGrayRaven 3.1.0.0 (Global)",
+        "version": "3.1.0.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://zspms-alicdn-gamestarter.kurogame.net/pcstarter/prod/game/G143/3.1.0.0/veNkEIbQIxPpTxlZvL1M9blBd3UmcUXh/resource.json",
+        "res_list_url": "https://zspms-alicdn-gamestarter.kurogame.net/pcstarter/prod/game/G143/3.1.0.0/veNkEIbQIxPpTxlZvL1M9blBd3UmcUXh/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
+        "game_background": "https://prod-alicdn-gamestarter.kurogame.com/pcstarter/news/slide-picture/UGSLYDVHIZ6VDM4L.jpg"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/pcstarter/prod/game/G143/3.1.0.0/veNkEIbQIxPpTxlZvL1M9blBd3UmcUXh/resource.json",
+            "compressed_size": "38435322351",
+            "decompressed_size": "38435322351",
+            "file_hash": "",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
+  ],
+  "paths": {
+    "audio_pkg_res_dir": "",
+    "exe_filename": "PGR.exe",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": "game_dir"
+  },
+  "assets": {
+    "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
+    "game_background": "https://prod-alicdn-gamestarter.kurogame.com/pcstarter/news/slide-picture/UGSLYDVHIZ6VDM4L.jpg"
+  },
+  "telemetry_hosts": [],
+  "extra": {
+    "fps_unlock_options": [
+      "120"
+    ],
+    "switches": {
+      "fps_unlocker": false,
+      "jadeite": false,
+      "xxmi": false
+    },
+    "preload": {}
+  }
+}
