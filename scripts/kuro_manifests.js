@@ -10,7 +10,7 @@ let INDEX = {
 };
 
 let wuwahosts = ["pc.crashsight.wetest.net", "sentry.aki.kuro.com"];
-let wuwapath = `${__dirname}/generated/wuwa_global.json`;
+let wuwapath = `${__dirname}/generated_tests/wuwa_global.json`;
 let wuwafps = ["120"];
 
 async function queryWuwaIndex() {
@@ -26,45 +26,9 @@ async function queryWuwaIndex() {
     if (rsp2.status !== 200) return null;
     let r2 = await rsp2.json();
 
-    let rsp3 = await fetch(`${CDN_BASE}/${r.default.resources}`);
-    if (rsp3.status !== 200) return null;
-    let r3 = await rsp3.json();
-
-    let fullgame = []
-    let ptchs = []
-
-    r3.resource.forEach((resource) => {
-        fullgame.push({dest: `${resource.dest}`, url: `${CDN_BASE}/${r.default.resourcesBasePath}/${resource.dest}`, md5: resource.md5, sampleMd5: resource.sampleHash, size: resource.size});
-    });
-
-    r.default.config.patchConfig.forEach((config) => {
-        if (config.version < "2.1.0") return;
-        config["indexFile"] = `${CDN_BASE}/${config.indexFile}`;
-        config["baseUrl"] = `${CDN_BASE}/${config.baseUrl}`;
-        ptchs.push(config);
-    });
-
     let preload = {};
 
-    let fullgamepreload = []
-    let ptchspreload = []
-
     if (r.hasOwnProperty("predownload")) {
-        let rsp4 = await fetch(`${CDN_BASE}/${r.predownload.resources}`);
-        if (rsp4.status !== 200) return null;
-        let r4 = await rsp4.json();
-
-        r4.resource.forEach((resource) => {
-            fullgamepreload.push({dest: `${resource.dest}`, url: `${CDN_BASE}/${r.predownload.resourcesBasePath}/${resource.dest}`, md5: resource.md5, sampleMd5: resource.sampleHash, size: resource.size});
-        });
-
-        r.predownload.config.patchConfig.forEach((config) => {
-            if (config.version < "2.1.0") return;
-            config["indexFile"] = `${CDN_BASE}/${config.indexFile}`;
-            config["baseUrl"] = `${CDN_BASE}/${config.baseUrl}`;
-            ptchspreload.push(config);
-        });
-
         preload = {
             resource_base: `${CDN_BASE}/${r.predownload.resourcesBasePath}`,
             resources_list: `${CDN_BASE}/${r.predownload.resources}`,
@@ -73,10 +37,7 @@ async function queryWuwaIndex() {
             current_version: r.predownload.resourcesDiff.currentGameInfo.version,
             index_file: `${CDN_BASE}/${r.predownload.config.indexFile}`,
             version_size: {compressed_size: r.predownload.config.size, decompressed_size: r.predownload.config.unCompressSize},
-            patches: {
-                diffs: ptchspreload,
-                full: fullgamepreload,
-            },
+            patch_config: r.predownload.config.patchConfig
         };
     }
 
@@ -91,10 +52,7 @@ async function queryWuwaIndex() {
         exe_file: r.keyFileCheckList[0],
         latest_index_file: `${CDN_BASE}/${r.default.config.indexFile}`,
         latest_version_size: {compressed_size: r.default.config.size, decompressed_size: r.default.config.unCompressSize},
-        patches: {
-            diffs: ptchs,
-            full: fullgame,
-        },
+        patch_config: r.default.config.patchConfig,
         preload: preload
     }
 }
@@ -104,7 +62,7 @@ async function generateWuwaManifest() {
     if (index === null) return null;
 
     let assetcfg = {game_icon: index.icon_url, game_background: index.background_url}
-    let pkg = await formatPackages(index.patches);
+    let pkg = await formatWuwaPackages(index.latest_index_file, index.latest_version_size, index.patch_config);
 
     let final;
 
@@ -156,136 +114,71 @@ async function generateWuwaManifest() {
                 jadeite: true,
                 xxmi: true
             },
-            preload: await formatPreload(index.preload, "WutheringWaves")
+            preload: await formatWuwaPreload(index.preload, "WutheringWaves")
         }
     };
 
     return final;
 }
 
-async function formatPackages(packages) {
+async function formatWuwaPackages(manifest, sizes, patches) {
     let fg = [];
-    packages.full.forEach(e => {
-        return fg.push({
-            file_url: e.url,
-            compressed_size: "",
-            decompressed_size: `${e.size}`,
-            file_hash: e.md5,
-            file_path: e.dest
-        });
+    let fa = [];
+    let dg = [];
+    let da = [];
+
+    fg.push({
+        file_url: `${manifest}`,
+        compressed_size: `${sizes.compressed_size}`,
+        decompressed_size: `${sizes.decompressed_size}`,
+        file_hash: "",
+        file_path: ""
     });
 
-    let fa = [];
-    /*packages.full_audio.forEach(e => {
-        return fa.push({
-            file_url: e.url,
-            compressed_size: e.size,
-            decompressed_size: e.decompressed_size,
-            file_hash: e.md5,
-            language: e.language
+    patches.forEach(e => {
+        let index = (e.version > "2.0.2") ? `${CDN_BASE}/${e.indexFile}` : `${CDN_BASE}/${e.indexFile}`;
+        return dg.push({
+            file_url: index,
+            compressed_size: `${e.size}`,
+            decompressed_size: `${e.unCompressSize}`,
+            file_hash: "",
+            diff_type: "krdiff",
+            original_version: e.version,
+            delete_files: []
         });
-    });*/
-
-    let dg = [];
-    await Promise.all(packages.diffs.map(async e => {
-        const response = await fetch(`${e.indexFile}`);
-        if (response.status !== 200) return;
-        const data = await response.json();
-
-        if (data.hasOwnProperty("patchInfos")) {
-            data.patchInfos.forEach(e2 => {
-                return dg.push({
-                    file_url: `${e.baseUrl}${e2.dest}`,
-                    compressed_size: `${e.size}`,
-                    decompressed_size: `${e.unCompressSize}`,
-                    file_hash: "",
-                    diff_type: "krdiff",
-                    original_version: e.version,
-                    delete_files: data.deleteFiles
-                });
-            });
-        } else {
-            dg = [];
-        }
-    }));
-
-    let da = [];
-    /*packages.diffs.forEach(e => {
-        e.audio_pkgs.forEach(e2 => {
-            return da.push({
-                file_url: e2.url,
-                compressed_size: e2.size,
-                decompressed_size: e2.decompressed_size,
-                file_hash: e2.md5,
-                diff_type: "ldiff",
-                original_version: e.version,
-                language: e2.language
-            });
-        })
-    });*/
+    });
 
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
 
-async function formatPreload(pkgs, name) {
+async function formatWuwaPreload(pkgs, name) {
     let preloaddata = {};
 
     if (pkgs.hasOwnProperty("patches")) {
         let pfg = [];
-        pkgs.patches.full.forEach(e => {
-            return pfg.push({
-                file_url: e.url,
-                compressed_size: "",
-                decompressed_size: `${e.size}`,
-                file_hash: e.md5,
-                file_path: e.dest
-            });
+        let pfa = [];
+        let pdg = [];
+        let pda = [];
+
+        pfg.push({
+            file_url: `${pkgs.index_file}`,
+            compressed_size: `${pkgs.version_size.compressed_size}`,
+            decompressed_size: `${pkgs.version_size.decompressed_size}`,
+            file_hash: "",
+            file_path: ""
         });
 
-        let pfa = [];
-        /*packages.full_audio.forEach(e => {
-            return fa.push({
-                file_url: e.url,
-                compressed_size: e.size,
-                decompressed_size: e.decompressed_size,
-                file_hash: e.md5,
-                language: e.language
+        pkgs.patch_config.forEach(e => {
+            return pdg.push({
+                file_url: `${e.indexFile}`,
+                compressed_size: `${e.size}`,
+                decompressed_size: `${e.unCompressSize}`,
+                file_hash: "",
+                diff_type: "krdiff",
+                original_version: e.version,
+                delete_files: []
             });
-        });*/
-
-        let pdg = [];
-        await Promise.all(pkgs.patches.diffs.map(async e => {
-            const response = await fetch(`${e.indexFile}`);
-            if (response.status !== 200) return;
-            const data = await response.json();
-
-            data.patchInfos.forEach(e2 => {
-                return pdg.push({
-                    file_url: `${e.baseUrl}${e2.dest}`,
-                    compressed_size: `${e.size}`,
-                    decompressed_size: `${e.unCompressSize}`,
-                    file_hash: "",
-                    diff_type: "krdiff",
-                    original_version: e.version,
-                    delete_files: data.deleteFiles
-                });
-            });
-        }));
-
-        let pda = [];
-        /*packages.diffs.forEach(e => {
-            e.audio_pkgs.forEach(e2 => {
-                return da.push({
-                    file_url: e2.url,
-                    compressed_size: e2.size,
-                    decompressed_size: e2.decompressed_size,
-                    file_hash: e2.md5,
-                    diff_type: "ldiff",
-                    original_version: e.version,
-                    language: e2.language
-                });
-            })
-        });*/
+        })
 
         let pmetadatainfo = {
             versioned_name: `${name} ${pkgs.version} Preload (Global)`,
