@@ -11,7 +11,7 @@ let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-uploa
 
 let gifps = ["120", "144", "165", "180", "240"];
 let hsrfps = ["120"];
-let zzzfps = ["120", "144"];
+let zzzfps = ["120"];
 let bh3fps = ["120"];
 
 let gipath = `${__dirname}/generated/hk4e_global.json`;
@@ -450,7 +450,7 @@ async function formatPreload(pkgs, name) {
         let rsp = await fetch(`${manifest}`);
         let r = await rsp.json();
 
-        let diff = `https://sg-public-api.hoyoverse.com/downloader/sophon_chunk/api/getPatchBuild?branch=${packages.preload.branch}&package_id=${packages.preload.package_id}&password=${packages.preload.password}&plat_app=${packages.game_id}`;
+        let diff = `https://sg-public-api.hoyoverse.com/downloader/sophon_chunk/api/getPatchBuild?branch=${pkgs.preload.branch}&package_id=${pkgs.preload.package_id}&password=${pkgs.preload.password}&plat_app=${pkgs.game_id}`;
         let rsp1 = await fetch(`${diff}`, {'method': 'POST'});
         let r1 = await rsp1.json();
 
