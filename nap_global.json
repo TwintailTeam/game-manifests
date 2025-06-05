@@ -2,8 +2,166 @@
   "version": 1,
   "display_name": "ZenlessZoneZero (Global)",
   "biz": "nap_global",
-  "latest_version": "1.7.0",
+  "latest_version": "2.0.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "ZenlessZoneZero 2.0.0 (Global)",
+        "version": "2.0.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/10037",
+        "diff_list_url": {
+          "game": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/yIVMtKe14U4w/10037",
+          "en_us": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/yIVMtKe14U4w/10039",
+          "zh_cn": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/yIVMtKe14U4w/10038",
+          "ja_jp": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/yIVMtKe14U4w/10041",
+          "ko_kr": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/yIVMtKe14U4w/10040"
+        }
+      },
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/28/cb06d98c0b75f453b8b79eede477f254_5182690640760802145.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/02/fe21c8787565dfa0fe8d22e7e1582718_7352662505485947707.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/10037/manifest_ad5b3e0fa4978406_0961e7b33ff8123e0fd3ab91c21e121a",
+            "compressed_size": "44678956406",
+            "decompressed_size": "45709923503",
+            "file_hash": "0961e7b33ff8123e0fd3ab91c21e121a",
+            "file_path": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_5bb6917fa95e7d68_cddfbe54e40dd1cd1f2a2f81ecbc5f79",
+            "compressed_size": "42136494180",
+            "decompressed_size": "42136494180",
+            "file_hash": "cddfbe54e40dd1cd1f2a2f81ecbc5f79",
+            "diff_type": "ldiff",
+            "original_version": "1.7.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_5bb6917fa95e7d68_cddfbe54e40dd1cd1f2a2f81ecbc5f79",
+            "compressed_size": "42230150119",
+            "decompressed_size": "42230150119",
+            "file_hash": "cddfbe54e40dd1cd1f2a2f81ecbc5f79",
+            "diff_type": "ldiff",
+            "original_version": "1.6.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/10039/manifest_93c0ac3756973412_c31859aecaaf185f4a3bf10005a71cc1",
+            "compressed_size": "1994918814",
+            "decompressed_size": "2003271631",
+            "file_hash": "c31859aecaaf185f4a3bf10005a71cc1",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/10038/manifest_8f01641b69d5539a_a5d2173df0e1802a0afc76d886721255",
+            "compressed_size": "1878068584",
+            "decompressed_size": "1886113564",
+            "file_hash": "a5d2173df0e1802a0afc76d886721255",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/10040/manifest_4124945a96b3a382_acae2e5e0c732f212d4bfbfc6c1a1ac9",
+            "compressed_size": "2115421124",
+            "decompressed_size": "2123344647",
+            "file_hash": "acae2e5e0c732f212d4bfbfc6c1a1ac9",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/10041/manifest_a2087b9220345a61_e7726fd3ff5e46ef9887721fe307fb0f",
+            "compressed_size": "2340716687",
+            "decompressed_size": "2348901780",
+            "file_hash": "e7726fd3ff5e46ef9887721fe307fb0f",
+            "language": "ja-jp"
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_513d97a16c2fd2a6_0a677decae8c65517812a85afe04b2bc",
+            "compressed_size": "317192892",
+            "decompressed_size": "317192892",
+            "file_hash": "0a677decae8c65517812a85afe04b2bc",
+            "diff_type": "ldiff",
+            "original_version": "1.7.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_7c0cbe42578dd033_40a43a5a8ea0ab1b4b76d43e3179d711",
+            "compressed_size": "282720200",
+            "decompressed_size": "282720200",
+            "file_hash": "40a43a5a8ea0ab1b4b76d43e3179d711",
+            "diff_type": "ldiff",
+            "original_version": "1.7.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_5fee6dccea014fe9_90957ce315b7c315bd91f9930dedbf4c",
+            "compressed_size": "318957948",
+            "decompressed_size": "318957948",
+            "file_hash": "90957ce315b7c315bd91f9930dedbf4c",
+            "diff_type": "ldiff",
+            "original_version": "1.7.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_208a9b0828de1824_fbb56321a93f1d4ed2ee983138d33cec",
+            "compressed_size": "360352662",
+            "decompressed_size": "360352662",
+            "file_hash": "fbb56321a93f1d4ed2ee983138d33cec",
+            "diff_type": "ldiff",
+            "original_version": "1.7.0",
+            "language": "ja-jp"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_513d97a16c2fd2a6_0a677decae8c65517812a85afe04b2bc",
+            "compressed_size": "526972183",
+            "decompressed_size": "526972183",
+            "file_hash": "0a677decae8c65517812a85afe04b2bc",
+            "diff_type": "ldiff",
+            "original_version": "1.6.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_7c0cbe42578dd033_40a43a5a8ea0ab1b4b76d43e3179d711",
+            "compressed_size": "401015746",
+            "decompressed_size": "401015746",
+            "file_hash": "40a43a5a8ea0ab1b4b76d43e3179d711",
+            "diff_type": "ldiff",
+            "original_version": "1.6.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_5fee6dccea014fe9_90957ce315b7c315bd91f9930dedbf4c",
+            "compressed_size": "433988890",
+            "decompressed_size": "433988890",
+            "file_hash": "90957ce315b7c315bd91f9930dedbf4c",
+            "diff_type": "ldiff",
+            "original_version": "1.6.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/yIVMtKe14U4w/manifest_208a9b0828de1824_fbb56321a93f1d4ed2ee983138d33cec",
+            "compressed_size": "479818918",
+            "decompressed_size": "479818918",
+            "file_hash": "fbb56321a93f1d4ed2ee983138d33cec",
+            "diff_type": "ldiff",
+            "original_version": "1.6.0",
+            "language": "ja-jp"
+          }
+        ]
+      }
+    },
     {
       "metadata": {
         "versioned_name": "ZenlessZoneZero 1.7.0 (Global)",
@@ -897,8 +1055,8 @@
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {
-    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/db01dfe29c36a283b774d295b2322b54_44421242156638826.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/5fed3fc3fbf942f56ca9ea35d0b29d36_356304079342493984.webp"
+    "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/28/cb06d98c0b75f453b8b79eede477f254_5182690640760802145.png",
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/02/fe21c8787565dfa0fe8d22e7e1582718_7352662505485947707.webp"
   },
   "telemetry_hosts": [
     "apm-log-upload-os.hoyoverse.com",
@@ -908,8 +1066,7 @@
   ],
   "extra": {
     "fps_unlock_options": [
-      "120",
-      "144"
+      "120"
     ],
     "switches": {
       "fps_unlocker": false,
