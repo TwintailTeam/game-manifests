@@ -151,7 +151,7 @@ async function formatWuwaPackages(manifest, sizes, patches) {
             file_url: index,
             compressed_size: `${e.size}`,
             decompressed_size: `${e.unCompressSize}`,
-            file_hash: "",
+            file_hash: `${INDEX.wuwa.cdn}/${e.baseUrl}`,
             diff_type: "krdiff",
             original_version: e.version,
             delete_files: []
