@@ -287,8 +287,8 @@ async function generatePGRManifest() {
     let gameversions = [];
     // append version
     if (process.argv[2] === "append") {
-        if (existsSync(wuwapath)) {
-            let currentf = readFileSync(wuwapath);
+        if (existsSync(pgrpath)) {
+            let currentf = readFileSync(pgrpath);
             let data = JSON.parse(currentf);
             gameversions.push(versioninfo);
 
