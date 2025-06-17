@@ -250,7 +250,7 @@ async function queryPGRIndex() {
         latest_version: r.default.version,
         previous_version: r.default.resourcesDiff.previousGameInfo.version,
         current_version: r.default.resourcesDiff.currentGameInfo.version,
-        exe_file: "PGR.exe",//r.keyFileCheckList[0],
+        exe_file: "PGR.exe",
         //latest_version_size: {compressed_size: r.default.config.size, decompressed_size: r.default.config.unCompressSize},
         //patch_config: r.default.config.patchConfig,
         preload: preload
