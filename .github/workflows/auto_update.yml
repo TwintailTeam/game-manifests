@@ -22,7 +22,7 @@ jobs:
 
       - name: Move to generated
         run: |
-          mv $(pwd)/hk4e_global.json $(pwd)/hkrpg_global.json $(pwd)/nap_global.json $(pwd)/bh3_global.json $(pwd)/wuwa_global.json $(pwd)/pgr_global.json $(pwd)/scripts/generated/
+          mv hk4e_global.json hkrpg_global.json nap_global.json bh3_global.json wuwa_global.json pgr_global.json $(pwd)/scripts/generated/
 
       - name: Run all scripts
         run: |
