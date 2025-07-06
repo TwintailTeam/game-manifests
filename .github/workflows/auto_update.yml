@@ -1,4 +1,5 @@
 name: Update game manifests
+
 on:
   schedule:
     - cron: '0 * * * *'  # Every hour
@@ -10,21 +11,25 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
       - name: Create generated folder
-        run: mkdir -p scripts/generated
+        run: mkdir -p $(pwd)/scripts/generated
+
       - name: Move to generated
         run: |
-          mv hk4e_global.json hkrpg_global.json nap_global.json bh3_global.json wuwa_global.json pgr_global.json scripts/generated/
-      - name: Run all scripts with detailed output
+          mv $(pwd)/hk4e_global.json $(pwd)/hkrpg_global.json $(pwd)/nap_global.json $(pwd)/bh3_global.json $(pwd)/wuwa_global.json $(pwd)/pgr_global.json $(pwd)/scripts/generated/
+
+      - name: Run all scripts
         run: |
           echo "Current working directory: $(pwd)"
           echo "Scripts to run:"
-          ls -lh scripts/*.js
-          for script in scripts/*.js; do
+          ls -lh $(pwd)/scripts/*.js
+          for script in $(pwd)/scripts/*.js; do
             echo "======================================"
             echo "Running script: $script"
             echo "--------------------------------------"
@@ -38,19 +43,23 @@ jobs:
             echo "======================================"
             echo
           done
+
       - name: Fix hkrpg devs being goobers
         run: |
-          sed -i '0,/DOWNLOAD_MODE_FILE/{s/DOWNLOAD_MODE_FILE/DOWNLOAD_MODE_CHUNK/}' scripts/generated/hkrpg_global.json
+          sed -i '0,/DOWNLOAD_MODE_FILE/{s/DOWNLOAD_MODE_FILE/DOWNLOAD_MODE_CHUNK/}' $(pwd)/scripts/generated/hkrpg_global.json
+
       - name: Move generated JSONs to root
         run: |
-          mv scripts/generated/*.json .
+          mv $(pwd)/scripts/generated/*.json $(pwd)/
+
       - name: Check for changes
         id: git-diff
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.json
+          git add $(pwd)/*.json
           git diff --cached --quiet || echo "changed=true" >> $GITHUB_OUTPUT
+
       - name: Create Pull Request
         if: steps.git-diff.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v6
@@ -59,5 +68,4 @@ jobs:
           branch: "game-manifests/update-${{ github.run_id }}"
           base: main
           title: "Automated: Update game manifests"
-          body: "Review this PR to merge updated game manifests."          
-          
+          body: "Review this PR to merge updated game manifests."
