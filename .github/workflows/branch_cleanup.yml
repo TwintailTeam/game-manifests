@@ -1,0 +1,18 @@
+name: Cleanup Old Branches
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # every day at midnight UTC
+
+jobs:
+  cleanup-branches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: GitHub Branch Cleaner
+        uses: mmorenoregalado/action-branches-cleaner@v2.0.1
+        with:
+          base_branches: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          days_old_threshold: 1  # Only delete branches inactive for 7+ days
