@@ -19,17 +19,31 @@ jobs:
       - name: Move to generated
         run: |
           mv hk4e_global.json hkrpg_global.json nap_global.json bh3_global.json wuwa_global.json pgr_global.json scripts/generated/
-      - name: Run all scripts
+      - name: Run all scripts with detailed output
         run: |
+          echo "Current working directory: $(pwd)"
+          echo "Scripts to run:"
+          ls -lh scripts/*.js
           for script in scripts/*.js; do
+            echo "======================================"
+            echo "Running script: $script"
+            echo "--------------------------------------"
             node "$script" append
+            status=$?
+            if [ $status -eq 0 ]; then
+              echo "Script $script completed successfully."
+            else
+              echo "Script $script failed with exit code $status."
+            fi
+            echo "======================================"
+            echo
           done
       - name: Fix hkrpg devs being goobers
         run: |
-          sed -i '0,/DOWNLOAD_MODE_FILE/{s/DOWNLOAD_MODE_FILE/DOWNLOAD_MODE_CHUNK/}' generated/hkrpg_global.json
+          sed -i '0,/DOWNLOAD_MODE_FILE/{s/DOWNLOAD_MODE_FILE/DOWNLOAD_MODE_CHUNK/}' scripts/generated/hkrpg_global.json
       - name: Move generated JSONs to root
         run: |
-          mv generated/*.json .
+          mv scripts/generated/*.json .
       - name: Check for changes
         id: git-diff
         run: |
