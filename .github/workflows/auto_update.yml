@@ -16,14 +16,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Create generated folder
-        run: mkdir -p $(pwd)/scripts/generated
-
-      - name: Move to generated
+        run: mkdir -p scripts/generated
+      - name: Move to generated (relative)
         run: |
-          mv hk4e_global.json hkrpg_global.json nap_global.json bh3_global.json wuwa_global.json pgr_global.json $(pwd)/scripts/generated/
-
+          mv hk4e_global.json scripts/generated/
+          mv hkrpg_global.json scripts/generated/
+          mv nap_global.json scripts/generated/
+          mv bh3_global.json scripts/generated/
+          mv wuwa_global.json scripts/generated/
+          mv pgr_global.json scripts/generated/    
       - name: Run all scripts
         run: |
           echo "Current working directory: $(pwd)"
