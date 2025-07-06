@@ -84,7 +84,7 @@ async function generateManifest(gameBiz) {
     let branches = rsp.branches.filter(e => e.game_biz === gameBiz)[0];
 
     let assetcfg = {game_icon: assets.icon, game_background: assets.background}
-    let pkg = await formatPackages(branches);
+    let pkg = await formatPackages(branches, gameBiz);
 
     let final = {};
     switch (gameBiz) {
@@ -137,7 +137,7 @@ async function generateManifest(gameBiz) {
                         jadeite: false,
                         xxmi: true
                     },
-                    preload: await formatPreload(branches, "GenshinImpact")
+                    preload: await formatPreload(branches, "GenshinImpact", "hk4e_global")
                 }
             };
         }
@@ -191,7 +191,7 @@ async function generateManifest(gameBiz) {
                         jadeite: true,
                         xxmi: true
                     },
-                    preload: await formatPreload(branches, "Honkai: StarRail")
+                    preload: await formatPreload(branches, "Honkai: StarRail", "hkrpg_global")
                 }
             };
         }
@@ -245,7 +245,7 @@ async function generateManifest(gameBiz) {
                         jadeite: false,
                         xxmi: true
                     },
-                    preload: await formatPreload(branches, "ZenlessZoneZero")
+                    preload: await formatPreload(branches, "ZenlessZoneZero", "nap_global")
                 }
             };
         }
@@ -299,7 +299,7 @@ async function generateManifest(gameBiz) {
                         jadeite: true,
                         xxmi: true
                     },
-                    preload: await formatPreload(branches, "HonkaiImpact 3rd")
+                    preload: await formatPreload(branches, "HonkaiImpact 3rd", "bh3_global")
                 }
             };
         }
@@ -308,7 +308,7 @@ async function generateManifest(gameBiz) {
     return final;
 }
 
-async function formatPackages(packages) {
+async function formatPackages(packages, biz) {
     let manifest = `https://sg-public-api.hoyoverse.com/downloader/sophon_chunk/api/getBuild?branch=${packages.main.branch}&package_id=${packages.main.package_id}&password=${packages.main.password}&plat_app=${packages.game_id}&tag=${packages.main.tag}`;
     let rsp = await fetch(`${manifest}`);
     let r = await rsp.json();
@@ -332,34 +332,57 @@ async function formatPackages(packages) {
         let kr = d.manifests.filter(e => e.matching_field === "ko-kr")[0];
         let jp = d.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
-        let gameDiff = d1.manifests.filter(e => e.matching_field === "game")[0];
-        let enDiff = d1.manifests.filter(e => e.matching_field === "en-us")[0];
-        let cnDiff = d1.manifests.filter(e => e.matching_field === "zh-cn")[0];
-        let krDiff = d1.manifests.filter(e => e.matching_field === "ko-kr")[0];
-        let jpDiff = d1.manifests.filter(e => e.matching_field === "ja-jp")[0];
+        if (biz === "nap_global") {
+            let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+            let rest = d.manifests.filter(e => !exclude.includes(e.matching_field));
+            rest.forEach(e => {
+                fg.push({
+                    file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
+                    compressed_size: `${e.stats.compressed_size}`,
+                    decompressed_size: `${e.stats.uncompressed_size}`,
+                    file_hash: e.manifest.checksum,
+                    file_path: `${e.chunk_download.url_prefix}`
+                });
+            });
+
+        }
 
         fg.push({
             file_url: `${game.manifest_download.url_prefix}/${game.manifest.id}`,
             compressed_size: `${game.stats.compressed_size}`,
             decompressed_size: `${game.stats.uncompressed_size}`,
             file_hash: game.manifest.checksum,
-            file_path: ""
+            file_path: `${game.chunk_download.url_prefix}`
         });
 
-        fa.push({
-            file_url: `${en.manifest_download.url_prefix}/${en.manifest.id}`,
-            compressed_size: `${en.stats.compressed_size}`,
-            decompressed_size: `${en.stats.uncompressed_size}`,
-            file_hash: en.manifest.checksum,
-            language: en.matching_field
-        });
+        let gameDiff = d1.manifests.filter(e => e.matching_field === "game")[0];
+        let enDiff = d1.manifests.filter(e => e.matching_field === "en-us")[0];
+        let cnDiff = d1.manifests.filter(e => e.matching_field === "zh-cn")[0];
+        let krDiff = d1.manifests.filter(e => e.matching_field === "ko-kr")[0];
+        let jpDiff = d1.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
         packages.main.diff_tags.forEach(v => {
+            if (biz === "nap_global") {
+                let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+                let rest = d1.manifests.filter(e => !exclude.includes(e.matching_field));
+                rest.forEach(e => {
+                    dg.push({
+                        file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
+                        compressed_size: `${e.stats[v].compressed_size}`,
+                        decompressed_size: `${e.stats[v].uncompressed_size}`,
+                        file_hash: `${e.diff_download.url_prefix}`,
+                        diff_type: "ldiff",
+                        original_version: v,
+                        delete_files: []
+                    });
+                })
+            }
+
             dg.push({
                 file_url: `${gameDiff.manifest_download.url_prefix}/${gameDiff.manifest.id}`,
                 compressed_size: `${gameDiff.stats[v].compressed_size}`,
                 decompressed_size: `${gameDiff.stats[v].uncompressed_size}`,
-                file_hash: `${gameDiff.manifest.checksum}`,
+                file_hash: `${gameDiff.diff_download.url_prefix}`,
                 diff_type: "ldiff",
                 original_version: v,
                 delete_files: []
@@ -408,6 +431,14 @@ async function formatPackages(packages) {
         });
 
         fa.push({
+            file_url: `${en.manifest_download.url_prefix}/${en.manifest.id}`,
+            compressed_size: `${en.stats.compressed_size}`,
+            decompressed_size: `${en.stats.uncompressed_size}`,
+            file_hash: en.manifest.checksum,
+            language: en.matching_field
+        });
+
+        fa.push({
             file_url: `${cn.manifest_download.url_prefix}/${cn.manifest.id}`,
             compressed_size: `${cn.stats.compressed_size}`,
             decompressed_size: `${cn.stats.uncompressed_size}`,
@@ -442,7 +473,7 @@ async function formatPackages(packages) {
     }
 }
 
-async function formatPreload(pkgs, name) {
+async function formatPreload(pkgs, name, biz) {
     let preloaddata = {};
 
     if (pkgs.preload !== null) {
@@ -469,26 +500,56 @@ async function formatPreload(pkgs, name) {
             let kr = d.manifests.filter(e => e.matching_field === "ko-kr")[0];
             let jp = d.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
-            let gameDiff = d1.manifests.filter(e => e.matching_field === "game")[0];
-            let enDiff = d1.manifests.filter(e => e.matching_field === "en-us")[0];
-            let cnDiff = d1.manifests.filter(e => e.matching_field === "zh-cn")[0];
-            let krDiff = d1.manifests.filter(e => e.matching_field === "ko-kr")[0];
-            let jpDiff = d1.manifests.filter(e => e.matching_field === "ja-jp")[0];
+            if (biz === "nap_global") {
+                let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+                let rest = d.manifests.filter(e => !exclude.includes(e.matching_field));
+                rest.forEach(e => {
+                    pfg.push({
+                        file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
+                        compressed_size: `${e.stats.compressed_size}`,
+                        decompressed_size: `${e.stats.uncompressed_size}`,
+                        file_hash: e.manifest.checksum,
+                        file_path: `${e.chunk_download.url_prefix}`
+                    });
+                });
+            }
 
             pfg.push({
                 file_url: `${game.manifest_download.url_prefix}/${game.manifest.id}`,
                 compressed_size: `${game.stats.compressed_size}`,
                 decompressed_size: `${game.stats.uncompressed_size}`,
                 file_hash: game.manifest.checksum,
-                file_path: ""
+                file_path: `${game.chunk_download.url_prefix}`
             });
 
+            let gameDiff = d1.manifests.filter(e => e.matching_field === "game")[0];
+            let enDiff = d1.manifests.filter(e => e.matching_field === "en-us")[0];
+            let cnDiff = d1.manifests.filter(e => e.matching_field === "zh-cn")[0];
+            let krDiff = d1.manifests.filter(e => e.matching_field === "ko-kr")[0];
+            let jpDiff = d1.manifests.filter(e => e.matching_field === "ja-jp")[0];
+
             pkgs.preload.diff_tags.forEach(v => {
+                if (biz === "nap_global") {
+                    let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+                    let rest = d1.manifests.filter(e => !exclude.includes(e.matching_field));
+                    rest.forEach(e => {
+                        pdg.push({
+                            file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
+                            compressed_size: `${e.stats[v].compressed_size}`,
+                            decompressed_size: `${e.stats[v].uncompressed_size}`,
+                            file_hash: `${e.diff_download.url_prefix}`,
+                            diff_type: "ldiff",
+                            original_version: v,
+                            delete_files: []
+                        });
+                    })
+                }
+
                 pdg.push({
                     file_url: `${gameDiff.manifest_download.url_prefix}/${gameDiff.manifest.id}`,
                     compressed_size: `${gameDiff.stats[v].compressed_size}`,
                     decompressed_size: `${gameDiff.stats[v].uncompressed_size}`,
-                    file_hash: `${gameDiff.manifest.checksum}`,
+                    file_hash: `${gameDiff.diff_download.url_prefix}`,
                     diff_type: "ldiff",
                     original_version: v,
                     delete_files: []
