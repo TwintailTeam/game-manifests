@@ -1,8 +1,8 @@
 name: Update game manifests
-
 on:
   schedule:
     - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:
 
 jobs:
   run-scripts-and-pr:
