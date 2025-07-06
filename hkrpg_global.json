@@ -31,7 +31,7 @@
             "compressed_size": "57022197705",
             "decompressed_size": "58338683043",
             "file_hash": "1918ea3aa0ab2f478082ffd236029390",
-            "file_path": ""
+            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/OExa4C2wpTZO"
           }
         ],
         "diff": [
@@ -39,7 +39,7 @@
             "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/5q4fgqyouLsY/manifest_2968a32c1fcaa42a_bbb5a4f9542f9eca8db8f650ab17d0c5",
             "compressed_size": "6167942265",
             "decompressed_size": "6167942265",
-            "file_hash": "bbb5a4f9542f9eca8db8f650ab17d0c5",
+            "file_hash": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/5q4fgqyouLsY/10049",
             "diff_type": "ldiff",
             "original_version": "3.3.0",
             "delete_files": []
