@@ -53,21 +53,23 @@ jobs:
       - name: Move generated JSONs to root
         run: |
           mv $(pwd)/scripts/generated/*.json $(pwd)/
-
       - name: Check for changes
         id: git-diff
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add $(pwd)/*.json
-          git diff --cached --quiet || echo "changed=true" >> $GITHUB_OUTPUT
-
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
       - name: Create Pull Request
         if: steps.git-diff.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "Automated: Update game manifests"
-          branch: "game-manifests/update-${{ github.run_id }}"
+          branch: "game-manifests/auto-update"
           base: main
           title: "Automated: Update game manifests"
           body: "Review this PR to merge updated game manifests."
