@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true  
+
 jobs:
   run-scripts-and-pr:
     runs-on: ubuntu-latest
@@ -18,7 +22,7 @@ jobs:
           node-version: '20'
       - name: Create generated folder
         run: mkdir -p scripts/generated
-      - name: Move to generated (relative)
+      - name: Move to generated
         run: |
           mv hk4e_global.json scripts/generated/
           mv hkrpg_global.json scripts/generated/
