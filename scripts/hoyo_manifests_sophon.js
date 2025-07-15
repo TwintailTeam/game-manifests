@@ -366,15 +366,17 @@ async function formatPackages(packages, biz) {
                 let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
                 let rest = d1.manifests.filter(e => !exclude.includes(e.matching_field));
                 rest.forEach(e => {
-                    dg.push({
-                        file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
-                        compressed_size: `${e.stats[v].compressed_size}`,
-                        decompressed_size: `${e.stats[v].uncompressed_size}`,
-                        file_hash: `${e.diff_download.url_prefix}`,
-                        diff_type: "ldiff",
-                        original_version: v,
-                        delete_files: []
-                    });
+                    if (e.stats.hasOwnProperty(`${v}`)) {
+                        dg.push({
+                            file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
+                            compressed_size: `${e.stats[v].compressed_size}`,
+                            decompressed_size: `${e.stats[v].uncompressed_size}`,
+                            file_hash: `${e.diff_download.url_prefix}`,
+                            diff_type: "ldiff",
+                            original_version: v,
+                            delete_files: []
+                        });
+                    }
                 })
             }
 
@@ -533,15 +535,17 @@ async function formatPreload(pkgs, name, biz) {
                     let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
                     let rest = d1.manifests.filter(e => !exclude.includes(e.matching_field));
                     rest.forEach(e => {
-                        pdg.push({
-                            file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
-                            compressed_size: `${e.stats[v].compressed_size}`,
-                            decompressed_size: `${e.stats[v].uncompressed_size}`,
-                            file_hash: `${e.diff_download.url_prefix}`,
-                            diff_type: "ldiff",
-                            original_version: v,
-                            delete_files: []
-                        });
+                        if (e.stats.hasOwnProperty(`${v}`)) {
+                            pdg.push({
+                                file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
+                                compressed_size: `${e.stats[v].compressed_size}`,
+                                decompressed_size: `${e.stats[v].uncompressed_size}`,
+                                file_hash: `${e.diff_download.url_prefix}`,
+                                diff_type: "ldiff",
+                                original_version: v,
+                                delete_files: []
+                            });
+                        }
                     })
                 }
 
