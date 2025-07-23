@@ -164,7 +164,7 @@ async function formatWuwaPackages(manifest, sizes, patches) {
 async function formatWuwaPreload(pkgs, name) {
     let preloaddata = {};
 
-    if (pkgs.hasOwnProperty("patches")) {
+    if (pkgs.hasOwnProperty("index_file")) {
         let pfg = [];
         let pfa = [];
         let pdg = [];
@@ -180,10 +180,10 @@ async function formatWuwaPreload(pkgs, name) {
 
         pkgs.patch_config.forEach(e => {
             return pdg.push({
-                file_url: `${e.indexFile}`,
+                file_url: `${INDEX.wuwa.cdn}/${e.indexFile}`,
                 compressed_size: `${e.size}`,
                 decompressed_size: `${e.unCompressSize}`,
-                file_hash: "",
+                file_hash: `${INDEX.wuwa.cdn}/${e.baseUrl}`,
                 diff_type: "krdiff",
                 original_version: e.version,
                 delete_files: []
