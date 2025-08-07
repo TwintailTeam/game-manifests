@@ -2,8 +2,73 @@
   "version": 1,
   "display_name": "PunishingGrayRaven (Global)",
   "biz": "pgr_global",
-  "latest_version": "3.4.0.0",
+  "latest_version": "3.5.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "PunishingGrayRaven 3.5.0 (Global)",
+        "version": "3.5.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/indexFile.json",
+        "res_list_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
+        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/634x182tzyf0d9un2m.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/indexFile.json",
+            "compressed_size": "43751691089",
+            "decompressed_size": "43751691089",
+            "file_hash": "",
+            "file_path": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/2.17.0/indexFile.json",
+            "compressed_size": "43300330890",
+            "decompressed_size": "6219070637",
+            "file_hash": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/2.17.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "2.17.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.1.0/indexFile.json",
+            "compressed_size": "43300330890",
+            "decompressed_size": "6219070637",
+            "file_hash": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.1.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.1.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.4.0/indexFile.json",
+            "compressed_size": "6073636908",
+            "decompressed_size": "430201664",
+            "file_hash": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.4.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.4.0.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "PunishingGrayRaven 3.4.0.0 (Global)",
@@ -88,7 +153,7 @@
   },
   "assets": {
     "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
-    "game_background": "https://prod-alicdn-gamestarter.kurogame.com/pcstarter/news/slide-picture/8NMKNEFITYF54E9P.jpg"
+    "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/634x182tzyf0d9un2m.webp"
   },
   "telemetry_hosts": [],
   "extra": {

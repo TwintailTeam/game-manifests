@@ -12,7 +12,7 @@ let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-uploa
 let gifps = ["120", "144", "165", "180", "240"];
 let hsrfps = ["120"];
 let zzzfps = ["120"];
-let bh3fps = ["120"];
+let bh3fps = ["144", "165", "180", "240"];
 
 let gipath = `${__dirname}/generated/hk4e_global.json`;
 let hsrpath = `${__dirname}/generated/hkrpg_global.json`;
