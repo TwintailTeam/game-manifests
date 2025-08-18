@@ -1280,7 +1280,7 @@
     ],
     "switches": {
       "fps_unlocker": false,
-      "jadeite": true,
+      "jadeite": false,
       "xxmi": true
     },
     "preload": {}

@@ -124,7 +124,7 @@ async function generateManifest(biz) {
                     fps_unlock_options: wuwafps,
                     switches: {
                         fps_unlocker: false,
-                        jadeite: true,
+                        jadeite: false,
                         xxmi: true
                     },
                     preload: await formatPreload(biz, index.preload, "WutheringWaves")
