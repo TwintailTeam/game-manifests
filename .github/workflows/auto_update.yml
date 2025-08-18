@@ -50,10 +50,6 @@ jobs:
             echo
           done
 
-      - name: Fix hkrpg devs being goobers
-        run: |
-          sed -i '0,/DOWNLOAD_MODE_FILE/{s/DOWNLOAD_MODE_FILE/DOWNLOAD_MODE_CHUNK/}' $(pwd)/scripts/generated/hkrpg_global.json
-
       - name: Move generated JSONs to root
         run: |
           mv $(pwd)/scripts/generated/*.json $(pwd)/

@@ -347,7 +347,7 @@
       "metadata": {
         "versioned_name": "Honkai: StarRail 3.2.0 (Global)",
         "version": "3.2.0",
-        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": "",
         "index_file": "",
         "res_list_url": "https://autopatchos.starrails.com/client/download/20250327183104_ye1qtcQ1Eo1GlvdK/PC/unzip",
