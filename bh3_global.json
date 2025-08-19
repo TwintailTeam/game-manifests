@@ -183,6 +183,7 @@
       "metadata": {
         "versioned_name": "HonkaiImpact 3rd 8.4.0 Preload (Global)",
         "version": "8.4.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": "",
         "index_file": "",
         "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/extract",

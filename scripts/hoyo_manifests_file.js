@@ -427,6 +427,7 @@ function formatPreload(pkgs, name) {
         let pmetadatainfo = {
             versioned_name: `${name} ${pkgs.preload.major.version} Preload (Global)`,
             version: pkgs.preload.major.version,
+            download_mode: "DOWNLOAD_MODE_FILE",
             game_hash: "",
             index_file: "",
             res_list_url: `${pkgs.preload.major.res_list_url}`,
