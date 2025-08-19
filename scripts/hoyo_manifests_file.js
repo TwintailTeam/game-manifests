@@ -384,7 +384,7 @@ function formatPreload(pkgs, name) {
         });
 
         let pfa = [];
-        pkgs.preload.major.audio_pkgs.forEach(e => {
+        /*pkgs.preload.major.audio_pkgs.forEach(e => {
             return pfa.push({
                 file_url: e.url,
                 compressed_size: e.size,
@@ -392,10 +392,10 @@ function formatPreload(pkgs, name) {
                 file_hash: e.md5,
                 language: e.language
             });
-        });
+        });*/
 
         let pdg = [];
-        pkgs.preload.patches.forEach(e => {
+        /*pkgs.preload.patches.forEach(e => {
             e.game_pkgs.forEach(e2 => {
                 return pdg.push({
                     file_url: e2.url,
@@ -407,10 +407,10 @@ function formatPreload(pkgs, name) {
                     delete_files: []
                 });
             })
-        });
+        });*/
 
         let pda = [];
-        pkgs.preload.patches.forEach(e => {
+        /*pkgs.preload.patches.forEach(e => {
             e.audio_pkgs.forEach(e2 => {
                 return pda.push({
                     file_url: e2.url,
@@ -422,7 +422,7 @@ function formatPreload(pkgs, name) {
                     language: e2.language
                 });
             })
-        });
+        });*/
 
         let pmetadatainfo = {
             versioned_name: `${name} ${pkgs.preload.major.version} Preload (Global)`,
