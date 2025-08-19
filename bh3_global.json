@@ -179,6 +179,37 @@
       "jadeite": true,
       "xxmi": true
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "HonkaiImpact 3rd 8.4.0 Preload (Global)",
+        "version": "8.4.0",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/extract",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/BH3_v8.4.0_705a20b7c1e5.7z",
+            "compressed_size": "23803593831",
+            "decompressed_size": "47617673422",
+            "file_hash": "3af04c87b1e79f2058c888e3e4da3da4",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
   }
 }
