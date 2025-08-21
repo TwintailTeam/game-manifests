@@ -2,8 +2,45 @@
   "version": 1,
   "display_name": "HonkaiImpact 3rd (Global)",
   "biz": "bh3_global",
-  "latest_version": "8.3.0",
+  "latest_version": "8.4.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "HonkaiImpact 3rd 8.4.0 (Global)",
+        "version": "8.4.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/extract",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/08/20/cd77c829bf430709a2d7bccb793a2d16_7867068515592996044.webp"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/BH3_v8.4.0_705a20b7c1e5.7z",
+            "compressed_size": "23803593831",
+            "decompressed_size": "47617673422",
+            "file_hash": "3af04c87b1e79f2058c888e3e4da3da4",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "HonkaiImpact 3rd 8.3.0 (Global)",
@@ -162,7 +199,7 @@
   },
   "assets": {
     "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/24/f03253f7186bb981144476e6ca6c328b_4176234957828033883.webp"
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/08/20/cd77c829bf430709a2d7bccb793a2d16_7867068515592996044.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
@@ -179,38 +216,6 @@
       "jadeite": true,
       "xxmi": true
     },
-    "preload": {
-      "metadata": {
-        "versioned_name": "HonkaiImpact 3rd 8.4.0 Preload (Global)",
-        "version": "8.4.0",
-        "download_mode": "DOWNLOAD_MODE_FILE",
-        "game_hash": "",
-        "index_file": "",
-        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/extract",
-        "diff_list_url": {
-          "game": "",
-          "en_us": "",
-          "zh_cn": "",
-          "ja_jp": "",
-          "ko_kr": ""
-        }
-      },
-      "game": {
-        "full": [
-          {
-            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/BH3_v8.4.0_705a20b7c1e5.7z",
-            "compressed_size": "23803593831",
-            "decompressed_size": "47617673422",
-            "file_hash": "3af04c87b1e79f2058c888e3e4da3da4",
-            "file_path": ""
-          }
-        ],
-        "diff": []
-      },
-      "audio": {
-        "full": [],
-        "diff": []
-      }
-    }
+    "preload": {}
   }
 }
