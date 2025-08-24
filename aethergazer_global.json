@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "display_name": "AetherGazer (Global)",
+  "biz": "aethergazer_global",
+  "latest_version": "287",
+  "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "AetherGazer 287 (Global)",
+        "version": "287",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://aethergazer.com/en/favicon.ico",
+        "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/ea6a9461-22a4-4090-b265-04f175f4ce0f.png"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://skzy-us-packaging.aethergazer.com/287/AetherGazer_jp_us_jp_us_prod_287_22_11_windows_limit_sdk_release_W12000000_53264D21BCA8F3BF7919AE19B914CF04.zip",
+            "compressed_size": "0",
+            "decompressed_size": "0",
+            "file_hash": "",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
+  ],
+  "paths": {
+    "audio_pkg_res_dir": "",
+    "exe_filename": "AetherGazer.exe",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": ""
+  },
+  "assets": {
+    "game_icon": "https://aethergazer.com/en/favicon.ico",
+    "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/ea6a9461-22a4-4090-b265-04f175f4ce0f.png"
+  },
+  "telemetry_hosts": [
+    "pc.crashsight.wetest.net"
+  ],
+  "extra": {
+    "fps_unlock_options": [
+      "120"
+    ],
+    "switches": {
+      "fps_unlocker": false,
+      "jadeite": false,
+      "xxmi": false
+    },
+    "preload": {}
+  }
+}

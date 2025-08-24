@@ -29,7 +29,8 @@ jobs:
           mv nap_global.json scripts/generated/
           mv bh3_global.json scripts/generated/
           mv wuwa_global.json scripts/generated/
-          mv pgr_global.json scripts/generated/    
+          mv pgr_global.json scripts/generated/
+          mv aethergazer_global.json scripts/generated/
       - name: Run all scripts
         run: |
           echo "Current working directory: $(pwd)"
