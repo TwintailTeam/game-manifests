@@ -123,7 +123,7 @@ async function generateManifest(biz) {
                 extra: {
                     fps_unlock_options: wuwafps,
                     switches: {
-                        fps_unlocker: false,
+                        fps_unlocker: true,
                         jadeite: false,
                         xxmi: true
                     },

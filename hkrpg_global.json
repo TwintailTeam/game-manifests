@@ -889,7 +889,7 @@
       "120"
     ],
     "switches": {
-      "fps_unlocker": false,
+      "fps_unlocker": true,
       "jadeite": true,
       "xxmi": true
     },

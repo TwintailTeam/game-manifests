@@ -299,7 +299,7 @@ async function generateManifest(gameBiz) {
                 extra: {
                     fps_unlock_options: bh3fps,
                     switches: {
-                        fps_unlocker: false,
+                        fps_unlocker: true,
                         jadeite: true,
                         xxmi: true
                     },
