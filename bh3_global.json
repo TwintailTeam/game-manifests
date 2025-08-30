@@ -8,10 +8,10 @@
       "metadata": {
         "versioned_name": "HonkaiImpact 3rd 8.4.0 (Global)",
         "version": "8.4.0",
-        "download_mode": "DOWNLOAD_MODE_FILE",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
         "game_hash": "",
         "index_file": "",
-        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/extract",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/g3J44a2522oT",
         "diff_list_url": {
           "game": "",
           "en_us": "",
@@ -27,11 +27,11 @@
       "game": {
         "full": [
           {
-            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20250813150900_QsgyLXK5NSdhtzZj/BH3_v8.4.0_705a20b7c1e5.7z",
-            "compressed_size": "23803593831",
-            "decompressed_size": "47617673422",
-            "file_hash": "3af04c87b1e79f2058c888e3e4da3da4",
-            "file_path": ""
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/g3J44a2522oT/manifest_39675505d1967baf_a35e638322d77d5e27f27d8dabdfe2ba",
+            "compressed_size": "28238708648",
+            "decompressed_size": "31461109221",
+            "file_hash": "a35e638322d77d5e27f27d8dabdfe2ba",
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/g3J44a2522oT"
           }
         ],
         "diff": []
@@ -209,7 +209,10 @@
   ],
   "extra": {
     "fps_unlock_options": [
-      "120"
+      "144",
+      "165",
+      "180",
+      "240"
     ],
     "switches": {
       "fps_unlocker": true,

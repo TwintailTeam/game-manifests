@@ -17,7 +17,7 @@ let bh3fps = ["144", "165", "180", "240"];
 let gipath = `${__dirname}/generated/hk4e_global.json`;
 let hsrpath = `${__dirname}/generated/hkrpg_global.json`;
 let zzzpath = `${__dirname}/generated/nap_global.json`;
-let bhpath = `${__dirname}/generated_tests/bh3_global.json`;
+let bhpath = `${__dirname}/generated/bh3_global.json`;
 
 async function queryHoyoPlayApis() {
     let rsp = await fetch(`${API}`);
@@ -60,6 +60,7 @@ async function queryHoyoPlayApis() {
     let gb = r.data.game_branches;
     let br = [];
     gb.forEach((i) => {
+        if (i.game.biz === "bh3_global" && i.game.id !== "5TIVvvcwtM") return;
         br.push({
             game_biz: i.game.biz,
             game_id: i.game.id,
@@ -251,15 +252,15 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "bh3_global": {
-            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
+            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `DOWNLOAD_MODE_CHUNK`, game_hash: "",
                 index_file: "",
-                res_list_url: "",
+                res_list_url: `${pkg.chunk_base}`,
                 diff_list_url: {
-                    game: "",
-                    en_us: "",
-                    zh_cn: "",
-                    ja_jp: "",
-                    ko_kr: ""
+                    game: `${pkg.game_diff}`,
+                    en_us: `${pkg.en_diff}`,
+                    zh_cn: `${pkg.cn_diff}`,
+                    ja_jp: `${pkg.jp_diff}`,
+                    ko_kr: `${pkg.kr_diff}`,
                 }
             }
             let versioninfo = {
@@ -390,86 +391,89 @@ async function formatPackages(packages, biz) {
                 delete_files: []
             });
 
-            da.push({
-                file_url: `${enDiff.manifest_download.url_prefix}/${enDiff.manifest.id}`,
-                compressed_size: `${enDiff.stats[v].compressed_size}`,
-                decompressed_size: `${enDiff.stats[v].uncompressed_size}`,
-                file_hash: `${enDiff.manifest.checksum}`,
-                diff_type: "ldiff",
-                original_version: v,
-                language: enDiff.matching_field
+            if (biz !== "bh3_global") {
+                da.push({
+                    file_url: `${enDiff.manifest_download.url_prefix}/${enDiff.manifest.id}`,
+                    compressed_size: `${enDiff.stats[v].compressed_size}`,
+                    decompressed_size: `${enDiff.stats[v].uncompressed_size}`,
+                    file_hash: `${enDiff.manifest.checksum}`,
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: enDiff.matching_field
+                });
+
+                da.push({
+                    file_url: `${cnDiff.manifest_download.url_prefix}/${cnDiff.manifest.id}`,
+                    compressed_size: `${cnDiff.stats[v].compressed_size}`,
+                    decompressed_size: `${cnDiff.stats[v].uncompressed_size}`,
+                    file_hash: `${cnDiff.manifest.checksum}`,
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: cnDiff.matching_field
+                });
+
+                da.push({
+                    file_url: `${krDiff.manifest_download.url_prefix}/${krDiff.manifest.id}`,
+                    compressed_size: `${krDiff.stats[v].compressed_size}`,
+                    decompressed_size: `${krDiff.stats[v].uncompressed_size}`,
+                    file_hash: `${krDiff.manifest.checksum}`,
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: krDiff.matching_field
+                });
+
+                da.push({
+                    file_url: `${jpDiff.manifest_download.url_prefix}/${jpDiff.manifest.id}`,
+                    compressed_size: `${jpDiff.stats[v].compressed_size}`,
+                    decompressed_size: `${jpDiff.stats[v].uncompressed_size}`,
+                    file_hash: `${jpDiff.manifest.checksum}`,
+                    diff_type: "ldiff",
+                    original_version: v,
+                    language: jpDiff.matching_field
+                });
+            }
+        });
+
+        if (biz !== "bh3_global") {
+            fa.push({
+                file_url: `${en.manifest_download.url_prefix}/${en.manifest.id}`,
+                compressed_size: `${en.stats.compressed_size}`,
+                decompressed_size: `${en.stats.uncompressed_size}`,
+                file_hash: en.manifest.checksum,
+                language: en.matching_field
             });
 
-            da.push({
-                file_url: `${cnDiff.manifest_download.url_prefix}/${cnDiff.manifest.id}`,
-                compressed_size: `${cnDiff.stats[v].compressed_size}`,
-                decompressed_size: `${cnDiff.stats[v].uncompressed_size}`,
-                file_hash: `${cnDiff.manifest.checksum}`,
-                diff_type: "ldiff",
-                original_version: v,
-                language: cnDiff.matching_field
+            fa.push({
+                file_url: `${cn.manifest_download.url_prefix}/${cn.manifest.id}`,
+                compressed_size: `${cn.stats.compressed_size}`,
+                decompressed_size: `${cn.stats.uncompressed_size}`,
+                file_hash: cn.manifest.checksum,
+                language: cn.matching_field
             });
 
-            da.push({
-                file_url: `${krDiff.manifest_download.url_prefix}/${krDiff.manifest.id}`,
-                compressed_size: `${krDiff.stats[v].compressed_size}`,
-                decompressed_size: `${krDiff.stats[v].uncompressed_size}`,
-                file_hash: `${krDiff.manifest.checksum}`,
-                diff_type: "ldiff",
-                original_version: v,
-                language: krDiff.matching_field
+            fa.push({
+                file_url: `${kr.manifest_download.url_prefix}/${kr.manifest.id}`,
+                compressed_size: `${kr.stats.compressed_size}`,
+                decompressed_size: `${kr.stats.uncompressed_size}`,
+                file_hash: kr.manifest.checksum,
+                language: kr.matching_field
             });
 
-            da.push({
-                file_url: `${jpDiff.manifest_download.url_prefix}/${jpDiff.manifest.id}`,
-                compressed_size: `${jpDiff.stats[v].compressed_size}`,
-                decompressed_size: `${jpDiff.stats[v].uncompressed_size}`,
-                file_hash: `${jpDiff.manifest.checksum}`,
-                diff_type: "ldiff",
-                original_version: v,
-                language: jpDiff.matching_field
+            fa.push({
+                file_url: `${jp.manifest_download.url_prefix}/${jp.manifest.id}`,
+                compressed_size: `${jp.stats.compressed_size}`,
+                decompressed_size: `${jp.stats.uncompressed_size}`,
+                file_hash: jp.manifest.checksum,
+                language: jp.matching_field
             });
-
-        });
-
-        fa.push({
-            file_url: `${en.manifest_download.url_prefix}/${en.manifest.id}`,
-            compressed_size: `${en.stats.compressed_size}`,
-            decompressed_size: `${en.stats.uncompressed_size}`,
-            file_hash: en.manifest.checksum,
-            language: en.matching_field
-        });
-
-        fa.push({
-            file_url: `${cn.manifest_download.url_prefix}/${cn.manifest.id}`,
-            compressed_size: `${cn.stats.compressed_size}`,
-            decompressed_size: `${cn.stats.uncompressed_size}`,
-            file_hash: cn.manifest.checksum,
-            language: cn.matching_field
-        });
-
-        fa.push({
-            file_url: `${kr.manifest_download.url_prefix}/${kr.manifest.id}`,
-            compressed_size: `${kr.stats.compressed_size}`,
-            decompressed_size: `${kr.stats.uncompressed_size}`,
-            file_hash: kr.manifest.checksum,
-            language: kr.matching_field
-        });
-
-        fa.push({
-            file_url: `${jp.manifest_download.url_prefix}/${jp.manifest.id}`,
-            compressed_size: `${jp.stats.compressed_size}`,
-            decompressed_size: `${jp.stats.uncompressed_size}`,
-            file_hash: jp.manifest.checksum,
-            language: jp.matching_field
-        });
+        }
 
         return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da,
-            game_diff: gameDiff.diff_download.url_prefix,
-            en_diff: enDiff.diff_download.url_prefix,
-            cn_diff: cnDiff.diff_download.url_prefix,
-            jp_diff: jpDiff.diff_download.url_prefix,
-            kr_diff: krDiff.diff_download.url_prefix,
+            game_diff: (biz !== "bh3_global") ? gameDiff.diff_download.url_prefix : "",
+            en_diff: (biz !== "bh3_global") ? enDiff.diff_download.url_prefix : "",
+            cn_diff: (biz !== "bh3_global") ? cnDiff.diff_download.url_prefix : "",
+            jp_diff: (biz !== "bh3_global") ? jpDiff.diff_download.url_prefix : "",
+            kr_diff: (biz !== "bh3_global") ? krDiff.diff_download.url_prefix : "",
             chunk_base: game.chunk_download.url_prefix
         };
     }
@@ -559,79 +563,83 @@ async function formatPreload(pkgs, name, biz) {
                     delete_files: []
                 });
 
-                pda.push({
-                    file_url: `${enDiff.manifest_download.url_prefix}/${enDiff.manifest.id}`,
-                    compressed_size: `${enDiff.stats[v].compressed_size}`,
-                    decompressed_size: `${enDiff.stats[v].uncompressed_size}`,
-                    file_hash: `${enDiff.manifest.checksum}`,
-                    diff_type: "ldiff",
-                    original_version: v,
-                    language: enDiff.matching_field
-                });
+                if (biz !== "bh3_global") {
+                    pda.push({
+                        file_url: `${enDiff.manifest_download.url_prefix}/${enDiff.manifest.id}`,
+                        compressed_size: `${enDiff.stats[v].compressed_size}`,
+                        decompressed_size: `${enDiff.stats[v].uncompressed_size}`,
+                        file_hash: `${enDiff.manifest.checksum}`,
+                        diff_type: "ldiff",
+                        original_version: v,
+                        language: enDiff.matching_field
+                    });
 
-                pda.push({
-                    file_url: `${cnDiff.manifest_download.url_prefix}/${cnDiff.manifest.id}`,
-                    compressed_size: `${cnDiff.stats[v].compressed_size}`,
-                    decompressed_size: `${cnDiff.stats[v].uncompressed_size}`,
-                    file_hash: `${cnDiff.manifest.checksum}`,
-                    diff_type: "ldiff",
-                    original_version: v,
-                    language: cnDiff.matching_field
-                });
+                    pda.push({
+                        file_url: `${cnDiff.manifest_download.url_prefix}/${cnDiff.manifest.id}`,
+                        compressed_size: `${cnDiff.stats[v].compressed_size}`,
+                        decompressed_size: `${cnDiff.stats[v].uncompressed_size}`,
+                        file_hash: `${cnDiff.manifest.checksum}`,
+                        diff_type: "ldiff",
+                        original_version: v,
+                        language: cnDiff.matching_field
+                    });
 
-                pda.push({
-                    file_url: `${krDiff.manifest_download.url_prefix}/${krDiff.manifest.id}`,
-                    compressed_size: `${krDiff.stats[v].compressed_size}`,
-                    decompressed_size: `${krDiff.stats[v].uncompressed_size}`,
-                    file_hash: `${krDiff.manifest.checksum}`,
-                    diff_type: "ldiff",
-                    original_version: v,
-                    language: krDiff.matching_field
-                });
+                    pda.push({
+                        file_url: `${krDiff.manifest_download.url_prefix}/${krDiff.manifest.id}`,
+                        compressed_size: `${krDiff.stats[v].compressed_size}`,
+                        decompressed_size: `${krDiff.stats[v].uncompressed_size}`,
+                        file_hash: `${krDiff.manifest.checksum}`,
+                        diff_type: "ldiff",
+                        original_version: v,
+                        language: krDiff.matching_field
+                    });
 
-                pda.push({
-                    file_url: `${jpDiff.manifest_download.url_prefix}/${jpDiff.manifest.id}`,
-                    compressed_size: `${jpDiff.stats[v].compressed_size}`,
-                    decompressed_size: `${jpDiff.stats[v].uncompressed_size}`,
-                    file_hash: `${jpDiff.manifest.checksum}`,
-                    diff_type: "ldiff",
-                    original_version: v,
-                    language: jpDiff.matching_field
-                });
+                    pda.push({
+                        file_url: `${jpDiff.manifest_download.url_prefix}/${jpDiff.manifest.id}`,
+                        compressed_size: `${jpDiff.stats[v].compressed_size}`,
+                        decompressed_size: `${jpDiff.stats[v].uncompressed_size}`,
+                        file_hash: `${jpDiff.manifest.checksum}`,
+                        diff_type: "ldiff",
+                        original_version: v,
+                        language: jpDiff.matching_field
+                    });
+                }
 
-            })
-
-            pfa.push({
-                file_url: `${en.manifest_download.url_prefix}/${en.manifest.id}`,
-                compressed_size: `${en.stats.compressed_size}`,
-                decompressed_size: `${en.stats.uncompressed_size}`,
-                file_hash: en.manifest.checksum,
-                language: en.matching_field
             });
 
-            pfa.push({
-                file_url: `${cn.manifest_download.url_prefix}/${cn.manifest.id}`,
-                compressed_size: `${cn.stats.compressed_size}`,
-                decompressed_size: `${cn.stats.uncompressed_size}`,
-                file_hash: cn.manifest.checksum,
-                language: cn.matching_field
-            });
+            if (biz !== "bh3_global") {
+                pfa.push({
+                    file_url: `${en.manifest_download.url_prefix}/${en.manifest.id}`,
+                    compressed_size: `${en.stats.compressed_size}`,
+                    decompressed_size: `${en.stats.uncompressed_size}`,
+                    file_hash: en.manifest.checksum,
+                    language: en.matching_field
+                });
 
-            pfa.push({
-                file_url: `${kr.manifest_download.url_prefix}/${kr.manifest.id}`,
-                compressed_size: `${kr.stats.compressed_size}`,
-                decompressed_size: `${kr.stats.uncompressed_size}`,
-                file_hash: kr.manifest.checksum,
-                language: kr.matching_field
-            });
+                pfa.push({
+                    file_url: `${cn.manifest_download.url_prefix}/${cn.manifest.id}`,
+                    compressed_size: `${cn.stats.compressed_size}`,
+                    decompressed_size: `${cn.stats.uncompressed_size}`,
+                    file_hash: cn.manifest.checksum,
+                    language: cn.matching_field
+                });
 
-            pfa.push({
-                file_url: `${jp.manifest_download.url_prefix}/${jp.manifest.id}`,
-                compressed_size: `${jp.stats.compressed_size}`,
-                decompressed_size: `${jp.stats.uncompressed_size}`,
-                file_hash: jp.manifest.checksum,
-                language: jp.matching_field
-            });
+                pfa.push({
+                    file_url: `${kr.manifest_download.url_prefix}/${kr.manifest.id}`,
+                    compressed_size: `${kr.stats.compressed_size}`,
+                    decompressed_size: `${kr.stats.uncompressed_size}`,
+                    file_hash: kr.manifest.checksum,
+                    language: kr.matching_field
+                });
+
+                pfa.push({
+                    file_url: `${jp.manifest_download.url_prefix}/${jp.manifest.id}`,
+                    compressed_size: `${jp.stats.compressed_size}`,
+                    decompressed_size: `${jp.stats.uncompressed_size}`,
+                    file_hash: jp.manifest.checksum,
+                    language: jp.matching_field
+                });
+            }
 
             let pmetadatainfo = {
                 versioned_name: `${name} ${pkgs.preload.tag} Preload (Global)`,
@@ -642,10 +650,10 @@ async function formatPreload(pkgs, name, biz) {
                 res_list_url: `${game.chunk_download.url_prefix}`,
                 diff_list_url: {
                     game: `${gameDiff.diff_download.url_prefix}`,
-                    en_us: `${enDiff.diff_download.url_prefix}`,
-                    zh_cn: `${cnDiff.diff_download.url_prefix}`,
-                    ja_jp: `${jpDiff.diff_download.url_prefix}`,
-                    ko_kr: `${krDiff.diff_download.url_prefix}`
+                    en_us: (biz !== "bh3_global") ? `${enDiff.diff_download.url_prefix}` : "",
+                    zh_cn: (biz !== "bh3_global") ? `${cnDiff.diff_download.url_prefix}` : "",
+                    ja_jp: (biz !== "bh3_global") ? `${jpDiff.diff_download.url_prefix}` : "",
+                    ko_kr: (biz !== "bh3_global") ? `${krDiff.diff_download.url_prefix}` : ""
                 }
             }
 
@@ -663,4 +671,4 @@ async function formatPreload(pkgs, name, biz) {
 generateManifest("hk4e_global").then(r => writeFileSync(gipath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
 generateManifest("hkrpg_global").then(r => writeFileSync(hsrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
 generateManifest("nap_global").then(r => writeFileSync(zzzpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-//generateManifest("bh3_global").then(r => writeFileSync(bhpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("bh3_global").then(r => writeFileSync(bhpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
