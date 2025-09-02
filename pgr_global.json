@@ -39,7 +39,7 @@
             "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/2.17.0/indexFile.json",
             "compressed_size": "43300330890",
             "decompressed_size": "6219070637",
-            "file_hash": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/2.17.0/resources/",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/2.17.0/resources/",
             "diff_type": "krdiff",
             "original_version": "2.17.0.0",
             "delete_files": []
@@ -48,7 +48,7 @@
             "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.1.0/indexFile.json",
             "compressed_size": "43300330890",
             "decompressed_size": "6219070637",
-            "file_hash": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.1.0/resources/",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.1.0/resources/",
             "diff_type": "krdiff",
             "original_version": "3.1.0.0",
             "delete_files": []
@@ -57,7 +57,7 @@
             "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.4.0/indexFile.json",
             "compressed_size": "6073636908",
             "decompressed_size": "430201664",
-            "file_hash": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.4.0/resources/",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/3.5.0/alxvdXGXJXGuJCAwRICmGBYUcPIrwGBv/resource/50015/3.5.0/3.4.0/resources/",
             "diff_type": "krdiff",
             "original_version": "3.4.0.0",
             "delete_files": []

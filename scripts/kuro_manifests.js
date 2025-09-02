@@ -211,7 +211,7 @@ async function formatPackages(biz, manifest, sizes, patches) {
             file_url: index,
             compressed_size: `${e.size}`,
             decompressed_size: `${e.unCompressSize}`,
-            file_hash: `${INDEX.wuwa.cdn}/${e.baseUrl}`,
+            file_hash: `${cdnbase}/${e.baseUrl}`,
             diff_type: "krdiff",
             original_version: e.version,
             delete_files: []
@@ -222,6 +222,7 @@ async function formatPackages(biz, manifest, sizes, patches) {
 }
 
 async function formatPreload(biz, pkgs, name) {
+    let cdnbase = (biz === "wuwa_global") ? `${INDEX.wuwa.cdn}` : `${INDEX.pgr.cdn}`;
     let preloaddata = {};
 
     if (pkgs.hasOwnProperty("index_file")) {
@@ -240,10 +241,10 @@ async function formatPreload(biz, pkgs, name) {
 
         pkgs.patch_config.forEach(e => {
             return pdg.push({
-                file_url: `${INDEX.wuwa.cdn}/${e.indexFile}`,
+                file_url: `${cdnbase}/${e.indexFile}`,
                 compressed_size: `${e.size}`,
                 decompressed_size: `${e.unCompressSize}`,
-                file_hash: `${INDEX.wuwa.cdn}/${e.baseUrl}`,
+                file_hash: `${cdnbase}/${e.baseUrl}`,
                 diff_type: "krdiff",
                 original_version: e.version,
                 delete_files: []
