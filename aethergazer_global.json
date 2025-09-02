@@ -22,7 +22,7 @@
       },
       "assets": {
         "game_icon": "https://aethergazer.com/en/favicon.ico",
-        "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/ea6a9461-22a4-4090-b265-04f175f4ce0f.png"
+        "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/8ce31e3e-4de2-47da-97d7-8a72b8ebcdbb.png"
       },
       "game": {
         "full": [
@@ -51,7 +51,7 @@
   },
   "assets": {
     "game_icon": "https://aethergazer.com/en/favicon.ico",
-    "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/ea6a9461-22a4-4090-b265-04f175f4ce0f.png"
+    "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/8ce31e3e-4de2-47da-97d7-8a72b8ebcdbb.png"
   },
   "telemetry_hosts": [
     "pc.crashsight.wetest.net"
