@@ -7,7 +7,7 @@ let GAMESINFO_API = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGam
 let gihosts = ["log-upload-os.hoyoverse.com", "overseauspider.yuanshen.com", "osuspider.yuanshen.com", "ys-log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com"];
 let hsrhosts = ["log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com"];
 let zzzhosts = ["apm-log-upload-os.hoyoverse.com", "zzz-log-upload-os.hoyoverse.com", "log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com"];
-let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com"];
+let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "down.anticheatexpert.com", "usa01-client-report.honkaiimpact3.com", "usa01-appsflyer-report.honkaiimpact3.com"];
 
 let gifps = ["120", "144", "165", "180", "240"];
 let hsrfps = ["120"];

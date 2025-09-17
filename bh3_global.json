@@ -205,7 +205,10 @@
     "log-upload-os.hoyoverse.com",
     "dump.gamesafe.qq.com",
     "log-upload-os.hoyoverse.com",
-    "sg-public-data-api.hoyoverse.com"
+    "sg-public-data-api.hoyoverse.com",
+    "usa01-appsflyer-report.honkaiimpact3.com",
+    "usa01-client-report.honkaiimpact3.com",
+    "down.anticheatexpert.com"
   ],
   "extra": {
     "fps_unlock_options": [
