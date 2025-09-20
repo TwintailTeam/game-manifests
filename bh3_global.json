@@ -208,7 +208,8 @@
     "sg-public-data-api.hoyoverse.com",
     "down.anticheatexpert.com",
     "usa01-client-report.honkaiimpact3.com",
-    "usa01-appsflyer-report.honkaiimpact3.com"
+    "usa01-appsflyer-report.honkaiimpact3.com",
+    "minor-api-os.hoyoverse.com"
   ],
   "extra": {
     "fps_unlock_options": [

@@ -1674,7 +1674,8 @@
     "overseauspider.yuanshen.com",
     "osuspider.yuanshen.com",
     "ys-log-upload-os.hoyoverse.com",
-    "sg-public-data-api.hoyoverse.com"
+    "sg-public-data-api.hoyoverse.com",
+    "minor-api-os.hoyoverse.com"
   ],
   "extra": {
     "fps_unlock_options": [
