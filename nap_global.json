@@ -6965,6 +6965,1326 @@
       "jadeite": false,
       "xxmi": true
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "ZenlessZoneZero 2.3.0 Preload (Global)",
+        "version": "2.3.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws",
+        "diff_list_url": {
+          "game": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10037",
+          "en_us": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10039",
+          "zh_cn": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10038",
+          "ja_jp": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10041",
+          "ko_kr": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10040"
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_7796e0c5f4dd54bd_3af3be0175e806a20adf7e54e7da77fd",
+            "compressed_size": "767967",
+            "decompressed_size": "783136",
+            "file_hash": "3af3be0175e806a20adf7e54e7da77fd",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_63b593e8136b299f_6c963cda5772c865124be28da191447c",
+            "compressed_size": "221223910",
+            "decompressed_size": "221234784",
+            "file_hash": "6c963cda5772c865124be28da191447c",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_da87b33d818cb2eb_49c19ee9da8ba15f0afbb5869415f225",
+            "compressed_size": "22700640",
+            "decompressed_size": "22822400",
+            "file_hash": "49c19ee9da8ba15f0afbb5869415f225",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_3ab85b5d3e888c1b_e68bc4e3207420c6a8330d76fc49a5fe",
+            "compressed_size": "105463135",
+            "decompressed_size": "105465536",
+            "file_hash": "e68bc4e3207420c6a8330d76fc49a5fe",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_0dbb3a66af40b8c5_b99388ca0ce0487414d8ecf91370eb6e",
+            "compressed_size": "68563016",
+            "decompressed_size": "68582528",
+            "file_hash": "b99388ca0ce0487414d8ecf91370eb6e",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f7506540f65d76cf_997aa542b01252444ffdfc19bcb5cad5",
+            "compressed_size": "5613040",
+            "decompressed_size": "5614944",
+            "file_hash": "997aa542b01252444ffdfc19bcb5cad5",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_1778ab22f42f4457_539723214e9b7d8b7baad15fff8bf006",
+            "compressed_size": "1657560738",
+            "decompressed_size": "1657647712",
+            "file_hash": "539723214e9b7d8b7baad15fff8bf006",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d7932f359acabff7_17e39d13143cb03dd6ac51624e254c61",
+            "compressed_size": "5831280",
+            "decompressed_size": "5833952",
+            "file_hash": "17e39d13143cb03dd6ac51624e254c61",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_230bd512a556adef_b84da1b9f85fbeb4e82dc6dc2c4b03ed",
+            "compressed_size": "739435907",
+            "decompressed_size": "739487520",
+            "file_hash": "b84da1b9f85fbeb4e82dc6dc2c4b03ed",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_4b86e772c08d1a9e_a34b7b573e9c4d23fd8e77ac6e05283f",
+            "compressed_size": "5592733",
+            "decompressed_size": "5635488",
+            "file_hash": "a34b7b573e9c4d23fd8e77ac6e05283f",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_7e27ba2fb0f963eb_1f013676db11ba8f21a253378481bb6f",
+            "compressed_size": "552309377",
+            "decompressed_size": "552328928",
+            "file_hash": "1f013676db11ba8f21a253378481bb6f",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_410d18dda48c1258_b236d6496f8f566f1cf9ced901897167",
+            "compressed_size": "26981707",
+            "decompressed_size": "27001824",
+            "file_hash": "b236d6496f8f566f1cf9ced901897167",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_43a76a670ce715d9_8ea5255d8c6c4d32d864a801d7130e46",
+            "compressed_size": "25082923",
+            "decompressed_size": "25100736",
+            "file_hash": "8ea5255d8c6c4d32d864a801d7130e46",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_a507dfb11d3f7e5c_fa9d059dc89a19cf380e1bd4305e8cb2",
+            "compressed_size": "26066358",
+            "decompressed_size": "26108704",
+            "file_hash": "fa9d059dc89a19cf380e1bd4305e8cb2",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_0ac5db075ec292ad_0c141140703f30b05b0c7823f27486d4",
+            "compressed_size": "7144757",
+            "decompressed_size": "7146592",
+            "file_hash": "0c141140703f30b05b0c7823f27486d4",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_0c124374a8b52788_e0a2784f1646aff94ca7c21ee44f0917",
+            "compressed_size": "30262706",
+            "decompressed_size": "30284544",
+            "file_hash": "e0a2784f1646aff94ca7c21ee44f0917",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_4190caa377728cbf_ede184fb7f0e52ead921c1d563c1019e",
+            "compressed_size": "202040976",
+            "decompressed_size": "202798080",
+            "file_hash": "ede184fb7f0e52ead921c1d563c1019e",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_b9bcd8b93cc2f900_84c9a0506127f3d444e3d35bafec9abc",
+            "compressed_size": "84323298",
+            "decompressed_size": "84417824",
+            "file_hash": "84c9a0506127f3d444e3d35bafec9abc",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_4645f84d6a431a2e_fb249505a4f0b2105dac2dd5335dd6da",
+            "compressed_size": "4673168",
+            "decompressed_size": "4675104",
+            "file_hash": "fb249505a4f0b2105dac2dd5335dd6da",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_cf1c2466226b721d_e22802dd6add46ac4caeeb8c0e1d20bb",
+            "compressed_size": "58970982",
+            "decompressed_size": "59284544",
+            "file_hash": "e22802dd6add46ac4caeeb8c0e1d20bb",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_6e3cc40f72cd1b71_f1e0041fde3ac1db4c75d0189fcb86fc",
+            "compressed_size": "24624026",
+            "decompressed_size": "24669664",
+            "file_hash": "f1e0041fde3ac1db4c75d0189fcb86fc",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_4909540b6e617201_f9bfd3f2d9be8344e87d8a34772bd00a",
+            "compressed_size": "150511490",
+            "decompressed_size": "150527296",
+            "file_hash": "f9bfd3f2d9be8344e87d8a34772bd00a",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_519f8f99a5ffbcd3_946f75c65d4b10cb8f790520699a9f16",
+            "compressed_size": "6636917",
+            "decompressed_size": "6643008",
+            "file_hash": "946f75c65d4b10cb8f790520699a9f16",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d898e91b6fec3b85_64b1f406cc80a16ae452be9f9c505502",
+            "compressed_size": "26066514",
+            "decompressed_size": "26193056",
+            "file_hash": "64b1f406cc80a16ae452be9f9c505502",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_861b96f751652d3a_24d21aaec9d3328a4f94a7f61ed34c93",
+            "compressed_size": "93582929",
+            "decompressed_size": "93583936",
+            "file_hash": "24d21aaec9d3328a4f94a7f61ed34c93",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_77bd8349d303dcb2_4fcc10c5201f35e7f69164b0dc2cc6e5",
+            "compressed_size": "774360479",
+            "decompressed_size": "774419200",
+            "file_hash": "4fcc10c5201f35e7f69164b0dc2cc6e5",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_be0a40083fb93a61_d0fd90b2b4e0c1839aaca6d4404a2537",
+            "compressed_size": "6544467",
+            "decompressed_size": "6546592",
+            "file_hash": "d0fd90b2b4e0c1839aaca6d4404a2537",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_3dd3616b351f5ad6_eba3afbd8fd3e7fb9e4592cbb18a88b2",
+            "compressed_size": "105804848",
+            "decompressed_size": "106207168",
+            "file_hash": "eba3afbd8fd3e7fb9e4592cbb18a88b2",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f8629e8b7061c0cd_793e2bf9dfe6c490f38625c5a7ee3ea4",
+            "compressed_size": "335128775",
+            "decompressed_size": "343138464",
+            "file_hash": "793e2bf9dfe6c490f38625c5a7ee3ea4",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_34288d53d2b8fc88_6bc45de41aadfe2116d66c50fe7f7e57",
+            "compressed_size": "22147115",
+            "decompressed_size": "22162944",
+            "file_hash": "6bc45de41aadfe2116d66c50fe7f7e57",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_7071f3e6030f7229_b99fa4631fb7151ec59ae2c4ba6b06bb",
+            "compressed_size": "501923",
+            "decompressed_size": "504096",
+            "file_hash": "b99fa4631fb7151ec59ae2c4ba6b06bb",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_bd0c2b3f0dd2cb79_5ceca86e8296f93705992edf21937bd8",
+            "compressed_size": "7233503",
+            "decompressed_size": "7235360",
+            "file_hash": "5ceca86e8296f93705992edf21937bd8",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_433de8e3a1fb0782_e57073f74bac7d9d9ad3975d2cd1bad0",
+            "compressed_size": "22323657",
+            "decompressed_size": "22339456",
+            "file_hash": "e57073f74bac7d9d9ad3975d2cd1bad0",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_110fe06d72d2ffff_28dd849a9ecc2ec69b2a93969f31f014",
+            "compressed_size": "68256419",
+            "decompressed_size": "68259968",
+            "file_hash": "28dd849a9ecc2ec69b2a93969f31f014",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_1e47c1a1cba33f16_2aec16cbdc8a623a2363a395bd25d9a6",
+            "compressed_size": "7489243",
+            "decompressed_size": "7545856",
+            "file_hash": "2aec16cbdc8a623a2363a395bd25d9a6",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_620d5417203e50a8_04555fc729766fadf308cbd6dab3eebb",
+            "compressed_size": "150314552",
+            "decompressed_size": "150332384",
+            "file_hash": "04555fc729766fadf308cbd6dab3eebb",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_cce6f0dacd701523_def760433a840d12b3828fd0943ca86c",
+            "compressed_size": "28434907",
+            "decompressed_size": "28439776",
+            "file_hash": "def760433a840d12b3828fd0943ca86c",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_e21b63aa59b36dc5_a596be3167fc90bd2d2d3a56ea1eb2c3",
+            "compressed_size": "27759912",
+            "decompressed_size": "27919904",
+            "file_hash": "a596be3167fc90bd2d2d3a56ea1eb2c3",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_a38dd8c3f1aeb72c_a4232849e88bed53586a2fb2914dbd0e",
+            "compressed_size": "39611668",
+            "decompressed_size": "39796064",
+            "file_hash": "a4232849e88bed53586a2fb2914dbd0e",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_97c0978c0c989693_f96e5612e80eb42e682f932ecc3f2cab",
+            "compressed_size": "5658861",
+            "decompressed_size": "5660736",
+            "file_hash": "f96e5612e80eb42e682f932ecc3f2cab",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_6abfa6f65b477efe_6ff91acbd3c1b375da16b3161f455fe2",
+            "compressed_size": "14761724",
+            "decompressed_size": "14771616",
+            "file_hash": "6ff91acbd3c1b375da16b3161f455fe2",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_7e24568a604df7e1_245fbddb30198386597154e5d378f8fe",
+            "compressed_size": "30632221",
+            "decompressed_size": "30653952",
+            "file_hash": "245fbddb30198386597154e5d378f8fe",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_6222c38e7b9f3c4e_dd4736a2faf9a69d0d757808196c3a70",
+            "compressed_size": "163382404",
+            "decompressed_size": "163392608",
+            "file_hash": "dd4736a2faf9a69d0d757808196c3a70",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_06bbc9faa4de6503_edf902bc8435a1dec6bce90b56e65d61",
+            "compressed_size": "5828139",
+            "decompressed_size": "5880928",
+            "file_hash": "edf902bc8435a1dec6bce90b56e65d61",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_894ba4c8bd16ffc4_d3ae1115e52f13fefa2b37627a49051b",
+            "compressed_size": "31554307",
+            "decompressed_size": "31576096",
+            "file_hash": "d3ae1115e52f13fefa2b37627a49051b",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_97d00bf67dbc0c3a_f160ad16a7b30581cb78b00a50cd4611",
+            "compressed_size": "24733822",
+            "decompressed_size": "24751552",
+            "file_hash": "f160ad16a7b30581cb78b00a50cd4611",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_b20df9ed0a722450_4df9100c44825a2297ad6595ece13534",
+            "compressed_size": "101273352",
+            "decompressed_size": "101288672",
+            "file_hash": "4df9100c44825a2297ad6595ece13534",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_da2a3c409d34c43a_78e8c100b862c36d9d15d813842a6413",
+            "compressed_size": "2991443",
+            "decompressed_size": "3027616",
+            "file_hash": "78e8c100b862c36d9d15d813842a6413",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_0828a2a193330e03_3a4293ce55fcee75df50fa70082c9cca",
+            "compressed_size": "6304180",
+            "decompressed_size": "6306048",
+            "file_hash": "3a4293ce55fcee75df50fa70082c9cca",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_93a07ad3534b129f_f22bf3af4372b40232471fafce4beb77",
+            "compressed_size": "6554239",
+            "decompressed_size": "6556544",
+            "file_hash": "f22bf3af4372b40232471fafce4beb77",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_63414cd7bd90594e_3571650f4c0eb87c702362bfad4b92fe",
+            "compressed_size": "538451",
+            "decompressed_size": "540512",
+            "file_hash": "3571650f4c0eb87c702362bfad4b92fe",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_18102b4b4053053c_a271123f045afb821edeea402a40ecb6",
+            "compressed_size": "306908919",
+            "decompressed_size": "306917888",
+            "file_hash": "a271123f045afb821edeea402a40ecb6",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_ff631f2cc2df801b_5f5d8c5cc88af2e4e184ec12b138564e",
+            "compressed_size": "113842128",
+            "decompressed_size": "114006528",
+            "file_hash": "5f5d8c5cc88af2e4e184ec12b138564e",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_5cecb2503d75bcc3_65ce126ae0c2227c884a6cb47c69a12d",
+            "compressed_size": "28688194",
+            "decompressed_size": "28707936",
+            "file_hash": "65ce126ae0c2227c884a6cb47c69a12d",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_0ba2e01068969d9f_5fd3bff719d3cfb0841d7a0c459a125f",
+            "compressed_size": "84647588",
+            "decompressed_size": "84813152",
+            "file_hash": "5fd3bff719d3cfb0841d7a0c459a125f",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_bb1ac03a31d51d6a_b3f84241584be766226ad848360accae",
+            "compressed_size": "269092782",
+            "decompressed_size": "269116320",
+            "file_hash": "b3f84241584be766226ad848360accae",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_05d6410176e751c3_f2f2157e10bec19091eaefdbd652cad9",
+            "compressed_size": "75259310",
+            "decompressed_size": "75309824",
+            "file_hash": "f2f2157e10bec19091eaefdbd652cad9",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_b2339a14ddd081c6_67c37e6800b113b8afbf8627635a58ad",
+            "compressed_size": "2776852",
+            "decompressed_size": "2788960",
+            "file_hash": "67c37e6800b113b8afbf8627635a58ad",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_c4b41c6f63203a5e_c862168d45da5e1beb522b6ba044aed2",
+            "compressed_size": "1067046184",
+            "decompressed_size": "1067076864",
+            "file_hash": "c862168d45da5e1beb522b6ba044aed2",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_76e6709bd60928cb_7a86331f8d279719b1d68ee962d7dd39",
+            "compressed_size": "168435049",
+            "decompressed_size": "168456096",
+            "file_hash": "7a86331f8d279719b1d68ee962d7dd39",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_464bffef39b2feab_6e7614dccc497c15a25ec55460e02d94",
+            "compressed_size": "28949223",
+            "decompressed_size": "28977504",
+            "file_hash": "6e7614dccc497c15a25ec55460e02d94",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d538b7c4af643895_fd193705e4453f1bcf62899f54b3f29a",
+            "compressed_size": "152626102",
+            "decompressed_size": "152687616",
+            "file_hash": "fd193705e4453f1bcf62899f54b3f29a",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_844cc4c8af81cb93_a7e80602e43fb76af6ad1425fe7023bb",
+            "compressed_size": "501151042",
+            "decompressed_size": "501222272",
+            "file_hash": "a7e80602e43fb76af6ad1425fe7023bb",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d3966bf29e416564_da0bcbafc8f903cfc3ec02a7e88036f4",
+            "compressed_size": "61468388",
+            "decompressed_size": "61468448",
+            "file_hash": "da0bcbafc8f903cfc3ec02a7e88036f4",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f9590a03486d8476_b48b2c4729ade9c0dcb20ee808c71fc0",
+            "compressed_size": "94311515",
+            "decompressed_size": "94318336",
+            "file_hash": "b48b2c4729ade9c0dcb20ee808c71fc0",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_79fbb5a5864651d6_85116fc151837d3c493943299ea54c6d",
+            "compressed_size": "56691768",
+            "decompressed_size": "56976672",
+            "file_hash": "85116fc151837d3c493943299ea54c6d",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d77b487d73b2b8fe_4a898e47da5487db4ce101e2a2de5034",
+            "compressed_size": "5762467",
+            "decompressed_size": "5764352",
+            "file_hash": "4a898e47da5487db4ce101e2a2de5034",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_aa7f439fa6e1df9f_c6a6389b103a6a6230dd06a96ed89e92",
+            "compressed_size": "6561881",
+            "decompressed_size": "6563744",
+            "file_hash": "c6a6389b103a6a6230dd06a96ed89e92",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f43f1ca7d7c418be_279200679fc82706e1e0007662016b23",
+            "compressed_size": "1064156656",
+            "decompressed_size": "1064237408",
+            "file_hash": "279200679fc82706e1e0007662016b23",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_354217b24ad92083_590c7261d2619e07dceb2a38f984cc59",
+            "compressed_size": "251952279",
+            "decompressed_size": "252028608",
+            "file_hash": "590c7261d2619e07dceb2a38f984cc59",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_34e4754f37d64fa4_feef60dd0f8e6114e4a70c2e522376be",
+            "compressed_size": "1160132508",
+            "decompressed_size": "1160345248",
+            "file_hash": "feef60dd0f8e6114e4a70c2e522376be",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_33e40441c0841fba_4ea1680262b961f3cdf868d79f42d7d6",
+            "compressed_size": "364124393",
+            "decompressed_size": "364181760",
+            "file_hash": "4ea1680262b961f3cdf868d79f42d7d6",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_cdf2e910c2aca47c_f032b8719b8d54a06de5575707f5f99d",
+            "compressed_size": "1621014698",
+            "decompressed_size": "1621219968",
+            "file_hash": "f032b8719b8d54a06de5575707f5f99d",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f245d76fcd305658_32daabf4e663c43bc2fe138508fcacd7",
+            "compressed_size": "2828018",
+            "decompressed_size": "2829984",
+            "file_hash": "32daabf4e663c43bc2fe138508fcacd7",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_2e0e4ef863ac6be4_ffd0cea462f861c54da7aa075e5e64c1",
+            "compressed_size": "26091093",
+            "decompressed_size": "26108832",
+            "file_hash": "ffd0cea462f861c54da7aa075e5e64c1",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_cbb49d7e59296c49_772b87706ed96c04358137f06a9c9b67",
+            "compressed_size": "33118814",
+            "decompressed_size": "33129248",
+            "file_hash": "772b87706ed96c04358137f06a9c9b67",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_2ecc954b55111124_7aa82bb40881f1737fced69a70dcf955",
+            "compressed_size": "3419719",
+            "decompressed_size": "3421664",
+            "file_hash": "7aa82bb40881f1737fced69a70dcf955",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_bc0bc0c10aec7cc4_b0de0b2b028ee33c476681a7de22895e",
+            "compressed_size": "129066135",
+            "decompressed_size": "129113984",
+            "file_hash": "b0de0b2b028ee33c476681a7de22895e",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f590b686697ce6d9_8aaab2ef60417ed14dff8e72d7cddb92",
+            "compressed_size": "120776379",
+            "decompressed_size": "120784096",
+            "file_hash": "8aaab2ef60417ed14dff8e72d7cddb92",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_9d4227526b5e25d2_c71c7f32635d01937d5e7f9b24e4d527",
+            "compressed_size": "315555839",
+            "decompressed_size": "315713504",
+            "file_hash": "c71c7f32635d01937d5e7f9b24e4d527",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f2ebed6081f41617_afe4bacf219807b51fc2acf882d56ca8",
+            "compressed_size": "5772117",
+            "decompressed_size": "5774016",
+            "file_hash": "afe4bacf219807b51fc2acf882d56ca8",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_08f25fa8acda7566_f711edd497238b022d8086396859dbb8",
+            "compressed_size": "662864214",
+            "decompressed_size": "662886624",
+            "file_hash": "f711edd497238b022d8086396859dbb8",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_3758a31127262cf6_c72a36a0dca8516074250deb9060fac6",
+            "compressed_size": "76196001",
+            "decompressed_size": "76195648",
+            "file_hash": "c72a36a0dca8516074250deb9060fac6",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_bc1f86487e2e1992_31acf6ebe30ae1030f1c77394327e2d9",
+            "compressed_size": "21330313",
+            "decompressed_size": "21441344",
+            "file_hash": "31acf6ebe30ae1030f1c77394327e2d9",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d8951a8965352dd3_7bfd3392163439ddb2c9a8fdd74e8e27",
+            "compressed_size": "8859928",
+            "decompressed_size": "8863904",
+            "file_hash": "7bfd3392163439ddb2c9a8fdd74e8e27",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d79ae8bdb6b4d627_88797c5e8efe0e4aa291e9fa30a12ecd",
+            "compressed_size": "9622937",
+            "decompressed_size": "9651040",
+            "file_hash": "88797c5e8efe0e4aa291e9fa30a12ecd",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_ad0c7ad7b35fc859_dc418164d4c80943b838a56806f22ee6",
+            "compressed_size": "2406911",
+            "decompressed_size": "2408960",
+            "file_hash": "dc418164d4c80943b838a56806f22ee6",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_814725154d62b9df_ba354f60d5f49696549f750070e5570f",
+            "compressed_size": "789496111",
+            "decompressed_size": "789531968",
+            "file_hash": "ba354f60d5f49696549f750070e5570f",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_d99baf3efda7fc65_0858d10821d413f82fc827e44b5f402b",
+            "compressed_size": "83365365",
+            "decompressed_size": "83371200",
+            "file_hash": "0858d10821d413f82fc827e44b5f402b",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_cdc2bede91c0717e_ef28ec26d8affd79b25516d59cb2ef8e",
+            "compressed_size": "3884768",
+            "decompressed_size": "3895488",
+            "file_hash": "ef28ec26d8affd79b25516d59cb2ef8e",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_4a9c774819d708bd_d376649a553a74a7ea12b3d3b98c7f40",
+            "compressed_size": "4491216",
+            "decompressed_size": "4493792",
+            "file_hash": "d376649a553a74a7ea12b3d3b98c7f40",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_60d80a37f7a62586_1c09498067de9160cc4250f3aa4068bf",
+            "compressed_size": "861520151",
+            "decompressed_size": "861550784",
+            "file_hash": "1c09498067de9160cc4250f3aa4068bf",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_153852722dc7eacc_61e74a6aa9aefb6007586a58f8373485",
+            "compressed_size": "664441564",
+            "decompressed_size": "665044704",
+            "file_hash": "61e74a6aa9aefb6007586a58f8373485",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_13de75218fa63125_6edd53411288132bcd838a97e7f49590",
+            "compressed_size": "1858402",
+            "decompressed_size": "1862688",
+            "file_hash": "6edd53411288132bcd838a97e7f49590",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_3ce720454f242c7b_3b4b78571a400edc90e1eb1b07e46fd3",
+            "compressed_size": "7244078",
+            "decompressed_size": "7246432",
+            "file_hash": "3b4b78571a400edc90e1eb1b07e46fd3",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_989d16329f0a7871_ddb3c06d93c9f42aa7334f70dfe6c2b6",
+            "compressed_size": "51890893",
+            "decompressed_size": "51893216",
+            "file_hash": "ddb3c06d93c9f42aa7334f70dfe6c2b6",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_16ef9f2942a2f2bb_cde09afa761503647b9b8719ee0ebd64",
+            "compressed_size": "48940968974",
+            "decompressed_size": "50035123823",
+            "file_hash": "cde09afa761503647b9b8719ee0ebd64",
+            "file_path": "https://autopatchos.zenlesszonezero.com/pclauncher/chunks/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws"
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b9f9b75e5b02dea7_7cef4c60f6ea4afec7a57eee821f4429",
+            "compressed_size": "7240496",
+            "decompressed_size": "7240496",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10186",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_31789cf1d3026bb0_96894de1f6a95a14d873b1dd2791b28b",
+            "compressed_size": "3034519",
+            "decompressed_size": "3034519",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10084",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_afa0f4bf55908d7f_cd36e769756ce87fe531aee649547493",
+            "compressed_size": "1925541",
+            "decompressed_size": "1925541",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10068",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_c0d9548d2ba89158_bf13c209a1045f9724b1ac60fc9afade",
+            "compressed_size": "25998797",
+            "decompressed_size": "25998797",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10121",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_4cd97866dcb897a5_035b22f97bfc1f0bd1dc638c1a22c2bf",
+            "compressed_size": "12229094",
+            "decompressed_size": "12229094",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10144",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b304a504faa11aec_bcabb0bbb392faa96b4b9f0b855747ba",
+            "compressed_size": "9217642",
+            "decompressed_size": "9217642",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10082",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b655e5d674d577e4_8c83571ea43b315e667fd2c02f5717bd",
+            "compressed_size": "366982900",
+            "decompressed_size": "366982900",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10171",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_bebebe2d6423c078_1e5eecb5ee2f01f2d1a36b4e8fc5101c",
+            "compressed_size": "13396973",
+            "decompressed_size": "13396973",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10092",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_5e99dbe50e16a852_5c4c4d599288714b64bba6908aad149e",
+            "compressed_size": "570465081",
+            "decompressed_size": "570465081",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10172",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_f5dc41f0c561b685_6bcfa333d7c100e9869e813eee014ffd",
+            "compressed_size": "33107742",
+            "decompressed_size": "33107742",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10140",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_feae373835843ac2_902e5c1bc53f6c52a30fb6209d7aadff",
+            "compressed_size": "51883018",
+            "decompressed_size": "51883018",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10187",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_4b61edfc1d9ab499_ce18830b1d762576f0d38ae9d008859f",
+            "compressed_size": "1854492",
+            "decompressed_size": "1854492",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10185",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_159d4bd2a3421e51_d31675d0b9aa9278e081b2001408eae6",
+            "compressed_size": "7254198570",
+            "decompressed_size": "7254198570",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10037",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_988f44cccdfa6aa6_85424bd482ec9c7050b9674bd189a59b",
+            "compressed_size": "497568",
+            "decompressed_size": "497568",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10095",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_468438e235bd6bb3_3279d1b23f133c3840cb3fd2462707d9",
+            "compressed_size": "22307235",
+            "decompressed_size": "22307235",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10097",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b9f9b75e5b02dea7_7cef4c60f6ea4afec7a57eee821f4429",
+            "compressed_size": "7240496",
+            "decompressed_size": "7240496",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10186",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_31789cf1d3026bb0_96894de1f6a95a14d873b1dd2791b28b",
+            "compressed_size": "55816672",
+            "decompressed_size": "55816672",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10084",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_524ff7e2f4cefc91_b04811d8fbffac825c9d4e9749e46bea",
+            "compressed_size": "333208633",
+            "decompressed_size": "333208633",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10093",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_afa0f4bf55908d7f_cd36e769756ce87fe531aee649547493",
+            "compressed_size": "1925541",
+            "decompressed_size": "1925541",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10068",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_4386dee3abae7c50_b03e7f3e4ae69a2a94f9bf30fbb8bbd8",
+            "compressed_size": "30231673",
+            "decompressed_size": "30231673",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10080",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_0f33834e2081c5a2_a40201b77b6b3c5f7a985b866bfcba01",
+            "compressed_size": "3854907",
+            "decompressed_size": "3854907",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10169",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_286c6d209a1241c4_0bf940955a1b1150b8a93b17d0008d35",
+            "compressed_size": "2386280",
+            "decompressed_size": "2386280",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10115",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_5f6511c79697e349_70f76498f49e7da6e1da4701e6c9f703",
+            "compressed_size": "1090289",
+            "decompressed_size": "1090289",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10148",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b95258e146053af6_eec4aa989943c0de48d83afbac2c69c0",
+            "compressed_size": "26982686",
+            "decompressed_size": "26982686",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10165",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_518c5b1e6aeeb906_a125cbc6fdd4dcc4b919d28ebca9e7ce",
+            "compressed_size": "6603415",
+            "decompressed_size": "6603415",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10086",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_c0d9548d2ba89158_bf13c209a1045f9724b1ac60fc9afade",
+            "compressed_size": "25998797",
+            "decompressed_size": "25998797",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10121",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_65fa7bc57b374f33_0463d2e534badebd27c8e75805f37ad5",
+            "compressed_size": "128705696",
+            "decompressed_size": "128705696",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10141",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_4cd97866dcb897a5_035b22f97bfc1f0bd1dc638c1a22c2bf",
+            "compressed_size": "26553047",
+            "decompressed_size": "26553047",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10144",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b304a504faa11aec_bcabb0bbb392faa96b4b9f0b855747ba",
+            "compressed_size": "9217642",
+            "decompressed_size": "9217642",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10082",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_e8def6d124ccb1f4_b4863a88f50d25ea9f46aa4c542882fa",
+            "compressed_size": "28773058",
+            "decompressed_size": "28773058",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10125",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b655e5d674d577e4_8c83571ea43b315e667fd2c02f5717bd",
+            "compressed_size": "861490285",
+            "decompressed_size": "861490285",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10171",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_b2c93d83df54d7c0_2ae17ba3d5616ce86c6905ab1c2a3155",
+            "compressed_size": "47610497",
+            "decompressed_size": "47610497",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10113",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_a2ad7fff707917ea_ae1009bd7206877e2b9e7d1c2f28afea",
+            "compressed_size": "4486663",
+            "decompressed_size": "4486663",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10170",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_c8e200af3149b01e_8df671012065cf5b30cebe80c088f0dc",
+            "compressed_size": "25059139",
+            "decompressed_size": "25059139",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10077",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_bebebe2d6423c078_1e5eecb5ee2f01f2d1a36b4e8fc5101c",
+            "compressed_size": "18794619",
+            "decompressed_size": "18794619",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10092",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_db76ed0c527f53ed_faa9db4a0c60a6e0cf54c8159fc128c9",
+            "compressed_size": "28661510",
+            "decompressed_size": "28661510",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10114",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_c1a459790edac71b_6ccb127dcc0e765a8bdcf5af440a9ae1",
+            "compressed_size": "8853288",
+            "decompressed_size": "8853288",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10149",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_5e99dbe50e16a852_5c4c4d599288714b64bba6908aad149e",
+            "compressed_size": "664369930",
+            "decompressed_size": "664369930",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10172",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_6a9d98e874eb26af_2e8247d3da2b1b1aee356cf3d1155032",
+            "compressed_size": "30310334",
+            "decompressed_size": "30310334",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10106",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_7b903a4de226176a_37b17037a37f9efcd44083f0b72e8017",
+            "compressed_size": "5759207",
+            "decompressed_size": "5759207",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10131",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_f5dc41f0c561b685_6bcfa333d7c100e9869e813eee014ffd",
+            "compressed_size": "33107742",
+            "decompressed_size": "33107742",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10140",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_8f2c3168704076ec_48be3eee84520b9b5e6f07a733383e2a",
+            "compressed_size": "4195908",
+            "decompressed_size": "4195908",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10150",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_d0c7f7259e6a5029_5be6d365edf2ff9f44fe9e1903d005cd",
+            "compressed_size": "2396950",
+            "decompressed_size": "2396950",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10163",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_e9c93be2fea23043_683032b3059c17509abf9d3200161adf",
+            "compressed_size": "31526477",
+            "decompressed_size": "31526477",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10109",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_636d60fc509f39f3_4c94ce77421c9ba7041b7343ff34c005",
+            "compressed_size": "5547459",
+            "decompressed_size": "5547459",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10074",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_54defbf3372f85fc_922853ed3521727e4b611327c8559645",
+            "compressed_size": "87",
+            "decompressed_size": "87",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10079",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_12d10bef41e6fe95_9ce1e4583bab6406e35db6b52b91d435",
+            "compressed_size": "24501196",
+            "decompressed_size": "24501196",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10085",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_1488319237cf80da_d0f2fa20e4a408c15c2c1e359ec779de",
+            "compressed_size": "7443994",
+            "decompressed_size": "7443994",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10099",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_272593cfc6126e8d_5413e6d9a90142b34942fbab901fb90f",
+            "compressed_size": "1583",
+            "decompressed_size": "1583",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10126",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_fd7c9a39b991dcaf_3af7590f67ee54adfcb18ce15a955e57",
+            "compressed_size": "26949318",
+            "decompressed_size": "26949318",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10076",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_70d4da6cc0a2c21b_7fef78d981284f3e7df4d58195ab940d",
+            "compressed_size": "26004904",
+            "decompressed_size": "26004904",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10078",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_fac44c7c8562dd55_938fdaa2834a7a9c0641f10b69d8b9ce",
+            "compressed_size": "200281720",
+            "decompressed_size": "200281720",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10081",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_feae373835843ac2_902e5c1bc53f6c52a30fb6209d7aadff",
+            "compressed_size": "51883018",
+            "decompressed_size": "51883018",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10187",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_5486bfdc10264fbb_24f6e3d977f34d4331322d382039096d",
+            "compressed_size": "759055",
+            "decompressed_size": "759055",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10066",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_3c982602afec0bbb_c11b9c92e192617e7202c95d3f32fa1a",
+            "compressed_size": "26073514",
+            "decompressed_size": "26073514",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10139",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_4b61edfc1d9ab499_ce18830b1d762576f0d38ae9d008859f",
+            "compressed_size": "1854492",
+            "decompressed_size": "1854492",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10185",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_159d4bd2a3421e51_d31675d0b9aa9278e081b2001408eae6",
+            "compressed_size": "8967611156",
+            "decompressed_size": "8967611156",
+            "file_hash": "https://autopatchos.zenlesszonezero.com/pclauncher/diffs/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/10037",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_af2182a16dd7a309_3213cb78d9565ceedbfe94954f4fff34",
+            "compressed_size": "2699084349",
+            "decompressed_size": "2709322878",
+            "file_hash": "3213cb78d9565ceedbfe94954f4fff34",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_2984a4abd32df155_82af13c74bd5de6db399d3999e4f9710",
+            "compressed_size": "2501009679",
+            "decompressed_size": "2511016287",
+            "file_hash": "82af13c74bd5de6db399d3999e4f9710",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_f35fee9bd7d238e8_c80583416ce417c242103045927b5cf0",
+            "compressed_size": "2811579131",
+            "decompressed_size": "2821560919",
+            "file_hash": "c80583416ce417c242103045927b5cf0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/20250924/2.3.0/FFud7hjH6Qws/manifest_29b961c978ffcbc7_b0944511cffac8216bce20fbcd591701",
+            "compressed_size": "3032076295",
+            "decompressed_size": "3042266783",
+            "file_hash": "b0944511cffac8216bce20fbcd591701",
+            "language": "ja-jp"
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_5818edbf7ea3a68c_c90763f686ee67e02829ce950770d743",
+            "compressed_size": "444407077",
+            "decompressed_size": "444407077",
+            "file_hash": "c90763f686ee67e02829ce950770d743",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_c908713711109890_c0a26bc365ff09b4f8e050814c5cc916",
+            "compressed_size": "253776963",
+            "decompressed_size": "253776963",
+            "file_hash": "c0a26bc365ff09b4f8e050814c5cc916",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_564f7e678551c3b7_9a306967274578e3e595998ce26cd28c",
+            "compressed_size": "441660801",
+            "decompressed_size": "441660801",
+            "file_hash": "9a306967274578e3e595998ce26cd28c",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_eeebf252f41e8838_c513d724465a9e86fb17024b8fa8ce3a",
+            "compressed_size": "418450064",
+            "decompressed_size": "418450064",
+            "file_hash": "c513d724465a9e86fb17024b8fa8ce3a",
+            "diff_type": "ldiff",
+            "original_version": "2.2.0",
+            "language": "ja-jp"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_5818edbf7ea3a68c_c90763f686ee67e02829ce950770d743",
+            "compressed_size": "481750524",
+            "decompressed_size": "481750524",
+            "file_hash": "c90763f686ee67e02829ce950770d743",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_c908713711109890_c0a26bc365ff09b4f8e050814c5cc916",
+            "compressed_size": "425550294",
+            "decompressed_size": "425550294",
+            "file_hash": "c0a26bc365ff09b4f8e050814c5cc916",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_564f7e678551c3b7_9a306967274578e3e595998ce26cd28c",
+            "compressed_size": "479303672",
+            "decompressed_size": "479303672",
+            "file_hash": "9a306967274578e3e595998ce26cd28c",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.zenlesszonezero.com/pclauncher/manifests/cxi9qfgtcu0w/2025-09-24/2.3.0/UW0gsi5KgZLv/manifest_eeebf252f41e8838_c513d724465a9e86fb17024b8fa8ce3a",
+            "compressed_size": "470829682",
+            "decompressed_size": "470829682",
+            "file_hash": "c513d724465a9e86fb17024b8fa8ce3a",
+            "diff_type": "ldiff",
+            "original_version": "2.1.0",
+            "language": "ja-jp"
+          }
+        ]
+      }
+    }
   }
 }
