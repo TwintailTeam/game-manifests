@@ -22,7 +22,7 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/22/4cc51f558225dba65cc875ecd642cfe2_6726801704251292131.png",
-        "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/09/22/0eaef12e180658d235c8c84643185bab_8871253206713873456.webp"
+        "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/11/7992f593d706a489f27973f22a9fa6f9_8595114731689639928.webp"
       },
       "game": {
         "full": [
@@ -991,7 +991,7 @@
   },
   "assets": {
     "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/22/4cc51f558225dba65cc875ecd642cfe2_6726801704251292131.png",
-    "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/09/22/0eaef12e180658d235c8c84643185bab_8871253206713873456.webp"
+    "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2025/10/11/7992f593d706a489f27973f22a9fa6f9_8595114731689639928.webp"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
