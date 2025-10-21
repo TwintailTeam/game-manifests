@@ -649,7 +649,7 @@ async function formatPreload(pkgs, name, biz) {
                 index_file: "",
                 res_list_url: `${game.chunk_download.url_prefix}`,
                 diff_list_url: {
-                    game: `${gameDiff.diff_download.url_prefix}`,
+                    game: (biz !== "bh3_global") ? `${gameDiff.diff_download.url_prefix}` : "",
                     en_us: (biz !== "bh3_global") ? `${enDiff.diff_download.url_prefix}` : "",
                     zh_cn: (biz !== "bh3_global") ? `${cnDiff.diff_download.url_prefix}` : "",
                     ja_jp: (biz !== "bh3_global") ? `${jpDiff.diff_download.url_prefix}` : "",
