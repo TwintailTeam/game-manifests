@@ -333,7 +333,7 @@ async function formatPackages(packages, biz) {
         let kr = d.manifests.filter(e => e.matching_field === "ko-kr")[0];
         let jp = d.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
-        if (biz === "nap_global") {
+        if (biz === "nap_global" || biz === "bh3_global") {
             let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
             let rest = d.manifests.filter(e => !exclude.includes(e.matching_field));
             rest.forEach(e => {
@@ -506,7 +506,7 @@ async function formatPreload(pkgs, name, biz) {
             let kr = d.manifests.filter(e => e.matching_field === "ko-kr")[0];
             let jp = d.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
-            if (biz === "nap_global") {
+            if (biz === "nap_global" || biz === "bh3_global") {
                 let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
                 let rest = d.manifests.filter(e => !exclude.includes(e.matching_field));
                 rest.forEach(e => {
