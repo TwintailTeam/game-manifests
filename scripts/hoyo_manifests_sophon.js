@@ -8,16 +8,22 @@ let gihosts = ["log-upload-os.hoyoverse.com", "overseauspider.yuanshen.com", "os
 let hsrhosts = ["log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "minor-api-os.hoyoverse.com"];
 let zzzhosts = ["apm-log-upload-os.hoyoverse.com", "zzz-log-upload-os.hoyoverse.com", "log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "minor-api-os.hoyoverse.com"];
 let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "down.anticheatexpert.com", "usa01-client-report.honkaiimpact3.com", "usa01-appsflyer-report.honkaiimpact3.com", "minor-api-os.hoyoverse.com"];
+let hnahosts = ["log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "minor-api-os.hoyoverse.com"];
+let pphosts = ["log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "minor-api-os.hoyoverse.com"];
 
 let gifps = ["120", "144", "165", "180", "240"];
 let hsrfps = ["120"];
 let zzzfps = ["120"];
 let bh3fps = ["144", "165", "180", "240"];
+let hnafps = ["120"];
+let ppfps = ["120"];
 
 let gipath = `${__dirname}/generated/hk4e_global.json`;
 let hsrpath = `${__dirname}/generated/hkrpg_global.json`;
 let zzzpath = `${__dirname}/generated/nap_global.json`;
 let bhpath = `${__dirname}/generated/bh3_global.json`;
+let hnapath = `${__dirname}/generated/abc_global.json`;
+let pppath = `${__dirname}/generated/hyg_global.json`;
 
 async function queryHoyoPlayApis() {
     let rsp = await fetch(`${API}`);
@@ -165,7 +171,7 @@ async function generateManifest(gameBiz) {
             let gameversions = [];
             // append version
             if (process.argv[2] === "append") {
-                if (existsSync(gipath)) {
+                if (existsSync(hsrpath)) {
                     let currentf = readFileSync(hsrpath);
                     let data = JSON.parse(currentf);
                     gameversions.push(versioninfo);
@@ -189,7 +195,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: hsrfps,
                     switches: {
                         fps_unlocker: true,
-                        jadeite: true,
+                        jadeite: false,
                         xxmi: true
                     },
                     preload: await formatPreload(branches, "Honkai: StarRail", "hkrpg_global")
@@ -219,7 +225,7 @@ async function generateManifest(gameBiz) {
             let gameversions = [];
             // append version
             if (process.argv[2] === "append") {
-                if (existsSync(gipath)) {
+                if (existsSync(zzzpath)) {
                     let currentf = readFileSync(zzzpath);
                     let data = JSON.parse(currentf);
                     gameversions.push(versioninfo);
@@ -273,7 +279,7 @@ async function generateManifest(gameBiz) {
             let gameversions = [];
             // append version
             if (process.argv[2] === "append") {
-                if (existsSync(gipath)) {
+                if (existsSync(bhpath)) {
                     let currentf = readFileSync(bhpath);
                     let data = JSON.parse(currentf);
                     gameversions.push(versioninfo);
@@ -301,6 +307,114 @@ async function generateManifest(gameBiz) {
                         xxmi: true
                     },
                     preload: await formatPreload(branches, "HonkaiImpact 3rd", "bh3_global")
+                }
+            };
+        }
+        break;
+        case "abc_global": {
+            let metadatainfo = {versioned_name: `Honkai: NexusAnima ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${pkg.chunk_base}`,
+                diff_list_url: {
+                    game: `${pkg.game_diff}`,
+                    en_us: `${pkg.en_diff}`,
+                    zh_cn: `${pkg.cn_diff}`,
+                    ja_jp: `${pkg.jp_diff}`,
+                    ko_kr: `${pkg.kr_diff}`,
+                }
+            }
+            let versioninfo = {
+                metadata: metadatainfo,
+                assets: assetcfg,
+                game: {full: pkg.full_game, diff: pkg.diff_game},
+                audio: {full: pkg.full_audio, diff: pkg.diff_audio}
+            };
+
+            let gameversions = [];
+            // append version
+            if (process.argv[2] === "append") {
+                if (existsSync(hnapath)) {
+                    let currentf = readFileSync(hnapath);
+                    let data = JSON.parse(currentf);
+                    gameversions.push(versioninfo);
+
+                    data.game_versions.forEach(v => {
+                        if (v.metadata.version !== branches.main.tag) {gameversions.push(v);}
+                    });
+                } else {gameversions.push(versioninfo);}
+            } else {gameversions.push(versioninfo);}
+
+            final = {
+                version: 1,
+                display_name: "Honkai: NexusAnima (Global)",
+                biz: "abc_global",
+                latest_version: branches.main.tag,
+                game_versions: gameversions,
+                paths: {audio_pkg_res_dir: config.audio_pkg_res_dir, exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
+                assets: assetcfg,
+                telemetry_hosts: hnahosts,
+                extra: {
+                    fps_unlock_options: hnafps,
+                    switches: {
+                        fps_unlocker: false,
+                        jadeite: false,
+                        xxmi: true
+                    },
+                    preload: await formatPreload(branches, "Honkai: NexusAnima", "abc_global")
+                }
+            };
+        }
+        break;
+        case "hyg_global": {
+            let metadatainfo = {versioned_name: `PetitPlanet ${branches.main.tag} (Global)`, version: branches.main.tag, download_mode: `${config.download_mode}`, game_hash: "",
+                index_file: "",
+                res_list_url: `${pkg.chunk_base}`,
+                diff_list_url: {
+                    game: `${pkg.game_diff}`,
+                    en_us: `${pkg.en_diff}`,
+                    zh_cn: `${pkg.cn_diff}`,
+                    ja_jp: `${pkg.jp_diff}`,
+                    ko_kr: `${pkg.kr_diff}`,
+                }
+            }
+            let versioninfo = {
+                metadata: metadatainfo,
+                assets: assetcfg,
+                game: {full: pkg.full_game, diff: pkg.diff_game},
+                audio: {full: pkg.full_audio, diff: pkg.diff_audio}
+            };
+
+            let gameversions = [];
+            // append version
+            if (process.argv[2] === "append") {
+                if (existsSync(pppath)) {
+                    let currentf = readFileSync(pppath);
+                    let data = JSON.parse(currentf);
+                    gameversions.push(versioninfo);
+
+                    data.game_versions.forEach(v => {
+                        if (v.metadata.version !== branches.main.tag) {gameversions.push(v);}
+                    });
+                } else {gameversions.push(versioninfo);}
+            } else {gameversions.push(versioninfo);}
+
+            final = {
+                version: 1,
+                display_name: "PetitPlanet (Global)",
+                biz: "hyg_global",
+                latest_version: branches.main.tag,
+                game_versions: gameversions,
+                paths: {audio_pkg_res_dir: config.audio_pkg_res_dir, exe_filename: config.exe_filename, installation_dir: config.installation_dir, screenshot_dir: config.screenshot_dir, screenshot_dir_relative_to: "game_dir"},
+                assets: assetcfg,
+                telemetry_hosts: pphosts,
+                extra: {
+                    fps_unlock_options: ppfps,
+                    switches: {
+                        fps_unlocker: false,
+                        jadeite: false,
+                        xxmi: true
+                    },
+                    preload: await formatPreload(branches, "PetitPlanet", "hyg_global")
                 }
             };
         }
@@ -672,3 +786,5 @@ generateManifest("hk4e_global").then(r => writeFileSync(gipath, JSON.stringify(r
 generateManifest("hkrpg_global").then(r => writeFileSync(hsrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
 generateManifest("nap_global").then(r => writeFileSync(zzzpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
 generateManifest("bh3_global").then(r => writeFileSync(bhpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+//generateManifest("abc_global").then(r => writeFileSync(hnapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+//generateManifest("hyg_global").then(r => writeFileSync(pppath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
