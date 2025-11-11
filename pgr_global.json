@@ -239,6 +239,84 @@
       "jadeite": false,
       "xxmi": false
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "PunishingGrayRaven 4.0.0 Preload (Global)",
+        "version": "4.0.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/indexFile.json",
+        "res_list_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.1/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/indexFile.json",
+            "compressed_size": "52337853624",
+            "decompressed_size": "52337853624",
+            "file_hash": "",
+            "file_path": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/2.17.0.0/indexFile.json",
+            "compressed_size": "51848799735",
+            "decompressed_size": "6923040960",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/2.17.0.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "2.17.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.1.0.0/indexFile.json",
+            "compressed_size": "51848799735",
+            "decompressed_size": "6923040960",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.1.0.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.1.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.4.0.0/indexFile.json",
+            "compressed_size": "23261069944",
+            "decompressed_size": "2750544553",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.4.0.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.4.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.5.0/indexFile.json",
+            "compressed_size": "20422038014",
+            "decompressed_size": "2628284931",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.5.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.5.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.8.0/indexFile.json",
+            "compressed_size": "10420019706",
+            "decompressed_size": "869692815",
+            "file_hash": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.0.0/jxOnuxWKqhjhBCveLzeipPMhUvYIivLt/resource/50015/4.0.0/3.8.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.8.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
   }
 }
