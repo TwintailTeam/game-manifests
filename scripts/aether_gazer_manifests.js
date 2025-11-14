@@ -104,6 +104,19 @@ async function generateManifest(gameBiz) {
                         jadeite: false,
                         xxmi: false
                     },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
+                    },
                     preload: {}
                 }
             };

@@ -58,7 +58,7 @@ async function queryHoyoPlayApis() {
 
         bgs.push({
             game_biz: i.game.biz,
-            background: i.backgrounds[0].background.url,
+            background: (i.backgrounds[0].type === "BACKGROUND_TYPE_VIDEO") ? i.backgrounds[0].background.url : i.backgrounds[0].background.url,
             icon: gii.filter(e => e.biz === i.game.biz)[0].display.icon.url,
         });
     });
@@ -144,6 +144,19 @@ async function generateManifest(gameBiz) {
                         jadeite: false,
                         xxmi: true
                     },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
+                    },
                     preload: await formatPreload(branches, "GenshinImpact", "hk4e_global")
                 }
             };
@@ -197,6 +210,19 @@ async function generateManifest(gameBiz) {
                         fps_unlocker: true,
                         jadeite: false,
                         xxmi: true
+                    },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
                     },
                     preload: await formatPreload(branches, "Honkai: StarRail", "hkrpg_global")
                 }
@@ -252,6 +278,19 @@ async function generateManifest(gameBiz) {
                         jadeite: false,
                         xxmi: true
                     },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
+                    },
                     preload: await formatPreload(branches, "ZenlessZoneZero", "nap_global")
                 }
             };
@@ -305,6 +344,19 @@ async function generateManifest(gameBiz) {
                         fps_unlocker: true,
                         jadeite: true,
                         xxmi: true
+                    },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
                     },
                     preload: await formatPreload(branches, "HonkaiImpact 3rd", "bh3_global")
                 }
@@ -360,6 +412,19 @@ async function generateManifest(gameBiz) {
                         jadeite: false,
                         xxmi: true
                     },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
+                    },
                     preload: await formatPreload(branches, "Honkai: NexusAnima", "abc_global")
                 }
             };
@@ -413,6 +478,19 @@ async function generateManifest(gameBiz) {
                         fps_unlocker: false,
                         jadeite: false,
                         xxmi: true
+                    },
+                    compat_overrides: {
+                      install_to_prefix: false,
+                      override_runner: {
+                          linux: {
+                              enabled: false,
+                              runner_version: ""
+                          },
+                          macos: {
+                              enabled: false,
+                              runner_version: ""
+                          }
+                      }
                     },
                     preload: await formatPreload(branches, "PetitPlanet", "hyg_global")
                 }

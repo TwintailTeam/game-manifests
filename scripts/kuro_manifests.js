@@ -54,7 +54,7 @@ async function queryIndex(biz) {
     }
 
     return {
-        background_url: r2.firstFrameImage,
+        background_url: (r2.backgroundFileType === 2) ? r2.firstFrameImage : r2.firstFrameImage,
         icon_url: (biz === "wuwa_global") ? "https://wutheringwaves.kurogames.com/static4.0/favicon.ico" : "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
         latest_resource_base: `${cdnbase}/${r.default.resourcesBasePath}`,
         latest_resources_list: `${cdnbase}/${r.default.resources}`,
@@ -127,6 +127,19 @@ async function generateManifest(biz) {
                         jadeite: false,
                         xxmi: true
                     },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
+                    },
                     preload: await formatPreload(biz, index.preload, "WutheringWaves")
                 }
             };
@@ -180,6 +193,19 @@ async function generateManifest(biz) {
                         fps_unlocker: false,
                         jadeite: false,
                         xxmi: false
+                    },
+                    compat_overrides: {
+                        install_to_prefix: false,
+                        override_runner: {
+                            linux: {
+                                enabled: false,
+                                runner_version: ""
+                            },
+                            macos: {
+                                enabled: false,
+                                runner_version: ""
+                            }
+                        }
                     },
                     preload: await formatPreload(biz, index.preload, "PunishingGrayRaven")
                 }
