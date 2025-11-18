@@ -129,6 +129,7 @@ async function generateManifest(biz) {
                     },
                     compat_overrides: {
                         install_to_prefix: false,
+                        disable_protonfixes: true,
                         override_runner: {
                             linux: {
                                 enabled: false,
@@ -196,6 +197,7 @@ async function generateManifest(biz) {
                     },
                     compat_overrides: {
                         install_to_prefix: false,
+                        disable_protonfixes: true,
                         override_runner: {
                             linux: {
                                 enabled: false,
