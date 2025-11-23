@@ -22,7 +22,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp",
+        "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/jd6ytoc183ua5un90v.mp4"
       },
       "game": {
         "full": [
@@ -303,7 +304,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/s2eu7roacacusk6td8.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/s2eu7roacacusk6td8.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -575,7 +577,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/mg12yqaovojrwlo418.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/mg12yqaovojrwlo418.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -838,7 +841,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/mg12yqaovojrwlo418.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/mg12yqaovojrwlo418.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -1092,7 +1096,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/mg12yqaovojrwlo418.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/mg12yqaovojrwlo418.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -1337,7 +1342,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/8c7pqb7lxj1p5wmhx9.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/8c7pqb7lxj1p5wmhx9.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -1573,7 +1579,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/8c7pqb7lxj1p5wmhx9.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/8c7pqb7lxj1p5wmhx9.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -1800,7 +1807,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/CVVSQSLBMQ9KO8MO.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/CVVSQSLBMQ9KO8MO.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -2018,7 +2026,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/CVVSQSLBMQ9KO8MO.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/CVVSQSLBMQ9KO8MO.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -2218,7 +2227,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/CVVSQSLBMQ9KO8MO.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/CVVSQSLBMQ9KO8MO.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -2409,7 +2419,8 @@
       },
       "assets": {
         "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/KDHLGMXUC25V2RXN.webp"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/KDHLGMXUC25V2RXN.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -2583,7 +2594,8 @@
   },
   "assets": {
     "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
-    "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp"
+    "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp",
+    "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/jd6ytoc183ua5un90v.mp4"
   },
   "telemetry_hosts": [
     "pc.crashsight.wetest.net",

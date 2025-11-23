@@ -22,7 +22,8 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/29/482519144815c4dd7f64268d1fcac0fb_6702823715560092189.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/29/482519144815c4dd7f64268d1fcac0fb_6702823715560092189.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -66,7 +67,8 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/08/20/cd77c829bf430709a2d7bccb793a2d16_7867068515592996044.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/08/20/cd77c829bf430709a2d7bccb793a2d16_7867068515592996044.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -103,7 +105,8 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/24/f03253f7186bb981144476e6ca6c328b_4176234957828033883.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/06/24/f03253f7186bb981144476e6ca6c328b_4176234957828033883.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -140,7 +143,8 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/191e60ee3ac5a1a8f24f33e70d9f9d20_3792928173421347370.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/21/191e60ee3ac5a1a8f24f33e70d9f9d20_3792928173421347370.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -177,7 +181,8 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/11/a3ac1c18b27db7b6089e5402afff0823_83729248864785767.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/19/ad8e46ed2c6460e7904c9c850ecda82b_6843605318534850239.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/02/19/ad8e46ed2c6460e7904c9c850ecda82b_6843605318534850239.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -214,7 +219,8 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/04/16/3526a039dddb4c8ca9d1083555f5781b_6607259190236081778.png",
-        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/13/1aa568b2f1d93bf5e9ed30fefb4b7de7_2138801250860115276.webp"
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2024/09/13/1aa568b2f1d93bf5e9ed30fefb4b7de7_2138801250860115276.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -243,7 +249,8 @@
   },
   "assets": {
     "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/29/482519144815c4dd7f64268d1fcac0fb_6702823715560092189.webp"
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/29/482519144815c4dd7f64268d1fcac0fb_6702823715560092189.webp",
+    "game_live_background": ""
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",

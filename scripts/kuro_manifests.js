@@ -54,7 +54,8 @@ async function queryIndex(biz) {
     }
 
     return {
-        background_url: (r2.backgroundFileType === 2) ? r2.firstFrameImage : r2.firstFrameImage,
+        background_url: r2.firstFrameImage,
+        background_video_url: (r2.backgroundFileType === 2) ? r2.backgroundFile : "",
         icon_url: (biz === "wuwa_global") ? "https://wutheringwaves.kurogames.com/static4.0/favicon.ico" : "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
         latest_resource_base: `${cdnbase}/${r.default.resourcesBasePath}`,
         latest_resources_list: `${cdnbase}/${r.default.resources}`,
@@ -73,7 +74,7 @@ async function generateManifest(biz) {
     let index = await queryIndex(biz);
     if (index === null) return null;
 
-    let assetcfg = {game_icon: index.icon_url, game_background: index.background_url}
+    let assetcfg = {game_icon: index.icon_url, game_background: index.background_url, game_live_background: index.background_video_url}
     let pkg = await formatPackages(biz, index.latest_index_file, index.latest_version_size, index.patch_config);
 
     let final = {};

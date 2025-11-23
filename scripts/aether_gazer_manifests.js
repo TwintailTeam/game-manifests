@@ -51,7 +51,7 @@ async function generateManifest(gameBiz) {
 
     let assets = rsp.assets.filter(e => e.game_biz === gameBiz)[0];
     let packages = rsp.game_packages.filter(e => e.game_biz === gameBiz)[0];
-    let assetcfg = {game_icon: assets.icon, game_background: assets.background}
+    let assetcfg = {game_icon: assets.icon, game_background: assets.background, game_live_background: ""};
 
     let final = {};
     switch (gameBiz) {

@@ -22,7 +22,8 @@
       },
       "assets": {
         "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
-        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/sqvfvztfhftt3pdojt.webp"
+        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/sqvfvztfhftt3pdojt.webp",
+        "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/blrr2xop4gfq1gie48.mp4"
       },
       "game": {
         "full": [
@@ -105,7 +106,8 @@
       },
       "assets": {
         "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
-        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/gxa1k5c41iklaxspyx.webp"
+        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/gxa1k5c41iklaxspyx.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -179,7 +181,8 @@
       },
       "assets": {
         "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
-        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/634x182tzyf0d9un2m.webp"
+        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/634x182tzyf0d9un2m.webp",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -244,7 +247,8 @@
       },
       "assets": {
         "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
-        "game_background": "https://prod-alicdn-gamestarter.kurogame.com/pcstarter/news/slide-picture/8NMKNEFITYF54E9P.jpg"
+        "game_background": "https://prod-alicdn-gamestarter.kurogame.com/pcstarter/news/slide-picture/8NMKNEFITYF54E9P.jpg",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -281,7 +285,8 @@
       },
       "assets": {
         "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
-        "game_background": "https://prod-alicdn-gamestarter.kurogame.com/pcstarter/news/slide-picture/UGSLYDVHIZ6VDM4L.jpg"
+        "game_background": "https://prod-alicdn-gamestarter.kurogame.com/pcstarter/news/slide-picture/UGSLYDVHIZ6VDM4L.jpg",
+        "game_live_background": ""
       },
       "game": {
         "full": [
@@ -310,7 +315,8 @@
   },
   "assets": {
     "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
-    "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/sqvfvztfhftt3pdojt.webp"
+    "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/sqvfvztfhftt3pdojt.webp",
+    "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/blrr2xop4gfq1gie48.mp4"
   },
   "telemetry_hosts": [],
   "extra": {

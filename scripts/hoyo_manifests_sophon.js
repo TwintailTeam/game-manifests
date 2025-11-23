@@ -58,7 +58,8 @@ async function queryHoyoPlayApis() {
 
         bgs.push({
             game_biz: i.game.biz,
-            background: (i.backgrounds[0].type === "BACKGROUND_TYPE_VIDEO") ? i.backgrounds[0].background.url : i.backgrounds[0].background.url,
+            background: i.backgrounds[0].background.url,
+            background_video: (i.backgrounds[0].type === "BACKGROUND_TYPE_VIDEO") ? i.backgrounds[0].video.url : "",
             icon: gii.filter(e => e.biz === i.game.biz)[0].display.icon.url,
         });
     });
@@ -90,7 +91,7 @@ async function generateManifest(gameBiz) {
     let config = rsp.launch_configs.filter(e => e.game_biz === gameBiz)[0];
     let branches = rsp.branches.filter(e => e.game_biz === gameBiz)[0];
 
-    let assetcfg = {game_icon: assets.icon, game_background: assets.background}
+    let assetcfg = {game_icon: assets.icon, game_background: assets.background, game_live_background: assets.background_video}
     let pkg = await formatPackages(branches, gameBiz);
 
     let final = {};
