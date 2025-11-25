@@ -32,14 +32,80 @@
             "compressed_size": "28593868627",
             "decompressed_size": "31402696699",
             "file_hash": "e25bde1d25bebcaa598953eeae6cdfd8",
-            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/b7LauWQYM7e6"
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/b7LauWQYM7e6",
+            "region_code": "glb_official"
           },
           {
             "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/b7LauWQYM7e6/manifest_0511e6f5dd908f9e_e74bde8c83019d7b0b0183766efb7d5c",
             "compressed_size": "869398418",
             "decompressed_size": "1412856394",
             "file_hash": "e74bde8c83019d7b0b0183766efb7d5c",
-            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/b7LauWQYM7e6"
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/b7LauWQYM7e6",
+            "region_code": "glb_official"
+          },
+          {
+            "file_url": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/baJUhu9is69Q/manifest_ffa5da0ec5d3e47c_7bf6e7de24bd062bcd2358e1058f8042",
+            "compressed_size": "27734974359",
+            "decompressed_size": "30466712537",
+            "file_hash": "7bf6e7de24bd062bcd2358e1058f8042",
+            "file_path": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/baJUhu9is69Q",
+            "region_code": "jp_official"
+          },
+          {
+            "file_url": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/baJUhu9is69Q/manifest_c7a9ff8fac53c561_f7b112911c2535f74c17a30ee0ff2137",
+            "compressed_size": "927575817",
+            "decompressed_size": "1463722210",
+            "file_hash": "f7b112911c2535f74c17a30ee0ff2137",
+            "file_path": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/baJUhu9is69Q",
+            "region_code": "jp_official"
+          },
+          {
+            "file_url": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/Hgmf6rWmPCoN/manifest_127fc3ec3c52dc97_143a411c3213e7a4bcfc9aa9e89510a4",
+            "compressed_size": "27936028744",
+            "decompressed_size": "30689184916",
+            "file_hash": "143a411c3213e7a4bcfc9aa9e89510a4",
+            "file_path": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/Hgmf6rWmPCoN",
+            "region_code": "kr_official"
+          },
+          {
+            "file_url": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/Hgmf6rWmPCoN/manifest_4cc85f9a344e3a43_adf71989813eb9b0068b0cbb62916bd1",
+            "compressed_size": "852579247",
+            "decompressed_size": "1396915623",
+            "file_hash": "adf71989813eb9b0068b0cbb62916bd1",
+            "file_path": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/Hgmf6rWmPCoN",
+            "region_code": "kr_official"
+          },
+          {
+            "file_url": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/784FiKTKh2AL/manifest_a3deaa70f59b04d4_eae2c44187ea07ba43e844baa2c827b7",
+            "compressed_size": "28846186715",
+            "decompressed_size": "31675867540",
+            "file_hash": "eae2c44187ea07ba43e844baa2c827b7",
+            "file_path": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/784FiKTKh2AL",
+            "region_code": "overseas_official"
+          },
+          {
+            "file_url": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/784FiKTKh2AL/manifest_c8301b651ed68f7b_fdf71ad6283ddf49f971c580202000c9",
+            "compressed_size": "863791998",
+            "decompressed_size": "1412192384",
+            "file_hash": "fdf71ad6283ddf49f971c580202000c9",
+            "file_path": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/784FiKTKh2AL",
+            "region_code": "overseas_official"
+          },
+          {
+            "file_url": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/Ywt1SwSTf3Lh/manifest_c1f63424ad537440_f9e2812fc0e89c8e7f4ee293907bae43",
+            "compressed_size": "27952846865",
+            "decompressed_size": "30705096128",
+            "file_hash": "f9e2812fc0e89c8e7f4ee293907bae43",
+            "file_path": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/Ywt1SwSTf3Lh",
+            "region_code": "asia_official"
+          },
+          {
+            "file_url": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251015/8.5.0/Ywt1SwSTf3Lh/manifest_c6eaa5b94629970b_6d7ac546c3387cf5bfbfbe95cabe3696",
+            "compressed_size": "861611957",
+            "decompressed_size": "1403871444",
+            "file_hash": "6d7ac546c3387cf5bfbfbe95cabe3696",
+            "file_path": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251015/8.5.0/Ywt1SwSTf3Lh",
+            "region_code": "asia_official"
           }
         ],
         "diff": []
