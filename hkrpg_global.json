@@ -32,7 +32,8 @@
             "compressed_size": "67537325352",
             "decompressed_size": "69060063186",
             "file_hash": "6c2eaeea2af7191a0b87762806e373db",
-            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20251025/3.7.0/sIpa3wRwfDic"
+            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20251025/3.7.0/sIpa3wRwfDic",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -54,28 +55,32 @@
             "compressed_size": "11760614539",
             "decompressed_size": "11842196470",
             "file_hash": "9bf3f05f5834251ecae1c48262168d7e",
-            "language": "en-us"
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20251025/3.7.0/sIpa3wRwfDic/manifest_0ec89eaf5c26e6e6_fb5013f65767bbd170b004ce2ad39865",
             "compressed_size": "9789869336",
             "decompressed_size": "9803476724",
             "file_hash": "fb5013f65767bbd170b004ce2ad39865",
-            "language": "zh-cn"
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20251025/3.7.0/sIpa3wRwfDic/manifest_f04cba56e97d34b8_14bd6843ce0397bb4b96fa14376ba509",
             "compressed_size": "9698694233",
             "decompressed_size": "9883204060",
             "file_hash": "14bd6843ce0397bb4b96fa14376ba509",
-            "language": "ko-kr"
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20251025/3.7.0/sIpa3wRwfDic/manifest_769db3964a1a0adb_a35db58f239decf077bcc21bd4161608",
             "compressed_size": "12071220645",
             "decompressed_size": "12221076776",
             "file_hash": "a35db58f239decf077bcc21bd4161608",
-            "language": "ja-jp"
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [

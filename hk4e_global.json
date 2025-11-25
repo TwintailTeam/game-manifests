@@ -32,7 +32,8 @@
             "compressed_size": "97504942253",
             "decompressed_size": "100382890770",
             "file_hash": "0728111bf8628aec07636bc532032aa0",
-            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/xCk1JZqwnbo3"
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/xCk1JZqwnbo3",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -63,28 +64,32 @@
             "compressed_size": "19425571045",
             "decompressed_size": "21936663689",
             "file_hash": "991929bfee8bbb8db76862995a446ae5",
-            "language": "en-us"
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/xCk1JZqwnbo3/manifest_a3f1a44279c8e6fd_6a793b6b444a51232f63ca4c56e7ed28",
             "compressed_size": "16472767928",
             "decompressed_size": "19102800596",
             "file_hash": "6a793b6b444a51232f63ca4c56e7ed28",
-            "language": "zh-cn"
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/xCk1JZqwnbo3/manifest_2136f357ef60e145_897609d8f2e19629f6acfd46ae663ab4",
             "compressed_size": "16037814776",
             "decompressed_size": "18892495899",
             "file_hash": "897609d8f2e19629f6acfd46ae663ab4",
-            "language": "ko-kr"
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/xCk1JZqwnbo3/manifest_99c25d64b3ff45af_202931be1b2dd13b0728635c4a8d4cd5",
             "compressed_size": "19170580374",
             "decompressed_size": "24760776445",
             "file_hash": "202931be1b2dd13b0728635c4a8d4cd5",
-            "language": "ja-jp"
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
