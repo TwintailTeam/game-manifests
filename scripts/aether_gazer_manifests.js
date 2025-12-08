@@ -40,7 +40,7 @@ async function queryAgApis() {
         assets: [{
                 game_biz: "aethergazer_global",
                 background: r1.data.versionImage,
-                icon: "https://aethergazer.com/en/favicon.ico",
+                icon: "https://aethergazer.com/favicon.ico",
             }]
     };
 }

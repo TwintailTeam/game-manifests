@@ -4,12 +4,14 @@ let INDEX = {
     wuwa: {
         game: "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/index.json",
         launcher: "https://prod-alicdn-gamestarter.kurogame.com/launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/index.json",
-        cdn: "https://hw-pcdownload-aws.aki-game.net"
+        cdn: "https://hw-pcdownload-aws.aki-game.net",
+        icon: "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png"
     },
     pgr: {
         game: "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G143/50015_LWdk9D2Ep9mpJmqBZZkcPBU2YNraEWBQ/index.json",
         launcher: "https://prod-alicdn-gamestarter.kurogame.com/launcher/launcher/50015_LWdk9D2Ep9mpJmqBZZkcPBU2YNraEWBQ/G143/index.json",
-        cdn: "https://zspms-alicdn-gamestarter.kurogame.net"
+        cdn: "https://zspms-alicdn-gamestarter.kurogame.net",
+        icon: "https://cdn2.steamgriddb.com/icon/528559760de976ac94d5237046a7f9fe/32/96x96.png"
     }
 };
 
@@ -56,7 +58,7 @@ async function queryIndex(biz) {
     return {
         background_url: r2.firstFrameImage,
         background_video_url: (r2.backgroundFileType === 2) ? r2.backgroundFile : "",
-        icon_url: (biz === "wuwa_global") ? "https://wutheringwaves.kurogames.com/static4.0/favicon.ico" : "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
+        icon_url: (biz === "wuwa_global") ? `${INDEX.wuwa.icon}` : `${INDEX.pgr.icon}`,
         latest_resource_base: `${cdnbase}/${r.default.resourcesBasePath}`,
         latest_resources_list: `${cdnbase}/${r.default.resources}`,
         latest_version: r.default.version,
