@@ -21,7 +21,7 @@
         }
       },
       "assets": {
-        "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png",
         "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp",
         "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/jd6ytoc183ua5un90v.mp4"
       },
@@ -2884,7 +2884,7 @@
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {
-    "game_icon": "https://wutheringwaves.kurogames.com/static4.0/favicon.ico",
+    "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png",
     "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp",
     "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/jd6ytoc183ua5un90v.mp4"
   },

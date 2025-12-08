@@ -21,7 +21,7 @@
         }
       },
       "assets": {
-        "game_icon": "https://aethergazer.com/en/favicon.ico",
+        "game_icon": "https://aethergazer.com/favicon.ico",
         "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/e9770bfd-0b82-48db-9fb7-3d3d239b81d2.png",
         "game_live_background": ""
       },
@@ -89,7 +89,7 @@
     "screenshot_dir_relative_to": ""
   },
   "assets": {
-    "game_icon": "https://aethergazer.com/en/favicon.ico",
+    "game_icon": "https://aethergazer.com/favicon.ico",
     "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/e9770bfd-0b82-48db-9fb7-3d3d239b81d2.png",
     "game_live_background": ""
   },
