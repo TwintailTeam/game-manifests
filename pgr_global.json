@@ -21,7 +21,7 @@
         }
       },
       "assets": {
-        "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
+        "game_icon": "https://cdn2.steamgriddb.com/icon/528559760de976ac94d5237046a7f9fe/32/96x96.png",
         "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/sqvfvztfhftt3pdojt.webp",
         "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/blrr2xop4gfq1gie48.mp4"
       },
@@ -314,7 +314,7 @@
     "screenshot_dir_relative_to": "game_dir"
   },
   "assets": {
-    "game_icon": "https://cdnstatic.kurogame.net/h5_manage_dist/pgr_website2.0/favicon.png",
+    "game_icon": "https://cdn2.steamgriddb.com/icon/528559760de976ac94d5237046a7f9fe/32/96x96.png",
     "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/sqvfvztfhftt3pdojt.webp",
     "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/blrr2xop4gfq1gie48.mp4"
   },
