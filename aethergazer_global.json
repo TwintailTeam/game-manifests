@@ -2,8 +2,46 @@
   "version": 1,
   "display_name": "AetherGazer (Global)",
   "biz": "aethergazer_global",
-  "latest_version": "288",
+  "latest_version": "290",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "AetherGazer 290 (Global)",
+        "version": "290",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://aethergazer.com/favicon.ico",
+        "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/91a39245-7fc8-46b2-a2d1-3d61baf86571.png",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://skzy-us-packaging.aethergazer.com/289/%E6%AD%A3%E5%BC%8F%E6%9C%8D/AetherGazer_jp_us_jp_us_prod_290_41_11_windows_limit_sdk_release_W12000000_4C443909A1D6A26A95B84255C9F788D3.zip",
+            "compressed_size": "0",
+            "decompressed_size": "0",
+            "file_hash": "",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "AetherGazer 288 (Global)",
@@ -90,7 +128,7 @@
   },
   "assets": {
     "game_icon": "https://aethergazer.com/favicon.ico",
-    "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/e9770bfd-0b82-48db-9fb7-3d3d239b81d2.png",
+    "game_background": "https://us-prod-pub.oss-us-east-1.aliyuncs.com/game-site/image/91a39245-7fc8-46b2-a2d1-3d61baf86571.png",
     "game_live_background": ""
   },
   "telemetry_hosts": [
