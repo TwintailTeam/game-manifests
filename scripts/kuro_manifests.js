@@ -17,7 +17,7 @@ let INDEX = {
 
 let wuwahosts = ["pc.crashsight.wetest.net", "sentry.aki.kuro.com"];
 let wuwapath = `${__dirname}/generated/wuwa_global.json`;
-let wuwafps = ["120"];
+let wuwafps = ["72", "90", "120"];
 
 let pgrhosts = [];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
