@@ -1127,6 +1127,8 @@
   ],
   "extra": {
     "fps_unlock_options": [
+      "72",
+      "90",
       "120"
     ],
     "switches": {
