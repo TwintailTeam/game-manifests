@@ -22,8 +22,8 @@
       },
       "assets": {
         "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png",
-        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp",
-        "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/jd6ytoc183ua5un90v.mp4"
+        "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/9ayyxpvguou5ublq3d.webp",
+        "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/dk6gqw4bqb0yi0c98o.mp4"
       },
       "game": {
         "full": [
@@ -2885,8 +2885,8 @@
   },
   "assets": {
     "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png",
-    "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/406wly3qng5ke77m21.webp",
-    "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/jd6ytoc183ua5un90v.mp4"
+    "game_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/9ayyxpvguou5ublq3d.webp",
+    "game_live_background": "https://hw-pcdownload-qcloud.aki-game.net/launcher/clientUpload/dk6gqw4bqb0yi0c98o.mp4"
   },
   "telemetry_hosts": [
     "pc.crashsight.wetest.net",
