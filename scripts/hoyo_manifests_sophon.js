@@ -166,6 +166,8 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: false,
+                        block_first_req: false,
                         proton_compat_config: gicompat,
                         override_runner: {
                             linux: {
@@ -237,6 +239,8 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: true,
+                        block_first_req: true,
                         proton_compat_config: hsrcompat,
                         override_runner: {
                             linux: {
@@ -308,6 +312,8 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: false,
+                        block_first_req: false,
                         proton_compat_config: zzzcompat,
                         override_runner: {
                             linux: {
@@ -384,6 +390,8 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: false,
+                        block_first_req: false,
                         proton_compat_config: bhcompat,
                         override_runner: {
                             linux: {
@@ -455,6 +463,8 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: false,
+                        block_first_req: false,
                         proton_compat_config: hnacompat,
                         override_runner: {
                             linux: {
@@ -526,6 +536,8 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: false,
+                        block_first_req: false,
                         proton_compat_config: ppcompat,
                         override_runner: {
                           linux: {

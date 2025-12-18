@@ -137,6 +137,8 @@ async function generateManifest(biz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: false,
+                        block_first_req: false,
                         proton_compat_config: wuwacompat,
                         override_runner: {
                             linux: {
@@ -208,6 +210,8 @@ async function generateManifest(biz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        stub_wintrust: false,
+                        block_first_req: false,
                         proton_compat_config: pgrcompat,
                         override_runner: {
                             linux: {
