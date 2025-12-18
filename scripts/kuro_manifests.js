@@ -18,10 +18,12 @@ let INDEX = {
 let wuwahosts = ["pc.crashsight.wetest.net", "sentry.aki.kuro.com"];
 let wuwapath = `${__dirname}/generated/wuwa_global.json`;
 let wuwafps = ["72", "90", "120"];
+let wuwacompat = ["noopwr", "noxalia"];
 
 let pgrhosts = [];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
 let pgrfps = ["120"];
+let pgrcompat = [];
 
 // === WUWA ===
 
@@ -135,6 +137,7 @@ async function generateManifest(biz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: wuwacompat,
                         override_runner: {
                             linux: {
                                 enabled: false,
@@ -205,6 +208,7 @@ async function generateManifest(biz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: pgrcompat,
                         override_runner: {
                             linux: {
                                 enabled: false,

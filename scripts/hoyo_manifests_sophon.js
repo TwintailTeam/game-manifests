@@ -25,6 +25,13 @@ let bhpath = `${__dirname}/generated/bh3_global.json`;
 let hnapath = `${__dirname}/generated/abc_global.json`;
 let pppath = `${__dirname}/generated/hyg_global.json`;
 
+let gicompat = [];
+let hsrcompat = [];
+let zzzcompat = ["gamedrive"];
+let bhcompat = [];
+let hnacompat = [];
+let ppcompat = [];
+
 async function queryHoyoPlayApis() {
     let rsp = await fetch(`${API}`);
     let r = await rsp.json();
@@ -159,6 +166,7 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: gicompat,
                         override_runner: {
                             linux: {
                                 enabled: false,
@@ -229,6 +237,7 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: hsrcompat,
                         override_runner: {
                             linux: {
                                 enabled: false,
@@ -299,6 +308,7 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: zzzcompat,
                         override_runner: {
                             linux: {
                                 enabled: false,
@@ -374,6 +384,7 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: bhcompat,
                         override_runner: {
                             linux: {
                                 enabled: false,
@@ -444,6 +455,7 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: hnacompat,
                         override_runner: {
                             linux: {
                                 enabled: false,
@@ -514,6 +526,7 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: ppcompat,
                         override_runner: {
                           linux: {
                               enabled: false,

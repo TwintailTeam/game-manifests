@@ -109,6 +109,7 @@ async function generateManifest(gameBiz) {
                         disable_protonfixes: true,
                         protonfixes_id: "",
                         protonfixes_store: "",
+                        proton_compat_config: [],
                         override_runner: {
                             linux: {
                                 enabled: false,
