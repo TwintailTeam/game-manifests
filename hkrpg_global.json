@@ -1260,6 +1260,8 @@
       "disable_protonfixes": true,
       "protonfixes_id": "",
       "protonfixes_store": "",
+      "stub_wintrust": true,
+      "block_first_req": true,
       "proton_compat_config": [],
       "override_runner": {
         "linux": {
