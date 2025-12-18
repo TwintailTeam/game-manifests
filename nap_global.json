@@ -9595,6 +9595,9 @@
       "disable_protonfixes": true,
       "protonfixes_id": "",
       "protonfixes_store": "",
+      "proton_compat_config": [
+        "gamedrive"
+      ],
       "override_runner": {
         "linux": {
           "enabled": false,
