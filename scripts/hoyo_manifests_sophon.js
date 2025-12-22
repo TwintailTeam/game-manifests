@@ -11,10 +11,10 @@ let bhhosts = ["log-upload-os.hoyoverse.com", "dump.gamesafe.qq.com", "log-uploa
 let hnahosts = ["log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "minor-api-os.hoyoverse.com"];
 let pphosts = ["log-upload-os.hoyoverse.com", "sg-public-data-api.hoyoverse.com", "minor-api-os.hoyoverse.com"];
 
-let gifps = ["72", "90", "120", "144", "165", "180", "240"];
+let gifps = ["72", "90", "120", "144", "165", "180", "240", "360"];
 let hsrfps = ["72", "90", "120"];
 let zzzfps = ["120"];
-let bh3fps = ["72", "90", "120", "144", "165", "180", "240"];
+let bh3fps = ["72", "90", "120", "144", "165", "180", "240", "360"];
 let hnafps = ["72", "90", "120"];
 let ppfps = ["72", "90", "120"];
 
