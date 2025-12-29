@@ -368,6 +368,47 @@
         }
       }
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "HonkaiImpact 3rd 8.6.0 Preload (Global)",
+        "version": "8.6.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu/manifest_7520ceac6f0cc264_5c9859622438ed943be3d4c8532bee83",
+            "compressed_size": "29298451145",
+            "decompressed_size": "32159869416",
+            "file_hash": "5c9859622438ed943be3d4c8532bee83",
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
+            "region_code": "glb_official"
+          },
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu/manifest_f105bf901ebaa1db_bfae8a6767c0c0eea6c987ce9234315f",
+            "compressed_size": "884977715",
+            "decompressed_size": "1439599037",
+            "file_hash": "bfae8a6767c0c0eea6c987ce9234315f",
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
+            "region_code": "glb_official"
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
   }
 }
