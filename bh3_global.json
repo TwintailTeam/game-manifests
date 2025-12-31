@@ -2,8 +2,119 @@
   "version": 1,
   "display_name": "HonkaiImpact 3rd (Global)",
   "biz": "bh3_global",
-  "latest_version": "8.5.0",
+  "latest_version": "8.6.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "HonkaiImpact 3rd 8.6.0 (Global)",
+        "version": "8.6.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
+        "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/08/974379b0df46e4415b0bad5f00c4c6e6_2712696817492106012.webp",
+        "game_live_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/08/a46fa4e195461d91ab89a67517ffcd7d_1663725344352239193.webm"
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu/manifest_7520ceac6f0cc264_5c9859622438ed943be3d4c8532bee83",
+            "compressed_size": "29298451145",
+            "decompressed_size": "32159869416",
+            "file_hash": "5c9859622438ed943be3d4c8532bee83",
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
+            "region_code": "glb_official"
+          },
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu/manifest_f105bf901ebaa1db_bfae8a6767c0c0eea6c987ce9234315f",
+            "compressed_size": "884977715",
+            "decompressed_size": "1439599037",
+            "file_hash": "bfae8a6767c0c0eea6c987ce9234315f",
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
+            "region_code": "glb_official"
+          },
+          {
+            "file_url": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/DNLTRw3clLDI/manifest_4fffe8e47d4e87c6_7a9e2df72f68cd971c6ce6698ba872b0",
+            "compressed_size": "28419414024",
+            "decompressed_size": "31204229329",
+            "file_hash": "7a9e2df72f68cd971c6ce6698ba872b0",
+            "file_path": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/DNLTRw3clLDI",
+            "region_code": "jp_official"
+          },
+          {
+            "file_url": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/DNLTRw3clLDI/manifest_496bce51b7b4748e_92b63eb00c39c7a7e09400100abed26d",
+            "compressed_size": "943141389",
+            "decompressed_size": "1490522387",
+            "file_hash": "92b63eb00c39c7a7e09400100abed26d",
+            "file_path": "https://autopatchjp.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/DNLTRw3clLDI",
+            "region_code": "jp_official"
+          },
+          {
+            "file_url": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/1C24U6LKfFlv/manifest_e4253473dfcb2251_53e30c15653c14bcda7f84c1aff1cff7",
+            "compressed_size": "28622047078",
+            "decompressed_size": "31426685913",
+            "file_hash": "53e30c15653c14bcda7f84c1aff1cff7",
+            "file_path": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/1C24U6LKfFlv",
+            "region_code": "kr_official"
+          },
+          {
+            "file_url": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/1C24U6LKfFlv/manifest_20c6ffafd0c704eb_cb4fb4fc93488a3b3c2191c9cca5917b",
+            "compressed_size": "868356690",
+            "decompressed_size": "1423677795",
+            "file_hash": "cb4fb4fc93488a3b3c2191c9cca5917b",
+            "file_path": "https://autopatchkr.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/1C24U6LKfFlv",
+            "region_code": "kr_official"
+          },
+          {
+            "file_url": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/xKLU0QLriD9B/manifest_b9622cbd750be006_a19c6d78851a77847a824cebb63b4f63",
+            "compressed_size": "29557233665",
+            "decompressed_size": "32439598644",
+            "file_hash": "a19c6d78851a77847a824cebb63b4f63",
+            "file_path": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/xKLU0QLriD9B",
+            "region_code": "overseas_official"
+          },
+          {
+            "file_url": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/xKLU0QLriD9B/manifest_f818879e41c09f22_daff2f0eb15692a16d67cc028f58e4de",
+            "compressed_size": "879426054",
+            "decompressed_size": "1438985269",
+            "file_hash": "daff2f0eb15692a16d67cc028f58e4de",
+            "file_path": "https://autopatchos.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/xKLU0QLriD9B",
+            "region_code": "overseas_official"
+          },
+          {
+            "file_url": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/l8yFT4DSr7rj/manifest_c87095a1d800e03b_f7a558a51a055f8fc83be57381f732cc",
+            "compressed_size": "28638744927",
+            "decompressed_size": "31442597062",
+            "file_hash": "f7a558a51a055f8fc83be57381f732cc",
+            "file_path": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/l8yFT4DSr7rj",
+            "region_code": "asia_official"
+          },
+          {
+            "file_url": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/l8yFT4DSr7rj/manifest_aeae57fe047a180c_f64a821e4d1f840b4eb676466d244d14",
+            "compressed_size": "877205561",
+            "decompressed_size": "1430634013",
+            "file_hash": "f64a821e4d1f840b4eb676466d244d14",
+            "file_path": "https://autopatchasia.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/l8yFT4DSr7rj",
+            "region_code": "asia_official"
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "HonkaiImpact 3rd 8.5.0 (Global)",
@@ -320,8 +431,8 @@
   },
   "assets": {
     "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/04/17/3526a039dddb4c8ca9d1083555f5781b_4346423245705329622.png",
-    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/09/29/482519144815c4dd7f64268d1fcac0fb_6702823715560092189.webp",
-    "game_live_background": ""
+    "game_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/08/974379b0df46e4415b0bad5f00c4c6e6_2712696817492106012.webp",
+    "game_live_background": "https://launcher-webstatic.hoyoverse.com/launcher-public/2025/12/08/a46fa4e195461d91ab89a67517ffcd7d_1663725344352239193.webm"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
@@ -368,47 +479,6 @@
         }
       }
     },
-    "preload": {
-      "metadata": {
-        "versioned_name": "HonkaiImpact 3rd 8.6.0 Preload (Global)",
-        "version": "8.6.0",
-        "download_mode": "DOWNLOAD_MODE_CHUNK",
-        "game_hash": "",
-        "index_file": "",
-        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
-        "diff_list_url": {
-          "game": "",
-          "en_us": "",
-          "zh_cn": "",
-          "ja_jp": "",
-          "ko_kr": ""
-        }
-      },
-      "game": {
-        "full": [
-          {
-            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu/manifest_7520ceac6f0cc264_5c9859622438ed943be3d4c8532bee83",
-            "compressed_size": "29298451145",
-            "decompressed_size": "32159869416",
-            "file_hash": "5c9859622438ed943be3d4c8532bee83",
-            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
-            "region_code": "glb_official"
-          },
-          {
-            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu/manifest_f105bf901ebaa1db_bfae8a6767c0c0eea6c987ce9234315f",
-            "compressed_size": "884977715",
-            "decompressed_size": "1439599037",
-            "file_hash": "bfae8a6767c0c0eea6c987ce9234315f",
-            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20251223/8.6.0/C1cew0TKUohu",
-            "region_code": "glb_official"
-          }
-        ],
-        "diff": []
-      },
-      "audio": {
-        "full": [],
-        "diff": []
-      }
-    }
+    "preload": {}
   }
 }
