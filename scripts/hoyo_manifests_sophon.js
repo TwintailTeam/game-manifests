@@ -332,7 +332,7 @@ async function generateManifest(gameBiz) {
         }
         break;
         case "bh3_global": {
-            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${branches[0].main.tag} (Global)`, version: branches[0].main.tag, download_mode: `DOWNLOAD_MODE_CHUNK`, game_hash: "",
+            let metadatainfo = {versioned_name: `HonkaiImpact 3rd ${branches[0].main.tag} (Global)`, version: branches[0].main.tag, download_mode: `${config.download_mode}`, game_hash: "",
                 index_file: "",
                 res_list_url: `${pkg.chunk_base}`,
                 diff_list_url: {
