@@ -121,8 +121,7 @@ async function generateManifest(gameBiz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        },
-                        min_runner_versions: []
+                        }
                     },
                     preload: {}
                 }

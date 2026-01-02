@@ -32,13 +32,6 @@ let bhcompat = [];
 let hnacompat = [];
 let ppcompat = [];
 
-let giminrunners = ["10.26-proton-ge", "10.0-20251222-proton-cachyos"];
-let hsrminrunners = [];
-let zzzminrunners = [];
-let himinrunners = [];
-let hnaminrunners = [];
-let ppminrunners = [];
-
 async function queryHoyoPlayApis() {
     let rsp = await fetch(`${API}`);
     let r = await rsp.json();
@@ -185,8 +178,7 @@ async function generateManifest(gameBiz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        },
-                        min_runner_versions: giminrunners
+                        }
                     },
                     preload: await formatPreload(branches[0], "GenshinImpact", "hk4e_global")
                 }
@@ -259,8 +251,7 @@ async function generateManifest(gameBiz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        },
-                        min_runner_versions: hsrminrunners
+                        }
                     },
                     preload: await formatPreload(branches[0], "Honkai: StarRail", "hkrpg_global")
                 }
@@ -333,8 +324,7 @@ async function generateManifest(gameBiz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        },
-                        min_runner_versions: zzzminrunners
+                        }
                     },
                     preload: await formatPreload(branches[0], "ZenlessZoneZero", "nap_global")
                 }
@@ -412,8 +402,7 @@ async function generateManifest(gameBiz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        },
-                        min_runner_versions: himinrunners
+                        }
                     },
                     preload: await formatPreload(branches[0], "HonkaiImpact 3rd", "bh3_global")
                 }
@@ -486,8 +475,7 @@ async function generateManifest(gameBiz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        },
-                        min_runner_versions: hnaminrunners
+                        }
                     },
                     preload: await formatPreload(branches[0], "Honkai: NexusAnima", "abc_global")
                 }
@@ -560,8 +548,7 @@ async function generateManifest(gameBiz) {
                               enabled: false,
                               runner_version: ""
                           }
-                        },
-                        min_runner_versions: ppminrunners
+                      }
                     },
                     preload: await formatPreload(branches[0], "PetitPlanet", "hyg_global")
                 }
