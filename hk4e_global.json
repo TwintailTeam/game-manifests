@@ -2048,7 +2048,11 @@
           "enabled": false,
           "runner_version": ""
         }
-      }
+      },
+      "min_runner_versions": [
+        "10.26-proton-ge",
+        "10.0-20251222-proton-cachyos"
+      ]
     },
     "preload": {}
   }

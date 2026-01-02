@@ -477,7 +477,8 @@
           "enabled": false,
           "runner_version": ""
         }
-      }
+      },
+      "min_runner_versions": []
     },
     "preload": {}
   }
