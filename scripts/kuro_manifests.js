@@ -19,11 +19,13 @@ let wuwahosts = ["pc.crashsight.wetest.net", "sentry.aki.kuro.com"];
 let wuwapath = `${__dirname}/generated/wuwa_global.json`;
 let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
+let wuwaminrunners = [];
 
 let pgrhosts = [];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
 let pgrfps = ["120"];
 let pgrcompat = [];
+let pgrminrunners = [];
 
 // === WUWA ===
 
@@ -149,7 +151,8 @@ async function generateManifest(biz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        }
+                        },
+                        min_runner_versions: wuwaminrunners
                     },
                     preload: await formatPreload(biz, index.preload, "WutheringWaves")
                 }
@@ -222,7 +225,8 @@ async function generateManifest(biz) {
                                 enabled: false,
                                 runner_version: ""
                             }
-                        }
+                        },
+                        min_runner_versions: pgrminrunners
                     },
                     preload: await formatPreload(biz, index.preload, "PunishingGrayRaven")
                 }
