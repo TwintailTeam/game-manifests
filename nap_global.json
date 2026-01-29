@@ -11521,6 +11521,7 @@
       "stub_wintrust": false,
       "block_first_req": false,
       "proton_compat_config": [
+        "noxalia",
         "gamedrive"
       ],
       "override_runner": {

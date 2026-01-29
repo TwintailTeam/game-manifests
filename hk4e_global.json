@@ -2202,7 +2202,9 @@
       "protonfixes_store": "",
       "stub_wintrust": false,
       "block_first_req": false,
-      "proton_compat_config": [],
+      "proton_compat_config": [
+        "noxalia"
+      ],
       "override_runner": {
         "linux": {
           "enabled": false,
@@ -2215,7 +2217,8 @@
       },
       "min_runner_versions": [
         "10.26-proton-ge",
-        "10.0-20251222-proton-cachyos"
+        "10.0-20251222-proton-cachyos",
+        "10.0-33-proton-em"
       ]
     },
     "preload": {}
