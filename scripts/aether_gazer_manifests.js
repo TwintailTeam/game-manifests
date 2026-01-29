@@ -111,7 +111,7 @@ async function generateManifest(gameBiz) {
                         protonfixes_store: "",
                         stub_wintrust: false,
                         block_first_req: false,
-                        proton_compat_config: [],
+                        proton_compat_config: ["noxalia"],
                         override_runner: {
                             linux: {
                                 enabled: false,

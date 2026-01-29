@@ -25,14 +25,14 @@ let bhpath = `${__dirname}/generated/bh3_global.json`;
 let hnapath = `${__dirname}/generated/abc_global.json`;
 let pppath = `${__dirname}/generated/hyg_global.json`;
 
-let gicompat = [];
-let hsrcompat = [];
-let zzzcompat = ["gamedrive"];
-let bhcompat = [];
-let hnacompat = [];
-let ppcompat = [];
+let gicompat = ["noxalia"];
+let hsrcompat = ["noxalia"];
+let zzzcompat = ["noxalia", "gamedrive"];
+let bhcompat = ["noxalia"];
+let hnacompat = ["noxalia"];
+let ppcompat = ["noxalia"];
 
-let giminrunners = ["10.26-proton-ge", "10.0-20251222-proton-cachyos"];
+let giminrunners = ["10.26-proton-ge", "10.0-20251222-proton-cachyos", "10.0-33-proton-em"];
 let hsrminrunners = [];
 let zzzminrunners = [];
 let himinrunners = [];

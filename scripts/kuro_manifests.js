@@ -24,7 +24,7 @@ let wuwaminrunners = [];
 let pgrhosts = [];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
 let pgrfps = ["120"];
-let pgrcompat = [];
+let pgrcompat = ["noxalia"];
 let pgrminrunners = [];
 
 // === WUWA ===
