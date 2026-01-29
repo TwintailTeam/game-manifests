@@ -1262,7 +1262,9 @@
       "protonfixes_store": "",
       "stub_wintrust": true,
       "block_first_req": true,
-      "proton_compat_config": [],
+      "proton_compat_config": [
+        "noxalia"
+      ],
       "override_runner": {
         "linux": {
           "enabled": false,
