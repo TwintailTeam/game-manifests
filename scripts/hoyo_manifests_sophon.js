@@ -94,6 +94,8 @@ async function queryHoyoPlayApis() {
             game_id: i.game.id,
             main: i.main,
             preload: i.pre_download,
+            enable_base_pkg_preload: i.enable_base_pkg_predownload,
+            required_client_version: i.required_client_version,
             region: region
         })
     })
@@ -611,7 +613,6 @@ async function formatPackages(pkgs, biz) {
                         region_code: `${packages.region}`
                     });
                 });
-
             }
 
             fg.push({
