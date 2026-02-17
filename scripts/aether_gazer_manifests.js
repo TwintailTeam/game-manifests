@@ -122,7 +122,8 @@ async function generateManifest(gameBiz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: []
+                        min_runner_versions: [],
+                        winetricks_verbs: []
                     },
                     preload: {}
                 }

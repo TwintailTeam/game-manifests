@@ -39,6 +39,13 @@ let himinrunners = [];
 let hnaminrunners = [];
 let ppminrunners = [];
 
+let gitricks = [];
+let hsrtricks = ["vcrun2022"];
+let zzztricks = [];
+let bhtricks = [];
+let hnatricks = [];
+let pptricks = [];
+
 async function queryHoyoPlayApis() {
     let rsp = await fetch(`${API}`);
     let r = await rsp.json();
@@ -188,7 +195,8 @@ async function generateManifest(gameBiz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: giminrunners
+                        min_runner_versions: giminrunners,
+                        winetricks_verbs: gitricks
                     },
                     preload: await formatPreload(branches[0], "GenshinImpact", "hk4e_global")
                 }
@@ -262,7 +270,8 @@ async function generateManifest(gameBiz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: hsrminrunners
+                        min_runner_versions: hsrminrunners,
+                        winetricks_verbs: hsrtricks,
                     },
                     preload: await formatPreload(branches[0], "Honkai: StarRail", "hkrpg_global")
                 }
@@ -336,7 +345,8 @@ async function generateManifest(gameBiz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: zzzminrunners
+                        min_runner_versions: zzzminrunners,
+                        winetricks_verbs: zzztricks
                     },
                     preload: await formatPreload(branches[0], "ZenlessZoneZero", "nap_global")
                 }
@@ -415,7 +425,8 @@ async function generateManifest(gameBiz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: himinrunners
+                        min_runner_versions: himinrunners,
+                        winetricks_verbs: bhtricks
                     },
                     preload: await formatPreload(branches[0], "HonkaiImpact 3rd", "bh3_global")
                 }
@@ -489,7 +500,8 @@ async function generateManifest(gameBiz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: hnaminrunners
+                        min_runner_versions: hnaminrunners,
+                        winetricks_verbs: hnatricks
                     },
                     preload: await formatPreload(branches[0], "Honkai: NexusAnima", "abc_global")
                 }
@@ -563,7 +575,8 @@ async function generateManifest(gameBiz) {
                               runner_version: ""
                           }
                         },
-                        min_runner_versions: ppminrunners
+                        min_runner_versions: ppminrunners,
+                        winetricks_verbs: pptricks
                     },
                     preload: await formatPreload(branches[0], "PetitPlanet", "hyg_global")
                 }

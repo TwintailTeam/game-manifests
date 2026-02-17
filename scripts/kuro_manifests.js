@@ -20,12 +20,14 @@ let wuwapath = `${__dirname}/generated/wuwa_global.json`;
 let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = [];
+let wuwatricks = ["sourcehansans", "fakechinese", "corefonts"];
 
 let pgrhosts = [];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
 let pgrfps = ["120"];
 let pgrcompat = ["noxalia"];
 let pgrminrunners = [];
+let pgrtricks = ["vcrun2022", "corefonts"];
 
 // === WUWA ===
 
@@ -152,7 +154,8 @@ async function generateManifest(biz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: wuwaminrunners
+                        min_runner_versions: wuwaminrunners,
+                        winetricks_verbs: wuwatricks
                     },
                     preload: await formatPreload(biz, index.preload, "WutheringWaves")
                 }
@@ -226,7 +229,8 @@ async function generateManifest(biz) {
                                 runner_version: ""
                             }
                         },
-                        min_runner_versions: pgrminrunners
+                        min_runner_versions: pgrminrunners,
+                        winetricks_verbs: pgrtricks
                     },
                     preload: await formatPreload(biz, index.preload, "PunishingGrayRaven")
                 }
