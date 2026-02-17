@@ -1394,7 +1394,10 @@
           "runner_version": ""
         }
       },
-      "min_runner_versions": []
+      "min_runner_versions": [],
+      "winetricks_verbs": [
+        "vcrun2022"
+      ]
     },
     "preload": {}
   }
