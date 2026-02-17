@@ -2219,7 +2219,8 @@
         "10.26-proton-ge",
         "10.0-20251222-proton-cachyos",
         "10.0-33-proton-em"
-      ]
+      ],
+      "winetricks_verbs": []
     },
     "preload": {}
   }
