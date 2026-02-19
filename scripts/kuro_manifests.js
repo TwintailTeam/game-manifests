@@ -20,7 +20,7 @@ let wuwapath = `${__dirname}/generated/wuwa_global.json`;
 let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = [];
-let wuwatricks = ["sourcehansans", "fakechinese", "corefonts"];
+let wuwatricks = [];
 
 let pgrhosts = [];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
@@ -28,8 +28,6 @@ let pgrfps = ["120"];
 let pgrcompat = ["noxalia"];
 let pgrminrunners = [];
 let pgrtricks = ["vcrun2022", "corefonts"];
-
-// === WUWA ===
 
 async function queryIndex(biz) {
     let rsp = await fetch((biz === "wuwa_global") ? `${INDEX.wuwa.game}` : `${INDEX.pgr.game}`);
@@ -157,6 +155,11 @@ async function generateManifest(biz) {
                         min_runner_versions: wuwaminrunners,
                         winetricks_verbs: wuwatricks
                     },
+                    steam_import_config: {
+                        enabled: true,
+                        steam_appid_txt: "Client/Binaries/Win64/steam_appid.txt",
+                        steam_api_dll: "Client/Binaries/Win64/steam_api64.dll"
+                    },
                     preload: await formatPreload(biz, index.preload, "WutheringWaves")
                 }
             };
@@ -231,6 +234,11 @@ async function generateManifest(biz) {
                         },
                         min_runner_versions: pgrminrunners,
                         winetricks_verbs: pgrtricks
+                    },
+                    steam_import_config: {
+                        enabled: true,
+                        steam_appid_txt: "",
+                        steam_api_dll: "PGR_Data/Plugins/steam_api64.dll"
                     },
                     preload: await formatPreload(biz, index.preload, "PunishingGrayRaven")
                 }

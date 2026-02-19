@@ -198,6 +198,11 @@ async function generateManifest(gameBiz) {
                         min_runner_versions: giminrunners,
                         winetricks_verbs: gitricks
                     },
+                    steam_import_config: {
+                        enabled: false,
+                        steam_appid_txt: "",
+                        steam_api_dll: ""
+                    },
                     preload: await formatPreload(branches[0], "GenshinImpact", "hk4e_global")
                 }
             };
@@ -273,6 +278,11 @@ async function generateManifest(gameBiz) {
                         min_runner_versions: hsrminrunners,
                         winetricks_verbs: hsrtricks,
                     },
+                    steam_import_config: {
+                        enabled: false,
+                        steam_appid_txt: "",
+                        steam_api_dll: ""
+                    },
                     preload: await formatPreload(branches[0], "Honkai: StarRail", "hkrpg_global")
                 }
             };
@@ -347,6 +357,11 @@ async function generateManifest(gameBiz) {
                         },
                         min_runner_versions: zzzminrunners,
                         winetricks_verbs: zzztricks
+                    },
+                    steam_import_config: {
+                        enabled: false,
+                        steam_appid_txt: "",
+                        steam_api_dll: ""
                     },
                     preload: await formatPreload(branches[0], "ZenlessZoneZero", "nap_global")
                 }
@@ -428,6 +443,11 @@ async function generateManifest(gameBiz) {
                         min_runner_versions: himinrunners,
                         winetricks_verbs: bhtricks
                     },
+                    steam_import_config: {
+                        enabled: true,
+                        steam_appid_txt: "",
+                        steam_api_dll: "BH3_Data/Plugins/steam_api64.dll"
+                    },
                     preload: await formatPreload(branches[0], "HonkaiImpact 3rd", "bh3_global")
                 }
             };
@@ -503,6 +523,11 @@ async function generateManifest(gameBiz) {
                         min_runner_versions: hnaminrunners,
                         winetricks_verbs: hnatricks
                     },
+                    steam_import_config: {
+                        enabled: false,
+                        steam_appid_txt: "",
+                        steam_api_dll: ""
+                    },
                     preload: await formatPreload(branches[0], "Honkai: NexusAnima", "abc_global")
                 }
             };
@@ -577,6 +602,11 @@ async function generateManifest(gameBiz) {
                         },
                         min_runner_versions: ppminrunners,
                         winetricks_verbs: pptricks
+                    },
+                    steam_import_config: {
+                        enabled: false,
+                        steam_appid_txt: "",
+                        steam_api_dll: ""
                     },
                     preload: await formatPreload(branches[0], "PetitPlanet", "hyg_global")
                 }

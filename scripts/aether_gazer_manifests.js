@@ -125,6 +125,11 @@ async function generateManifest(gameBiz) {
                         min_runner_versions: [],
                         winetricks_verbs: []
                     },
+                    steam_import_config: {
+                        enabled: false,
+                        steam_appid_txt: "",
+                        steam_api_dll: ""
+                    },
                     preload: {}
                 }
             };
