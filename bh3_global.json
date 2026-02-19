@@ -483,6 +483,11 @@
       "min_runner_versions": [],
       "winetricks_verbs": []
     },
+    "steam_import_config": {
+      "enabled": true,
+      "steam_appid_txt": "",
+      "steam_api_dll": "BH3_Data/Plugins/steam_api64.dll"
+    },
     "preload": {}
   }
 }

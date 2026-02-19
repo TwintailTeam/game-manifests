@@ -4533,11 +4533,12 @@
         }
       },
       "min_runner_versions": [],
-      "winetricks_verbs": [
-        "sourcehansans",
-        "fakechinese",
-        "corefonts"
-      ]
+      "winetricks_verbs": []
+    },
+    "steam_import_config": {
+      "enabled": true,
+      "steam_appid_txt": "Client/Binaries/Win64/steam_appid.txt",
+      "steam_api_dll": "Client/Binaries/Win64/steam_api64.dll"
     },
     "preload": {}
   }
