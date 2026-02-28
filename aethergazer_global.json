@@ -2,8 +2,46 @@
   "version": 1,
   "display_name": "AetherGazer (Global)",
   "biz": "aethergazer_global",
-  "latest_version": "290",
+  "latest_version": "291",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "AetherGazer 291 (Global)",
+        "version": "291",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://aethergazer.com/favicon.ico",
+        "game_background": "https://webstatic.yongshigame.com/game-site/image/d7ce61f6-cb04-4270-aded-b28960b6113b.png",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://skzy-us-packaging.aethergazer.com/pc/AetherGazer_jp_us_jp_us_prod_291_1_22_empty_sdk_release_W12000000_D3236F24796A3978B746D852CB8E54E9.zip",
+            "compressed_size": "0",
+            "decompressed_size": "0",
+            "file_hash": "",
+            "file_path": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "AetherGazer 290 (Global)",
