@@ -70,7 +70,7 @@ async function generateManifest(biz) {
     if (index === null) return null;
 
     let assetcfg = {game_icon: index.icon_url, game_background: index.background_url, game_live_background: index.background_video_url}
-    let pkg = await formatPackages(index.packages, index.latest_version_size);
+    let pkg = await formatPackages(index.packages);
 
     let final = {};
     switch (biz) {
@@ -158,7 +158,7 @@ async function generateManifest(biz) {
     return final;
 }
 
-async function formatPackages(packages, sizes) {
+async function formatPackages(packages) {
     let fg = [];
     let fa = [];
     let dg = [];
@@ -168,7 +168,7 @@ async function formatPackages(packages, sizes) {
        return fg.push({
            file_url: `${p.url}`,
            compressed_size: `${p.package_size}`,
-           decompressed_size: `${sizes.decompressed_size}`,
+           decompressed_size: `${p.package_size}`,
            file_hash: `${p.md5}`,
            file_path: "",
            region_code: ""
