@@ -261,7 +261,8 @@ async function formatPackages(biz, manifest, sizes, patches) {
         compressed_size: `${sizes.compressed_size}`,
         decompressed_size: `${sizes.decompressed_size}`,
         file_hash: "",
-        file_path: ""
+        file_path: "",
+        region_code: ""
     });
 
     patches.forEach(e => {
@@ -270,7 +271,8 @@ async function formatPackages(biz, manifest, sizes, patches) {
             file_url: index,
             compressed_size: `${e.size}`,
             decompressed_size: `${e.unCompressSize}`,
-            file_hash: `${cdnbase}/${e.baseUrl}`,
+            file_hash: `${e.indexFileMd5}`,
+            file_path: `${cdnbase}/${e.baseUrl}`,
             diff_type: "krdiff",
             original_version: e.version,
             delete_files: []
@@ -295,7 +297,8 @@ async function formatPreload(biz, pkgs, name) {
             compressed_size: `${pkgs.version_size.compressed_size}`,
             decompressed_size: `${pkgs.version_size.decompressed_size}`,
             file_hash: "",
-            file_path: ""
+            file_path: "",
+            region_code: ""
         });
 
         pkgs.patch_config.forEach(e => {
@@ -303,7 +306,8 @@ async function formatPreload(biz, pkgs, name) {
                 file_url: `${cdnbase}/${e.indexFile}`,
                 compressed_size: `${e.size}`,
                 decompressed_size: `${e.unCompressSize}`,
-                file_hash: `${cdnbase}/${e.baseUrl}`,
+                file_hash: `${e.indexFileMd5}`,
+                file_path: `${cdnbase}/${e.baseUrl}`,
                 diff_type: "krdiff",
                 original_version: e.version,
                 delete_files: []

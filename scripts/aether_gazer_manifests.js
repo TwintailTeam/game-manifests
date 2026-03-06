@@ -26,7 +26,8 @@ async function queryAgApis() {
             compressed_size: `${gp.zipFileSize}`,
             decompressed_size: `${gp.unzipFileSize}`,
             file_hash: "",
-            file_path: ""
+            file_path: "",
+            region_code: ""
         }],
         full_audio: [],
         res_list: "",

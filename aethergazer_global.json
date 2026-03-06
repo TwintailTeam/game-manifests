@@ -32,7 +32,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
@@ -70,7 +71,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
@@ -108,7 +110,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
@@ -146,7 +149,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
