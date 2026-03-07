@@ -8,7 +8,7 @@ let INDEX = {
     }
 };
 
-let efhosts = [];
+let efhosts = ["pc.crashsight.wetest.net"];
 let efpath = `${__dirname}/generated/endfield_global.json`;
 let effps = ["120"];
 let efcompat = ["noxalia"];
