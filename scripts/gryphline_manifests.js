@@ -75,8 +75,8 @@ async function generateManifest(biz) {
     let final = {};
     switch (biz) {
         case "endfield_global": {
-            let metadatainfo = {versioned_name: `Arknights Endfield ${index.current_version} (Global)`, version: index.current_version, download_mode: "DOWNLOAD_MODE_MULTIFILE", game_hash: "",
-                index_file: ``,
+            let metadatainfo = {versioned_name: `Arknights Endfield ${index.current_version} (Global)`, version: index.current_version, download_mode: "DOWNLOAD_MODE_FILE", game_hash: "",
+                index_file: "",
                 res_list_url: `${index.resource_base}`,
                 diff_list_url: {
                     game: "",
@@ -213,7 +213,7 @@ async function formatPackages(packages) {
         let pmetadatainfo = {
             versioned_name: `${name} ${pkgs.version} Preload (Global)`,
             version: pkgs.version,
-            download_mode: "DOWNLOAD_MODE_MULTIFILE",
+            download_mode: "DOWNLOAD_MODE_FILE",
             game_hash: "",
             index_file: `${pkgs.index_file}`,
             res_list_url: `${pkgs.resource_base}`,
