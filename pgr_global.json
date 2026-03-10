@@ -555,7 +555,9 @@
     "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/csoqxl8ab4midn8v1m.webp",
     "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/qh3yh4nj6j6g0lug13.mp4"
   },
-  "telemetry_hosts": [],
+  "telemetry_hosts": [
+    "pc.crashsight.wetest.net"
+  ],
   "extra": {
     "fps_unlock_options": [
       "120"

@@ -20,9 +20,9 @@ let wuwapath = `${__dirname}/generated/wuwa_global.json`;
 let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = [];
-let wuwatricks = [];
+let wuwatricks = ["vcrun2022", "corefonts"];
 
-let pgrhosts = [];
+let pgrhosts = ["pc.crashsight.wetest.net"];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
 let pgrfps = ["120"];
 let pgrcompat = ["noxalia"];

@@ -5794,7 +5794,10 @@
         }
       },
       "min_runner_versions": [],
-      "winetricks_verbs": []
+      "winetricks_verbs": [
+        "vcrun2022",
+        "corefonts"
+      ]
     },
     "steam_import_config": {
       "enabled": true,
