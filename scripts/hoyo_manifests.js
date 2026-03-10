@@ -172,7 +172,10 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: gihosts,
                 extra: {
                     fps_unlock_options: gifps,
-                    graphics_api_options: [],
+                    graphics_api_options: {
+                        default: "",
+                        options: []
+                    },
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
@@ -254,7 +257,10 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: hsrhosts,
                 extra: {
                     fps_unlock_options: hsrfps,
-                    graphics_api_options: [],
+                    graphics_api_options: {
+                        default: "",
+                        options: []
+                    },
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
@@ -336,7 +342,10 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: zzzhosts,
                 extra: {
                     fps_unlock_options: zzzfps,
-                    graphics_api_options: [],
+                    graphics_api_options: {
+                        default: "",
+                        options: []
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
@@ -423,7 +432,10 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: bhhosts,
                 extra: {
                     fps_unlock_options: bh3fps,
-                    graphics_api_options: [],
+                    graphics_api_options: {
+                        default: "",
+                        options: []
+                    },
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
@@ -505,7 +517,10 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: hnahosts,
                 extra: {
                     fps_unlock_options: hnafps,
-                    graphics_api_options: [],
+                    graphics_api_options: {
+                        default: "",
+                        options: []
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
@@ -587,7 +602,10 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: pphosts,
                 extra: {
                     fps_unlock_options: ppfps,
-                    graphics_api_options: [],
+                    graphics_api_options: {
+                        default: "",
+                        options: []
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,

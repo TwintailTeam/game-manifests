@@ -119,7 +119,10 @@ async function generateManifest(biz) {
                 telemetry_hosts: efhosts,
                 extra: {
                     fps_unlock_options: effps,
-                    graphics_api_options: efgraphicsapi,
+                    graphics_api_options: {
+                        default: "-force-vulkan",
+                        options: efgraphicsapi
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,

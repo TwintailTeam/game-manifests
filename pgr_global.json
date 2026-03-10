@@ -562,10 +562,13 @@
     "fps_unlock_options": [
       "120"
     ],
-    "graphics_api_options": [
-      "-force-d3d11",
-      "-force-d3d12"
-    ],
+    "graphics_api_options": {
+      "default": "-force-d3d11",
+      "options": [
+        "-force-d3d11",
+        "-force-d3d12"
+      ]
+    },
     "switches": {
       "fps_unlocker": false,
       "jadeite": false,

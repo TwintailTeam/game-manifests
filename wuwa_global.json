@@ -5767,10 +5767,13 @@
       "90",
       "120"
     ],
-    "graphics_api_options": [
-      "-dx11",
-      "-dx12"
-    ],
+    "graphics_api_options": {
+      "default": "-dx11",
+      "options": [
+        "-dx11",
+        "-dx12"
+      ]
+    },
     "switches": {
       "fps_unlocker": true,
       "jadeite": false,

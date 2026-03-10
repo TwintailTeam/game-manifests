@@ -131,7 +131,10 @@ async function generateManifest(biz) {
                 telemetry_hosts: wuwahosts,
                 extra: {
                     fps_unlock_options: wuwafps,
-                    graphics_api_options: wuwagraphicsapi,
+                    graphics_api_options: {
+                        default: "-dx11",
+                        options: wuwagraphicsapi
+                    },
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
@@ -213,7 +216,10 @@ async function generateManifest(biz) {
                 telemetry_hosts: pgrhosts,
                 extra: {
                     fps_unlock_options: pgrfps,
-                    graphics_api_options: pgrgraphicsapi,
+                    graphics_api_options: {
+                        default: "-force-d3d11",
+                        options: pgrgraphicsapi
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,

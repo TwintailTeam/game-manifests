@@ -100,7 +100,10 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: aghosts,
                 extra: {
                     fps_unlock_options: agfps,
-                    graphics_api_options: [],
+                    graphics_api_options: {
+                        default: "",
+                        options: []
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
