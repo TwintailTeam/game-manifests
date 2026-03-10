@@ -5767,10 +5767,15 @@
       "90",
       "120"
     ],
+    "graphics_api_options": [
+      "-dx11",
+      "-dx12"
+    ],
     "switches": {
       "fps_unlocker": true,
       "jadeite": false,
-      "xxmi": true
+      "xxmi": true,
+      "graphics_api": true
     },
     "compat_overrides": {
       "install_to_prefix": false,

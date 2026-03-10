@@ -14,6 +14,7 @@ let effps = ["120"];
 let efcompat = ["noxalia"];
 let efminrunners = [];
 let eftricks = [];
+let efgraphicsapi = ["-force-d3d11", "-force-d3d12", "-force-vulkan"];
 
 async function queryIndex(biz) {
     let rsp = await fetch((biz === "endfield_global") ? `${INDEX.endfield.game}` : ``);
@@ -118,10 +119,12 @@ async function generateManifest(biz) {
                 telemetry_hosts: efhosts,
                 extra: {
                     fps_unlock_options: effps,
+                    graphics_api_options: efgraphicsapi,
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: true
                     },
                     compat_overrides: {
                         install_to_prefix: false,

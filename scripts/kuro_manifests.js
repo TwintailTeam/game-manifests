@@ -21,6 +21,7 @@ let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = [];
 let wuwatricks = ["vcrun2022", "corefonts"];
+let wuwagraphicsapi = ["-dx11", "-dx12"];
 
 let pgrhosts = ["pc.crashsight.wetest.net"];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
@@ -28,6 +29,7 @@ let pgrfps = ["120"];
 let pgrcompat = ["noxalia"];
 let pgrminrunners = [];
 let pgrtricks = ["vcrun2022", "corefonts"];
+let pgrgraphicsapi = ["-force-d3d11", "-force-d3d12"];
 
 async function queryIndex(biz) {
     let rsp = await fetch((biz === "wuwa_global") ? `${INDEX.wuwa.game}` : `${INDEX.pgr.game}`);
@@ -129,10 +131,12 @@ async function generateManifest(biz) {
                 telemetry_hosts: wuwahosts,
                 extra: {
                     fps_unlock_options: wuwafps,
+                    graphics_api_options: wuwagraphicsapi,
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: true
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -209,10 +213,12 @@ async function generateManifest(biz) {
                 telemetry_hosts: pgrhosts,
                 extra: {
                     fps_unlock_options: pgrfps,
+                    graphics_api_options: pgrgraphicsapi,
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
-                        xxmi: false
+                        xxmi: false,
+                        graphics_api: true
                     },
                     compat_overrides: {
                         install_to_prefix: false,

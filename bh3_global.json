@@ -566,10 +566,12 @@
       "240",
       "360"
     ],
+    "graphics_api_options": [],
     "switches": {
       "fps_unlocker": true,
-      "jadeite": true,
-      "xxmi": true
+      "jadeite": false,
+      "xxmi": true,
+      "graphics_api": false
     },
     "compat_overrides": {
       "install_to_prefix": false,

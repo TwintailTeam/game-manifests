@@ -343,10 +343,16 @@
     "fps_unlock_options": [
       "120"
     ],
+    "graphics_api_options": [
+      "-force-d3d11",
+      "-force-d3d12",
+      "-force-vulkan"
+    ],
     "switches": {
       "fps_unlocker": false,
       "jadeite": false,
-      "xxmi": true
+      "xxmi": true,
+      "graphics_api": true
     },
     "compat_overrides": {
       "install_to_prefix": false,
