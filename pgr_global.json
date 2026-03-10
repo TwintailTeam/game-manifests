@@ -565,8 +565,14 @@
     "graphics_api_options": {
       "default": "-force-d3d11",
       "options": [
-        "-force-d3d11",
-        "-force-d3d12"
+        {
+          "value": "-force-d3d11",
+          "name": "DirectX 11"
+        },
+        {
+          "value": "-force-d3d12",
+          "name": "DirectX 12"
+        }
       ]
     },
     "switches": {

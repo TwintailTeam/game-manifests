@@ -102,7 +102,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: agfps,
                     graphics_api_options: {
                         default: "",
-                        options: []
+                        options: [{value: "", name: ""}]
                     },
                     switches: {
                         fps_unlocker: false,

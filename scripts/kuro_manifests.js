@@ -21,7 +21,7 @@ let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = [];
 let wuwatricks = ["vcrun2022", "corefonts"];
-let wuwagraphicsapi = ["-dx11", "-dx12"];
+let wuwagraphicsapi = [{value: "-dx11", name: "DirectX 11"}, {value: "-dx12", name: "DirectX 12"}];
 
 let pgrhosts = ["pc.crashsight.wetest.net"];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
@@ -29,7 +29,7 @@ let pgrfps = ["120"];
 let pgrcompat = ["noxalia"];
 let pgrminrunners = [];
 let pgrtricks = ["vcrun2022", "corefonts"];
-let pgrgraphicsapi = ["-force-d3d11", "-force-d3d12"];
+let pgrgraphicsapi = [{value: "-force-d3d11", name: "DirectX 11"}, {value: "-force-d3d12", name: "DirectX 12"}];
 
 async function queryIndex(biz) {
     let rsp = await fetch((biz === "wuwa_global") ? `${INDEX.wuwa.game}` : `${INDEX.pgr.game}`);

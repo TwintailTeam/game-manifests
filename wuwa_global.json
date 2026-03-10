@@ -5770,8 +5770,14 @@
     "graphics_api_options": {
       "default": "-dx11",
       "options": [
-        "-dx11",
-        "-dx12"
+        {
+          "value": "-dx11",
+          "name": "DirectX 11"
+        },
+        {
+          "value": "-dx12",
+          "name": "DirectX 12"
+        }
       ]
     },
     "switches": {

@@ -174,7 +174,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: gifps,
                     graphics_api_options: {
                         default: "",
-                        options: []
+                        options: [{value: "", name: ""}]
                     },
                     switches: {
                         fps_unlocker: true,
@@ -259,7 +259,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: hsrfps,
                     graphics_api_options: {
                         default: "",
-                        options: []
+                        options: [{value: "", name: ""}]
                     },
                     switches: {
                         fps_unlocker: true,
@@ -344,7 +344,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: zzzfps,
                     graphics_api_options: {
                         default: "",
-                        options: []
+                        options: [{value: "", name: ""}]
                     },
                     switches: {
                         fps_unlocker: false,
@@ -434,7 +434,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: bh3fps,
                     graphics_api_options: {
                         default: "",
-                        options: []
+                        options: [{value: "", name: ""}]
                     },
                     switches: {
                         fps_unlocker: true,
@@ -519,7 +519,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: hnafps,
                     graphics_api_options: {
                         default: "",
-                        options: []
+                        options: [{value: "", name: ""}]
                     },
                     switches: {
                         fps_unlocker: false,
@@ -604,7 +604,7 @@ async function generateManifest(gameBiz) {
                     fps_unlock_options: ppfps,
                     graphics_api_options: {
                         default: "",
-                        options: []
+                        options: [{value: "", name: ""}]
                     },
                     switches: {
                         fps_unlocker: false,

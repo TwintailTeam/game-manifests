@@ -346,9 +346,18 @@
     "graphics_api_options": {
       "default": "-force-vulkan",
       "options": [
-        "-force-d3d11",
-        "-force-d3d12",
-        "-force-vulkan"
+        {
+          "value": "-force-d3d11",
+          "name": "DirectX 11"
+        },
+        {
+          "value": "-force-d3d12",
+          "name": "DirectX 12"
+        },
+        {
+          "value": "-force-vulkan",
+          "name": "Vulkan"
+        }
       ]
     },
     "switches": {

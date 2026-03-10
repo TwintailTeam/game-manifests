@@ -568,7 +568,12 @@
     ],
     "graphics_api_options": {
       "default": "",
-      "options": []
+      "options": [
+        {
+          "value": "",
+          "name": ""
+        }
+      ]
     },
     "switches": {
       "fps_unlocker": true,
