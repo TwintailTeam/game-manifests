@@ -21,6 +21,18 @@ async function queryIndex(biz) {
     if (rsp.status !== 200) return null;
     let r = await rsp.json();
 
+    if (r.patch === null && biz === "endfield_global" && existsSync(efpath)) {
+        let storedVersion = JSON.parse(readFileSync(efpath)).latest_version;
+        if (storedVersion && storedVersion !== r.version) {
+            let patchRsp = await fetch(`${INDEX.endfield.game}&version=${storedVersion}`);
+            if (patchRsp.status === 200) {
+                let patchData = await patchRsp.json();
+                r.patch = patchData.patch;
+                r.request_version = patchData.request_version;
+            }
+        }
+    }
+
     let rsp1 = await fetch((biz === "endfield_global") ? `${INDEX.endfield.launcher}` : ``, {
         method: "POST",
         headers: {"authority": "launcher.gryphline.com", "user-agent": "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.8 Chrome/87.0.4280.144 Safari/537.36", "content-type": "application/json"},
@@ -71,7 +83,7 @@ async function generateManifest(biz) {
     if (index === null) return null;
 
     let assetcfg = {game_icon: index.icon_url, game_background: index.background_url, game_live_background: index.background_video_url}
-    let pkg = await formatPackages(index.packages);
+    let pkg = await formatPackages(index.packages, index.patch, index.previous_version);
 
     let final = {};
     switch (biz) {
@@ -164,7 +176,7 @@ async function generateManifest(biz) {
     return final;
 }
 
-async function formatPackages(packages) {
+async function formatPackages(packages, patch, previousVersion) {
     let fg = [];
     let fa = [];
     let dg = [];
@@ -181,7 +193,20 @@ async function formatPackages(packages) {
        });
     });
 
-    // TODO: diff packages when available
+    if (patch && patch.patches) {
+        patch.patches.forEach(p => {
+            return dg.push({
+                file_url: `${p.url}`,
+                compressed_size: `${p.package_size}`,
+                decompressed_size: `${p.package_size}`,
+                file_hash: `${p.md5}`,
+                file_path: "",
+                diff_type: "hgdiff",
+                original_version: previousVersion,
+                delete_files: []
+            });
+        });
+    }
 
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
