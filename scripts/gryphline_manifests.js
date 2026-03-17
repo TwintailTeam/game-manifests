@@ -22,7 +22,7 @@ async function queryIndex(biz) {
     let r = await rsp.json();
 
     if (r.patch === null && biz === "endfield_global" && existsSync(efpath)) {
-        let storedVersion = JSON.parse(readFileSync(efpath)).latest_version;
+        let storedVersion = JSON.parse(readFileSync(efpath)).game_versions[1]?.metadata.version;
         if (storedVersion && storedVersion !== r.version) {
             let patchRsp = await fetch(`${INDEX.endfield.game}&version=${storedVersion}`);
             if (patchRsp.status === 200) {
