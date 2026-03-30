@@ -73,10 +73,6 @@
         {
           "value": "-force-d3d12",
           "name": "DirectX 12"
-        },
-        {
-          "value": "-force-vulkan",
-          "name": "Vulkan"
         }
       ]
     },

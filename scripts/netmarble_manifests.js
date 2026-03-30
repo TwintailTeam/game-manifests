@@ -14,7 +14,7 @@ let sdsfps = ["120"];
 let sdscompat = ["noxalia"];
 let sdsminrunners = [];
 let sdstricks = [];
-let sdsgraphicsapi = [{value: "-force-d3d11", name: "DirectX 11"}, {value: "-force-d3d12", name: "DirectX 12"}, {value: "-force-vulkan", name: "Vulkan"}];
+let sdsgraphicsapi = [{value: "-force-d3d11", name: "DirectX 11"}, {value: "-force-d3d12", name: "DirectX 12"}];
 
 async function queryIndex(biz) {
     let rsp = await fetch((biz === "sdsgc_global") ? `${INDEX.sevendeadlysinsgrandcross.game}` : ``, {
