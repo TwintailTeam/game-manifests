@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="generate netmarble [clean]" type="NodeJSConfigurationType" path-to-js-file="scripts/netmarble_manifests.js" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>
