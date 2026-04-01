@@ -14,7 +14,7 @@ let effps = ["120"];
 let efcompat = ["noxalia"];
 let efminrunners = [];
 let eftricks = [];
-let efgraphicsapi = [{value: "-force-d3d11", name: "DirectX 11"}, {value: "-force-d3d12", name: "DirectX 12"}, {value: "-force-vulkan", name: "Vulkan"}];
+let efgraphicsapi = [{value: "-force-d3d11", name: "DirectX 11"}, {value: "-force-vulkan", name: "Vulkan"}];
 
 async function queryIndex(biz) {
     let rsp = await fetch((biz === "endfield_global") ? `${INDEX.endfield.game}` : ``);
