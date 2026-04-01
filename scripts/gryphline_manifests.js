@@ -151,8 +151,8 @@ async function generateManifest(biz) {
                         proton_compat_config: efcompat,
                         override_runner: {
                             linux: {
-                                enabled: false,
-                                runner_version: ""
+                                enabled: true,
+                                runner_version: "10.0-20260401-proton-twintail"
                             },
                             macos: {
                                 enabled: false,

@@ -452,8 +452,8 @@ async function generateManifest(gameBiz) {
                         proton_compat_config: bhcompat,
                         override_runner: {
                             linux: {
-                                enabled: false,
-                                runner_version: ""
+                                enabled: true,
+                                runner_version: "10.0-20260401-proton-twintail"
                             },
                             macos: {
                                 enabled: false,
