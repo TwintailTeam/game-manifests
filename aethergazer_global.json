@@ -32,7 +32,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
@@ -70,7 +71,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
@@ -108,7 +110,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
@@ -146,7 +149,8 @@
             "compressed_size": "0",
             "decompressed_size": "0",
             "file_hash": "",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": []
@@ -176,10 +180,20 @@
     "fps_unlock_options": [
       "120"
     ],
+    "graphics_api_options": {
+      "default": "",
+      "options": [
+        {
+          "value": "",
+          "name": ""
+        }
+      ]
+    },
     "switches": {
       "fps_unlocker": false,
       "jadeite": false,
-      "xxmi": false
+      "xxmi": false,
+      "graphics_api": false
     },
     "compat_overrides": {
       "install_to_prefix": false,

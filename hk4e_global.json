@@ -41,7 +41,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/kVN4hhpHMDw7/manifest_997e5b77d7dac2b1_6a7284eb964dd4f084193773af86a391",
             "compressed_size": "6533866471",
             "decompressed_size": "6533866471",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10016",
+            "file_hash": "6a7284eb964dd4f084193773af86a391",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10016",
             "diff_type": "ldiff",
             "original_version": "6.3.0",
             "delete_files": []
@@ -50,7 +51,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/kVN4hhpHMDw7/manifest_997e5b77d7dac2b1_6a7284eb964dd4f084193773af86a391",
             "compressed_size": "12752554223",
             "decompressed_size": "12752554223",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10016",
+            "file_hash": "6a7284eb964dd4f084193773af86a391",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10016",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "delete_files": []
@@ -64,6 +66,7 @@
             "compressed_size": "15702162630",
             "decompressed_size": "15706553351",
             "file_hash": "e96b1e602c36ddeb8ecbe7a018f6810f",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/jJ6hfpe1NGBu",
             "language": "en-us",
             "region_code": ""
           },
@@ -72,6 +75,7 @@
             "compressed_size": "12026130316",
             "decompressed_size": "12027409422",
             "file_hash": "54519c80d7d198c3484e3da42e19fa95",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/jJ6hfpe1NGBu",
             "language": "zh-cn",
             "region_code": ""
           },
@@ -80,6 +84,7 @@
             "compressed_size": "12627923339",
             "decompressed_size": "12630341293",
             "file_hash": "3b096026e6f2842650da83c1f469d62e",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/jJ6hfpe1NGBu",
             "language": "ko-kr",
             "region_code": ""
           },
@@ -88,6 +93,7 @@
             "compressed_size": "14251350611",
             "decompressed_size": "14252945358",
             "file_hash": "55e7d16dcf9bb91e5191b62ac9ef3969",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/jJ6hfpe1NGBu",
             "language": "ja-jp",
             "region_code": ""
           }
@@ -98,6 +104,7 @@
             "compressed_size": "472638289",
             "decompressed_size": "472638289",
             "file_hash": "5c973385044e55552f08ff4dc7784c0e",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10018",
             "diff_type": "ldiff",
             "original_version": "6.3.0",
             "language": "en-us"
@@ -107,6 +114,7 @@
             "compressed_size": "329621102",
             "decompressed_size": "329621102",
             "file_hash": "4e7a68416ead897fdcd85fde9ac80998",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10017",
             "diff_type": "ldiff",
             "original_version": "6.3.0",
             "language": "zh-cn"
@@ -116,6 +124,7 @@
             "compressed_size": "340654461",
             "decompressed_size": "340654461",
             "file_hash": "deac710ef6bf512ca57d225fd0da541e",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10019",
             "diff_type": "ldiff",
             "original_version": "6.3.0",
             "language": "ko-kr"
@@ -125,6 +134,7 @@
             "compressed_size": "359341571",
             "decompressed_size": "359341571",
             "file_hash": "be157d459c6ccd8568e04735fc9f47b4",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10020",
             "diff_type": "ldiff",
             "original_version": "6.3.0",
             "language": "ja-jp"
@@ -134,6 +144,7 @@
             "compressed_size": "1150029008",
             "decompressed_size": "1150029008",
             "file_hash": "5c973385044e55552f08ff4dc7784c0e",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10018",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "en-us"
@@ -143,6 +154,7 @@
             "compressed_size": "891299875",
             "decompressed_size": "891299875",
             "file_hash": "4e7a68416ead897fdcd85fde9ac80998",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10017",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "zh-cn"
@@ -152,6 +164,7 @@
             "compressed_size": "915714600",
             "decompressed_size": "915714600",
             "file_hash": "deac710ef6bf512ca57d225fd0da541e",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10019",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "ko-kr"
@@ -161,6 +174,7 @@
             "compressed_size": "971553447",
             "decompressed_size": "971553447",
             "file_hash": "be157d459c6ccd8568e04735fc9f47b4",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kVN4hhpHMDw7/10020",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "ja-jp"
@@ -205,7 +219,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/8iUOAQOgqHkm/manifest_7264d587aa845b77_1dd608acf074de12a355ea103105575a",
             "compressed_size": "8296801882",
             "decompressed_size": "8296801882",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/8iUOAQOgqHkm/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/8iUOAQOgqHkm/10016",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "delete_files": []
@@ -214,7 +229,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/8iUOAQOgqHkm/manifest_7264d587aa845b77_1dd608acf074de12a355ea103105575a",
             "compressed_size": "10285319512",
             "decompressed_size": "10285319512",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/8iUOAQOgqHkm/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/8iUOAQOgqHkm/10016",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "delete_files": []
@@ -228,6 +244,7 @@
             "compressed_size": "15269352959",
             "decompressed_size": "15277424509",
             "file_hash": "727bc36389863ddee65db2ab728e57e3",
+            "file_path": "",
             "language": "en-us",
             "region_code": ""
           },
@@ -236,6 +253,7 @@
             "compressed_size": "11696805325",
             "decompressed_size": "11698034771",
             "file_hash": "24127b75052f9132665c1e2d12b0fd42",
+            "file_path": "",
             "language": "zh-cn",
             "region_code": ""
           },
@@ -244,6 +262,7 @@
             "compressed_size": "12287483694",
             "decompressed_size": "12289867247",
             "file_hash": "11f125940e9e9f8dd625c5d2ec062f90",
+            "file_path": "",
             "language": "ko-kr",
             "region_code": ""
           },
@@ -252,6 +271,7 @@
             "compressed_size": "13895323982",
             "decompressed_size": "13896886883",
             "file_hash": "97019f966fb96a32936603b5fd834817",
+            "file_path": "",
             "language": "ja-jp",
             "region_code": ""
           }
@@ -262,6 +282,7 @@
             "compressed_size": "680088969",
             "decompressed_size": "680088969",
             "file_hash": "abad3bd50a513dbec6f347d4ff78c138",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "en-us"
@@ -271,6 +292,7 @@
             "compressed_size": "562617200",
             "decompressed_size": "562617200",
             "file_hash": "739b843f25288fde9780c7be2ff97eb1",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "zh-cn"
@@ -280,6 +302,7 @@
             "compressed_size": "576177891",
             "decompressed_size": "576177891",
             "file_hash": "d38a2ab1d8f3794f613f92507831e7e1",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "ko-kr"
@@ -289,6 +312,7 @@
             "compressed_size": "616676957",
             "decompressed_size": "616676957",
             "file_hash": "f3301d3a039d9fde5f4a9c8a187b0fee",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.2.0",
             "language": "ja-jp"
@@ -298,6 +322,7 @@
             "compressed_size": "15275559630",
             "decompressed_size": "15275559630",
             "file_hash": "abad3bd50a513dbec6f347d4ff78c138",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "en-us"
@@ -307,6 +332,7 @@
             "compressed_size": "11696187332",
             "decompressed_size": "11696187332",
             "file_hash": "739b843f25288fde9780c7be2ff97eb1",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "zh-cn"
@@ -316,6 +342,7 @@
             "compressed_size": "12288016920",
             "decompressed_size": "12288016920",
             "file_hash": "d38a2ab1d8f3794f613f92507831e7e1",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "ko-kr"
@@ -325,6 +352,7 @@
             "compressed_size": "13894755995",
             "decompressed_size": "13894755995",
             "file_hash": "f3301d3a039d9fde5f4a9c8a187b0fee",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "ja-jp"
@@ -369,7 +397,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/kHSW9rpHhUf8/manifest_ceabc264e0669d28_c698998d04b66c836cc0bf8bbbe360cb",
             "compressed_size": "4243440106",
             "decompressed_size": "4243440106",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kHSW9rpHhUf8/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kHSW9rpHhUf8/10016",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "delete_files": []
@@ -378,7 +407,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/kHSW9rpHhUf8/manifest_ceabc264e0669d28_c698998d04b66c836cc0bf8bbbe360cb",
             "compressed_size": "13855675306",
             "decompressed_size": "13855675306",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kHSW9rpHhUf8/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/kHSW9rpHhUf8/10016",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "delete_files": []
@@ -392,6 +422,7 @@
             "compressed_size": "15373205614",
             "decompressed_size": "15382621332",
             "file_hash": "f76f2698e719dbc07b5c3b689f0c5148",
+            "file_path": "",
             "language": "en-us",
             "region_code": ""
           },
@@ -400,6 +431,7 @@
             "compressed_size": "11929095530",
             "decompressed_size": "11930379813",
             "file_hash": "b362350320c6f8af6a20b71655cadbfa",
+            "file_path": "",
             "language": "zh-cn",
             "region_code": ""
           },
@@ -408,6 +440,7 @@
             "compressed_size": "12549651437",
             "decompressed_size": "12552070035",
             "file_hash": "c7aab368be02b854542ee049e250ccdf",
+            "file_path": "",
             "language": "ko-kr",
             "region_code": ""
           },
@@ -416,6 +449,7 @@
             "compressed_size": "14178469589",
             "decompressed_size": "14180142380",
             "file_hash": "01aedf0468eb7ff42026a26d195e6447",
+            "file_path": "",
             "language": "ja-jp",
             "region_code": ""
           }
@@ -426,6 +460,7 @@
             "compressed_size": "15380590947",
             "decompressed_size": "15380590947",
             "file_hash": "1a400574cfef80f41111308dfcac6125",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "en-us"
@@ -435,6 +470,7 @@
             "compressed_size": "11928384211",
             "decompressed_size": "11928384211",
             "file_hash": "bbd35a0609f706ed7a5cc88f479ae97b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "zh-cn"
@@ -444,6 +480,7 @@
             "compressed_size": "12550071493",
             "decompressed_size": "12550071493",
             "file_hash": "977b4563d9ff9ecd1a7fb198c52340e6",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "ko-kr"
@@ -453,6 +490,7 @@
             "compressed_size": "14177861520",
             "decompressed_size": "14177861520",
             "file_hash": "5cd6386601c50e8bcdbf59f80213dd7b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.1.0",
             "language": "ja-jp"
@@ -462,6 +500,7 @@
             "compressed_size": "15380652706",
             "decompressed_size": "15380652706",
             "file_hash": "1a400574cfef80f41111308dfcac6125",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "en-us"
@@ -471,6 +510,7 @@
             "compressed_size": "11928447066",
             "decompressed_size": "11928447066",
             "file_hash": "bbd35a0609f706ed7a5cc88f479ae97b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "zh-cn"
@@ -480,6 +520,7 @@
             "compressed_size": "12550133712",
             "decompressed_size": "12550133712",
             "file_hash": "977b4563d9ff9ecd1a7fb198c52340e6",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "ko-kr"
@@ -489,6 +530,7 @@
             "compressed_size": "14177924620",
             "decompressed_size": "14177924620",
             "file_hash": "5cd6386601c50e8bcdbf59f80213dd7b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "ja-jp"
@@ -533,7 +575,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1NJjwxTLYd4s/manifest_7f40f52f0b8a68b6_5c190e9b76062b9daaee07ef792a97d5",
             "compressed_size": "11623093145",
             "decompressed_size": "11623093145",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1NJjwxTLYd4s/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1NJjwxTLYd4s/10016",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "delete_files": []
@@ -542,7 +585,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1NJjwxTLYd4s/manifest_7f40f52f0b8a68b6_5c190e9b76062b9daaee07ef792a97d5",
             "compressed_size": "17460382643",
             "decompressed_size": "17460382643",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1NJjwxTLYd4s/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1NJjwxTLYd4s/10016",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "delete_files": []
@@ -556,6 +600,7 @@
             "compressed_size": "19425571045",
             "decompressed_size": "21936663689",
             "file_hash": "991929bfee8bbb8db76862995a446ae5",
+            "file_path": "",
             "language": "en-us",
             "region_code": ""
           },
@@ -564,6 +609,7 @@
             "compressed_size": "16472767928",
             "decompressed_size": "19102800596",
             "file_hash": "6a793b6b444a51232f63ca4c56e7ed28",
+            "file_path": "",
             "language": "zh-cn",
             "region_code": ""
           },
@@ -572,6 +618,7 @@
             "compressed_size": "16037814776",
             "decompressed_size": "18892495899",
             "file_hash": "897609d8f2e19629f6acfd46ae663ab4",
+            "file_path": "",
             "language": "ko-kr",
             "region_code": ""
           },
@@ -580,6 +627,7 @@
             "compressed_size": "19170580374",
             "decompressed_size": "24760776445",
             "file_hash": "202931be1b2dd13b0728635c4a8d4cd5",
+            "file_path": "",
             "language": "ja-jp",
             "region_code": ""
           }
@@ -590,6 +638,7 @@
             "compressed_size": "749327089",
             "decompressed_size": "749327089",
             "file_hash": "36e2c780b79a5e81a7dd5e7169250dd9",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "en-us"
@@ -599,6 +648,7 @@
             "compressed_size": "622980817",
             "decompressed_size": "622980817",
             "file_hash": "7c8e5bda9c823ea8ae5799cd5d3dc71b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "zh-cn"
@@ -608,6 +658,7 @@
             "compressed_size": "588815600",
             "decompressed_size": "588815600",
             "file_hash": "4b57135f7cde7436db5413292eb8e8cc",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "ko-kr"
@@ -617,6 +668,7 @@
             "compressed_size": "753510308",
             "decompressed_size": "753510308",
             "file_hash": "3656aae66f946154c067170e3be687f0",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "6.0.0",
             "language": "ja-jp"
@@ -626,6 +678,7 @@
             "compressed_size": "1821862586",
             "decompressed_size": "1821862586",
             "file_hash": "36e2c780b79a5e81a7dd5e7169250dd9",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "en-us"
@@ -635,6 +688,7 @@
             "compressed_size": "1507916446",
             "decompressed_size": "1507916446",
             "file_hash": "7c8e5bda9c823ea8ae5799cd5d3dc71b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "zh-cn"
@@ -644,6 +698,7 @@
             "compressed_size": "1450829054",
             "decompressed_size": "1450829054",
             "file_hash": "4b57135f7cde7436db5413292eb8e8cc",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "ko-kr"
@@ -653,6 +708,7 @@
             "compressed_size": "1823059813",
             "decompressed_size": "1823059813",
             "file_hash": "3656aae66f946154c067170e3be687f0",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "ja-jp"
@@ -688,7 +744,8 @@
             "compressed_size": "89391728031",
             "decompressed_size": "91705463208",
             "file_hash": "028ff30ff105d093df1df15a46fed16a",
-            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/R6VKQTMPUUBa"
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/R6VKQTMPUUBa",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -696,7 +753,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/vIA9rI850ltl/manifest_807786da48750ca7_8d1f70c43521aea97492678e65d87e6a",
             "compressed_size": "7802863651",
             "decompressed_size": "7802863651",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/vIA9rI850ltl/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/vIA9rI850ltl/10016",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "delete_files": []
@@ -705,7 +763,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/vIA9rI850ltl/manifest_807786da48750ca7_8d1f70c43521aea97492678e65d87e6a",
             "compressed_size": "10500415909",
             "decompressed_size": "10500415909",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/vIA9rI850ltl/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/vIA9rI850ltl/10016",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "delete_files": []
@@ -719,28 +778,36 @@
             "compressed_size": "18786783801",
             "decompressed_size": "21164827623",
             "file_hash": "9ed81c934600a7c1d06298cc2e6a5a39",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/R6VKQTMPUUBa/manifest_a1cb4043bc36ff61_96cc45be5678146bc382ba6663163b4d",
             "compressed_size": "15930548159",
             "decompressed_size": "18468422338",
             "file_hash": "96cc45be5678146bc382ba6663163b4d",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/R6VKQTMPUUBa/manifest_da74d3a2bd8ec17b_8e0990bede9c5d24136ed9fc195a479b",
             "compressed_size": "15534106416",
             "decompressed_size": "18271153295",
             "file_hash": "8e0990bede9c5d24136ed9fc195a479b",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/R6VKQTMPUUBa/manifest_0c6f0d6a63acad88_6bd4c453ac69aeee447b37ea1b764c10",
             "compressed_size": "18564857645",
             "decompressed_size": "23951054801",
             "file_hash": "6bd4c453ac69aeee447b37ea1b764c10",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -749,6 +816,7 @@
             "compressed_size": "1072761378",
             "decompressed_size": "1072761378",
             "file_hash": "b2e2f60e081658fbe7c9817fe5a35eac",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "en-us"
@@ -758,6 +826,7 @@
             "compressed_size": "882045800",
             "decompressed_size": "882045800",
             "file_hash": "e44da3d80541c363b0e97bc309fa344d",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "zh-cn"
@@ -767,6 +836,7 @@
             "compressed_size": "864825365",
             "decompressed_size": "864825365",
             "file_hash": "590b716981ab5ed3d799bf5d323ab983",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "ko-kr"
@@ -776,6 +846,7 @@
             "compressed_size": "1081029505",
             "decompressed_size": "1081029505",
             "file_hash": "04a7daf4887b8890d1850675aa8716cd",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.8.0",
             "language": "ja-jp"
@@ -785,6 +856,7 @@
             "compressed_size": "1611267045",
             "decompressed_size": "1611267045",
             "file_hash": "b2e2f60e081658fbe7c9817fe5a35eac",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "en-us"
@@ -794,6 +866,7 @@
             "compressed_size": "1314139657",
             "decompressed_size": "1314139657",
             "file_hash": "e44da3d80541c363b0e97bc309fa344d",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "zh-cn"
@@ -803,6 +876,7 @@
             "compressed_size": "1288132620",
             "decompressed_size": "1288132620",
             "file_hash": "590b716981ab5ed3d799bf5d323ab983",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "ko-kr"
@@ -812,6 +886,7 @@
             "compressed_size": "1599175947",
             "decompressed_size": "1599175947",
             "file_hash": "04a7daf4887b8890d1850675aa8716cd",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "ja-jp"
@@ -847,7 +922,8 @@
             "compressed_size": "83706502195",
             "decompressed_size": "85847882101",
             "file_hash": "3934c9f0cc2b5ef1b468bad832be87bb",
-            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/d6lo39gA1LIA"
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/d6lo39gA1LIA",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -855,7 +931,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/HyYDfadcMV5S/manifest_fa4b9de4ab36b520_0164633cca24b87621fa0a436052e5b2",
             "compressed_size": "4494163970",
             "decompressed_size": "4494163970",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/HyYDfadcMV5S/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/HyYDfadcMV5S/10016",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "delete_files": []
@@ -864,7 +941,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/HyYDfadcMV5S/manifest_fa4b9de4ab36b520_0164633cca24b87621fa0a436052e5b2",
             "compressed_size": "7022125515",
             "decompressed_size": "7022125515",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/HyYDfadcMV5S/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/HyYDfadcMV5S/10016",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "delete_files": []
@@ -878,28 +956,36 @@
             "compressed_size": "17870110236",
             "decompressed_size": "20066842489",
             "file_hash": "69ed66dd8bd7b058fffb74f53e5283f4",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/d6lo39gA1LIA/manifest_25ade311d90d6dc5_95ca3d1f6d10d9cacf9c0bcde55a8901",
             "compressed_size": "15193729801",
             "decompressed_size": "17575641916",
             "file_hash": "95ca3d1f6d10d9cacf9c0bcde55a8901",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/d6lo39gA1LIA/manifest_4dd5c2ad064d15b1_8398182c59ee5cbe0f1a6a1b7b149986",
             "compressed_size": "14789239185",
             "decompressed_size": "17360961235",
             "file_hash": "8398182c59ee5cbe0f1a6a1b7b149986",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/d6lo39gA1LIA/manifest_c6b2b260b6d6dc9b_feb083d29890cff551f7fc3ba1ee6c5b",
             "compressed_size": "17645764606",
             "decompressed_size": "22777038513",
             "file_hash": "feb083d29890cff551f7fc3ba1ee6c5b",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -908,6 +994,7 @@
             "compressed_size": "554070227",
             "decompressed_size": "554070227",
             "file_hash": "2cab81bcfe57d0aa8a985d6cfc0fe964",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "en-us"
@@ -917,6 +1004,7 @@
             "compressed_size": "445526095",
             "decompressed_size": "445526095",
             "file_hash": "c415f93c055c9d0380d2364a94c3e4d5",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "zh-cn"
@@ -926,6 +1014,7 @@
             "compressed_size": "436733039",
             "decompressed_size": "436733039",
             "file_hash": "4a0c283f704153034178f1073c573b40",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "ko-kr"
@@ -935,6 +1024,7 @@
             "compressed_size": "527964842",
             "decompressed_size": "527964842",
             "file_hash": "98b6783ecac186cfb2d3b2e7d3d58577",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.7.0",
             "language": "ja-jp"
@@ -944,6 +1034,7 @@
             "compressed_size": "1159972424",
             "decompressed_size": "1159972424",
             "file_hash": "2cab81bcfe57d0aa8a985d6cfc0fe964",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "en-us"
@@ -953,6 +1044,7 @@
             "compressed_size": "1033162015",
             "decompressed_size": "1033162015",
             "file_hash": "c415f93c055c9d0380d2364a94c3e4d5",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "zh-cn"
@@ -962,6 +1054,7 @@
             "compressed_size": "1001997097",
             "decompressed_size": "1001997097",
             "file_hash": "4a0c283f704153034178f1073c573b40",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "ko-kr"
@@ -971,6 +1064,7 @@
             "compressed_size": "1220643654",
             "decompressed_size": "1220643654",
             "file_hash": "98b6783ecac186cfb2d3b2e7d3d58577",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "ja-jp"
@@ -1006,7 +1100,8 @@
             "compressed_size": "81082797945",
             "decompressed_size": "83169275918",
             "file_hash": "5bd9ec245492bc76dc13c0204b43cce8",
-            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/3j90WyoOpfjt"
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/3j90WyoOpfjt",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1014,7 +1109,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/DphJOTQP5dDn/manifest_68690fa573e2b399_07f4d65a4f4d42157f863d7d177efaa4",
             "compressed_size": "3963177500",
             "decompressed_size": "3963177500",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/DphJOTQP5dDn/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/DphJOTQP5dDn/10016",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "delete_files": []
@@ -1023,7 +1119,8 @@
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/DphJOTQP5dDn/manifest_68690fa573e2b399_07f4d65a4f4d42157f863d7d177efaa4",
             "compressed_size": "7153415085",
             "decompressed_size": "7153415085",
-            "file_hash": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/DphJOTQP5dDn/10016",
+            "file_hash": "",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/DphJOTQP5dDn/10016",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "delete_files": []
@@ -1037,28 +1134,36 @@
             "compressed_size": "17402899855",
             "decompressed_size": "19512988499",
             "file_hash": "914c1bb08c35d2b628d7dff2494f3153",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/3j90WyoOpfjt/manifest_ae64dd00dac4975a_f675baffb98d7ca30faa42348a228ad5",
             "compressed_size": "14815613652",
             "decompressed_size": "17127113750",
             "file_hash": "f675baffb98d7ca30faa42348a228ad5",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/3j90WyoOpfjt/manifest_bb55ed3f9194105c_284609abfaa50f7ab6b235b941fb4cdf",
             "compressed_size": "14416309992",
             "decompressed_size": "16908205123",
             "file_hash": "284609abfaa50f7ab6b235b941fb4cdf",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/3j90WyoOpfjt/manifest_ac61814bcec0eda7_c09fa48e336ce695f0c649ce4e4c235e",
             "compressed_size": "17215813886",
             "decompressed_size": "22222747101",
             "file_hash": "c09fa48e336ce695f0c649ce4e4c235e",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1067,6 +1172,7 @@
             "compressed_size": "619047913",
             "decompressed_size": "619047913",
             "file_hash": "7ab508688a69ab018edaa28ef3b9a571",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "en-us"
@@ -1076,6 +1182,7 @@
             "compressed_size": "590559918",
             "decompressed_size": "590559918",
             "file_hash": "731daa38b4f28d6226d930eb6dc7238b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "zh-cn"
@@ -1085,6 +1192,7 @@
             "compressed_size": "566128600",
             "decompressed_size": "566128600",
             "file_hash": "51743d8a993f60de0b9e6ceb6fd73510",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "ko-kr"
@@ -1094,6 +1202,7 @@
             "compressed_size": "693720703",
             "decompressed_size": "693720703",
             "file_hash": "33fe89fe50c2fd7d086cf26626d532ce",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.6.0",
             "language": "ja-jp"
@@ -1103,6 +1212,7 @@
             "compressed_size": "1234635994",
             "decompressed_size": "1234635994",
             "file_hash": "7ab508688a69ab018edaa28ef3b9a571",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "en-us"
@@ -1112,6 +1222,7 @@
             "compressed_size": "1118331754",
             "decompressed_size": "1118331754",
             "file_hash": "731daa38b4f28d6226d930eb6dc7238b",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "zh-cn"
@@ -1121,6 +1232,7 @@
             "compressed_size": "1097790264",
             "decompressed_size": "1097790264",
             "file_hash": "51743d8a993f60de0b9e6ceb6fd73510",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "ko-kr"
@@ -1130,6 +1242,7 @@
             "compressed_size": "1324892484",
             "decompressed_size": "1324892484",
             "file_hash": "33fe89fe50c2fd7d086cf26626d532ce",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "ja-jp"
@@ -1165,7 +1278,8 @@
             "compressed_size": "79976872197",
             "decompressed_size": "82043878758",
             "file_hash": "f2f91f7cf5f869009f4816d8489f66ca",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1174,6 +1288,7 @@
             "compressed_size": "5111617094",
             "decompressed_size": "5111617094",
             "file_hash": "f8e484154edc19122cac61fe10c83640",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "delete_files": []
@@ -1183,6 +1298,7 @@
             "compressed_size": "8439423025",
             "decompressed_size": "8439423025",
             "file_hash": "f8e484154edc19122cac61fe10c83640",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "delete_files": []
@@ -1196,28 +1312,36 @@
             "compressed_size": "17031218133",
             "decompressed_size": "18981328917",
             "file_hash": "7637d81dc91dcbef3ee7673d38a2366c",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_a051fcb00ffd2801_28580ffe5eec0403ece42760eedf7845",
             "compressed_size": "14427416944",
             "decompressed_size": "16665577875",
             "file_hash": "28580ffe5eec0403ece42760eedf7845",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_ca6057d20a260850_fce8310076eff284b2c3f8701e497f45",
             "compressed_size": "14032845944",
             "decompressed_size": "16446002370",
             "file_hash": "fce8310076eff284b2c3f8701e497f45",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/q3h361jUEuu0/manifest_c534564a3ba8c422_cdaf588e766eaef62b37270fb40dee96",
             "compressed_size": "16773080444",
             "decompressed_size": "21627518083",
             "file_hash": "cdaf588e766eaef62b37270fb40dee96",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1226,6 +1350,7 @@
             "compressed_size": "623548908",
             "decompressed_size": "623548908",
             "file_hash": "495b2a699cba06e7eda6260a10fa8618",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "en-us"
@@ -1235,6 +1360,7 @@
             "compressed_size": "530875035",
             "decompressed_size": "530875035",
             "file_hash": "ffdce68561333fd54ad5ec106b2abe2e",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "zh-cn"
@@ -1244,6 +1370,7 @@
             "compressed_size": "536601327",
             "decompressed_size": "536601327",
             "file_hash": "56262cd686b847441909374ca95eea7e",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "ko-kr"
@@ -1253,6 +1380,7 @@
             "compressed_size": "637313266",
             "decompressed_size": "637313266",
             "file_hash": "26fb4a3335c89ac8c0f7ed69bca59775",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.5.0",
             "language": "ja-jp"
@@ -1262,6 +1390,7 @@
             "compressed_size": "1019910379",
             "decompressed_size": "1019910379",
             "file_hash": "495b2a699cba06e7eda6260a10fa8618",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "en-us"
@@ -1271,6 +1400,7 @@
             "compressed_size": "872103983",
             "decompressed_size": "872103983",
             "file_hash": "ffdce68561333fd54ad5ec106b2abe2e",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "zh-cn"
@@ -1280,6 +1410,7 @@
             "compressed_size": "857415340",
             "decompressed_size": "857415340",
             "file_hash": "56262cd686b847441909374ca95eea7e",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "ko-kr"
@@ -1289,6 +1420,7 @@
             "compressed_size": "1034901075",
             "decompressed_size": "1034901075",
             "file_hash": "26fb4a3335c89ac8c0f7ed69bca59775",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "ja-jp"
@@ -1324,56 +1456,64 @@
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "e65a66073f10325a384c4d8f01199e21",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.002",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "e262578cc6791c927a77c2a784da84dd",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.003",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "e9dd5ce69e4ee8025c3e3319da8fb95d",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.004",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "c3431ba39643f99bab5af37f03c81139",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.005",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "57e55567b5292f81e3da26636da3124f",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.006",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "1cbc02e908b8a1ad7d421f23e9fe689a",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.007",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "ba292fa02c2ce8887fbef86ae45f6100",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/GenshinImpact_5.5.0.zip.008",
             "compressed_size": "4954364916",
             "decompressed_size": "9919215592",
             "file_hash": "276e433ab28c35748c6deef72d28d3c2",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1382,6 +1522,7 @@
             "compressed_size": "16321789202",
             "decompressed_size": "33386487545",
             "file_hash": "351503a9da9d8c657c7c33e544dd48d8",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.4.0",
             "delete_files": []
@@ -1391,6 +1532,7 @@
             "compressed_size": "23636179615",
             "decompressed_size": "48077829080",
             "file_hash": "9b673560692022ba2147c9557d555e64",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.3.0",
             "delete_files": []
@@ -1404,28 +1546,36 @@
             "compressed_size": "16129028997",
             "decompressed_size": "32268543754",
             "file_hash": "724eb66fac6c39199faecf8117b036a5",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/Audio_English(US)_5.5.0.zip",
             "compressed_size": "18412580831",
             "decompressed_size": "36835647422",
             "file_hash": "e14821e9236844f1fae27396f30f094a",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/Audio_Korean_5.5.0.zip",
             "compressed_size": "15886147984",
             "decompressed_size": "31782781728",
             "file_hash": "c52cd0575dfe126a6604fe2b43650dae",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250314110016_HcIQuDGRmsbByeAE/Audio_Japanese_5.5.0.zip",
             "compressed_size": "20934015385",
             "decompressed_size": "41878516530",
             "file_hash": "21117c63e8a55abe0f9a704528bcdb1c",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1434,6 +1584,7 @@
             "compressed_size": "295156738",
             "decompressed_size": "645227270",
             "file_hash": "20f67f06f746f96cd6176eff9ae2491d",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "zh-cn"
@@ -1443,6 +1594,7 @@
             "compressed_size": "348303784",
             "decompressed_size": "757187361",
             "file_hash": "9a922acc8f68bbcab55c06847dcbe37f",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "en-us"
@@ -1452,6 +1604,7 @@
             "compressed_size": "342787612",
             "decompressed_size": "751876449",
             "file_hash": "471020c4184331a9159b29ed3107804d",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "ja-jp"
@@ -1461,6 +1614,7 @@
             "compressed_size": "287944835",
             "decompressed_size": "618822492",
             "file_hash": "afca3b2d11fa6068b59821ec0dfa0948",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.4.0",
             "language": "ko-kr"
@@ -1470,6 +1624,7 @@
             "compressed_size": "740186690",
             "decompressed_size": "1604067391",
             "file_hash": "af73c0e343da127b27afb7cee8d5f828",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "zh-cn"
@@ -1479,6 +1634,7 @@
             "compressed_size": "719589554",
             "decompressed_size": "1573283104",
             "file_hash": "c09ff2a7f45a6fdd58046ea7f16db4a3",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "en-us"
@@ -1488,6 +1644,7 @@
             "compressed_size": "850125563",
             "decompressed_size": "1838638428",
             "file_hash": "28f2866151a4f333bfa27db6a415ca73",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "ja-jp"
@@ -1497,6 +1654,7 @@
             "compressed_size": "715796662",
             "decompressed_size": "1520239867",
             "file_hash": "a62129453431421ddb4fd6d4ee3f9413",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "ko-kr"
@@ -1532,56 +1690,64 @@
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "e25ba37b102aeea9c32f0f1d38ca1318",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.002",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "454e205e080d0c91f99bd5968ff5baec",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.003",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "ef73d348e464ce4e43b26563a017a5c1",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.004",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "d76b1b2d12e5c643f09dc5a9f54e238b",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.005",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "7b8da4761346066d84e8dd930a3a3733",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.006",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "d1d8f6e36d421e0da6e1d7b103b1a36b",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.007",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "894d8ee64fe7dc183c3f0bd468604e89",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.008",
             "compressed_size": "1833317506",
             "decompressed_size": "3677120772",
             "file_hash": "0cba1f6ffdc0170d6ed53be045b1038b",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1590,6 +1756,7 @@
             "compressed_size": "17989956544",
             "decompressed_size": "36732148808",
             "file_hash": "87b6570843712191de2c1fd2d0226ea8",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.3.0",
             "delete_files": []
@@ -1599,6 +1766,7 @@
             "compressed_size": "24767492965",
             "decompressed_size": "50465722949",
             "file_hash": "5212f460443e46bb679d7fa97286fc46",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.2.0",
             "delete_files": []
@@ -1612,28 +1780,36 @@
             "compressed_size": "15778835152",
             "decompressed_size": "31568156064",
             "file_hash": "05707a6a95f0812bae18a2ef5b0b164e",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/Audio_English(US)_5.4.0.zip",
             "compressed_size": "17995536202",
             "decompressed_size": "36001558164",
             "file_hash": "11789d4274d0cbf9d2b59694223ecd0d",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/Audio_Korean_5.4.0.zip",
             "compressed_size": "15548806468",
             "decompressed_size": "31108098696",
             "file_hash": "519f71c38b184ba2a6fe9994ba42dc79",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/Audio_Japanese_5.4.0.zip",
             "compressed_size": "20482227705",
             "decompressed_size": "40974941170",
             "file_hash": "7c989a875bc30a6f9e06e70ac61819f2",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1642,6 +1818,7 @@
             "compressed_size": "372153394",
             "decompressed_size": "831065259",
             "file_hash": "78b3d7d80d558ff37151e10e562ee8cb",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "en-us"
@@ -1651,6 +1828,7 @@
             "compressed_size": "446613651",
             "decompressed_size": "973009745",
             "file_hash": "5d6a61771530949e7b4c9e037592b917",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "zh-cn"
@@ -1660,6 +1838,7 @@
             "compressed_size": "509593735",
             "decompressed_size": "1102388070",
             "file_hash": "5cbfe6c148a280bdfd8bea4054667587",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "ja-jp"
@@ -1669,6 +1848,7 @@
             "compressed_size": "429661937",
             "decompressed_size": "915995395",
             "file_hash": "3c7bc585055e508af6ac15aa768b16f9",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.3.0",
             "language": "ko-kr"
@@ -1678,6 +1858,7 @@
             "compressed_size": "1139873048",
             "decompressed_size": "2485711834",
             "file_hash": "a897669ad4f0627bd3bf7fdf4c6e2c76",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "zh-cn"
@@ -1687,6 +1868,7 @@
             "compressed_size": "1055960525",
             "decompressed_size": "2315237893",
             "file_hash": "abcb7389dcde8e19b086dbc19b597101",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "en-us"
@@ -1696,6 +1878,7 @@
             "compressed_size": "1351291057",
             "decompressed_size": "2960409696",
             "file_hash": "dff50933e6d363879ef5334fcf895f06",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "ja-jp"
@@ -1705,6 +1888,7 @@
             "compressed_size": "1166583082",
             "decompressed_size": "2491606917",
             "file_hash": "830a4fa257297a01e9758989cec581dd",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "ko-kr"
@@ -1740,56 +1924,64 @@
             "compressed_size": "10737418240",
             "decompressed_size": "21474836480",
             "file_hash": "d7ea7d49334e03e590db3f047cd9ea88",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.002",
             "compressed_size": "10737418240",
             "decompressed_size": "21474836480",
             "file_hash": "b4178034c1d09e889e43fd76b3fb4d3c",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.003",
             "compressed_size": "10737418240",
             "decompressed_size": "21474836480",
             "file_hash": "43b70975fcb957abaaaf7d940969679a",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.004",
             "compressed_size": "10737418240",
             "decompressed_size": "21474836480",
             "file_hash": "d734b1edeb1b2b0d47d4d4bab7af6778",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.005",
             "compressed_size": "10737418240",
             "decompressed_size": "21474836480",
             "file_hash": "95abe987ff924c21f3e5085492448760",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.006",
             "compressed_size": "10737418240",
             "decompressed_size": "21474836480",
             "file_hash": "492510ae74ae8ac696ee59b4e831d039",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.007",
             "compressed_size": "10737418240",
             "decompressed_size": "21474836480",
             "file_hash": "0c68334b33ee878c5beac321339b9447",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.008",
             "compressed_size": "970000000",
             "decompressed_size": "1900000000",
             "file_hash": "18d44596a5f1467682f5e038c80bd92a",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1798,6 +1990,7 @@
             "compressed_size": "17160000000",
             "decompressed_size": "35140000000",
             "file_hash": "46b32c38dbb348a172df8352074da5a1",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.2.0",
             "delete_files": []
@@ -1807,6 +2000,7 @@
             "compressed_size": "",
             "decompressed_size": "",
             "file_hash": "",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.1.0",
             "delete_files": []
@@ -1820,28 +2014,36 @@
             "compressed_size": "14110000000",
             "decompressed_size": "28400000000",
             "file_hash": "2727087a20d630d35efe804ae683e72e",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_English(US)_5.3.0.zip",
             "compressed_size": "16240000000",
             "decompressed_size": "32490000000",
             "file_hash": "76f338d1925ff39cbf73f0418e9ae354",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_Korean_5.3.0.zip",
             "compressed_size": "13990000000",
             "decompressed_size": "28000000000",
             "file_hash": "6356a494c7cce397bdbb1213aa6e7298",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_Japanese_5.3.0.zip",
             "compressed_size": "18430000000",
             "decompressed_size": "36880000000",
             "file_hash": "f2b1c1f217dafbcdf27aeece987256b7",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1850,6 +2052,7 @@
             "compressed_size": "650000000",
             "decompressed_size": "1420000000",
             "file_hash": "c7189fa380b90a343cc56b7d8438eaba",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "en-us"
@@ -1859,6 +2062,7 @@
             "compressed_size": "640000000",
             "decompressed_size": "1410000000",
             "file_hash": "3b4f264bd791b5f81eb165fe6d36676e",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "zh-cn"
@@ -1868,6 +2072,7 @@
             "compressed_size": "780000000",
             "decompressed_size": "1740000000",
             "file_hash": "68146dc2e2ea63b0cae452ea01b23136",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "ja-jp"
@@ -1877,6 +2082,7 @@
             "compressed_size": "680000000",
             "decompressed_size": "1470000000",
             "file_hash": "fcee09acf85cdd2dd1d30bdea69c9065",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.2.0",
             "language": "ko-kr"
@@ -1886,6 +2092,7 @@
             "compressed_size": "",
             "decompressed_size": "",
             "file_hash": "",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "zh-cn"
@@ -1895,6 +2102,7 @@
             "compressed_size": "",
             "decompressed_size": "",
             "file_hash": "",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "en-us"
@@ -1904,6 +2112,7 @@
             "compressed_size": "",
             "decompressed_size": "",
             "file_hash": "",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "ja-jp"
@@ -1913,6 +2122,7 @@
             "compressed_size": "",
             "decompressed_size": "",
             "file_hash": "",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "ko-kr"
@@ -1948,49 +2158,56 @@
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "651a72b1adb3bb5be28dcffded9ee7ec",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/GenshinImpact_5.2.0.zip.002",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "ecfcb0aa4b403608aa0089e8cbc0c618",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/GenshinImpact_5.2.0.zip.003",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "5bac8cd01f87d13dd3e20cbf897731d9",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/GenshinImpact_5.2.0.zip.004",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "84501620dded6000f758bfc4bde68d50",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/GenshinImpact_5.2.0.zip.005",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "2d47ee68d07fd698c02001311998498f",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/GenshinImpact_5.2.0.zip.006",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "8246d93ee1f93ed787bf87314220ed4e",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/GenshinImpact_5.2.0.zip.007",
             "compressed_size": "7775385029",
             "decompressed_size": "15561255818",
             "file_hash": "fda38b6c9a5f746829abd8b561f51f54",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -1999,6 +2216,7 @@
             "compressed_size": "17422665442",
             "decompressed_size": "35671440888",
             "file_hash": "8fb18e51497e77d8f771cccb882a01e6",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.1.0",
             "delete_files": []
@@ -2008,6 +2226,7 @@
             "compressed_size": "25408367800",
             "decompressed_size": "51703909839",
             "file_hash": "f4ffe9970f71f6f3789c4d1d7fa01d8b",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.0.0",
             "delete_files": []
@@ -2021,28 +2240,36 @@
             "compressed_size": "14405111620",
             "decompressed_size": "28820709000",
             "file_hash": "10dd6595c3687dec572afdc329c47eec",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/Audio_English(US)_5.2.0.zip",
             "compressed_size": "16597565173",
             "decompressed_size": "33205616106",
             "file_hash": "c67d7e98f823afce67fe662f76d27388",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/Audio_Korean_5.2.0.zip",
             "compressed_size": "14140391768",
             "decompressed_size": "28291269296",
             "file_hash": "071cfaab116ac1578fb6d755c34634e0",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241108173711_97p3DLcQqGoVFVR0/Audio_Japanese_5.2.0.zip",
             "compressed_size": "18697741369",
             "decompressed_size": "37405968498",
             "file_hash": "285fba0cf723fc0ec033944caa1ada5c",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -2051,6 +2278,7 @@
             "compressed_size": "326666301",
             "decompressed_size": "748701919",
             "file_hash": "dea044b964457116a74656627906e104",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "ja-jp"
@@ -2060,6 +2288,7 @@
             "compressed_size": "433727512",
             "decompressed_size": "945214419",
             "file_hash": "d4a352c3bbc1d4bbc8471898ad2bfe1c",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "en-us"
@@ -2069,6 +2298,7 @@
             "compressed_size": "295472541",
             "decompressed_size": "649429398",
             "file_hash": "1ed412136f723515f3da76a8349e9ab8",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "ko-kr"
@@ -2078,6 +2308,7 @@
             "compressed_size": "295141731",
             "decompressed_size": "652600418",
             "file_hash": "7774ea4a38100d93b0bf893bb1a4fdca",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.1.0",
             "language": "zh-cn"
@@ -2087,6 +2318,7 @@
             "compressed_size": "894207352",
             "decompressed_size": "1933138426",
             "file_hash": "9c3d6b24a29884c8f5a78a24e955b2d4",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.0.0",
             "language": "en-us"
@@ -2096,6 +2328,7 @@
             "compressed_size": "962443000",
             "decompressed_size": "2178195600",
             "file_hash": "9e83a0cb36f3facdd555ec905df9fa5d",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.0.0",
             "language": "ja-jp"
@@ -2105,6 +2338,7 @@
             "compressed_size": "845978630",
             "decompressed_size": "1834942384",
             "file_hash": "4e6a4c613273c3e0ae630ed5243719b3",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.0.0",
             "language": "ko-kr"
@@ -2114,6 +2348,7 @@
             "compressed_size": "871724263",
             "decompressed_size": "1893171844",
             "file_hash": "d4823b881a44b8c251d4bd53d4d77e90",
+            "file_path": "",
             "diff_type": "ldiff",
             "original_version": "5.0.0",
             "language": "zh-cn"
@@ -2149,49 +2384,56 @@
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "cbe2934260fda10ab8cdaca80ef69cb3",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/GenshinImpact_5.1.0.zip.002",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "df706bb5e83dde4d3df7276a1210a8fb",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/GenshinImpact_5.1.0.zip.003",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "dd7062a4abde83f02f184fe081eb2006",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/GenshinImpact_5.1.0.zip.004",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "bd2ffa879db43c05f88f7f1235f50df8",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/GenshinImpact_5.1.0.zip.005",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "e3beb938f521be5a74431716394baee3",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/GenshinImpact_5.1.0.zip.006",
             "compressed_size": "10737418240",
             "decompressed_size": "21485322240",
             "file_hash": "f59a086e986cce9f9e98e2d3c44212c8",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/GenshinImpact_5.1.0.zip.007",
             "compressed_size": "6379464403",
             "decompressed_size": "12769414566",
             "file_hash": "0e165aec640ca7025f9d52b0f53a4223",
-            "file_path": ""
+            "file_path": "",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -2200,6 +2442,7 @@
             "compressed_size": "19324865600",
             "decompressed_size": "39373632783",
             "file_hash": "3d628fcde7aaf5b242e253188885ef8d",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.0.0",
             "delete_files": []
@@ -2209,6 +2452,7 @@
             "compressed_size": "26792793745",
             "decompressed_size": "54502383897",
             "file_hash": "a69026b5c131b317850de7df162c1f0d",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "4.8.0",
             "delete_files": []
@@ -2222,28 +2466,36 @@
             "compressed_size": "14055795829",
             "decompressed_size": "28122077418",
             "file_hash": "5c2e8a5e8a79a2e04a43e3a9d6df1ade",
-            "language": "zh-cn"
+            "file_path": "",
+            "language": "zh-cn",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/Audio_English(US)_5.1.0.zip",
             "compressed_size": "16207136293",
             "decompressed_size": "32424758346",
             "file_hash": "2504bd3606681c20cbdb5f82e8ca361b",
-            "language": "en-us"
+            "file_path": "",
+            "language": "en-us",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/Audio_Korean_5.1.0.zip",
             "compressed_size": "13784207271",
             "decompressed_size": "27578900302",
             "file_hash": "89f4668220ceaba401244c5d506defeb",
-            "language": "ko-kr"
+            "file_path": "",
+            "language": "ko-kr",
+            "region_code": ""
           },
           {
             "file_url": "https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20240927184459_CVopfb3tD4Zi3As6/Audio_Japanese_5.1.0.zip",
             "compressed_size": "18254256462",
             "decompressed_size": "36518998684",
             "file_hash": "b2a2d965ccc36b1c583381cf4b3962e9",
-            "language": "ja-jp"
+            "file_path": "",
+            "language": "ja-jp",
+            "region_code": ""
           }
         ],
         "diff": [
@@ -2252,6 +2504,7 @@
             "compressed_size": "551579509",
             "decompressed_size": "1198508511",
             "file_hash": "0d77474fe49e46cdfc20298034501019",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.0.0",
             "language": "ko-kr"
@@ -2261,6 +2514,7 @@
             "compressed_size": "547383281",
             "decompressed_size": "1189948029",
             "file_hash": "501590a0aa8a67e0101e827be5c16cef",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.0.0",
             "language": "en-us"
@@ -2270,6 +2524,7 @@
             "compressed_size": "637607076",
             "decompressed_size": "1444230726",
             "file_hash": "de00c4d5d02dead7b8e80c68ab57db17",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.0.0",
             "language": "ja-jp"
@@ -2279,6 +2534,7 @@
             "compressed_size": "576952935",
             "decompressed_size": "1251879171",
             "file_hash": "1e988fbd3a6854e885564e3cca56fb65",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "5.0.0",
             "language": "zh-cn"
@@ -2288,6 +2544,7 @@
             "compressed_size": "1341985954",
             "decompressed_size": "2862592589",
             "file_hash": "3e3ed6a14926ac7e87eab7d776fbe0be",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "4.8.0",
             "language": "en-us"
@@ -2297,6 +2554,7 @@
             "compressed_size": "1397228740",
             "decompressed_size": "3169617126",
             "file_hash": "23a0f5d02f259592c2dcfbe999aedeed",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "4.8.0",
             "language": "ja-jp"
@@ -2306,6 +2564,7 @@
             "compressed_size": "1196672276",
             "decompressed_size": "2599055305",
             "file_hash": "ebe8365da2247a7bb26401fc1d9e63a0",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "4.8.0",
             "language": "ko-kr"
@@ -2315,6 +2574,7 @@
             "compressed_size": "1251019663",
             "decompressed_size": "2696751864",
             "file_hash": "3e874f75a561e606606a25a23a091d1a",
+            "file_path": "",
             "diff_type": "hdiff",
             "original_version": "4.8.0",
             "language": "zh-cn"
@@ -2354,10 +2614,20 @@
       "240",
       "360"
     ],
+    "graphics_api_options": {
+      "default": "",
+      "options": [
+        {
+          "value": "",
+          "name": ""
+        }
+      ]
+    },
     "switches": {
       "fps_unlocker": true,
       "jadeite": false,
-      "xxmi": true
+      "xxmi": true,
+      "graphics_api": false
     },
     "compat_overrides": {
       "install_to_prefix": false,

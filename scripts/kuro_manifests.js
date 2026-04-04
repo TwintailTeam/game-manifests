@@ -20,14 +20,16 @@ let wuwapath = `${__dirname}/generated/wuwa_global.json`;
 let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = [];
-let wuwatricks = [];
+let wuwatricks = ["vcrun2022", "corefonts"];
+let wuwagraphicsapi = [{value: "-dx11", name: "DirectX 11"}, {value: "-dx12", name: "DirectX 12"}];
 
-let pgrhosts = [];
+let pgrhosts = ["pc.crashsight.wetest.net"];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
 let pgrfps = ["120"];
 let pgrcompat = ["noxalia"];
 let pgrminrunners = [];
 let pgrtricks = ["vcrun2022", "corefonts"];
+let pgrgraphicsapi = [{value: "-force-d3d11", name: "DirectX 11"}, {value: "-force-d3d12", name: "DirectX 12"}];
 
 async function queryIndex(biz) {
     let rsp = await fetch((biz === "wuwa_global") ? `${INDEX.wuwa.game}` : `${INDEX.pgr.game}`);
@@ -129,10 +131,15 @@ async function generateManifest(biz) {
                 telemetry_hosts: wuwahosts,
                 extra: {
                     fps_unlock_options: wuwafps,
+                    graphics_api_options: {
+                        default: "-dx11",
+                        options: wuwagraphicsapi
+                    },
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: true
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -209,10 +216,15 @@ async function generateManifest(biz) {
                 telemetry_hosts: pgrhosts,
                 extra: {
                     fps_unlock_options: pgrfps,
+                    graphics_api_options: {
+                        default: "-force-d3d11",
+                        options: pgrgraphicsapi
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
-                        xxmi: false
+                        xxmi: false,
+                        graphics_api: true
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -261,7 +273,8 @@ async function formatPackages(biz, manifest, sizes, patches) {
         compressed_size: `${sizes.compressed_size}`,
         decompressed_size: `${sizes.decompressed_size}`,
         file_hash: "",
-        file_path: ""
+        file_path: "",
+        region_code: ""
     });
 
     patches.forEach(e => {
@@ -270,7 +283,8 @@ async function formatPackages(biz, manifest, sizes, patches) {
             file_url: index,
             compressed_size: `${e.size}`,
             decompressed_size: `${e.unCompressSize}`,
-            file_hash: `${cdnbase}/${e.baseUrl}`,
+            file_hash: `${e.indexFileMd5}`,
+            file_path: `${cdnbase}/${e.baseUrl}`,
             diff_type: "krdiff",
             original_version: e.version,
             delete_files: []
@@ -295,7 +309,8 @@ async function formatPreload(biz, pkgs, name) {
             compressed_size: `${pkgs.version_size.compressed_size}`,
             decompressed_size: `${pkgs.version_size.decompressed_size}`,
             file_hash: "",
-            file_path: ""
+            file_path: "",
+            region_code: ""
         });
 
         pkgs.patch_config.forEach(e => {
@@ -303,7 +318,8 @@ async function formatPreload(biz, pkgs, name) {
                 file_url: `${cdnbase}/${e.indexFile}`,
                 compressed_size: `${e.size}`,
                 decompressed_size: `${e.unCompressSize}`,
-                file_hash: `${cdnbase}/${e.baseUrl}`,
+                file_hash: `${e.indexFileMd5}`,
+                file_path: `${cdnbase}/${e.baseUrl}`,
                 diff_type: "krdiff",
                 original_version: e.version,
                 delete_files: []

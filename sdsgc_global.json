@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "display_name": "The Seven Deadly Sins: Grand Cross (Global)",
+  "biz": "sdsgc_global",
+  "latest_version": "2.99.0.0",
+  "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "The Seven Deadly Sins: Grand Cross 2.99.0.0 (Global)",
+        "version": "2.99.0.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/434bad3ced4015a2e552a45aa38dc2a8.png",
+        "game_background": "https://sgimage.netmarble.com/images/netmarble/COMMON/20250106/vgfv1736149167232.webp",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://nanagb.gcdn.netmarble.com/pcclient/nanagb/2.99.0.0/t32w6ohswh53_1774316064936.zip",
+            "compressed_size": "221824606",
+            "decompressed_size": "221824606",
+            "file_hash": "CC58F247BD9447941ABC33A01627AC1A",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
+  ],
+  "paths": {
+    "audio_pkg_res_dir": "",
+    "exe_filename": "7dsgc.exe",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": "game_dir"
+  },
+  "assets": {
+    "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/434bad3ced4015a2e552a45aa38dc2a8.png",
+    "game_background": "https://sgimage.netmarble.com/images/netmarble/COMMON/20250106/vgfv1736149167232.webp",
+    "game_live_background": ""
+  },
+  "telemetry_hosts": [
+    "pc.crashsight.wetest.net"
+  ],
+  "extra": {
+    "fps_unlock_options": [
+      "120"
+    ],
+    "graphics_api_options": {
+      "default": "-force-d3d11",
+      "options": [
+        {
+          "value": "-force-d3d11",
+          "name": "DirectX 11"
+        },
+        {
+          "value": "-force-d3d12",
+          "name": "DirectX 12"
+        }
+      ]
+    },
+    "switches": {
+      "fps_unlocker": false,
+      "jadeite": false,
+      "xxmi": false,
+      "graphics_api": true
+    },
+    "compat_overrides": {
+      "install_to_prefix": false,
+      "disable_protonfixes": true,
+      "protonfixes_id": "",
+      "protonfixes_store": "",
+      "stub_wintrust": false,
+      "block_first_req": false,
+      "proton_compat_config": [
+        "noxalia"
+      ],
+      "override_runner": {
+        "linux": {
+          "enabled": false,
+          "runner_version": ""
+        },
+        "macos": {
+          "enabled": false,
+          "runner_version": ""
+        }
+      },
+      "min_runner_versions": [],
+      "winetricks_verbs": []
+    },
+    "steam_import_config": {
+      "enabled": false,
+      "steam_appid_txt": "",
+      "steam_api_dll": ""
+    },
+    "preload": {}
+  }
+}

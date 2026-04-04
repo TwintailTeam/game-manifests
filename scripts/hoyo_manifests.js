@@ -172,10 +172,15 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: gihosts,
                 extra: {
                     fps_unlock_options: gifps,
+                    graphics_api_options: {
+                        default: "",
+                        options: [{value: "", name: ""}]
+                    },
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: false
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -252,10 +257,15 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: hsrhosts,
                 extra: {
                     fps_unlock_options: hsrfps,
+                    graphics_api_options: {
+                        default: "",
+                        options: [{value: "", name: ""}]
+                    },
                     switches: {
                         fps_unlocker: true,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: false
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -332,10 +342,15 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: zzzhosts,
                 extra: {
                     fps_unlock_options: zzzfps,
+                    graphics_api_options: {
+                        default: "",
+                        options: [{value: "", name: ""}]
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: false
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -417,10 +432,15 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: bhhosts,
                 extra: {
                     fps_unlock_options: bh3fps,
+                    graphics_api_options: {
+                        default: "",
+                        options: [{value: "", name: ""}]
+                    },
                     switches: {
                         fps_unlocker: true,
-                        jadeite: true,
-                        xxmi: true
+                        jadeite: false,
+                        xxmi: true,
+                        graphics_api: false
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -432,8 +452,8 @@ async function generateManifest(gameBiz) {
                         proton_compat_config: bhcompat,
                         override_runner: {
                             linux: {
-                                enabled: false,
-                                runner_version: ""
+                                enabled: true,
+                                runner_version: "10.0-20260401-proton-twintail"
                             },
                             macos: {
                                 enabled: false,
@@ -497,10 +517,15 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: hnahosts,
                 extra: {
                     fps_unlock_options: hnafps,
+                    graphics_api_options: {
+                        default: "",
+                        options: [{value: "", name: ""}]
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: false
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -577,10 +602,15 @@ async function generateManifest(gameBiz) {
                 telemetry_hosts: pphosts,
                 extra: {
                     fps_unlock_options: ppfps,
+                    graphics_api_options: {
+                        default: "",
+                        options: [{value: "", name: ""}]
+                    },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
-                        xxmi: true
+                        xxmi: true,
+                        graphics_api: false
                     },
                     compat_overrides: {
                         install_to_prefix: false,
@@ -683,7 +713,8 @@ async function formatPackages(pkgs, biz) {
                                 file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
                                 compressed_size: `${e.stats[v].compressed_size}`,
                                 decompressed_size: `${e.stats[v].uncompressed_size}`,
-                                file_hash: `${e.diff_download.url_prefix}`,
+                                file_hash: `${e.manifest.checksum}`,
+                                file_path: `${e.diff_download.url_prefix}`,
                                 diff_type: "ldiff",
                                 original_version: v,
                                 delete_files: []
@@ -696,7 +727,8 @@ async function formatPackages(pkgs, biz) {
                     file_url: `${gameDiff.manifest_download.url_prefix}/${gameDiff.manifest.id}`,
                     compressed_size: `${gameDiff.stats[v].compressed_size}`,
                     decompressed_size: `${gameDiff.stats[v].uncompressed_size}`,
-                    file_hash: `${gameDiff.diff_download.url_prefix}`,
+                    file_hash: `${gameDiff.manifest.checksum}`,
+                    file_path: `${gameDiff.diff_download.url_prefix}`,
                     diff_type: "ldiff",
                     original_version: v,
                     delete_files: []
@@ -708,6 +740,7 @@ async function formatPackages(pkgs, biz) {
                         compressed_size: `${enDiff.stats[v].compressed_size}`,
                         decompressed_size: `${enDiff.stats[v].uncompressed_size}`,
                         file_hash: `${enDiff.manifest.checksum}`,
+                        file_path: `${enDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: enDiff.matching_field
@@ -718,6 +751,7 @@ async function formatPackages(pkgs, biz) {
                         compressed_size: `${cnDiff.stats[v].compressed_size}`,
                         decompressed_size: `${cnDiff.stats[v].uncompressed_size}`,
                         file_hash: `${cnDiff.manifest.checksum}`,
+                        file_path: `${cnDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: cnDiff.matching_field
@@ -728,6 +762,7 @@ async function formatPackages(pkgs, biz) {
                         compressed_size: `${krDiff.stats[v].compressed_size}`,
                         decompressed_size: `${krDiff.stats[v].uncompressed_size}`,
                         file_hash: `${krDiff.manifest.checksum}`,
+                        file_path: `${krDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: krDiff.matching_field
@@ -738,6 +773,7 @@ async function formatPackages(pkgs, biz) {
                         compressed_size: `${jpDiff.stats[v].compressed_size}`,
                         decompressed_size: `${jpDiff.stats[v].uncompressed_size}`,
                         file_hash: `${jpDiff.manifest.checksum}`,
+                        file_path: `${jpDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: jpDiff.matching_field
@@ -751,6 +787,7 @@ async function formatPackages(pkgs, biz) {
                     compressed_size: `${en.stats.compressed_size}`,
                     decompressed_size: `${en.stats.uncompressed_size}`,
                     file_hash: en.manifest.checksum,
+                    file_path: `${en.chunk_download.url_prefix}`,
                     language: en.matching_field,
                     region_code: `${packages.region}`
                 });
@@ -760,6 +797,7 @@ async function formatPackages(pkgs, biz) {
                     compressed_size: `${cn.stats.compressed_size}`,
                     decompressed_size: `${cn.stats.uncompressed_size}`,
                     file_hash: cn.manifest.checksum,
+                    file_path: `${cn.chunk_download.url_prefix}`,
                     language: cn.matching_field,
                     region_code: `${packages.region}`
                 });
@@ -769,6 +807,7 @@ async function formatPackages(pkgs, biz) {
                     compressed_size: `${kr.stats.compressed_size}`,
                     decompressed_size: `${kr.stats.uncompressed_size}`,
                     file_hash: kr.manifest.checksum,
+                    file_path: `${kr.chunk_download.url_prefix}`,
                     language: kr.matching_field,
                     region_code: `${packages.region}`
                 });
@@ -778,6 +817,7 @@ async function formatPackages(pkgs, biz) {
                     compressed_size: `${jp.stats.compressed_size}`,
                     decompressed_size: `${jp.stats.uncompressed_size}`,
                     file_hash: jp.manifest.checksum,
+                    file_path: `${jp.chunk_download.url_prefix}`,
                     language: jp.matching_field,
                     region_code: `${packages.region}`
                 });
@@ -862,7 +902,8 @@ async function formatPreload(pkgs, name, biz) {
                                 file_url: `${e.manifest_download.url_prefix}/${e.manifest.id}`,
                                 compressed_size: `${e.stats[v].compressed_size}`,
                                 decompressed_size: `${e.stats[v].uncompressed_size}`,
-                                file_hash: `${e.diff_download.url_prefix}`,
+                                file_hash: `${e.manifest.checksum}`,
+                                file_path: `${e.diff_download.url_prefix}`,
                                 diff_type: "ldiff",
                                 original_version: v,
                                 delete_files: []
@@ -875,7 +916,8 @@ async function formatPreload(pkgs, name, biz) {
                     file_url: `${gameDiff.manifest_download.url_prefix}/${gameDiff.manifest.id}`,
                     compressed_size: `${gameDiff.stats[v].compressed_size}`,
                     decompressed_size: `${gameDiff.stats[v].uncompressed_size}`,
-                    file_hash: `${gameDiff.diff_download.url_prefix}`,
+                    file_hash: `${gameDiff.manifest.checksum}`,
+                    file_path: `${gameDiff.diff_download.url_prefix}`,
                     diff_type: "ldiff",
                     original_version: v,
                     delete_files: []
@@ -887,6 +929,7 @@ async function formatPreload(pkgs, name, biz) {
                         compressed_size: `${enDiff.stats[v].compressed_size}`,
                         decompressed_size: `${enDiff.stats[v].uncompressed_size}`,
                         file_hash: `${enDiff.manifest.checksum}`,
+                        file_path: `${enDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: enDiff.matching_field
@@ -897,6 +940,7 @@ async function formatPreload(pkgs, name, biz) {
                         compressed_size: `${cnDiff.stats[v].compressed_size}`,
                         decompressed_size: `${cnDiff.stats[v].uncompressed_size}`,
                         file_hash: `${cnDiff.manifest.checksum}`,
+                        file_path: `${cnDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: cnDiff.matching_field
@@ -907,6 +951,7 @@ async function formatPreload(pkgs, name, biz) {
                         compressed_size: `${krDiff.stats[v].compressed_size}`,
                         decompressed_size: `${krDiff.stats[v].uncompressed_size}`,
                         file_hash: `${krDiff.manifest.checksum}`,
+                        file_path: `${krDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: krDiff.matching_field
@@ -917,6 +962,7 @@ async function formatPreload(pkgs, name, biz) {
                         compressed_size: `${jpDiff.stats[v].compressed_size}`,
                         decompressed_size: `${jpDiff.stats[v].uncompressed_size}`,
                         file_hash: `${jpDiff.manifest.checksum}`,
+                        file_path: `${jpDiff.diff_download.url_prefix}`,
                         diff_type: "ldiff",
                         original_version: v,
                         language: jpDiff.matching_field
@@ -931,6 +977,7 @@ async function formatPreload(pkgs, name, biz) {
                     compressed_size: `${en.stats.compressed_size}`,
                     decompressed_size: `${en.stats.uncompressed_size}`,
                     file_hash: en.manifest.checksum,
+                    file_path: `${en.chunk_download.url_prefix}`,
                     language: en.matching_field,
                     region_code: `${pkgs.region}`
                 });
@@ -940,6 +987,7 @@ async function formatPreload(pkgs, name, biz) {
                     compressed_size: `${cn.stats.compressed_size}`,
                     decompressed_size: `${cn.stats.uncompressed_size}`,
                     file_hash: cn.manifest.checksum,
+                    file_path: `${cn.chunk_download.url_prefix}`,
                     language: cn.matching_field,
                     region_code: `${pkgs.region}`
                 });
@@ -949,6 +997,7 @@ async function formatPreload(pkgs, name, biz) {
                     compressed_size: `${kr.stats.compressed_size}`,
                     decompressed_size: `${kr.stats.uncompressed_size}`,
                     file_hash: kr.manifest.checksum,
+                    file_path: `${kr.chunk_download.url_prefix}`,
                     language: kr.matching_field,
                     region_code: `${pkgs.region}`
                 });
@@ -958,6 +1007,7 @@ async function formatPreload(pkgs, name, biz) {
                     compressed_size: `${jp.stats.compressed_size}`,
                     decompressed_size: `${jp.stats.uncompressed_size}`,
                     file_hash: jp.manifest.checksum,
+                    file_path: `${jp.chunk_download.url_prefix}`,
                     language: jp.matching_field,
                     region_code: `${pkgs.region}`
                 });
