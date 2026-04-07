@@ -32,6 +32,7 @@ jobs:
           mv pgr_global.json scripts/generated/
           mv aethergazer_global.json scripts/generated/
           mv endfield_global.json scripts/generated/
+          mv sdsgc_global.json scripts/generated/
       - name: Run all scripts
         run: |
           echo "Current working directory: $(pwd)"
