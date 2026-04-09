@@ -2,8 +2,47 @@
   "version": 1,
   "display_name": "The Seven Deadly Sins: Grand Cross (Global)",
   "biz": "sdsgc_global",
-  "latest_version": "2.99.0.0",
+  "latest_version": "2.100.0.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "The Seven Deadly Sins: Grand Cross 2.100.0.0 (Global)",
+        "version": "2.100.0.0",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/434bad3ced4015a2e552a45aa38dc2a8.png",
+        "game_background": "https://sgimage.netmarble.com/images/netmarble/COMMON/20250106/vgfv1736149167232.webp",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://nanagb.gcdn.netmarble.com/pcclient/nanagb/2.100.0.0/mckcq2nn97af_1775538860642.zip",
+            "compressed_size": "220748589",
+            "decompressed_size": "220748589",
+            "file_hash": "9128ED45B41894A3E5B6C7FC688AEEA5",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "The Seven Deadly Sins: Grand Cross 2.99.0.0 (Global)",
