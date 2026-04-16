@@ -22,7 +22,7 @@ async function queryIndex(biz) {
     let r = await rsp.json();
 
     if (r.patch === null && biz === "endfield_global" && existsSync(efpath)) {
-        let storedVersion = JSON.parse(readFileSync(efpath)).game_versions[1]?.metadata.version;
+        let storedVersion = JSON.parse(readFileSync(efpath)).game_versions[0]?.metadata.version;
         if (storedVersion && storedVersion !== r.version) {
             let patchRsp = await fetch(`${INDEX.endfield.game}&version=${storedVersion}`);
             if (patchRsp.status === 200) {
@@ -47,20 +47,6 @@ async function queryIndex(biz) {
     if (rsp1.status !== 200) return null;
     let r1 = await rsp1.json();
 
-    let preload = {};
-    /*if (r.hasOwnProperty("predownload")) {
-        preload = {
-            resource_base: `${cdnbase}/${r.predownload.resourcesBasePath}`,
-            resources_list: `${cdnbase}/${r.predownload.resources}`,
-            version: r.predownload.version,
-            previous_version: "",
-            current_version: r.predownload.version,
-            index_file: `${cdnbase}/${r.predownload.config.indexFile}`,
-            version_size: {compressed_size: r.predownload.config.size, decompressed_size: r.predownload.config.unCompressSize},
-            patch_config: r.predownload.config.patchConfig
-        };
-    }*/
-
     let bg = r1.proxy_rsps.find(e => e.kind === "get_main_bg_image");
     return {
         background_url: `${bg.get_main_bg_image_rsp.main_bg_image.url}`,
@@ -72,7 +58,6 @@ async function queryIndex(biz) {
         exe_file: "Endfield.exe",
         resource_base: `${r.pkg.file_path}`,
         latest_version_size: {compressed_size: r.pkg.total_size, decompressed_size: r.pkg.total_size},
-        preload: preload,
         patch: r.patch,
         packages: r.pkg.packs
     }
@@ -210,61 +195,5 @@ async function formatPackages(packages, patch, previousVersion) {
 
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
-
-/*async function formatPreload(biz, pkgs, name) {
-    let cdnbase = (biz === "wuwa_global") ? `${INDEX.wuwa.cdn}` : `${INDEX.pgr.cdn}`;
-    let preloaddata = {};
-
-    if (pkgs.hasOwnProperty("index_file")) {
-        let pfg = [];
-        let pfa = [];
-        let pdg = [];
-        let pda = [];
-
-        pfg.push({
-            file_url: `${pkgs.index_file}`,
-            compressed_size: `${pkgs.version_size.compressed_size}`,
-            decompressed_size: `${pkgs.version_size.decompressed_size}`,
-            file_hash: "",
-            file_path: ""
-        });
-
-        pkgs.patch_config.forEach(e => {
-            return pdg.push({
-                file_url: `${cdnbase}/${e.indexFile}`,
-                compressed_size: `${e.size}`,
-                decompressed_size: `${e.unCompressSize}`,
-                file_hash: `${cdnbase}/${e.baseUrl}`,
-                diff_type: "krdiff",
-                original_version: e.version,
-                delete_files: []
-            });
-        })
-
-        let pmetadatainfo = {
-            versioned_name: `${name} ${pkgs.version} Preload (Global)`,
-            version: pkgs.version,
-            download_mode: "DOWNLOAD_MODE_FILE",
-            game_hash: "",
-            index_file: `${pkgs.index_file}`,
-            res_list_url: `${pkgs.resource_base}`,
-            diff_list_url: {
-                game: "",
-                en_us: "",
-                zh_cn: "",
-                ja_jp: "",
-                ko_kr: "",
-            }
-        }
-
-        preloaddata = {
-            metadata: pmetadatainfo,
-            game: {full: pfg, diff: pdg},
-            audio: {full: pfa, diff: pda}
-        }
-    }
-
-    return preloaddata;
-}*/
 
 generateManifest("endfield_global").then(r => writeFileSync(efpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
