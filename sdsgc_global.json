@@ -45,8 +45,8 @@
     },
     {
       "metadata": {
-        "versioned_name": "The Seven Deadly Sins: Grand Cross 2.99.0.0 (Global)",
-        "version": "2.99.0.0",
+        "versioned_name": "The Seven Deadly Sins: Grand Cross 2.99.1.0 (Global)",
+        "version": "2.99.1.0",
         "download_mode": "DOWNLOAD_MODE_FILE",
         "game_hash": "",
         "index_file": "",
@@ -67,10 +67,10 @@
       "game": {
         "full": [
           {
-            "file_url": "https://nanagb.gcdn.netmarble.com/pcclient/nanagb/2.99.0.0/t32w6ohswh53_1774316064936.zip",
-            "compressed_size": "221824606",
-            "decompressed_size": "221824606",
-            "file_hash": "CC58F247BD9447941ABC33A01627AC1A",
+            "file_url": "https://nanagb.gcdn.netmarble.com/pcclient/nanagb/2.99.1.0/s7to8bu8tdtw_1775003730241.zip",
+            "compressed_size": "219964075",
+            "decompressed_size": "219964075",
+            "file_hash": "9D35C73F8DBC28CC4724DD4967BA968F",
             "file_path": "",
             "region_code": ""
           }
