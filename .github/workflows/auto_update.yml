@@ -56,15 +56,15 @@ jobs:
       - name: Move generated JSONs to root
         run: |
           mv $(pwd)/scripts/generated/*.json $(pwd)/
-      - name: Direct push kuro & aethergazer
+      - name: Direct push safe manifests
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add pgr_global.json wuwa_global.json aethergazer_global.json sdsgc_global.json
+          git add pgr_global.json wuwa_global.json aethergazer_global.json sdsgc_global.json endfield_global.json
           if git diff --cached --quiet; then
             echo "" >> $GITHUB_OUTPUT
           else
-            git commit -m "Automated: Update KuroGames, NetMarble, AetherGazer manifests"
+            git commit -m "Automated: Update safe manifests"
             git push origin main
             git fetch origin main
           fi

@@ -21,14 +21,24 @@ async function queryIndex(biz) {
     if (rsp.status !== 200) return null;
     let r = await rsp.json();
 
-    if (r.patch === null && biz === "endfield_global" && existsSync(efpath)) {
-        let storedVersion = JSON.parse(readFileSync(efpath)).game_versions[0]?.metadata.version;
-        if (storedVersion && storedVersion !== r.version) {
-            let patchRsp = await fetch(`${INDEX.endfield.game}&version=${storedVersion}`);
-            if (patchRsp.status === 200) {
-                let patchData = await patchRsp.json();
-                r.patch = patchData.patch;
-                r.request_version = patchData.request_version;
+    if (biz === "endfield_global" && existsSync(efpath)) {
+        let stored = JSON.parse(readFileSync(efpath));
+
+        // Check if we already fetched and stored the diff for this exact version
+        let existingEntry = stored.game_versions.find(v => v.metadata.version === r.version);
+        if (existingEntry?.game?.diff?.length > 0) {
+            r.patch = existingEntry.game.diff;
+            r.request_version = existingEntry.metadata.version;
+        } else if (r.patch === null) {
+            // New version — use whatever was [0] before this update as the diff base
+            let previousVersion = stored.game_versions[0]?.metadata.version;
+            if (previousVersion && previousVersion !== r.version) {
+                let patchRsp = await fetch(`${INDEX.endfield.game}&version=${previousVersion}`);
+                if (patchRsp.status === 200) {
+                    let patchData = await patchRsp.json();
+                    r.patch = patchData.patch;
+                    r.request_version = patchData.request_version;
+                }
             }
         }
     }
@@ -178,19 +188,25 @@ async function formatPackages(packages, patch, previousVersion) {
        });
     });
 
-    if (patch && patch.patches) {
-        patch.patches.forEach(p => {
-            return dg.push({
-                file_url: `${p.url}`,
-                compressed_size: `${p.package_size}`,
-                decompressed_size: `${p.package_size}`,
-                file_hash: `${p.md5}`,
-                file_path: "",
-                diff_type: "hgdiff",
-                original_version: previousVersion,
-                delete_files: []
+    if (patch) {
+        if (Array.isArray(patch)) {
+            // Already formatted from existing manifest cache, use directly
+            dg = patch;
+        } else if (patch.patches) {
+            // Raw API response, format it
+            patch.patches.forEach(p => {
+                return dg.push({
+                    file_url: `${p.url}`,
+                    compressed_size: `${p.package_size}`,
+                    decompressed_size: `${p.package_size}`,
+                    file_hash: `${p.md5}`,
+                    file_path: "",
+                    diff_type: "hgdiff",
+                    original_version: previousVersion,
+                    delete_files: []
+                });
             });
-        });
+        }
     }
 
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
