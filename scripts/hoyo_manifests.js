@@ -453,7 +453,7 @@ async function generateManifest(gameBiz) {
                         override_runner: {
                             linux: {
                                 enabled: true,
-                                runner_version: "10.0-20260401-proton-twintail"
+                                runner_version: "10.0-20260420-proton-twintail"
                             },
                             macos: {
                                 enabled: false,
