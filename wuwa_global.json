@@ -7548,7 +7548,7 @@
       "120"
     ],
     "graphics_api_options": {
-      "default": "-dx11",
+      "default": "-dx12",
       "options": [
         {
           "value": "-dx11",

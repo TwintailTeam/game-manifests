@@ -132,7 +132,7 @@ async function generateManifest(biz) {
                 extra: {
                     fps_unlock_options: wuwafps,
                     graphics_api_options: {
-                        default: "-dx11",
+                        default: "-dx12",
                         options: wuwagraphicsapi
                     },
                     switches: {
