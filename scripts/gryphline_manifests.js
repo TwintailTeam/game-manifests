@@ -147,7 +147,7 @@ async function generateManifest(biz) {
                         override_runner: {
                             linux: {
                                 enabled: true,
-                                runner_version: "10.0-20260420-proton-twintail"
+                                runner_version: "11.0-20260502-proton-twintail"
                             },
                             macos: {
                                 enabled: false,
