@@ -17848,9 +17848,9 @@
       "winetricks_verbs": []
     },
     "steam_import_config": {
-      "enabled": false,
-      "steam_appid_txt": "",
-      "steam_api_dll": ""
+      "enabled": true,
+      "steam_appid_txt": "games/ZenlessZoneZero Game/steam_appid.txt",
+      "steam_api_dll": "games/ZenlessZoneZero Game/ZenlessZoneZero_Data/Plugins/x86_64/steam_api64.dll"
     },
     "preload": {}
   }
