@@ -374,9 +374,9 @@ async function generateManifest(gameBiz) {
                         winetricks_verbs: zzztricks
                     },
                     steam_import_config: {
-                        enabled: false,
-                        steam_appid_txt: "",
-                        steam_api_dll: ""
+                        enabled: true,
+                        steam_appid_txt: "games/ZenlessZoneZero Game/steam_appid.txt",
+                        steam_api_dll: "games/ZenlessZoneZero Game/ZenlessZoneZero_Data/Plugins/x86_64/steam_api64.dll"
                     },
                     preload: await formatPreload(branches[0], "ZenlessZoneZero", "nap_global")
                 }
@@ -453,7 +453,7 @@ async function generateManifest(gameBiz) {
                         override_runner: {
                             linux: {
                                 enabled: true,
-                                runner_version: "11.0-20260502-proton-twintail"
+                                runner_version: "10.0-20260420-proton-twintail"
                             },
                             macos: {
                                 enabled: false,
