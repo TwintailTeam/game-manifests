@@ -22,8 +22,8 @@
       },
       "assets": {
         "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2026/04/15/3121d3786d0e84aed5bf378746c3bd34_89276922000163047.png",
-        "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/05/10/79141e2fc47d3d82eee83b450bb68f8c_562198198020559286.webp",
-        "game_live_background": ""
+        "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/05/28/d720a5d51564d1f46228d4ff3c64eae0_4238608398638148539.webp",
+        "game_live_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/05/28/8df5c576969a1bcd173aff94907d54fd_3052147240247702229.webm"
       },
       "game": {
         "full": [
@@ -1764,8 +1764,8 @@
   },
   "assets": {
     "game_icon": "https://launcher-webstatic.hoyoverse.com/launcher-public/2026/04/15/3121d3786d0e84aed5bf378746c3bd34_89276922000163047.png",
-    "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/05/10/79141e2fc47d3d82eee83b450bb68f8c_562198198020559286.webp",
-    "game_live_background": ""
+    "game_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/05/28/d720a5d51564d1f46228d4ff3c64eae0_4238608398638148539.webp",
+    "game_live_background": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/05/28/8df5c576969a1bcd173aff94907d54fd_3052147240247702229.webm"
   },
   "telemetry_hosts": [
     "log-upload-os.hoyoverse.com",
@@ -1823,6 +1823,128 @@
       "steam_appid_txt": "",
       "steam_api_dll": ""
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "Honkai: StarRail 4.3.0 Preload (Global)",
+        "version": "4.3.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR",
+        "diff_list_url": {
+          "game": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10049",
+          "en_us": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10051",
+          "zh_cn": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10050",
+          "ja_jp": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10052",
+          "ko_kr": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10053"
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR/manifest_fd1f705cc44e2fef_785ecb7c8e2098a3bb4ff882d1987b84",
+            "compressed_size": "87506904457",
+            "decompressed_size": "89607700238",
+            "file_hash": "785ecb7c8e2098a3bb4ff882d1987b84",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR",
+            "region_code": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/manifest_8f3ae685f896eaaf_a6c9374058dd1b61ab3736fcb7795111",
+            "compressed_size": "3153879307",
+            "decompressed_size": "3153879307",
+            "file_hash": "a6c9374058dd1b61ab3736fcb7795111",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10049",
+            "diff_type": "ldiff",
+            "original_version": "4.2.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR/manifest_eea0c2868861d479_feb5d9b1e708367af59342142c2625ae",
+            "compressed_size": "13675698713",
+            "decompressed_size": "13765038732",
+            "file_hash": "feb5d9b1e708367af59342142c2625ae",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR",
+            "language": "en-us",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR/manifest_202ee3535b2cdb54_d721eb65c8d50a66b5ca68465fc1ae14",
+            "compressed_size": "11241342208",
+            "decompressed_size": "11258158794",
+            "file_hash": "d721eb65c8d50a66b5ca68465fc1ae14",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR",
+            "language": "zh-cn",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR/manifest_8026f6d9278ac1ce_a0c99ac1882afe75d66c90433296d633",
+            "compressed_size": "11158908237",
+            "decompressed_size": "11372565917",
+            "file_hash": "a0c99ac1882afe75d66c90433296d633",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR",
+            "language": "ko-kr",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR/manifest_bc5c9575d77529cb_0094a371c64165f3de921a18b73b69d7",
+            "compressed_size": "13921111055",
+            "decompressed_size": "14102170408",
+            "file_hash": "0094a371c64165f3de921a18b73b69d7",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/chunks/cxi9x2wxybk0/20260523/4.3.0/jFb7cqPjcgjR",
+            "language": "ja-jp",
+            "region_code": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/manifest_fc1828fbd953f2a1_9b281e0b37c944fffbd1d6f902eeb6fd",
+            "compressed_size": "461265720",
+            "decompressed_size": "461265720",
+            "file_hash": "9b281e0b37c944fffbd1d6f902eeb6fd",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10051",
+            "diff_type": "ldiff",
+            "original_version": "4.2.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/manifest_0bdd37336832403c_af9dc4b1dbb7dbccab95bdf9b1d68950",
+            "compressed_size": "255756065",
+            "decompressed_size": "255756065",
+            "file_hash": "af9dc4b1dbb7dbccab95bdf9b1d68950",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10050",
+            "diff_type": "ldiff",
+            "original_version": "4.2.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/manifest_1ef5c5e4f1ddc388_71bd528ddfbe79da2fb54c612db1496b",
+            "compressed_size": "259745854",
+            "decompressed_size": "259745854",
+            "file_hash": "71bd528ddfbe79da2fb54c612db1496b",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10053",
+            "diff_type": "ldiff",
+            "original_version": "4.2.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchos.starrails.com/client/sophon/manifests/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/manifest_0eb36cd39206ed2a_65d7d1c4c220cce5bd812d92dde118c2",
+            "compressed_size": "329902521",
+            "decompressed_size": "329902521",
+            "file_hash": "65d7d1c4c220cce5bd812d92dde118c2",
+            "file_path": "https://autopatchos.starrails.com/client/sophon/diffs/cxi9x2wxybk0/20260523/4.3.0/dlmhWiAt7lbh/10052",
+            "diff_type": "ldiff",
+            "original_version": "4.2.0",
+            "language": "ja-jp"
+          }
+        ]
+      }
+    }
   }
 }
