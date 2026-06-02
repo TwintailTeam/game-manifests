@@ -22,8 +22,8 @@
       },
       "assets": {
         "game_icon": "https://cdn2.steamgriddb.com/icon/528559760de976ac94d5237046a7f9fe/32/96x96.png",
-        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/uwhg4ar7qib1vqe5la.webp",
-        "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/ngkbf9agtberx1legc.mp4"
+        "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/7ceq3ctwo5koolr8ju.webp",
+        "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/c5s4p0kf5q1drns37a.mp4"
       },
       "game": {
         "full": [
@@ -972,8 +972,8 @@
   },
   "assets": {
     "game_icon": "https://cdn2.steamgriddb.com/icon/528559760de976ac94d5237046a7f9fe/32/96x96.png",
-    "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/uwhg4ar7qib1vqe5la.webp",
-    "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/ngkbf9agtberx1legc.mp4"
+    "game_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/7ceq3ctwo5koolr8ju.webp",
+    "game_live_background": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/clientUpload/c5s4p0kf5q1drns37a.mp4"
   },
   "telemetry_hosts": [
     "pc.crashsight.wetest.net"
