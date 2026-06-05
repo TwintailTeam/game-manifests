@@ -27,7 +27,7 @@ async function queryIndex(biz) {
         // Check if we already fetched and stored the diff for this exact version
         let existingEntry = stored.game_versions.find(v => v.metadata.version === r.version);
         if (existingEntry?.game?.diff?.length > 0) {
-            r.patch = existingEntry.game.diff;
+            r.patch = { data: existingEntry.game.diff, cd_key: existingEntry.metadata.diff_list_url.game };
             r.request_version = existingEntry.metadata.version;
         } else if (r.patch === null) {
             // New version — use whatever was [0] before this update as the diff base
@@ -87,7 +87,7 @@ async function generateManifest(biz) {
                 index_file: "",
                 res_list_url: `${index.resource_base}`,
                 diff_list_url: {
-                    game: "",
+                    game: `${index.patch.cd_key}`,
                     en_us: "",
                     zh_cn: "",
                     ja_jp: "",
@@ -189,9 +189,9 @@ async function formatPackages(packages, patch, previousVersion) {
     });
 
     if (patch) {
-        if (Array.isArray(patch)) {
+        if (Array.isArray(patch.data)) {
             // Already formatted from existing manifest cache, use directly
-            dg = patch;
+            dg = patch.data;
         } else if (patch.patches) {
             // Raw API response, format it
             patch.patches.forEach(p => {
