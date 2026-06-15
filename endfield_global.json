@@ -2360,7 +2360,7 @@
       ],
       "override_runner": {
         "linux": {
-          "enabled": true,
+          "enabled": false,
           "runner_version": "10.0-20260420-proton-twintail"
         },
         "macos": {
@@ -2368,7 +2368,12 @@
           "runner_version": ""
         }
       },
-      "min_runner_versions": [],
+      "min_runner_versions": [
+        "11.0-20260601-proton-cachyos",
+        "10.34-proton-ge",
+        "10.0-37-proton-em",
+        "10.0-20260420-proton-twintail"
+      ],
       "winetricks_verbs": []
     },
     "steam_import_config": {
