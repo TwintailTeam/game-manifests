@@ -343,14 +343,14 @@ async function generateManifest(gameBiz) {
                 extra: {
                     fps_unlock_options: zzzfps,
                     graphics_api_options: {
-                        default: "",
-                        options: [{value: "", name: ""}]
+                        default: "-use-d3d11",
+                        options: [{value: "-use-d3d11", name: "DirectX 11"}, {value: "-use-d3d12", name: "DirectX 12"}]
                     },
                     switches: {
                         fps_unlocker: false,
                         jadeite: false,
                         xxmi: true,
-                        graphics_api: false
+                        graphics_api: true
                     },
                     compat_overrides: {
                         install_to_prefix: false,
