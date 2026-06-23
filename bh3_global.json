@@ -720,6 +720,47 @@
       "steam_appid_txt": "",
       "steam_api_dll": "BH3_Data/Plugins/steam_api64.dll"
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "HonkaiImpact 3rd 8.9.0 Preload (Global)",
+        "version": "8.9.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20260616/8.9.0/BG2MV0p5j6Ls",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20260616/8.9.0/BG2MV0p5j6Ls/manifest_9a593c17e7e87394_acf0f8ae52d54ce18935a5eafbc751d0",
+            "compressed_size": "30856195504",
+            "decompressed_size": "33848347970",
+            "file_hash": "acf0f8ae52d54ce18935a5eafbc751d0",
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20260616/8.9.0/BG2MV0p5j6Ls",
+            "region_code": "glb_official"
+          },
+          {
+            "file_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/manifests/ely3gl46n56o/20260616/8.9.0/BG2MV0p5j6Ls/manifest_2a4854989be0aca3_b5c9089c52123a987c1072d28b9002f0",
+            "compressed_size": "894806277",
+            "decompressed_size": "1452742084",
+            "file_hash": "b5c9089c52123a987c1072d28b9002f0",
+            "file_path": "https://autopatchglb.honkaiimpact3.com/ptpublic/rel/chunk/chunks/ely3gl46n56o/20260616/8.9.0/BG2MV0p5j6Ls",
+            "region_code": "glb_official"
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
   }
 }
