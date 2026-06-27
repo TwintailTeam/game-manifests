@@ -20,7 +20,7 @@ let wuwapath = `${__dirname}/generated/wuwa_global.json`;
 let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = ["11.0-20260601-proton-cachyos", "10.34-proton-ge", "10.0-37-proton-em", "10.0-20260420-proton-twintail"];
-let wuwatricks = ["vcrun2022", "corefonts"];
+let wuwatricks = ["vcrun2022", "corefonts", "d3dcompiler_47"];
 let wuwagraphicsapi = [{value: "-dx11", name: "DirectX 11"}, {value: "-dx12", name: "DirectX 12"}];
 
 let pgrhosts = ["pc.crashsight.wetest.net"];
