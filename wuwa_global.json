@@ -9035,7 +9035,8 @@
       ],
       "winetricks_verbs": [
         "vcrun2022",
-        "corefonts"
+        "corefonts",
+        "d3dcompiler_47"
       ]
     },
     "steam_import_config": {
