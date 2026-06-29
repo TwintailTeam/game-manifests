@@ -3017,6 +3017,178 @@
       "steam_appid_txt": "",
       "steam_api_dll": ""
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "GenshinImpact 6.7.0 Preload (Global)",
+        "version": "6.7.0",
+        "download_mode": "DOWNLOAD_MODE_CHUNK",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/E2zvp18oyzw6",
+        "diff_list_url": {
+          "game": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10016",
+          "en_us": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10018",
+          "zh_cn": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10017",
+          "ja_jp": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10020",
+          "ko_kr": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10019"
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/E2zvp18oyzw6/manifest_ccce2f7066358067_b659db7d40b8ac7311addf76f7edf5b5",
+            "compressed_size": "116196746448",
+            "decompressed_size": "119521335307",
+            "file_hash": "b659db7d40b8ac7311addf76f7edf5b5",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/E2zvp18oyzw6",
+            "region_code": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_48f42743fe4bbf9b_e29639861a1403c80208777070da5dac",
+            "compressed_size": "6678935509",
+            "decompressed_size": "6678935509",
+            "file_hash": "e29639861a1403c80208777070da5dac",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10016",
+            "diff_type": "ldiff",
+            "original_version": "6.6.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_48f42743fe4bbf9b_e29639861a1403c80208777070da5dac",
+            "compressed_size": "10176465089",
+            "decompressed_size": "10176465089",
+            "file_hash": "e29639861a1403c80208777070da5dac",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10016",
+            "diff_type": "ldiff",
+            "original_version": "6.5.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/E2zvp18oyzw6/manifest_077d08137b5b7baf_4f27938035bf311b49f029448501fdc4",
+            "compressed_size": "17062998623",
+            "decompressed_size": "17064835278",
+            "file_hash": "4f27938035bf311b49f029448501fdc4",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/E2zvp18oyzw6",
+            "language": "en-us",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/E2zvp18oyzw6/manifest_b9aeedd170da756b_f2dd191b0a0e9ec7a8fbcb99f4b4b2bc",
+            "compressed_size": "13068800580",
+            "decompressed_size": "13070258504",
+            "file_hash": "f2dd191b0a0e9ec7a8fbcb99f4b4b2bc",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/E2zvp18oyzw6",
+            "language": "zh-cn",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/E2zvp18oyzw6/manifest_4c0dc71303355859_2f6d9057677c5fdd06d018605812beb2",
+            "compressed_size": "13730343747",
+            "decompressed_size": "13733064422",
+            "file_hash": "2f6d9057677c5fdd06d018605812beb2",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/E2zvp18oyzw6",
+            "language": "ko-kr",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/E2zvp18oyzw6/manifest_827f5588136bb41d_317b9fc7ddccbcf73a8d35720dbfd0a4",
+            "compressed_size": "15476781031",
+            "decompressed_size": "15478915842",
+            "file_hash": "317b9fc7ddccbcf73a8d35720dbfd0a4",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/chunks/cxhpq4g4rgg0/E2zvp18oyzw6",
+            "language": "ja-jp",
+            "region_code": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_ee0029a6c92998c3_89bb762fe47c49f194a8e168e164fbf3",
+            "compressed_size": "380331433",
+            "decompressed_size": "380331433",
+            "file_hash": "89bb762fe47c49f194a8e168e164fbf3",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10018",
+            "diff_type": "ldiff",
+            "original_version": "6.6.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_86e710dae04e0ab6_8597e05ff474c32821434150ce671101",
+            "compressed_size": "310023273",
+            "decompressed_size": "310023273",
+            "file_hash": "8597e05ff474c32821434150ce671101",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10017",
+            "diff_type": "ldiff",
+            "original_version": "6.6.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_14d61b984912db45_74f6331f8f46a9981e4892f92d64244a",
+            "compressed_size": "330236981",
+            "decompressed_size": "330236981",
+            "file_hash": "74f6331f8f46a9981e4892f92d64244a",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10019",
+            "diff_type": "ldiff",
+            "original_version": "6.6.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_1e7c737382ef4b35_dbf654460bc9b4804e8223f8a6c367d7",
+            "compressed_size": "381232713",
+            "decompressed_size": "381232713",
+            "file_hash": "dbf654460bc9b4804e8223f8a6c367d7",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10020",
+            "diff_type": "ldiff",
+            "original_version": "6.6.0",
+            "language": "ja-jp"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_ee0029a6c92998c3_89bb762fe47c49f194a8e168e164fbf3",
+            "compressed_size": "993083671",
+            "decompressed_size": "993083671",
+            "file_hash": "89bb762fe47c49f194a8e168e164fbf3",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10018",
+            "diff_type": "ldiff",
+            "original_version": "6.5.0",
+            "language": "en-us"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_86e710dae04e0ab6_8597e05ff474c32821434150ce671101",
+            "compressed_size": "827428376",
+            "decompressed_size": "827428376",
+            "file_hash": "8597e05ff474c32821434150ce671101",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10017",
+            "diff_type": "ldiff",
+            "original_version": "6.5.0",
+            "language": "zh-cn"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_14d61b984912db45_74f6331f8f46a9981e4892f92d64244a",
+            "compressed_size": "873985973",
+            "decompressed_size": "873985973",
+            "file_hash": "74f6331f8f46a9981e4892f92d64244a",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10019",
+            "diff_type": "ldiff",
+            "original_version": "6.5.0",
+            "language": "ko-kr"
+          },
+          {
+            "file_url": "https://autopatchhk.yuanshen.com/client_app/sophon/manifests/cxhpq4g4rgg0/1A7kWUwuFUod/manifest_1e7c737382ef4b35_dbf654460bc9b4804e8223f8a6c367d7",
+            "compressed_size": "989981340",
+            "decompressed_size": "989981340",
+            "file_hash": "dbf654460bc9b4804e8223f8a6c367d7",
+            "file_path": "https://autopatchhk.yuanshen.com/client_app/sophon/diffs/cxhpq4g4rgg0/1A7kWUwuFUod/10020",
+            "diff_type": "ldiff",
+            "original_version": "6.5.0",
+            "language": "ja-jp"
+          }
+        ]
+      }
+    }
   }
 }
