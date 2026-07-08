@@ -9044,6 +9044,500 @@
       "steam_appid_txt": "Client/Binaries/Win64/steam_appid.txt",
       "steam_api_dll": "Client/Binaries/Win64/steam_api64.dll"
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "WutheringWaves 3.5.0 Preload (Global)",
+        "version": "3.5.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/indexFile.json",
+        "res_list_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/indexFile.json",
+            "compressed_size": "84162915224",
+            "decompressed_size": "84162915224",
+            "file_hash": "",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.0.0/indexFile.json",
+            "compressed_size": "84064519000",
+            "decompressed_size": "84064519000",
+            "file_hash": "867eb4e9ba38c98f02df7d44d32e9d74",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.0.2/indexFile.json",
+            "compressed_size": "84064519000",
+            "decompressed_size": "84064519000",
+            "file_hash": "867eb4e9ba38c98f02df7d44d32e9d74",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.0.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.1.0/indexFile.json",
+            "compressed_size": "84062296992",
+            "decompressed_size": "84062296992",
+            "file_hash": "164fcce56a4a823c1e0eb1cdde24b24d",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.2.0/indexFile.json",
+            "compressed_size": "84048383100",
+            "decompressed_size": "84048383100",
+            "file_hash": "c1acaaa4f2189d5590072154a8275adb",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.3.0/indexFile.json",
+            "compressed_size": "84048383100",
+            "decompressed_size": "84048383100",
+            "file_hash": "5eaae20f26c99d7a3554cf37a43114bd",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.3.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.4.0/indexFile.json",
+            "compressed_size": "84048382139",
+            "decompressed_size": "84048382139",
+            "file_hash": "5edc67764be813d79736592a4f59c4d8",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.4.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.4.1/indexFile.json",
+            "compressed_size": "84048382139",
+            "decompressed_size": "84048382139",
+            "file_hash": "5edc67764be813d79736592a4f59c4d8",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.4.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/1.4.2/indexFile.json",
+            "compressed_size": "84048382139",
+            "decompressed_size": "84048382139",
+            "file_hash": "5edc67764be813d79736592a4f59c4d8",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "1.4.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.0.0/indexFile.json",
+            "compressed_size": "84048382139",
+            "decompressed_size": "84048382139",
+            "file_hash": "77c15070c5a1ea037eaa96e68ffee2de",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.0.1/indexFile.json",
+            "compressed_size": "84048382139",
+            "decompressed_size": "84048382139",
+            "file_hash": "77c15070c5a1ea037eaa96e68ffee2de",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.0.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.0.2/indexFile.json",
+            "compressed_size": "84048382139",
+            "decompressed_size": "84048382139",
+            "file_hash": "77c15070c5a1ea037eaa96e68ffee2de",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.0.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.1.0/indexFile.json",
+            "compressed_size": "84048382116",
+            "decompressed_size": "84048382116",
+            "file_hash": "d00538a223b82660b9fb2cbd0282cd9a",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.1.1/indexFile.json",
+            "compressed_size": "84048382116",
+            "decompressed_size": "84048382116",
+            "file_hash": "d00538a223b82660b9fb2cbd0282cd9a",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.1.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.2.0/indexFile.json",
+            "compressed_size": "84048382116",
+            "decompressed_size": "84048382116",
+            "file_hash": "50cbb195aba5bbd911494e58d593916f",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.2.1/indexFile.json",
+            "compressed_size": "84048338380",
+            "decompressed_size": "84048338380",
+            "file_hash": "d5c765f0154d4345c5b410b439b1b47b",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.2.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.3.0/indexFile.json",
+            "compressed_size": "84048338380",
+            "decompressed_size": "84048338380",
+            "file_hash": "607bf6e90979c42f4333a78ffe263aba",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.3.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.3.1/indexFile.json",
+            "compressed_size": "84048338380",
+            "decompressed_size": "84048338380",
+            "file_hash": "607bf6e90979c42f4333a78ffe263aba",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.3.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.4.0/indexFile.json",
+            "compressed_size": "84048338266",
+            "decompressed_size": "84048338266",
+            "file_hash": "b19e96337a8f6d11c8d944a8fbcf432f",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.4.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.4.1/indexFile.json",
+            "compressed_size": "84048338266",
+            "decompressed_size": "84048338266",
+            "file_hash": "b19e96337a8f6d11c8d944a8fbcf432f",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.4.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.4.2/indexFile.json",
+            "compressed_size": "84048338266",
+            "decompressed_size": "84048338266",
+            "file_hash": "b19e96337a8f6d11c8d944a8fbcf432f",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.4.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.4.3/indexFile.json",
+            "compressed_size": "84048338266",
+            "decompressed_size": "84048338266",
+            "file_hash": "b19e96337a8f6d11c8d944a8fbcf432f",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.4.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.5.0/indexFile.json",
+            "compressed_size": "84048338266",
+            "decompressed_size": "84048338266",
+            "file_hash": "8975a1e8babe0cb23aba5b504a0c9086",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.5.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.5.1/indexFile.json",
+            "compressed_size": "84048338266",
+            "decompressed_size": "84048338266",
+            "file_hash": "8975a1e8babe0cb23aba5b504a0c9086",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.5.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.5.2/indexFile.json",
+            "compressed_size": "84162915224",
+            "decompressed_size": "84162915224",
+            "file_hash": "b7c7b2011174f2e947bf7fae5ef3933c",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.5.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.6.0/indexFile.json",
+            "compressed_size": "84048338266",
+            "decompressed_size": "84048338266",
+            "file_hash": "b0651fbf952795fbf7ce5664463f243f",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.6.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.6.1/indexFile.json",
+            "compressed_size": "84036968370",
+            "decompressed_size": "84036968370",
+            "file_hash": "82a33a6b9d18bc19e7a6e2bb7dcab703",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.6.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.6.2/indexFile.json",
+            "compressed_size": "84036968370",
+            "decompressed_size": "84036968370",
+            "file_hash": "82a33a6b9d18bc19e7a6e2bb7dcab703",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.6.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.7.0/indexFile.json",
+            "compressed_size": "84036968370",
+            "decompressed_size": "84036968370",
+            "file_hash": "82a33a6b9d18bc19e7a6e2bb7dcab703",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.7.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.7.1/indexFile.json",
+            "compressed_size": "84036968370",
+            "decompressed_size": "84036968370",
+            "file_hash": "7bc0acd7b88d1f0fa0b7a383e7486416",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.7.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.8.0/indexFile.json",
+            "compressed_size": "84030292706",
+            "decompressed_size": "84030292706",
+            "file_hash": "d27ed000d2acf65335854fb0fbe37860",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.8.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/2.8.1/indexFile.json",
+            "compressed_size": "83801599864",
+            "decompressed_size": "83801599864",
+            "file_hash": "fc074243326bd3fbd347e84ceabdf6a3",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "2.8.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.0.0/indexFile.json",
+            "compressed_size": "83801428528",
+            "decompressed_size": "83801428528",
+            "file_hash": "3b3ad6d47a78a698ac43e65c269a2fa5",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.0.1/indexFile.json",
+            "compressed_size": "83801428528",
+            "decompressed_size": "83801428528",
+            "file_hash": "3b3ad6d47a78a698ac43e65c269a2fa5",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.0.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.0.2/indexFile.json",
+            "compressed_size": "83801428528",
+            "decompressed_size": "83801428528",
+            "file_hash": "3b3ad6d47a78a698ac43e65c269a2fa5",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.0.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.0.3/indexFile.json",
+            "compressed_size": "83801428528",
+            "decompressed_size": "83801428528",
+            "file_hash": "3b3ad6d47a78a698ac43e65c269a2fa5",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.0.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.1.0/indexFile.json",
+            "compressed_size": "83801426488",
+            "decompressed_size": "83801426488",
+            "file_hash": "825238936262b5c917b6ed7e1a49e2db",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.1.2/indexFile.json",
+            "compressed_size": "83801426488",
+            "decompressed_size": "83801426488",
+            "file_hash": "825238936262b5c917b6ed7e1a49e2db",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.1.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.1.3/indexFile.json",
+            "compressed_size": "83801786281",
+            "decompressed_size": "83801786281",
+            "file_hash": "56f4f9b29aff0c06a928e3435a6c358b",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.1.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.1.4/indexFile.json",
+            "compressed_size": "83801426488",
+            "decompressed_size": "83801426488",
+            "file_hash": "05f623d3fb342999e72630699744b546",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.1.4",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.2.0/indexFile.json",
+            "compressed_size": "83791672784",
+            "decompressed_size": "83791672784",
+            "file_hash": "4516d8822b1669f6c1ffe6ca5e227d65",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.2.1/indexFile.json",
+            "compressed_size": "83791672784",
+            "decompressed_size": "83791672784",
+            "file_hash": "4516d8822b1669f6c1ffe6ca5e227d65",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.2.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.2.2/indexFile.json",
+            "compressed_size": "83791672784",
+            "decompressed_size": "83791672784",
+            "file_hash": "4516d8822b1669f6c1ffe6ca5e227d65",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.2.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.3.0/indexFile.json",
+            "compressed_size": "83786136360",
+            "decompressed_size": "83786136360",
+            "file_hash": "08583b532f1e26d015d9836cbb2a594e",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.3.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.3.2/indexFile.json",
+            "compressed_size": "83785976289",
+            "decompressed_size": "83785976289",
+            "file_hash": "b4d1bdfa0eb865ce673819508fd85453",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.1/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/zip/",
+            "diff_type": "krdiff",
+            "original_version": "3.3.2",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.4.0/indexFile.json",
+            "compressed_size": "55094473718",
+            "decompressed_size": "48293463468",
+            "file_hash": "a84796bef2c9f7425892adf5edc87538",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.4.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.4.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.4.1/indexFile.json",
+            "compressed_size": "55092461048",
+            "decompressed_size": "48040896122",
+            "file_hash": "cc61de415589d9e05a00bc23999e98b8",
+            "file_path": "https://hw-pcdownload-aws.aki-game.net/launcher/game/G153/50004/3.5.0/OVbsaHdpFQirIfCoDdyprJxlKPJAkFtW/resource/50004/3.5.0/3.4.1/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.4.1",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
   }
 }
