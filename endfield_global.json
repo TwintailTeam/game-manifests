@@ -2,8 +2,600 @@
   "version": 1,
   "display_name": "Arknights Endfield (Global)",
   "biz": "endfield_global",
-  "latest_version": "1.3.3",
+  "latest_version": "1.4.4",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "Arknights Endfield 1.4.4 (Global)",
+        "version": "1.4.4",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/files",
+        "diff_list_url": {
+          "game": "7JTQIdiPS16LAjTFlJdeU3JoaeXVfVQ8",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/ba8df6f0cd805cf14c67bace58fb0060.png",
+        "game_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/01/aa/01aad4ee1b09552905948bc4ef4dbac4.webp",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.001",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "07028171e344a9d7b1a1109a40ac5234",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.002",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "00d45defbded212f40b2dd92f3eb7c2f",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.003",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "f8ffc19fad07038530801d8478da4c26",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.004",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "f988939a7985d4bfd157a37a9d6840dc",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.005",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "0613a8878e3b8822750f7bd46cebb398",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.006",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "6a17e308dc65f17cc46dac2045f86fe2",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.007",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "ad728610c69651237940b6de082880e8",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.008",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "89fd0eca31375754adc965d4c242f335",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.009",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "694be209aa767ddd5f1209dd64caf334",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.010",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "d7b78f76c0c43d8cc943bbeb63eecf1f",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.011",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "d5e0e6bb468f5e5f742eb2e407cfaf69",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.012",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "e196ebf874aa40db967739c7aa0bcd50",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.013",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "8c4a7e5f412d4cd657f5caab55c01052",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.014",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "6ba47e7f05c09fcdd42866983b58efe8",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.015",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "ea5df7cf5672a21ea22902e089eef53f",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.016",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "223c38207daba0dae271c87608b1855a",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.017",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "59fa7383ac7ec04f174b5aa83ac22134",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.018",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "ec5f0c136286713fa1e6529d721d3cef",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.019",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "b226fce89a6597d1240cda55ed42d8c6",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.020",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9f25e27efc2eb6c47b45f40b1648a928",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.021",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "d562ed5ab2c39fb4f340411e1e7496bf",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.022",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "01635160abf9dbc3d010273e6c8015b1",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.023",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "8a78c9c700d4623df55fc0730517cc79",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.024",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "3be313e7afbafc434c6fc65e846d2ccd",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.025",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "f54afdf479ea8d6dbef7263827b20284",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.026",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "eab44c4fafcc8d9ebb75ab2ce2df43eb",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.027",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "14b0ff5a64b5107d35e72b063ff16631",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.028",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "84de643049f7afa33fdd86fda0030b22",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.029",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "88a81d947e6c14287ce887355fe3ac07",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.030",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9420ee5bda51433dbc7eba0df0a34a34",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.031",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9eca0d96e30eb953c14815890e6f5126",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.032",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "f3e876239128585cc53f4db08e93b955",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.033",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "c36f8b7264bf30a40b67fc30d8af46f5",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.034",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "491ae07359affbb1130daeccfdca8696",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.035",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "27b785b1c5c8af63b2de3c049ce5b9a6",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.036",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "fb84060403b7037a654a24cd8504abf6",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.037",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "dc043e0a6c0477442fe9a834f3a891a9",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.038",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "a9399b320ac6e96f2093f39e8f688c0f",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.039",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "4af10ef70a572ad3d5e028853b858bc9",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.040",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "94895ca4ffda16226801eabd025e9513",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.041",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "3181aa3c1c67475cc806e3261633f25a",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.042",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "be873a727849d5a0502e43e8e8036028",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.043",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "e86eec2cf586ea83b1f23b8577a8c8d5",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.044",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "5e208569b30a60f0198b4bc854c952df",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.045",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "0a28f774d24ed73e7a49157dd7d07e06",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.046",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "64cf006d7a19bc3de908769aedfa19c3",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.047",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "2642634a4282fc926c06d605fdd6d1ea",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.048",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "0a3aab9328ab2348ab51af898ef1a25b",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.049",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "e1f495672a975d315e7bddca38b32d0a",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_RdJqteNJxryr2svD/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official.zip.050",
+            "compressed_size": "753501008",
+            "decompressed_size": "753501008",
+            "file_hash": "4df7f1320213dfafa5582a6fe44f1e4b",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.001",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "a5ba9dd5aa5e1c1d129e5bfedf8008a1",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.002",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "d7e46f392392d602957acaa766054ff9",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.003",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "87fa2e9ca1d27c0132e2a9d438e7eb3a",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.004",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "037730dcd90d192be0025696514a792c",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.005",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "33d1d5e925af6fdd53f694cd7cecf37c",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.006",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "7152dee6cf4775e8d938e649ce20eee8",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.007",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "3775c7faa7d08c235ee31eba8a01f9f0",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.008",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "a62a9990da616d1bdcf6f3c93ca7455c",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.009",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "fef01cd5d09b97dc6aaa4bd905a6d662",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.010",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "498310dc1b5cb71a8260b005458685de",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.011",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "2d51930591823f00820a1ce4c73026ec",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.012",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "8683665674c5ef9d99a29e34e5f1ccef",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.013",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9f44030aeabcf5c7910146846fac2254",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.014",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "67e504c6bd334e7b279e74dd701d6651",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.015",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "bc1b7ac1288707943fb7c4b60e8bcedb",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.4_fb389514e196f9ac/patches/L05rbsnB6s/v2/zDrHz4JfzqIUmo0u_1_4_4_1_3_3.zip.016",
+            "compressed_size": "392698435",
+            "decompressed_size": "392698435",
+            "file_hash": "044c92bb9320028da25fc3020e9c6360",
+            "file_path": "",
+            "diff_type": "hgdiff",
+            "original_version": "1.3.3",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "Arknights Endfield 1.3.3 (Global)",
@@ -2319,7 +2911,7 @@
   },
   "assets": {
     "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/ba8df6f0cd805cf14c67bace58fb0060.png",
-    "game_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/6a/da/6adac6a3420b76954f555d1c2139798c.webp",
+    "game_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/01/aa/01aad4ee1b09552905948bc4ef4dbac4.webp",
     "game_live_background": ""
   },
   "telemetry_hosts": [
