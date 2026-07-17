@@ -87,7 +87,7 @@ async function generateManifest(biz) {
                 index_file: "",
                 res_list_url: `${index.resource_base}`,
                 diff_list_url: {
-                    game: `${index.patch.cd_key}`,
+                    game: `${index.patch?.cd_key ?? ""}`,
                     en_us: "",
                     zh_cn: "",
                     ja_jp: "",
