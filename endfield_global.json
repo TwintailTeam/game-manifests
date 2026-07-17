@@ -2,8 +2,439 @@
   "version": 1,
   "display_name": "Arknights Endfield (Global)",
   "biz": "endfield_global",
-  "latest_version": "1.4.4",
+  "latest_version": "1.4.5",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "Arknights Endfield 1.4.5 (Global)",
+        "version": "1.4.5",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/files",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/ba8df6f0cd805cf14c67bace58fb0060.png",
+        "game_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/01/aa/01aad4ee1b09552905948bc4ef4dbac4.webp",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.001",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "444108f43f27d8c94c3dd78fdbd19765",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.002",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "24079ccbf1be555fd7844b4eae246d0e",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.003",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "4e478a12fb0f026f2d887d2ab0fdeea3",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.004",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "960131bd0be71301a2bcc706c7aa8d80",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.005",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "e50190b6cc907ff33608add325d6058e",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.006",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "41583cd7e6e9e174593359c5e9f2e873",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.007",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "0c0efbd191a9ccadacea310b43ac421e",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.008",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "173bf5b5dc40b203fcdf0c8496adbbcf",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.009",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9191532912e1eda004d665d2a4afb4c4",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.010",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "d7b070ee54463dc214336f836d95b05c",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.011",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "7ed4574b936f03a38e70061fadd4c80d",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.012",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "21538e4c3c49279aeb93e0f684b0f52a",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.013",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "fb3d17c7171ae70afc778b58281aad78",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.014",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "436107e2e2f2cd33e6726e2c15bebf40",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.015",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "09aeae1010db06e40a6fecd10116d585",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.016",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "d54d3a896f3539aa9fb76db8d61a1ada",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.017",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "b2d3a3e248e381bde6d2740bff80b520",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.018",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "24615c6b268c4fa5556dad6982e552ff",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.019",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9438a8d7e7378dbe255a1a2b0302222c",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.020",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "023536f2d21f4add3f7c19ed6a6ce1ab",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.021",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "84b604cee0a3cf16d4b8216b89edac76",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.022",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "8889ce4e74d283adae168a009f623138",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.023",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "5afcc943b2144a7625774ba4837dda53",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.024",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "5a80b5186f2cf8c032a3dd4af6b4dd3f",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.025",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "3f9ee8bd5089ee143aedf4302af1c301",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.026",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "4d2c720a56456c6101f2778543c30873",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.027",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "ed9a43996b11d51b7be9f5159fe3e34e",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.028",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9de700d0fb6490c77c41be308557b4c8",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.029",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "480edb175b5ae95d9d10dfd0d8b8555f",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.030",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "17098271fe3834167a13c95136d8d944",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.031",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "831ad3a2f1bdbeefc59dd0b27892f940",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.032",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "98eb78e76c64da4b47f402b45ac1acd7",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.033",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "9dc42f26dc3e091e5044690d0c63243b",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.034",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "c17805ad564c6b066d8bbfb1fe81e5b9",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.035",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "83f972c435f2bf212d3b8404776c880f",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.036",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "26c895c6ac805bb4017565cd15fd5326",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.037",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "190b780219002b3302e1226729276511",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.038",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "d9da3677d888f41266ba8b5cee6be8a6",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.039",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "66bd4aa0b5ca2320a240c4b30721068c",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.040",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "93a9e2d6c25de3b5cf3acc30a5889a0b",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.041",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "1a5ca7d5807c81050ae6aa07b99d20ee",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.042",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "3879bd6678c10972427405dcac1938fc",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.043",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "a87335e30d823d62a65394b7d22f1fe8",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.044",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "724de914fb5208a18e6522b915516bbc",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.045",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "b238839cf3e85dccfef0fdb1ac3b1310",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.046",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "38830899839656efad3c493fc192708e",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.047",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "2b2fc088d18e47e55733f823b21ee0b3",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.048",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "f9ed9b838d0bd89238ad46165681cedc",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.049",
+            "compressed_size": "1073741824",
+            "decompressed_size": "1073741824",
+            "file_hash": "46d3efd857ea8d0f4cce22cb090c3ba0",
+            "file_path": "",
+            "region_code": ""
+          },
+          {
+            "file_url": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.4/update/6/6/Windows/1.4.5_1ZFWo2OrUG4NUjOE/packs/Beyond_Release_v1d4-Rel-os-8097503-2_prod_obt_official_patch_1.4.5.zip.050",
+            "compressed_size": "753498372",
+            "decompressed_size": "753498372",
+            "file_hash": "04123801019ba3cd776c49d8028d46f3",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "Arknights Endfield 1.4.4 (Global)",
