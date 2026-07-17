@@ -1192,6 +1192,160 @@
       "steam_appid_txt": "",
       "steam_api_dll": "PGR_Data/Plugins/steam_api64.dll"
     },
-    "preload": {}
+    "preload": {
+      "metadata": {
+        "versioned_name": "PunishingGrayRaven 4.6.0 Preload (Global)",
+        "version": "4.6.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/indexFile.json",
+        "res_list_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/zip",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/indexFile.json",
+            "compressed_size": "67358771323",
+            "decompressed_size": "67358771323",
+            "file_hash": "",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": [
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/2.17.0.0/indexFile.json",
+            "compressed_size": "66807052695",
+            "decompressed_size": "8124742179",
+            "file_hash": "b3168dd316a8efb5d127e7609595f501",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/2.17.0.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "2.17.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.1.0.0/indexFile.json",
+            "compressed_size": "66807052695",
+            "decompressed_size": "8124742179",
+            "file_hash": "def4db083a8af0c006e4353786299736",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.1.0.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.1.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.4.0.0/indexFile.json",
+            "compressed_size": "41485626197",
+            "decompressed_size": "4368038063",
+            "file_hash": "8476bcf329c8ae954092b2a56e4089a2",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.4.0.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.4.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.5.0/indexFile.json",
+            "compressed_size": "38736818410",
+            "decompressed_size": "4280300918",
+            "file_hash": "49207e67547c9d59a307e062a110ba14",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.5.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.5.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.8.0/indexFile.json",
+            "compressed_size": "32891858427",
+            "decompressed_size": "3598652456",
+            "file_hash": "77696967003fb2756abf580ed3e653d1",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/3.8.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "3.8.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.0.0/indexFile.json",
+            "compressed_size": "29316284803",
+            "decompressed_size": "3383683108",
+            "file_hash": "2fea08961aee3a30e77719dc50af8f53",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.0.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "4.0.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.1.0/indexFile.json",
+            "compressed_size": "26210199297",
+            "decompressed_size": "3266165712",
+            "file_hash": "ed8387ebb0bc525d3fae54c6f81d7919",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.1.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "4.1.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.1.1/indexFile.json",
+            "compressed_size": "26195795454",
+            "decompressed_size": "3263927300",
+            "file_hash": "96627489518612f1cd3cd34731a03f09",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.1.1/resources/",
+            "diff_type": "krdiff",
+            "original_version": "4.1.1",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.2.0/indexFile.json",
+            "compressed_size": "22045644368",
+            "decompressed_size": "2911795484",
+            "file_hash": "f0124b879049a7ed85c28d0dc70e43c1",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.2.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "4.2.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.3.0/indexFile.json",
+            "compressed_size": "20126005401",
+            "decompressed_size": "2748162172",
+            "file_hash": "766f05655fd190042ad01afa88bb9ec4",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.3.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "4.3.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.4.0/indexFile.json",
+            "compressed_size": "17215817358",
+            "decompressed_size": "2299693277",
+            "file_hash": "bb56acd07df8a86c29db787d94a73c7c",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.4.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "4.4.0",
+            "delete_files": []
+          },
+          {
+            "file_url": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.5.0/indexFile.json",
+            "compressed_size": "10013252605",
+            "decompressed_size": "919119193",
+            "file_hash": "0496b5f2fe6a476267e558cc33479a57",
+            "file_path": "https://zspms-alicdn-gamestarter.kurogame.net/launcher/game/G143/50015/4.6.0/OCzaJTVoxMSNDPpUuTcJCfhkqKmVoogm/resource/50015/4.6.0/4.5.0/resources/",
+            "diff_type": "krdiff",
+            "original_version": "4.5.0",
+            "delete_files": []
+          }
+        ]
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
   }
 }
