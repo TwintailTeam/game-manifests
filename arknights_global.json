@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "display_name": "Arknights (Global)",
+  "biz": "arknights_global",
+  "latest_version": "041.2.0",
+  "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "Arknights 041.2.0 (Global)",
+        "version": "041.2.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://launcher-pkg-ark-en.yo-star.com/zip_online_config_json/041.2.0Qy2SRumC.json",
+        "res_list_url": "https://launcher-pkg-ark-en.yo-star.com/Arknights_EN-041.2.0-game",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/7298332f04ac004a0ca44cc69ecf6f6b.png",
+        "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/45ec7588c72c7d601d769d8e98ab66c1.jpg",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://launcher-pkg-ark-en.yo-star.com/zip_online_config_json/041.2.0Qy2SRumC.json",
+            "compressed_size": "3813890453",
+            "decompressed_size": "3813890453",
+            "file_hash": "",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    }
+  ],
+  "paths": {
+    "audio_pkg_res_dir": "",
+    "exe_filename": "Arknights.exe",
+    "installation_dir": "",
+    "screenshot_dir": "",
+    "screenshot_dir_relative_to": "game_dir"
+  },
+  "assets": {
+    "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/7298332f04ac004a0ca44cc69ecf6f6b.png",
+    "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/45ec7588c72c7d601d769d8e98ab66c1.jpg",
+    "game_live_background": ""
+  },
+  "telemetry_hosts": [
+    "pc.crashsight.wetest.net"
+  ],
+  "extra": {
+    "fps_unlock_options": [
+      "120"
+    ],
+    "graphics_api_options": {
+      "default": "-force-d3d11",
+      "options": [
+        {
+          "value": "-force-d3d11",
+          "name": "DirectX 11"
+        },
+        {
+          "value": "-force-d3d12",
+          "name": "DirectX 12"
+        }
+      ]
+    },
+    "switches": {
+      "fps_unlocker": false,
+      "jadeite": false,
+      "xxmi": false,
+      "graphics_api": true
+    },
+    "compat_overrides": {
+      "install_to_prefix": false,
+      "disable_protonfixes": true,
+      "protonfixes_id": "",
+      "protonfixes_store": "",
+      "stub_wintrust": false,
+      "block_first_req": false,
+      "proton_compat_config": [
+        "noxalia"
+      ],
+      "override_runner": {
+        "linux": {
+          "enabled": false,
+          "runner_version": ""
+        },
+        "macos": {
+          "enabled": false,
+          "runner_version": ""
+        }
+      },
+      "min_runner_versions": [],
+      "winetricks_verbs": []
+    },
+    "steam_import_config": {
+      "enabled": false,
+      "steam_appid_txt": "",
+      "steam_api_dll": ""
+    },
+    "preload": {}
+  }
+}

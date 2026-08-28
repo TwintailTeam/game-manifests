@@ -33,6 +33,8 @@ jobs:
           mv aethergazer_global.json scripts/generated/
           mv endfield_global.json scripts/generated/
           mv sdsgc_global.json scripts/generated/
+          mv arknights_global.json scripts/generated/
+          mv stellasora_global.json scripts/generated/
       - name: Run all scripts
         run: |
           echo "Current working directory: $(pwd)"
@@ -60,7 +62,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add pgr_global.json wuwa_global.json aethergazer_global.json sdsgc_global.json endfield_global.json hk4e_global.json hkrpg_global.json nap_global.json
+          git add pgr_global.json wuwa_global.json aethergazer_global.json sdsgc_global.json endfield_global.json hk4e_global.json hkrpg_global.json nap_global.json arknights_global.json stellasora_global.json
           if git diff --cached --quiet; then
             echo "" >> $GITHUB_OUTPUT
           else
