@@ -22,7 +22,7 @@
       },
       "assets": {
         "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/13ed13917628a36d13badebfff372ed6.png",
-        "game_background": "https://launcher-pkg-ss-en.yo-star.com/prod/StellaSora_EN/launcher_background_img/b49909227e68b380fb7440b0e960f17a.png",
+        "game_background": "https://launcher-pkg-ss-en.yo-star.com/prod/StellaSora_EN/launcher_background_img/b024a90b5342670d2a5d0e740428f230.png",
         "game_live_background": ""
       },
       "game": {
@@ -53,7 +53,7 @@
   },
   "assets": {
     "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/13ed13917628a36d13badebfff372ed6.png",
-    "game_background": "https://launcher-pkg-ss-en.yo-star.com/prod/StellaSora_EN/launcher_background_img/b49909227e68b380fb7440b0e960f17a.png",
+    "game_background": "https://launcher-pkg-ss-en.yo-star.com/prod/StellaSora_EN/launcher_background_img/b024a90b5342670d2a5d0e740428f230.png",
     "game_live_background": ""
   },
   "telemetry_hosts": [
