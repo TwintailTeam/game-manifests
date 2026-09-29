@@ -2,8 +2,47 @@
   "version": 1,
   "display_name": "AetherGazer (Global)",
   "biz": "aethergazer_global",
-  "latest_version": "292",
+  "latest_version": "293",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "AetherGazer 293 (Global)",
+        "version": "293",
+        "download_mode": "DOWNLOAD_MODE_FILE",
+        "game_hash": "",
+        "index_file": "",
+        "res_list_url": "",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://aethergazer.com/favicon.ico",
+        "game_background": "https://webstatic.yongshigame.com/game-site/image/dc2e42a7-5186-426c-84fa-4702446f9db2.png",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://skzy-us-packaging.aethergazer.com/293/pc/AetherGazer_jp_us_jp_us_prod_293_21_9_windows_limit_sdk_release_W12000000_B03AB844D2F9C0359577D7200D0FB67E.zip",
+            "compressed_size": "0",
+            "decompressed_size": "0",
+            "file_hash": "",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "AetherGazer 292 (Global)",
@@ -209,7 +248,7 @@
   },
   "assets": {
     "game_icon": "https://aethergazer.com/favicon.ico",
-    "game_background": "https://webstatic.yongshigame.com/game-site/image/334656d2-4ca5-4272-9941-7b931c37e17f.png",
+    "game_background": "https://webstatic.yongshigame.com/game-site/image/dc2e42a7-5186-426c-84fa-4702446f9db2.png",
     "game_live_background": ""
   },
   "telemetry_hosts": [
