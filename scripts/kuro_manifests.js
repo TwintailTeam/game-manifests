@@ -21,7 +21,7 @@ let wuwafps = ["72", "90", "120"];
 let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = ["11.0-20260601-proton-cachyos", "10.34-proton-ge", "10.0-37-proton-em", "10.0-20260420-proton-twintail"];
 let wuwatricks = ["vcrun2022", "corefonts", "d3dcompiler_47"];
-let wuwagraphicsapi = [{value: "-dx11", name: "DirectX 11"}, {value: "-dx12", name: "DirectX 12"}];
+let wuwagraphicsapi = [{value: "-dx11 -krqlv=hd", name: "DirectX 11"}, {value: "-dx12 -krqlv=hd", name: "DirectX 12"}];
 
 let pgrhosts = ["pc.crashsight.wetest.net"];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
@@ -132,7 +132,7 @@ async function generateManifest(biz) {
                 extra: {
                     fps_unlock_options: wuwafps,
                     graphics_api_options: {
-                        default: "-dx12",
+                        default: "-dx12 -krqlv=hd",
                         options: wuwagraphicsapi
                     },
                     switches: {

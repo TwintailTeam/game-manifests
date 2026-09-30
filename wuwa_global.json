@@ -12138,14 +12138,14 @@
       "120"
     ],
     "graphics_api_options": {
-      "default": "-dx12",
+      "default": "-dx12 -krqlv=hd",
       "options": [
         {
-          "value": "-dx11",
+          "value": "-dx11 -krqlv=hd",
           "name": "DirectX 11"
         },
         {
-          "value": "-dx12",
+          "value": "-dx12 -krqlv=hd",
           "name": "DirectX 12"
         }
       ]
