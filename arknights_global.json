@@ -2,8 +2,47 @@
   "version": 1,
   "display_name": "Arknights (Global)",
   "biz": "arknights_global",
-  "latest_version": "041.2.0",
+  "latest_version": "042.0.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "Arknights 042.0.0 (Global)",
+        "version": "042.0.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://launcher-pkg-ark-en.yo-star.com/zip_online_config_json/042.0.0bQiwOhsX.json",
+        "res_list_url": "https://launcher-pkg-ark-en.yo-star.com/Arknights_EN-042.0.0-game",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/7298332f04ac004a0ca44cc69ecf6f6b.png",
+        "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/1d85e6131489d6d173208a5214a231cd.png",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://launcher-pkg-ark-en.yo-star.com/zip_online_config_json/042.0.0bQiwOhsX.json",
+            "compressed_size": "3727697138",
+            "decompressed_size": "3727697138",
+            "file_hash": "",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "Arknights 041.2.0 (Global)",
@@ -53,7 +92,7 @@
   },
   "assets": {
     "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/7298332f04ac004a0ca44cc69ecf6f6b.png",
-    "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/298f91f9aaf417c8e263465201332fd8.png",
+    "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/1d85e6131489d6d173208a5214a231cd.png",
     "game_live_background": ""
   },
   "telemetry_hosts": [
