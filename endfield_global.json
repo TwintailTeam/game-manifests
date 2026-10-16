@@ -5004,8 +5004,8 @@
       ],
       "override_runner": {
         "linux": {
-          "enabled": false,
-          "runner_version": "10.0-20260420-proton-twintail"
+          "enabled": true,
+          "runner_version": "11.0-20261016-proton-twintail"
         },
         "macos": {
           "enabled": false,
@@ -5016,7 +5016,7 @@
         "11.0-20260601-proton-cachyos",
         "10.34-proton-ge",
         "10.0-37-proton-em",
-        "10.0-20260420-proton-twintail"
+        "11.0-20261016-proton-twintail"
       ],
       "winetricks_verbs": []
     },
