@@ -158,9 +158,9 @@ async function generateManifest(biz) {
                         winetricks_verbs: eftricks
                     },
                     steam_import_config: {
-                        enabled: false,
+                        enabled: true,
                         steam_appid_txt: "",
-                        steam_api_dll: ""
+                        steam_api_dll: "steam_api64.dll"
                     },
                     preload: {}
                 }
