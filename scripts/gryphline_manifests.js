@@ -12,7 +12,7 @@ let efhosts = ["pc.crashsight.wetest.net"];
 let efpath = `${__dirname}/generated/endfield_global.json`;
 let effps = ["120"];
 let efcompat = ["noxalia"];
-let efminrunners = ["11.0-20260601-proton-cachyos", "10.34-proton-ge", "10.0-37-proton-em", "10.0-20260420-proton-twintail"];
+let efminrunners = ["11.0-20260601-proton-cachyos", "10.34-proton-ge", "10.0-37-proton-em", "11.0-20261016-proton-twintail"];
 let eftricks = [];
 let efgraphicsapi = [{value: "-force-d3d11", name: "DirectX 11"}, {value: "-force-vulkan", name: "Vulkan"}];
 
@@ -146,8 +146,8 @@ async function generateManifest(biz) {
                         proton_compat_config: efcompat,
                         override_runner: {
                             linux: {
-                                enabled: false,
-                                runner_version: "10.0-20260420-proton-twintail"
+                                enabled: true,
+                                runner_version: "11.0-20261016-proton-twintail"
                             },
                             macos: {
                                 enabled: false,
