@@ -2,8 +2,47 @@
   "version": 1,
   "display_name": "StellaSora (Global)",
   "biz": "stellasora_global",
-  "latest_version": "1.13.0",
+  "latest_version": "2.0.0",
   "game_versions": [
+    {
+      "metadata": {
+        "versioned_name": "StellaSora 2.0.0 (Global)",
+        "version": "2.0.0",
+        "download_mode": "DOWNLOAD_MODE_RAW",
+        "game_hash": "",
+        "index_file": "https://launcher-pkg-ss-en.yo-star.com/zip_online_config_json/2.0.0tgQuFPED.json",
+        "res_list_url": "https://launcher-pkg-ss-en.yo-star.com/StellaSora_EN_2.0.0-game",
+        "diff_list_url": {
+          "game": "",
+          "en_us": "",
+          "zh_cn": "",
+          "ja_jp": "",
+          "ko_kr": ""
+        }
+      },
+      "assets": {
+        "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/13ed13917628a36d13badebfff372ed6.png",
+        "game_background": "https://launcher-pkg-ss-en.yo-star.com/prod/StellaSora_EN/launcher_background_img/7b7af4a97e6b7437e7098084a417fafe.png",
+        "game_live_background": ""
+      },
+      "game": {
+        "full": [
+          {
+            "file_url": "https://launcher-pkg-ss-en.yo-star.com/zip_online_config_json/2.0.0tgQuFPED.json",
+            "compressed_size": "22837824194",
+            "decompressed_size": "22837824194",
+            "file_hash": "",
+            "file_path": "",
+            "region_code": ""
+          }
+        ],
+        "diff": []
+      },
+      "audio": {
+        "full": [],
+        "diff": []
+      }
+    },
     {
       "metadata": {
         "versioned_name": "StellaSora 1.13.0 (Global)",
