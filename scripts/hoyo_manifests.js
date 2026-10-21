@@ -674,7 +674,7 @@ async function formatPackages(pkgs, biz) {
             let jp = d.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
             if (biz === "nap_global" || biz === "bh3_global") {
-                let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+                let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp", "mini-en-us", "mini-zh-cn", "mini-ko-kr", "mini-ja-jp"];
                 let rest = d.manifests.filter(e => !exclude.includes(e.matching_field));
                 rest.forEach(e => {
                     fg.push({
@@ -705,7 +705,7 @@ async function formatPackages(pkgs, biz) {
 
             packages.main.diff_tags.forEach(v => {
                 if (biz === "nap_global") {
-                    let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+                    let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp", "mini-en-us", "mini-zh-cn", "mini-ko-kr", "mini-ja-jp"];
                     let rest = d1.manifests.filter(e => !exclude.includes(e.matching_field));
                     rest.forEach(e => {
                         if (e.stats.hasOwnProperty(`${v}`)) {
@@ -863,7 +863,7 @@ async function formatPreload(pkgs, name, biz) {
             let jp = d.manifests.filter(e => e.matching_field === "ja-jp")[0];
 
             if (biz === "nap_global" || biz === "bh3_global") {
-                let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+                let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp", "mini-en-us", "mini-zh-cn", "mini-ko-kr", "mini-ja-jp"];
                 let rest = d.manifests.filter(e => !exclude.includes(e.matching_field));
                 rest.forEach(e => {
                     pfg.push({
@@ -894,7 +894,7 @@ async function formatPreload(pkgs, name, biz) {
 
             pkgs.preload.diff_tags.forEach(v => {
                 if (biz === "nap_global") {
-                    let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp"];
+                    let exclude = ["game", "en-us", "zh-cn", "ko-kr", "ja-jp", "mini-en-us", "mini-zh-cn", "mini-ko-kr", "mini-ja-jp"];
                     let rest = d1.manifests.filter(e => !exclude.includes(e.matching_field));
                     rest.forEach(e => {
                         if (e.stats.hasOwnProperty(`${v}`)) {
