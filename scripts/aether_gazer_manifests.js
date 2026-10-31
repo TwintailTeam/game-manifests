@@ -1,4 +1,5 @@
 const {writeFileSync, readFileSync, existsSync} = require('fs');
+const {saveManifest} = require('./lib/save_manifest');
 
 let BASICINFO_API = "https://us-api.yongshigame.com/game-website-server/pass/sdk/get_index_config?gameId=1";
 let GAMESINFO_API = "https://us-api.yongshigame.com/game-website-server/pass/sdk/get_update_version?gameId=1";
@@ -145,4 +146,4 @@ async function generateManifest(gameBiz) {
     return final;
 }
 
-generateManifest("aethergazer_global").then(r => writeFileSync(agpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+saveManifest(agpath, generateManifest("aethergazer_global"));

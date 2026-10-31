@@ -1,4 +1,5 @@
 const {writeFileSync, readFileSync, existsSync} = require('fs');
+const {saveManifest} = require('./lib/save_manifest');
 const {createHash} = require('crypto');
 
 let INDEX = {
@@ -288,5 +289,5 @@ async function formatPackages(manifest, sizes) {
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
 
-generateManifest("stellasora_global").then(r => writeFileSync(sspath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("arknights_global").then(r => writeFileSync(akpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+saveManifest(sspath, generateManifest("stellasora_global"));
+saveManifest(akpath, generateManifest("arknights_global"));

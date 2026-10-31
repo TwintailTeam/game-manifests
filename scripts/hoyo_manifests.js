@@ -1,4 +1,5 @@
 const {writeFileSync, readFileSync, existsSync} = require('fs');
+const {saveManifest} = require('./lib/save_manifest');
 
 let API = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGameComboInfo?channel=0&launcher_id=VYTpXlbWo8&sub_channel=0";
 let BASICINFO_API = "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getAllGameBasicInfo?launcher_id=VYTpXlbWo8&language=en-us&game_id=";
@@ -1040,9 +1041,9 @@ async function formatPreload(pkgs, name, biz) {
     return preloaddata;
 }
 
-generateManifest("hk4e_global").then(r => writeFileSync(gipath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("hkrpg_global").then(r => writeFileSync(hsrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("nap_global").then(r => writeFileSync(zzzpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("bh3_global").then(r => writeFileSync(bhpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-//generateManifest("abc_global").then(r => writeFileSync(hnapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-//generateManifest("hyg_global").then(r => writeFileSync(pppath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+saveManifest(gipath, generateManifest("hk4e_global"));
+saveManifest(hsrpath, generateManifest("hkrpg_global"));
+saveManifest(zzzpath, generateManifest("nap_global"));
+saveManifest(bhpath, generateManifest("bh3_global"));
+//saveManifest(hnapath, generateManifest("abc_global"));
+//saveManifest(pppath, generateManifest("hyg_global"));

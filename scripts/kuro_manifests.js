@@ -1,4 +1,5 @@
 const {writeFileSync, readFileSync, existsSync} = require('fs');
+const {saveManifest} = require('./lib/save_manifest');
 
 let INDEX = {
     wuwa: {
@@ -352,5 +353,5 @@ async function formatPreload(biz, pkgs, name) {
     return preloaddata;
 }
 
-generateManifest("wuwa_global").then(r => writeFileSync(wuwapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("pgr_global").then(r => writeFileSync(pgrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+saveManifest(wuwapath, generateManifest("wuwa_global"));
+saveManifest(pgrpath, generateManifest("pgr_global"));

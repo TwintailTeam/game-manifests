@@ -1,4 +1,5 @@
 const {writeFileSync, readFileSync, existsSync} = require('fs');
+const {saveManifest} = require('./lib/save_manifest');
 
 let INDEX = {
     sevendeadlysinsgrandcross: {
@@ -22,7 +23,7 @@ async function queryIndex(biz) {
         headers: {"X-NM-LAUNCHER-OS": "Windows_NT", "X-NM-LAUNCHER-OS-VERSION": "10.0.19044", "X-NM-LAUNCHER-SER-TY": "nm", "X-NM-API-VER": "null", "X-NM-LAUNCHER-IGS": "",
             "X-NM-LAUNCHER-LANG": "EN_US", "X-NM-LAUNCHER-AK": "", "X-NM-LAUNCHER-CH": "ypWjRL2aNi", "X-NM-LAUNCHER-ARCH": "x64", "X-NM-LAUNCHER-VER": "1.3.2", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) NetmarbleLauncher/1.3.2 Chrome/108.0.5359.215 Electron/22.3.8 Safari/537.36", "content-type": "application/json"}
     });
-    if (rsp.status !== 200) return null;
+    if (rsp.status !== 200) {console.error(`Netmarble builds API returned HTTP ${rsp.status}`); return null;}
     let r = await rsp.json();
 
     let rsp1 = await fetch((biz === "sdsgc_global") ? `${INDEX.sevendeadlysinsgrandcross.launcher}` : ``, {
@@ -30,7 +31,7 @@ async function queryIndex(biz) {
         headers: {"X-NM-LAUNCHER-OS": "Windows_NT", "X-NM-LAUNCHER-OS-VERSION": "10.0.19044", "X-NM-LAUNCHER-SER-TY": "nm", "X-NM-API-VER": "null", "X-NM-LAUNCHER-IGS": "",
             "X-NM-LAUNCHER-LANG": "EN_US", "X-NM-LAUNCHER-AK": "", "X-NM-LAUNCHER-CH": "ypWjRL2aNi", "X-NM-LAUNCHER-ARCH": "x64", "X-NM-LAUNCHER-VER": "1.3.2", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) NetmarbleLauncher/1.3.2 Chrome/108.0.5359.215 Electron/22.3.8 Safari/537.36", "content-type": "application/json"}
     });
-    if (rsp1.status !== 200) return null;
+    if (rsp1.status !== 200) {console.error(`Netmarble launcher API returned HTTP ${rsp1.status}`); return null;}
     let r1 = await rsp1.json();
 
     return {
@@ -184,4 +185,4 @@ async function formatPackages(packages, patch) {
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
 
-generateManifest("sdsgc_global").then(r => writeFileSync(sdspath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+saveManifest(sdspath, generateManifest("sdsgc_global"));
