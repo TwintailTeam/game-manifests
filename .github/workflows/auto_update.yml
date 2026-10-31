@@ -44,12 +44,12 @@ jobs:
             echo "======================================"
             echo "Running script: $script"
             echo "--------------------------------------"
-            node "$script" append
-            status=$?
+            # run: steps use bash -e, so catch the exit code or one failing vendor aborts every other one
+            node "$script" append && status=0 || status=$?
             if [ $status -eq 0 ]; then
               echo "Script $script completed successfully."
             else
-              echo "Script $script failed with exit code $status."
+              echo "::warning::Script $script failed with exit code $status, its manifests were left as they were."
             fi
             echo "======================================"
             echo
@@ -58,6 +58,9 @@ jobs:
       - name: Move generated JSONs to root
         run: |
           mv $(pwd)/scripts/generated/*.json $(pwd)/
+      - name: Validate manifests
+        id: validate
+        run: node .github/scripts/validate_manifests.js
       - name: Direct push safe manifests
         run: |
           git config --global user.name "github-actions[bot]"
@@ -90,3 +93,8 @@ jobs:
           base: main
           title: "Automated: Update game manifests"
           body: "Review this PR to merge updated game manifests."
+      - name: Fail if a manifest was rejected
+        if: steps.validate.outputs.rejected != ''
+        run: |
+          echo "::error::Rejected and kept the committed version of: ${{ steps.validate.outputs.rejected }}"
+          exit 1
