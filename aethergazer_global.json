@@ -22,7 +22,7 @@
       },
       "assets": {
         "game_icon": "https://aethergazer.com/favicon.ico",
-        "game_background": "https://webstatic.yongshigame.com/game-site/image/dc2e42a7-5186-426c-84fa-4702446f9db2.png",
+        "game_background": "https://webstatic.yongshigame.com/game-site/image/ce65a185-0574-48e5-9129-066d606cfa8e.png",
         "game_live_background": ""
       },
       "game": {
@@ -248,7 +248,7 @@
   },
   "assets": {
     "game_icon": "https://aethergazer.com/favicon.ico",
-    "game_background": "https://webstatic.yongshigame.com/game-site/image/dc2e42a7-5186-426c-84fa-4702446f9db2.png",
+    "game_background": "https://webstatic.yongshigame.com/game-site/image/ce65a185-0574-48e5-9129-066d606cfa8e.png",
     "game_live_background": ""
   },
   "telemetry_hosts": [
