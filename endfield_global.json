@@ -23,7 +23,7 @@
       "assets": {
         "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/ba8df6f0cd805cf14c67bace58fb0060.png",
         "game_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/56/db/56dbf737e92191d5414241f5913792cf.webp",
-        "game_live_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/96/b5/96b543cae04aaf6fe69e795c86602536.mp4"
+        "game_live_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/3e/78/3e785e7fd09b13750d20b4c2e2f1fda0.mp4"
       },
       "game": {
         "full": [
@@ -4964,7 +4964,7 @@
   "assets": {
     "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/ba8df6f0cd805cf14c67bace58fb0060.png",
     "game_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/56/db/56dbf737e92191d5414241f5913792cf.webp",
-    "game_live_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/96/b5/96b543cae04aaf6fe69e795c86602536.mp4"
+    "game_live_background": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/3e/78/3e785e7fd09b13750d20b4c2e2f1fda0.mp4"
   },
   "telemetry_hosts": [
     "pc.crashsight.wetest.net"
