@@ -2,7 +2,7 @@ const {writeFileSync, readFileSync, existsSync} = require('fs');
 
 let INDEX = {
     wuwa: {
-        game: "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/index.json",
+        game: "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/50004_P7xcUZnEr1AXIGON25E6KjpOgTlVrg6e/G153/official/index.json",
         launcher: "https://prod-alicdn-gamestarter.kurogame.com/launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/index.json",
         cdn: "https://hw-pcdownload-aws.aki-game.net",
         icon: "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png"
@@ -22,6 +22,7 @@ let wuwacompat = ["noopwr", "noxalia"];
 let wuwaminrunners = ["11.0-20260601-proton-cachyos", "10.34-proton-ge", "10.0-37-proton-em", "10.0-20260420-proton-twintail"];
 let wuwatricks = ["vcrun2022", "corefonts", "d3dcompiler_47"];
 let wuwagraphicsapi = [{value: "-dx11 -krqlv=hd", name: "DirectX 11"}, {value: "-dx12 -krqlv=hd", name: "DirectX 12"}];
+let wuwapacks = ["common", "hd"];
 
 let pgrhosts = ["pc.crashsight.wetest.net"];
 let pgrpath = `${__dirname}/generated/pgr_global.json`;
@@ -40,12 +41,13 @@ async function queryIndex(biz) {
     if (rsp1.status !== 200) return null;
     let r1 = await rsp1.json();
 
-    let bgcdn = (biz === "wuwa_global") ? `https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background/${r1.functionCode.background}/en.json` : `https://prod-alicdn-gamestarter.kurogame.com/launcher/50015_LWdk9D2Ep9mpJmqBZZkcPBU2YNraEWBQ/G143/background/${r1.functionCode.background}/en.json`;
+    let bgcode = r1.functionCode.background;
+    let bgcdn = (biz === "wuwa_global") ? `https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background/${bgcode}/en.json` : `https://prod-alicdn-gamestarter.kurogame.com/launcher/50015_LWdk9D2Ep9mpJmqBZZkcPBU2YNraEWBQ/G143/background/${bgcode}/en.json`;
     let rsp2 = await fetch(`${bgcdn}`);
     if (rsp2.status !== 200) return null;
     let r2 = await rsp2.json();
-
     let cdnbase = (biz === "wuwa_global") ? `${INDEX.wuwa.cdn}` : `${INDEX.pgr.cdn}`;
+    if (biz === "wuwa_global") return queryWuwaPacks(r, r2, cdnbase);
     let preload = {};
 
     if (r.hasOwnProperty("predownload")) {
@@ -78,12 +80,71 @@ async function queryIndex(biz) {
     }
 }
 
+function pickPacks(resourcePacks, cdnbase) {
+    let out = [];
+    if (!resourcePacks) return out;
+    wuwapacks.forEach(name => {
+        let p = resourcePacks[name];
+        if (!p) return;
+        out.push({
+            name: name,
+            version: p.version,
+            index_file: `${cdnbase}/${p.indexFile}`,
+            index_file_md5: p.indexFileMd5 || "",
+            resource_base: `${cdnbase}/${p.baseUrl}`.replace(/\/+$/, ""),
+            version_size: {compressed_size: p.size, decompressed_size: p.unCompressSize},
+            patch_config: p.patchConfig || []
+        });
+    });
+    return out;
+}
+
+function queryWuwaPacks(r, r2, cdnbase) {
+    let packs = pickPacks(r.resourcePacks, cdnbase);
+    if (packs.length === 0) return null;
+    let main = packs[0];
+
+    let preload = {};
+    if (r.predownload) {
+        let ppacks = pickPacks(r.predownload.resourcePacks || r.predownload, cdnbase);
+        if (ppacks.length > 0) {
+            preload = {
+                resource_base: ppacks[0].resource_base,
+                version: ppacks[0].version,
+                previous_version: "",
+                current_version: ppacks[0].version,
+                index_file: ppacks[0].index_file,
+                version_size: ppacks[0].version_size,
+                patch_config: [],
+                packs: ppacks
+            };
+        }
+    }
+
+    return {
+        background_url: r2.firstFrameImage,
+        background_video_url: (r2.backgroundFileType === 2) ? r2.backgroundFile : "",
+        icon_url: `${INDEX.wuwa.icon}`,
+        latest_resource_base: main.resource_base,
+        latest_resources_list: "",
+        latest_version: main.version,
+        previous_version: "",
+        current_version: main.version,
+        exe_file: r.config.keyFileCheckList[0],
+        latest_index_file: main.index_file,
+        latest_version_size: main.version_size,
+        patch_config: [],
+        packs: packs,
+        preload: preload
+    }
+}
+
 async function generateManifest(biz) {
     let index = await queryIndex(biz);
     if (index === null) return null;
 
     let assetcfg = {game_icon: index.icon_url, game_background: index.background_url, game_live_background: index.background_video_url}
-    let pkg = await formatPackages(biz, index.latest_index_file, index.latest_version_size, index.patch_config);
+    let pkg = (index.packs) ? formatPackPackages(index.packs) : await formatPackages(biz, index.latest_index_file, index.latest_version_size, index.patch_config);
 
     let final = {};
     switch (biz) {
@@ -294,11 +355,59 @@ async function formatPackages(biz, manifest, sizes, patches) {
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
 
+function formatPackPackages(packs) {
+    let fg = [];
+    let fa = [];
+    let dg = [];
+    let da = [];
+
+    packs.forEach(p => {
+        fg.push({
+            file_url: `${p.index_file}`,
+            compressed_size: `${p.version_size.compressed_size}`,
+            decompressed_size: `${p.version_size.decompressed_size}`,
+            file_hash: `${p.index_file_md5}`,
+            file_path: `${p.resource_base}`,
+            region_code: ""
+        });
+
+        p.patch_config.forEach(e => {
+            dg.push({
+                file_url: `${INDEX.wuwa.cdn}/${e.indexFile}`,
+                compressed_size: `${e.size}`,
+                decompressed_size: `${e.unCompressSize}`,
+                file_hash: `${e.indexFileMd5}`,
+                file_path: `${INDEX.wuwa.cdn}/${e.baseUrl}`,
+                diff_type: "krdiff",
+                original_version: e.version,
+                delete_files: []
+            });
+        });
+    });
+
+    return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
+}
+
 async function formatPreload(biz, pkgs, name) {
     let cdnbase = (biz === "wuwa_global") ? `${INDEX.wuwa.cdn}` : `${INDEX.pgr.cdn}`;
     let preloaddata = {};
 
-    if (pkgs.hasOwnProperty("index_file")) {
+    if (pkgs.hasOwnProperty("packs")) {
+        let ppkg = formatPackPackages(pkgs.packs);
+        preloaddata = {
+            metadata: {
+                versioned_name: `${name} ${pkgs.version} Preload (Global)`,
+                version: pkgs.version,
+                download_mode: "DOWNLOAD_MODE_RAW",
+                game_hash: "",
+                index_file: `${pkgs.index_file}`,
+                res_list_url: `${pkgs.resource_base}`,
+                diff_list_url: {game: "", en_us: "", zh_cn: "", ja_jp: "", ko_kr: ""}
+            },
+            game: {full: ppkg.full_game, diff: ppkg.diff_game},
+            audio: {full: ppkg.full_audio, diff: ppkg.diff_audio}
+        };
+    } else if (pkgs.hasOwnProperty("index_file")) {
         let pfg = [];
         let pfa = [];
         let pdg = [];
