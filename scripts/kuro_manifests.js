@@ -3,7 +3,7 @@ const {writeFileSync, readFileSync, existsSync} = require('fs');
 let INDEX = {
     wuwa: {
         game: "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/50004_P7xcUZnEr1AXIGON25E6KjpOgTlVrg6e/G153/official/index.json",
-        launcher: "https://prod-alicdn-gamestarter.kurogame.com/launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/index.json",
+        background: "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/50004_P7xcUZnEr1AXIGON25E6KjpOgTlVrg6e/G153/official/background",
         cdn: "https://hw-pcdownload-aws.aki-game.net",
         icon: "https://cdn2.steamgriddb.com/icon_thumb/9d435d2e017f7a7384f4e1c6a6f2d169.png"
     },
@@ -37,12 +37,15 @@ async function queryIndex(biz) {
     if (rsp.status !== 200) return null;
     let r = await rsp.json();
 
-    let rsp1 = await fetch((biz === "wuwa_global") ? `${INDEX.wuwa.launcher}` : `${INDEX.pgr.launcher}`);
-    if (rsp1.status !== 200) return null;
-    let r1 = await rsp1.json();
-
-    let bgcode = r1.functionCode.background;
-    let bgcdn = (biz === "wuwa_global") ? `https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background/${bgcode}/en.json` : `https://prod-alicdn-gamestarter.kurogame.com/launcher/50015_LWdk9D2Ep9mpJmqBZZkcPBU2YNraEWBQ/G143/background/${bgcode}/en.json`;
+    let bgcdn = "";
+    if (biz === "wuwa_global") {
+        bgcdn = `${INDEX.wuwa.background}/${r.config.functionCode.background}/en.json`;
+    } else {
+        let rsp1 = await fetch(`${INDEX.pgr.launcher}`);
+        if (rsp1.status !== 200) return null;
+        let r1 = await rsp1.json();
+        bgcdn = `https://prod-alicdn-gamestarter.kurogame.com/launcher/50015_LWdk9D2Ep9mpJmqBZZkcPBU2YNraEWBQ/G143/background/${r1.functionCode.background}/en.json`;
+    }
     let rsp2 = await fetch(`${bgcdn}`);
     if (rsp2.status !== 200) return null;
     let r2 = await rsp2.json();
