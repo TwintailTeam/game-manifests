@@ -145,4 +145,4 @@ async function generateManifest(gameBiz) {
     return final;
 }
 
-generateManifest("aethergazer_global").then(r => writeFileSync(agpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("aethergazer_global").then(r => r && writeFileSync(agpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));

@@ -1040,9 +1040,9 @@ async function formatPreload(pkgs, name, biz) {
     return preloaddata;
 }
 
-generateManifest("hk4e_global").then(r => writeFileSync(gipath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("hkrpg_global").then(r => writeFileSync(hsrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("nap_global").then(r => writeFileSync(zzzpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("bh3_global").then(r => writeFileSync(bhpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-//generateManifest("abc_global").then(r => writeFileSync(hnapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-//generateManifest("hyg_global").then(r => writeFileSync(pppath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("hk4e_global").then(r => r && writeFileSync(gipath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("hkrpg_global").then(r => r && writeFileSync(hsrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("nap_global").then(r => r && writeFileSync(zzzpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("bh3_global").then(r => r && writeFileSync(bhpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+//generateManifest("abc_global").then(r => r && writeFileSync(hnapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+//generateManifest("hyg_global").then(r => r && writeFileSync(pppath, JSON.stringify(r, null, 2), {encoding: "utf8"}));

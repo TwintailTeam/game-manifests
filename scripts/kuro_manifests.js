@@ -464,5 +464,5 @@ async function formatPreload(biz, pkgs, name) {
     return preloaddata;
 }
 
-generateManifest("wuwa_global").then(r => writeFileSync(wuwapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("pgr_global").then(r => writeFileSync(pgrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("wuwa_global").then(r => r && writeFileSync(wuwapath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("pgr_global").then(r => r && writeFileSync(pgrpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));

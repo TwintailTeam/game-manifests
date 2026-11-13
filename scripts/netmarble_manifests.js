@@ -184,4 +184,4 @@ async function formatPackages(packages, patch) {
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
 
-generateManifest("sdsgc_global").then(r => writeFileSync(sdspath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("sdsgc_global").then(r => r && writeFileSync(sdspath, JSON.stringify(r, null, 2), {encoding: "utf8"}));

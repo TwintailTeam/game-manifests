@@ -288,5 +288,5 @@ async function formatPackages(manifest, sizes) {
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
 
-generateManifest("stellasora_global").then(r => writeFileSync(sspath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
-generateManifest("arknights_global").then(r => writeFileSync(akpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("stellasora_global").then(r => r && writeFileSync(sspath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("arknights_global").then(r => r && writeFileSync(akpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
