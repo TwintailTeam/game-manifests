@@ -212,4 +212,4 @@ async function formatPackages(packages, patch, previousVersion) {
     return {full_game: fg, full_audio: fa, diff_game: dg, diff_audio: da};
 }
 
-generateManifest("endfield_global").then(r => writeFileSync(efpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));
+generateManifest("endfield_global").then(r => r && writeFileSync(efpath, JSON.stringify(r, null, 2), {encoding: "utf8"}));

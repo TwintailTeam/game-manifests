@@ -44,8 +44,7 @@ jobs:
             echo "======================================"
             echo "Running script: $script"
             echo "--------------------------------------"
-            node "$script" append
-            status=$?
+            node "$script" append && status=0 || status=$?
             if [ $status -eq 0 ]; then
               echo "Script $script completed successfully."
             else
