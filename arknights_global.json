@@ -22,7 +22,7 @@
       },
       "assets": {
         "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/7298332f04ac004a0ca44cc69ecf6f6b.png",
-        "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/1d85e6131489d6d173208a5214a231cd.png",
+        "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/fd886c3f327875dd9bc090cc9a1617cc.jpg",
         "game_live_background": ""
       },
       "game": {
@@ -92,7 +92,7 @@
   },
   "assets": {
     "game_icon": "https://cdn2.steamgriddb.com/icon_thumb/7298332f04ac004a0ca44cc69ecf6f6b.png",
-    "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/1d85e6131489d6d173208a5214a231cd.png",
+    "game_background": "https://launcher-pkg-ark-en.yo-star.com/prod/Arknights_EN/launcher_background_img/fd886c3f327875dd9bc090cc9a1617cc.jpg",
     "game_live_background": ""
   },
   "telemetry_hosts": [
